@@ -1,0 +1,6 @@
+﻿#	配置表		
+#	Id	Remark	AssetName
+#	int		string
+#	编号	备注	资源名称
+	1	资源_1	asset_1
+	2	资源_2	asset_2

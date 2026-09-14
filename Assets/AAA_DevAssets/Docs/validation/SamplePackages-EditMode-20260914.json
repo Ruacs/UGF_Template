@@ -1,0 +1,810 @@
+{
+  "unityVersion": "2022.3.62f3c1",
+  "project": "GF_Template",
+  "jobId": "d8a105687ae9405ea70ddd063bfe943d",
+  "startedUnixMs": 1789379482478,
+  "finishedUnixMs": 1789379484602,
+  "mode": "EditMode",
+  "summary": {
+    "total": 88,
+    "passed": 88,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 0.9807807,
+    "resultState": "Passed"
+  },
+  "results": [
+    {
+      "name": "InitialAndLoadDefaultsRemainDistinct",
+      "fullName": "Lokas.Editor.Tests.HexaAwayServerConfigTests.InitialAndLoadDefaultsRemainDistinct",
+      "state": "Passed",
+      "durationSeconds": 0.0238767,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ListsAndLegacyNameArePerInstance",
+      "fullName": "Lokas.Editor.Tests.HexaAwayServerConfigTests.ListsAndLegacyNameArePerInstance",
+      "state": "Passed",
+      "durationSeconds": 0.0007244,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ScopedValuesMalformedAndZeroAreHandled",
+      "fullName": "Lokas.Editor.Tests.HexaAwayServerConfigTests.ScopedValuesMalformedAndZeroAreHandled",
+      "state": "Passed",
+      "durationSeconds": 0.0005458,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InitialAndLoadDefaultsRemainDistinct",
+      "fullName": "Lokas.Editor.Tests.RectMatchServerConfigTests.InitialAndLoadDefaultsRemainDistinct",
+      "state": "Passed",
+      "durationSeconds": 0.0006115,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ListsAndLegacyNameArePerInstance",
+      "fullName": "Lokas.Editor.Tests.RectMatchServerConfigTests.ListsAndLegacyNameArePerInstance",
+      "state": "Passed",
+      "durationSeconds": 0.0005479,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ScopedValuesMalformedAndZeroAreHandled",
+      "fullName": "Lokas.Editor.Tests.RectMatchServerConfigTests.ScopedValuesMalformedAndZeroAreHandled",
+      "state": "Passed",
+      "durationSeconds": 0.0003548,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ActualArchivePathsAndMemberTypesAreChecked(\"valid\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ActualArchivePathsAndMemberTypesAreChecked(\"valid\")",
+      "state": "Passed",
+      "durationSeconds": 0.0179082,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ActualArchivePathsAndMemberTypesAreChecked(\"foreign-path\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ActualArchivePathsAndMemberTypesAreChecked(\"foreign-path\")",
+      "state": "Passed",
+      "durationSeconds": 0.0102664,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ActualArchivePathsAndMemberTypesAreChecked(\"duplicate\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ActualArchivePathsAndMemberTypesAreChecked(\"duplicate\")",
+      "state": "Passed",
+      "durationSeconds": 0.0072911,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ActualArchivePathsAndMemberTypesAreChecked(\"link\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ActualArchivePathsAndMemberTypesAreChecked(\"link\")",
+      "state": "Passed",
+      "durationSeconds": 0.0020641,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ConfigKeysNotValuesDefineIdentity",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ConfigKeysNotValuesDefineIdentity",
+      "state": "Passed",
+      "durationSeconds": 0.0016365,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DuplicateRowsFail",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.DuplicateRowsFail",
+      "state": "Passed",
+      "durationSeconds": 0.0003349,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ExistingImportTargetsAreNeverSilentlyOverwritten(\"identical\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ExistingImportTargetsAreNeverSilentlyOverwritten(\"identical\")",
+      "state": "Passed",
+      "durationSeconds": 0.0087998,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ExistingImportTargetsAreNeverSilentlyOverwritten(\"changed-file\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ExistingImportTargetsAreNeverSilentlyOverwritten(\"changed-file\")",
+      "state": "Passed",
+      "durationSeconds": 0.0089717,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ExistingImportTargetsAreNeverSilentlyOverwritten(\"folder-conflict\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ExistingImportTargetsAreNeverSilentlyOverwritten(\"folder-conflict\")",
+      "state": "Passed",
+      "durationSeconds": 0.0022744,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ExistingImportTargetsAreNeverSilentlyOverwritten(\"orphan-meta\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ExistingImportTargetsAreNeverSilentlyOverwritten(\"orphan-meta\")",
+      "state": "Passed",
+      "durationSeconds": 0.0086893,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ForeignResourceInGameGroupPreventsRemoval",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ForeignResourceInGameGroupPreventsRemoval",
+      "state": "Passed",
+      "durationSeconds": 0.0081984,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "LateSaveModuleLoadsOnceAndFailedLoadIsNotRegistered",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.LateSaveModuleLoadsOnceAndFailedLoadIsNotRegistered",
+      "state": "Passed",
+      "durationSeconds": 0.00763,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "LiveBuildSceneSnapshotsPreserveOrderEnabledAndEmptyState",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.LiveBuildSceneSnapshotsPreserveOrderEnabledAndEmptyState",
+      "state": "Passed",
+      "durationSeconds": 0.0023464,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "MissingFileHashSurvivesJsonRoundTrip",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.MissingFileHashSurvivesJsonRoundTrip",
+      "state": "Passed",
+      "durationSeconds": 0.0005169,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ModifiedOrCollidingRowsAreNotOverwritten(\"\\t216\\tOther\\tSamplePanel\\tDefault\\tfalse\\tfalse\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ModifiedOrCollidingRowsAreNotOverwritten(\"\\t216\\tOther\\tSamplePanel\\tDefault\\tfalse\\tfalse\")",
+      "state": "Passed",
+      "durationSeconds": 0.0011851,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ModifiedOrCollidingRowsAreNotOverwritten(\"\\t999\\tGame\\tSamplePanel\\tDefault\\tfalse\\tfalse\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ModifiedOrCollidingRowsAreNotOverwritten(\"\\t999\\tGame\\tSamplePanel\\tDefault\\tfalse\\tfalse\")",
+      "state": "Passed",
+      "durationSeconds": 0.0001268,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ModifiedOrCollidingRowsAreNotOverwritten(\"\\t216\\tGame\\tOtherPanel\\tDefault\\tfalse\\tfalse\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ModifiedOrCollidingRowsAreNotOverwritten(\"\\t216\\tGame\\tOtherPanel\\tDefault\\tfalse\\tfalse\")",
+      "state": "Passed",
+      "durationSeconds": 0.0000612,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "OwnershipRequiresWholeDirectorySegment",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.OwnershipRequiresWholeDirectorySegment",
+      "state": "Passed",
+      "durationSeconds": 0.0023376,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ResourceFragmentsAreIdempotentAndDoNotMutateSource",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.ResourceFragmentsAreIdempotentAndDoNotMutateSource",
+      "state": "Passed",
+      "durationSeconds": 0.0098356,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RowInstallAndRemoveAreIdempotentAndPreserveOthers",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.RowInstallAndRemoveAreIdempotentAndPreserveOthers",
+      "state": "Passed",
+      "durationSeconds": 0.0005009,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RuntimeRegistrySupportsZeroSingleDoubleAndAtomicFailure",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.RuntimeRegistrySupportsZeroSingleDoubleAndAtomicFailure",
+      "state": "Passed",
+      "durationSeconds": 0.006281,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "SaveModulesAreExplicitAndDuplicateSafe",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.SaveModulesAreExplicitAndDuplicateSafe",
+      "state": "Passed",
+      "durationSeconds": 0.0006265,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnsafePathsAreRejected(\"../outside\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.UnsafePathsAreRejected(\"../outside\")",
+      "state": "Passed",
+      "durationSeconds": 0.0005482,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnsafePathsAreRejected(\"Assets/../ProjectSettings/a\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.UnsafePathsAreRejected(\"Assets/../ProjectSettings/a\")",
+      "state": "Passed",
+      "durationSeconds": 0.0001272,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnsafePathsAreRejected(\"Assets\\\\a\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.UnsafePathsAreRejected(\"Assets\\\\a\")",
+      "state": "Passed",
+      "durationSeconds": 0.0000707,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnsafePathsAreRejected(\"Assets/a:stream\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.UnsafePathsAreRejected(\"Assets/a:stream\")",
+      "state": "Passed",
+      "durationSeconds": 0.0000708,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnsafePathsAreRejected(\"Assets//a\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.UnsafePathsAreRejected(\"Assets//a\")",
+      "state": "Passed",
+      "durationSeconds": 0.0000982,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnsafePathsAreRejected(\"Assets/a.\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.UnsafePathsAreRejected(\"Assets/a.\")",
+      "state": "Passed",
+      "durationSeconds": 0.0000694,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnsafePathsAreRejected(\"Assets/a \")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.UnsafePathsAreRejected(\"Assets/a \")",
+      "state": "Passed",
+      "durationSeconds": 0.0000657,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnsafePathsAreRejected(\"D:/outside\")",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.UnsafePathsAreRejected(\"D:/outside\")",
+      "state": "Passed",
+      "durationSeconds": 0.0000556,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnsupportedTemplateAndUnsafeVersionAreRejected",
+      "fullName": "Lokas.Editor.Tests.SamplePackageTests.UnsupportedTemplateAndUnsafeVersionAreRejected",
+      "state": "Passed",
+      "durationSeconds": 0.0003397,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DuplicateOwnerAndDuplicateKeysAreRejected",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.DuplicateOwnerAndDuplicateKeysAreRejected",
+      "state": "Passed",
+      "durationSeconds": 0.0075698,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DuplicateWithinSingleManifestIsRejected",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.DuplicateWithinSingleManifestIsRejected",
+      "state": "Passed",
+      "durationSeconds": 0.0005879,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "EmptyIndexIsValidAndClearsPreviousGameMappings",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.EmptyIndexIsValidAndClearsPreviousGameMappings",
+      "state": "Passed",
+      "durationSeconds": 0.0008486,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "FailedRebuildKeepsOriginalCompleteIndex",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.FailedRebuildKeepsOriginalCompleteIndex",
+      "state": "Passed",
+      "durationSeconds": 0.0005975,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "IncrementalRegistrationCannotOverwriteAnotherOwner",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.IncrementalRegistrationCannotOverwriteAnotherOwner",
+      "state": "Passed",
+      "durationSeconds": 0.0013965,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidOwnerPathCannotEscapeGameDirectory",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.InvalidOwnerPathCannotEscapeGameDirectory",
+      "state": "Passed",
+      "durationSeconds": 0.000556,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "MissingManifestIsAnErrorNotAnEmptyTemplate",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.MissingManifestIsAnErrorNotAnEmptyTemplate",
+      "state": "Passed",
+      "durationSeconds": 0.0003149,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RemovingOneOwnerDoesNotAffectOtherDomains",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.RemovingOneOwnerDoesNotAffectOtherDomains",
+      "state": "Passed",
+      "durationSeconds": 0.0019094,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RepeatedRebuildIsIdempotentAndRemovesOldMappings",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.RepeatedRebuildIsIdempotentAndRemovesOldMappings",
+      "state": "Passed",
+      "durationSeconds": 0.0005244,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "SavedProjectIndexContainsOnlyValidGameOwnedManifests",
+      "fullName": "Lokas.Editor.Tests.SubGameAssetRegistryTests.SavedProjectIndexContainsOnlyValidGameOwnedManifests",
+      "state": "Passed",
+      "durationSeconds": 0.0071691,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DuplicateAndStaleRegistration",
+      "fullName": "Lokas.Editor.Tests.SubGameServerConfigTests.DuplicateAndStaleRegistration",
+      "state": "Passed",
+      "durationSeconds": 0.0031522,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "EmptyRegistryDoesNotFallback",
+      "fullName": "Lokas.Editor.Tests.SubGameServerConfigTests.EmptyRegistryDoesNotFallback",
+      "state": "Passed",
+      "durationSeconds": 0.0011205,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "GlobalAdQuotaIgnoresGameOverrides",
+      "fullName": "Lokas.Editor.Tests.SubGameServerConfigTests.GlobalAdQuotaIgnoresGameOverrides",
+      "state": "Passed",
+      "durationSeconds": 0.0006378,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "IdleHintAliasesAndMalformedValues",
+      "fullName": "Lokas.Editor.Tests.SubGameServerConfigTests.IdleHintAliasesAndMalformedValues",
+      "state": "Passed",
+      "durationSeconds": 0.0071956,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "LateRegistrationAndExplicitServerRefresh",
+      "fullName": "Lokas.Editor.Tests.SubGameServerConfigTests.LateRegistrationAndExplicitServerRefresh",
+      "state": "Passed",
+      "durationSeconds": 0.0003917,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ScopedKeysDoNotMixGames",
+      "fullName": "Lokas.Editor.Tests.SubGameServerConfigTests.ScopedKeysDoNotMixGames",
+      "state": "Passed",
+      "durationSeconds": 0.0001907,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "SevenFeatureFieldsStayCommon",
+      "fullName": "Lokas.Editor.Tests.SubGameServerConfigTests.SevenFeatureFieldsStayCommon",
+      "state": "Passed",
+      "durationSeconds": 0.000335,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ZeroFalseAndMalformedScopedValues",
+      "fullName": "Lokas.Editor.Tests.SubGameServerConfigTests.ZeroFalseAndMalformedScopedValues",
+      "state": "Passed",
+      "durationSeconds": 0.0001941,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "CleanupFailureDoesNotLeaveOtherModulesRegistered",
+      "fullName": "Lokas.Editor.Tests.TestModeModuleRegistryTests.CleanupFailureDoesNotLeaveOtherModulesRegistered",
+      "state": "Passed",
+      "durationSeconds": 0.0057977,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "EmptyTemplateAndUnknownRemovalAreSafe",
+      "fullName": "Lokas.Editor.Tests.TestModeModuleRegistryTests.EmptyTemplateAndUnknownRemovalAreSafe",
+      "state": "Passed",
+      "durationSeconds": 0.0005412,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "EqualModuleNamesInDifferentGamesHaveIndependentContexts",
+      "fullName": "Lokas.Editor.Tests.TestModeModuleRegistryTests.EqualModuleNamesInDifferentGamesHaveIndependentContexts",
+      "state": "Passed",
+      "durationSeconds": 0.000305,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "FailedRegistrationRollsBackSubscriptionsAndContext",
+      "fullName": "Lokas.Editor.Tests.TestModeModuleRegistryTests.FailedRegistrationRollsBackSubscriptionsAndContext",
+      "state": "Passed",
+      "durationSeconds": 0.0003181,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "LateRefreshAndRewardCallbacksAreDiscardedAfterExit",
+      "fullName": "Lokas.Editor.Tests.TestModeModuleRegistryTests.LateRefreshAndRewardCallbacksAreDiscardedAfterExit",
+      "state": "Passed",
+      "durationSeconds": 0.0004304,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "MissingOwnerIsRejectedBeforeRegistration",
+      "fullName": "Lokas.Editor.Tests.TestModeModuleRegistryTests.MissingOwnerIsRejectedBeforeRegistration",
+      "state": "Passed",
+      "durationSeconds": 0.0002881,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RegistrationIsIdempotentByOwnerAndModuleName",
+      "fullName": "Lokas.Editor.Tests.TestModeModuleRegistryTests.RegistrationIsIdempotentByOwnerAndModuleName",
+      "state": "Passed",
+      "durationSeconds": 0.0003128,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RemovingOneGamePreservesCommonAndOtherGameModules",
+      "fullName": "Lokas.Editor.Tests.TestModeModuleRegistryTests.RemovingOneGamePreservesCommonAndOtherGameModules",
+      "state": "Passed",
+      "durationSeconds": 0.0013482,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "StaleInstanceCannotUnregisterANewSession",
+      "fullName": "Lokas.Editor.Tests.TestModeModuleRegistryTests.StaleInstanceCannotUnregisterANewSession",
+      "state": "Passed",
+      "durationSeconds": 0.0002406,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ArrivalIsOncePerRouteIndexNotPerCell",
+      "fullName": "Lokas.Editor.TileMotionTests.ArrivalIsOncePerRouteIndexNotPerCell",
+      "state": "Passed",
+      "durationSeconds": 0.0018687,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BlockedPieceTiltsTowardsArrowAndRestoresPose(0)",
+      "fullName": "Lokas.Editor.TileMotionTests.BlockedPieceTiltsTowardsArrowAndRestoresPose(0)",
+      "state": "Passed",
+      "durationSeconds": 0.0220034,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BlockedPieceTiltsTowardsArrowAndRestoresPose(1)",
+      "fullName": "Lokas.Editor.TileMotionTests.BlockedPieceTiltsTowardsArrowAndRestoresPose(1)",
+      "state": "Passed",
+      "durationSeconds": 0.0035284,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BlockedPieceTiltsTowardsArrowAndRestoresPose(2)",
+      "fullName": "Lokas.Editor.TileMotionTests.BlockedPieceTiltsTowardsArrowAndRestoresPose(2)",
+      "state": "Passed",
+      "durationSeconds": 0.0034219,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BlockedPieceTiltsTowardsArrowAndRestoresPose(3)",
+      "fullName": "Lokas.Editor.TileMotionTests.BlockedPieceTiltsTowardsArrowAndRestoresPose(3)",
+      "state": "Passed",
+      "durationSeconds": 0.0034149,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BlockedPieceTiltsTowardsArrowAndRestoresPose(4)",
+      "fullName": "Lokas.Editor.TileMotionTests.BlockedPieceTiltsTowardsArrowAndRestoresPose(4)",
+      "state": "Passed",
+      "durationSeconds": 0.0033595,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BlockedPieceTiltsTowardsArrowAndRestoresPose(5)",
+      "fullName": "Lokas.Editor.TileMotionTests.BlockedPieceTiltsTowardsArrowAndRestoresPose(5)",
+      "state": "Passed",
+      "durationSeconds": 0.0034252,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BombCollectsAtFirstArrivalWithoutUsingSawPolicy",
+      "fullName": "Lokas.Editor.TileMotionTests.BombCollectsAtFirstArrivalWithoutUsingSawPolicy",
+      "state": "Passed",
+      "durationSeconds": 0.0006009,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "CancellationSuppressesLateCallbacks",
+      "fullName": "Lokas.Editor.TileMotionTests.CancellationSuppressesLateCallbacks",
+      "state": "Passed",
+      "durationSeconds": 0.0004106,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PieceReturnPreservesDepartureOrderAndGroundContact(0)",
+      "fullName": "Lokas.Editor.TileMotionTests.PieceReturnPreservesDepartureOrderAndGroundContact(0)",
+      "state": "Passed",
+      "durationSeconds": 0.0372501,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PieceReturnPreservesDepartureOrderAndGroundContact(1)",
+      "fullName": "Lokas.Editor.TileMotionTests.PieceReturnPreservesDepartureOrderAndGroundContact(1)",
+      "state": "Passed",
+      "durationSeconds": 0.0303141,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PieceReturnPreservesDepartureOrderAndGroundContact(2)",
+      "fullName": "Lokas.Editor.TileMotionTests.PieceReturnPreservesDepartureOrderAndGroundContact(2)",
+      "state": "Passed",
+      "durationSeconds": 0.0333152,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PieceReturnPreservesDepartureOrderAndGroundContact(3)",
+      "fullName": "Lokas.Editor.TileMotionTests.PieceReturnPreservesDepartureOrderAndGroundContact(3)",
+      "state": "Passed",
+      "durationSeconds": 0.0336008,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PieceReturnPreservesDepartureOrderAndGroundContact(4)",
+      "fullName": "Lokas.Editor.TileMotionTests.PieceReturnPreservesDepartureOrderAndGroundContact(4)",
+      "state": "Passed",
+      "durationSeconds": 0.0310858,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PieceReturnPreservesDepartureOrderAndGroundContact(5)",
+      "fullName": "Lokas.Editor.TileMotionTests.PieceReturnPreservesDepartureOrderAndGroundContact(5)",
+      "state": "Passed",
+      "durationSeconds": 0.030749,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ReverseExposesBusyStateAsTileInputLock(False)",
+      "fullName": "Lokas.Editor.TileMotionTests.ReverseExposesBusyStateAsTileInputLock(False)",
+      "state": "Passed",
+      "durationSeconds": 0.0007413,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ReverseExposesBusyStateAsTileInputLock(True)",
+      "fullName": "Lokas.Editor.TileMotionTests.ReverseExposesBusyStateAsTileInputLock(True)",
+      "state": "Passed",
+      "durationSeconds": 0.000273,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "TaskSnapshotsRouteAndWorldPositions",
+      "fullName": "Lokas.Editor.TileMotionTests.TaskSnapshotsRouteAndWorldPositions",
+      "state": "Passed",
+      "durationSeconds": 0.0016291,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "WormholeReturnRestoresPieceRotationWithoutLandingSnap(0)",
+      "fullName": "Lokas.Editor.TileMotionTests.WormholeReturnRestoresPieceRotationWithoutLandingSnap(0)",
+      "state": "Passed",
+      "durationSeconds": 0.0107281,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "WormholeReturnRestoresPieceRotationWithoutLandingSnap(1)",
+      "fullName": "Lokas.Editor.TileMotionTests.WormholeReturnRestoresPieceRotationWithoutLandingSnap(1)",
+      "state": "Passed",
+      "durationSeconds": 0.0056808,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "WormholeReturnRestoresPieceRotationWithoutLandingSnap(2)",
+      "fullName": "Lokas.Editor.TileMotionTests.WormholeReturnRestoresPieceRotationWithoutLandingSnap(2)",
+      "state": "Passed",
+      "durationSeconds": 0.0070485,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "WormholeReturnRestoresPieceRotationWithoutLandingSnap(3)",
+      "fullName": "Lokas.Editor.TileMotionTests.WormholeReturnRestoresPieceRotationWithoutLandingSnap(3)",
+      "state": "Passed",
+      "durationSeconds": 0.0059269,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "WormholeReturnRestoresPieceRotationWithoutLandingSnap(4)",
+      "fullName": "Lokas.Editor.TileMotionTests.WormholeReturnRestoresPieceRotationWithoutLandingSnap(4)",
+      "state": "Passed",
+      "durationSeconds": 0.0059318,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "WormholeReturnRestoresPieceRotationWithoutLandingSnap(5)",
+      "fullName": "Lokas.Editor.TileMotionTests.WormholeReturnRestoresPieceRotationWithoutLandingSnap(5)",
+      "state": "Passed",
+      "durationSeconds": 0.0060234,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    }
+  ]
+}

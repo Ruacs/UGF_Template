@@ -1,0 +1,47 @@
+﻿#	声音配置表							
+#	Id		AssetName	Priority	Loop	Volume	SpatialBlend	MaxDistance
+#	int		string	int	bool	float	float	float
+#	声音编号	策划备注	资源名称	优先级（默认0，128最高，-128最低）	是否循环	音量（0~1）	声音空间混合量（0为2D，1为3D，中间值混合效果）	声音最大距离
+	10001	背景音乐	SFX_bgm	0	TRUE	1	0	100
+	20001	按钮点击	UI_Click	0	FALSE	1	0	100
+	20002	关闭按钮	UI_Close	0	FALSE	1	0	100
+	20003	加金币音效	UI_Coins	0	FALSE	1	0	100
+	20005	菜单选择	UI_MenuSelect	0	FALSE	1	0	100
+	20008	排名结算	UI_GameOver	0	FALSE	1	0	100
+	20009	金币搜集	UI_CoinsReward	0	FALSE	1	0	10
+	20010	错误音效	UI_Wrong	0	FALSE	1	0	100
+	20011	倒计时音效	UI_Countdown	0	FALSE	1	0	100
+	20012	失败音效	UI_Fail	0	FALSE	1	0	100
+	30001	吃东西音效	SFX_Eat	0	FALSE	1	1	100
+	30002	领取奖励	SFX_ClaimReward	0	FALSE	1	1	100
+	30003	道具奖励	SFX_ItemReward	0	FALSE	1	1	100
+	30004	打开箱子	UI_OpenBox	0	FALSE	1	1	100
+	20055	排行榜卡牌出现时播放音效	SFX_Rank_Card_Flip	0	FALSE	1	0	100
+	20056	排行榜道具开始飞向目标时播放音效	SFX_Rank_Crown	0	FALSE	1	0	100
+	20057	排行榜道具收集完成时播放音效	SFX_Rank_Score	0	FALSE	1	0	100
+	20058	排行榜排位上升时，播放音效	SFX_Rank_UP	0	FALSE	1	0	100
+	30022	玩家排行Item下落	SFX_Rank_Down	0	FALSE	1	1	100
+	30023	结算道具数量提示	SFX_Rank_MaoChu	0	FALSE	1	1	100
+	30024	结算排名TopShow	SFX_Rank_TOP	0	FALSE	1	1	100
+	30025	排行榜排位上升时，播放音效2	SFX_Rank_UP_2	0	FALSE	1	0	100 
+	30008	宝箱进度更新	SFX_chest_rise	0	FALSE	1	1	100
+	30009	宝箱进度达到	SFX_ChestReach	0	FALSE	1	1	100
+	30010	宝箱点击提示	SFX_chest_tips	0	FALSE	1	1	100
+	20025	使用帮助道具	SFX_Hint	0	FALSE	1	0	100
+	30015	结算排行打开	SFX_LeaderBoard_Card_Flip	0	FALSE	1	1	100
+	30016	收集的牌飞出来时	SFX_LeaderBoard_Crown	0	FALSE	1	1	100
+	20068	进度条前进	SFX_Progress_Rise	0	FALSE	1	0	100
+	20070	格子布局出现	SFX_level_start	0	FALSE	1	0	100
+	20071	方块确认	SFX_correct	0	FALSE	1	0	100
+	30026	提升文本弹出	SFX_PopTips	0	FALSE	1	0	100 
+	30027	收集	SFX_RankCollect	0	FALSE	1	0	100
+	30028	heartbreak	SFX_wrong	0	FALSE	1	0	100
+	40001	猫	Voice_Cat	0	FALSE	1	0	100
+	40002	鳄鱼	Voice_Crocodile	0	FALSE	1	0	100
+	40003	大象	Voice_Elephant	0	FALSE	1	0	100
+	40004	狐狸	Voice_Fox	0	FALSE	1	0	100
+	40005	长颈鹿	Voice_Giraffe	0	FALSE	1	0	100
+	40006	河马	Voice_Hippo	0	FALSE	1	0	100
+	40007	狮子	Voice_Lion	0	FALSE	1	0	100
+	40008	猴子	Voice_Monkey	0	FALSE	1	0	100
+	40009	熊猫	Voice_Panda	0	FALSE	1	0	100

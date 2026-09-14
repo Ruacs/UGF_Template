@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8531637177612247136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8531637177612247138}
+  - component: {fileID: 5218338011449874424}
+  m_Layer: 0
+  m_Name: YzUtils
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8531637177612247138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8531637177612247136}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5218338011449874424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8531637177612247136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8880532374370427ab53f9c2074dd44b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LogViewPrefabs: {fileID: 551607648107159840, guid: 74e4d7528983356449866f6165b1aeb0, type: 3}
+  privacyWidgetPrefabs: {fileID: 7395648415276004125, guid: 02b90081192a843d5aa6f5eea629722e, type: 3}
+  privacyPanelPrefabs: {fileID: 3164268119282248682, guid: a3005ea159f736041b1f8d4ce6510466, type: 3}
+  nativeBannerAdPrefabs: {fileID: 7005395793897109351, guid: 86cf1f7108c7f4b8ab0e45b131af7304, type: 3}
+  nativeIntersitialAdPrefabs: {fileID: 255450851400447275, guid: 8e56b736eaa544d65bea8109d01c33e9, type: 3}
+  nativeIconAdPrefabs: {fileID: 6948699179883986669, guid: 64c193cbd558247feae0666dfe8500b0, type: 3}
+  removeAdWidgetPrefabs: {fileID: 3308017760732579540, guid: fb44d02b7e8854638abddf11d0e4ca56, type: 3}
+  shortcutWidgetPrefabs: {fileID: 7676879630165302325, guid: 0c37a53c9a8db3a42b12b6a2f230d2d0, type: 3}
+  desktopPanelPrefabs: {fileID: 8232457245054632736, guid: 5cac0034d4744ce43aab4fca86378ff4, type: 3}
+  moreGamesWidgetPrefabs: {fileID: 7676879630165302325, guid: 5dc43ee464cb34325b81df966cefd5f6, type: 3}
+  sideBarWidgetPrefabs: {fileID: 5298449396389907144, guid: e99d16289bff8554bab1efbea7a1b102, type: 3}
+  sideBarPanelPrefabs: {fileID: 8232457245054632736, guid: e5ca4edc2a7fd6146bf7693aa80ee707, type: 3}
+  boxPagePrefabs: {fileID: 8002257953020316503, guid: d8e57e422e1873345b33844a5852a03d, type: 3}
+  moreGamePagePrefabs: {fileID: 8002257953020316503, guid: f1987637fd54e494d9d167b98cfb3546, type: 3}

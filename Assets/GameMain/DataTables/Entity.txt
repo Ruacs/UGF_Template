@@ -1,0 +1,11 @@
+﻿#	实体表		
+#	Id		AssetName
+#	int		string
+#	实体编号	策划备注	资源名称
+	10001	玩家	Player
+	20001	关卡1	Level_01
+	20002	关卡2	Level_02
+	20003	关卡3	Level_03
+	20004	关卡4	Level_04
+	31001	吃	VFX_Eat
+	30001		FX_StarFly

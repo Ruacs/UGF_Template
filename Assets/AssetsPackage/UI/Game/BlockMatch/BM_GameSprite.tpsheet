@@ -1,0 +1,37 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:00000000000000000000000000000000:00000000000000000000000000000000:00000000000000000000000000000000$
+#
+:format=40300
+:texture=BM_GameSprite.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+
+Cell_Color_01_sliced;4;850;160;170; 0.5;0.5; 0;0;0;0
+Cell_Color_03_sliced;4;676;160;170; 0.5;0.5; 0;0;0;0
+Cell_base_2_sliced;168;850;160;170; 0.5;0.5; 0;0;0;0
+Cell_Color_02_sliced;332;850;160;170; 0.5;0.5; 0;0;0;0
+Cell_Color_05_sliced;168;676;160;170; 0.5;0.5; 0;0;0;0
+Cell_Color_06_sliced;332;676;160;170; 0.5;0.5; 0;0;0;0
+Cell_Shadow_sliced;4;502;160;170; 0.5;0.5; 0;0;0;0
+Cell_base_sliced;168;502;160;170; 0.5;0.5; 0;0;0;0
+Cell_Color_09_sliced;332;502;160;170; 0.5;0.5; 0;0;0;0
+Cell_Color_08_sliced;4;328;160;170; 0.5;0.5; 0;0;0;0
+Cell_Color_07_sliced;4;154;160;170; 0.5;0.5; 0;0;0;0
+Cell_Color_04_sliced;168;328;160;170; 0.5;0.5; 0;0;0;0
+Size_Counter_bg;4;2;148;148; 0.5;0.5; 0;0;0;0
+rule_locked_1;156;16;134;134; 0.5;0.5; 0;0;0;0
+rule_locked_3;168;191;134;133; 0.5;0.5; 0;0;0;0
+rule_locked_5;294;54;134;133; 0.5;0.5; 0;0;0;0
+rule_locked_9;306;191;134;133; 0.5;0.5; 0;0;0;0
+rule_locked_7;332;365;134;133; 0.5;0.5; 0;0;0;0
+rule_locked_2;432;55;134;132; 0.5;0.5; 0;0;0;0
+rule_locked_6;444;229;134;132; 0.5;0.5; 0;0;0;0
+rule_locked_4;470;366;132;132; 0.5;0.5; 0;0;0;0
+rule_locked_8;570;93;132;132; 0.5;0.5; 0;0;0;0
+rule_shape_sliced;570;25;64;64; 0.5;0.5; 0;0;0;0

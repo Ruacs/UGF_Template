@@ -1,0 +1,58 @@
+﻿[
+  {
+    "Key": "Setting.Title",
+    "Value": "设置"
+  },
+  {
+    "Key": "Setting.Music",
+    "Value": "音乐"
+  },
+  {
+    "Key": "Setting.Sound",
+    "Value": "音效"
+  },
+  {
+    "Key": "Setting.Vibration",
+    "Value": "振动"
+  },
+  {
+    "Key": "Setting.on",
+    "Value": "开"
+  },
+  {
+    "Key": "Setting.off",
+    "Value": "关"
+  },
+  {
+    "Key": "Main.Start",
+    "Value": "开始"
+  },
+  {
+    "Key": "GameOver.Title",
+    "Value": "游戏结束"
+  },
+  {
+    "Key": "Tips.payFailedCoin",
+    "Value": "金币不足"
+  },
+  {
+    "Key": "Tips.AdsFail",
+    "Value": "广告加载失败"
+  },
+  {
+    "Key": "Btn.Close",
+    "Value": "不,谢谢"
+  },
+  {
+    "Key": "Btn.Next",
+    "Value": "下一关"
+  },
+  {
+    "Key": "Btn.Claim",
+    "Value": "立即领取"
+  },
+  {
+    "Key": "Btn.Continue",
+    "Value": "继续"
+  }
+]

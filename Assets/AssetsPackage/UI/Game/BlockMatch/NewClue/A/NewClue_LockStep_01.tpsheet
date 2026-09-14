@@ -1,0 +1,39 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:00000000000000000000000000000000:00000000000000000000000000000000:00000000000000000000000000000000$
+#
+:format=40300
+:texture=NewClue_LockStep_01.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+NewClue_LockStep_010;5;1668;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_011;5;1288;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_015;385;1668;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_016;385;1288;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_012;5;908;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_013;5;528;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_014;5;148;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_017;385;908;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_018;385;528;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_020;385;148;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_019;765;1668;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_021;1145;1668;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_023;1525;1668;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_022;765;1288;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_024;1145;1288;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_002;1525;1288;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_003;765;908;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_004;765;528;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_006;765;148;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_001;1145;908;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_025;1525;908;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_005;1145;528;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_008;1145;148;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_007;1525;528;375;375; 0.5;0.5; 0;0;0;0
+NewClue_LockStep_009;1525;148;375;375; 0.5;0.5; 0;0;0;0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ef8ed3e5aabe146a35b0eb3e5b83a5, type: 3}
+  m_Name: Task_pass_level_1
+  m_EditorClassIdentifier: 
+  taskId: Task_pass_level_1
+  title: 
+  description: Task.PassLevel
+  taskType: 2
+  isRepeatable: 0
+  prerequisiteIds: []
+  conditions:
+  - rid: 2713116761014140933
+  rewards:
+  - rid: 2713116761014140934
+  references:
+    version: 2
+    RefIds:
+    - rid: 2713116761014140933
+      type: {class: PassLevelCondition, ns: , asm: Assembly-CSharp}
+      data:
+        levelId: 
+        requiredCount: 5
+    - rid: 2713116761014140934
+      type: {class: ExpReward, ns: , asm: Assembly-CSharp}
+      data:
+        amount: 5

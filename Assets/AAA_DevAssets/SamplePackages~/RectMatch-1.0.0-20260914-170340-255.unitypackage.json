@@ -1,0 +1,1072 @@
+{
+    "manifest": {
+        "schema": 1,
+        "template": "GF.Template.SubGames.1",
+        "game": "RectMatch",
+        "version": "1.0.0",
+        "mode": 3,
+        "managerPrefab": "Assets/GameMain/SubGame/RectMatch/Entity/RectMatch.prefab",
+        "resourceManifest": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Registry/RectMatchAssetRegistryConfig.asset",
+        "procedure": "Lokas.ProcedureGameRectMatch",
+        "scenePaths": [
+            "Assets/GameMain/Scenes/SubGame/RectMatch/RectMatchScene.unity"
+        ],
+        "uiRows": [
+            "\t203\tRectMatch游戏页面\tRectMatchUIPanel\tDefault\tFALSE\tFALSE",
+            "\t210\t教程页\tRectMatchTutorialUIPanel\tDefault\tFALSE\tFALSE"
+        ],
+        "sceneRows": [
+            "\t3\tRectMatch场景\tRectMatchScene\t10001"
+        ],
+        "configRows": [
+            "\tScene.RectMatch\t\t3"
+        ],
+        "resourceDefinitions": [
+            "<Resource Name=\"RectMatch\" LoadType=\"0\" Packed=\"True\" />"
+        ],
+        "resourceAssets": [
+            "<Asset Guid=\"06fb3d061ff4f6d4abbbdeed792b60e7\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"09aa8eb37b5b02d44bf28700eb3b662c\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"12583d9eaf0b32e49b1c2b6fb0bd2cc6\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"169dd274bb425a342acfc153b09c9466\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"1cccc41dca3488043b4e5e07e280251d\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"1ce962f00c1840a4abc1fda0e948de94\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"1e995724916cdce41b77d92fa8768071\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"2171f13b12db80846a5766a267814979\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"2de84e08e9619964f9e912c8607441ea\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"2df85cc869dbbc04cb2a262990c2579e\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"341692762fe43454a8032f275103c4de\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"3476fbba55dfa624b8af59f0ee6d9288\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"34fbf250a1864a6418b1f3d201bcb123\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"475f0f35ea0544c4aaa26669c936cb7e\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"4bf0995edd1e1d84baf25ffc31117a1f\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"4f0568d790d71be4c9a8ba17a78c05f8\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"4fcbca079e6cdce408d3b51c20c5615f\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"50635bbf200d4344186b3f99b27c9a22\" ResourceName=\"ScriptableObjects\" />",
+            "<Asset Guid=\"57e0eda9e7002a44c9c4e78cd2d23bfa\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"580b64339d2c8354d8829b729be10587\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"5bb5c930e50c8f14fa7e605f915a93d6\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"6f01ec2a4e7cb5641913bdbb48783279\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"71ee20823ce3e3144a3f79e12e4eda2c\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"73f0e6e62d7537d44a99405ebcf548a4\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"75ebf33c53eef4244a49966487a6fdb4\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"77788c19d2b04e76b8be8321e6ee0d6a\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"7fcf73ae25cf93e469b90bb70ae05a6a\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"8009e2f7d2af1344c9cc1e552f9f9a99\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"9067a06892c2e5f41afff41691d063bf\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"9dd3a1b0bfd392745ad70445334f93d7\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"a0c283f99908312488a909d9c6cc5021\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"a2b51b00e4188b2428c5924a84a29ea6\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"a55fa6c2e9db2ba4096a6aa9b9381bef\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"aa29ae5c24da9e64f8df9066a62790a2\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"ab9241a83114e6e42a60e63d12f6560f\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"aed44f97df9c46a419d2c7b8be616d62\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"b5bc4bf0807d2d643bb269363d015917\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"b5fcfd46dfd4a204195833af7839efe7\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"b83689b39f979ab4bb0f7dd3cf59b63f\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"c4272614b7fd92f46a6a344fe2b3cf40\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"ca589302434fbea4e9940cb53228bfff\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"cd069daa8f446484c92baf85243f941e\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"d44eb52ebec5b3946ac9e02d54a8480d\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"e380cdd5ab45ffe4facb2e862de7619b\" ResourceName=\"Scenes\" />",
+            "<Asset Guid=\"f4fffc01204049e49a418009455d4839\" ResourceName=\"RectMatch\" />",
+            "<Asset Guid=\"fab06e0be9375cc4d823efa71629885c\" ResourceName=\"RectMatch\" />"
+        ]
+    },
+    "packageHash": "722e9b92eab6555d8c362cc3dc0f06283d4b736b890e96d2d87b04106e330c60",
+    "unityVersion": "2022.3.62f3c1",
+    "files": [
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/RectMatch",
+            "guid": "e9c952b18eff434993dcea6718885258",
+            "assetHash": "",
+            "metaHash": "b725549869ed62834a0a51c11645ac7cc16342c84cc9bd82a236ba8b696c1a46",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/RectMatch/RectMatchScene.unity",
+            "guid": "e380cdd5ab45ffe4facb2e862de7619b",
+            "assetHash": "b73c5f0f12fb0288a1e710ae65f406f75f184692d9a04348789a68083f9de301",
+            "metaHash": "6d3ae5b04075abf64b418d3e95eaa299225c07faa1b7fc029cd818b7531494a6",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch",
+            "guid": "72c750bc97b7a1149b33aeb1132e9948",
+            "assetHash": "",
+            "metaHash": "7f8b02b6bfe4d4bcbf75feb1f957b84b888cb3ca4a2f092df66ec999d627ef4d",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation",
+            "guid": "c44bffcbd5a712d4bae10d4bd55b4620",
+            "assetHash": "",
+            "metaHash": "e009f4dbdf43414d19709de7a127bd9e0295440bdc5e2dfa957307962573095a",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Cell",
+            "guid": "b961d0ae9b8a49f4d817ec92084ddc3c",
+            "assetHash": "",
+            "metaHash": "207b9c223588576e9d3cf997327f292b394c597edc555515c4c09c7cb44ab4d8",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Cell/CellView.controller",
+            "guid": "ca589302434fbea4e9940cb53228bfff",
+            "assetHash": "362cfbda8f773a3d6f26da383e608cca52d539f9a63e83757b0ddf5ad9f8273e",
+            "metaHash": "d6c250275e4be66f9c94abf93a1ad50b465114f51ef372db46020bb85b39c990",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Cell/CellView_Idle.anim",
+            "guid": "2de84e08e9619964f9e912c8607441ea",
+            "assetHash": "4f791116ab7420bf48f53f9b6563a45737fdf05af4e8cef634e84fca6ef406ab",
+            "metaHash": "e4c2995cb2fd4674c144bb3372431033e8b68db00229f1c7733ee0d8511945d5",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Cell/CellView_Show.anim",
+            "guid": "cd069daa8f446484c92baf85243f941e",
+            "assetHash": "b3ac1e2512dccc2d7fd7adba8e43af0a80e6e0aa961e3f5c0b043a5d4324cb21",
+            "metaHash": "b3b8c6230b9d36551211695127b7df89660fb62c3098e6f379295fbc1776b297",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Game",
+            "guid": "b9eec4d9914ed694695d10a4b119e047",
+            "assetHash": "",
+            "metaHash": "f74da5708f6bd53eaba76d03884d7173bc4986f2326f8af686ba7fd4bf4c70ec",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Game/RedHeart.controller",
+            "guid": "a2b51b00e4188b2428c5924a84a29ea6",
+            "assetHash": "d51d11e155920d62f1d8abedeb986d0120b4b0ce417bc694dc0783622525674d",
+            "metaHash": "21c5f956c66602afa1c05d0da910f9a6a1ad56906151bdef3c9a4d486a222725",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Game/RedHeart_Break.anim",
+            "guid": "475f0f35ea0544c4aaa26669c936cb7e",
+            "assetHash": "f2a46a6e38fbad93654526268e36b7fdf9c060d3e40ccd3a93c6c0f58da077e9",
+            "metaHash": "6b6053d535780f287c3f22ed56c05613d9d68ab986115cee978f7cf11746ff05",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Game/RedHeart_Broken.anim",
+            "guid": "580b64339d2c8354d8829b729be10587",
+            "assetHash": "023f5a3f0063c67cd72c2347e86f4ff19235dc0a141321126d71ab27523c493a",
+            "metaHash": "3207aba4c11ae7cd7d6a2ad9d36ca0248aedf27b4bd421eaff8acea8b076f144",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Game/RedHeart_Reset.anim",
+            "guid": "ab9241a83114e6e42a60e63d12f6560f",
+            "assetHash": "a49515901057e49ed93a1ee84c926dd435c0e5f4b8bf9daf6236ef7a9e577d27",
+            "metaHash": "34f9add8b7f28077b170c52154d86f5881bb578156582e2c67ddd8e7b4426e77",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Game/RedHeart_idle.anim",
+            "guid": "d44eb52ebec5b3946ac9e02d54a8480d",
+            "assetHash": "96259b8f883a5f013c61af881ceb07ae0a5c9862487c1d11a4bba96cd3411dd2",
+            "metaHash": "b25097102d92bc1fe5ffdddacbacbb9d24639d2e23e945eef6bfdf4b1334443b",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/NewClue",
+            "guid": "ced5de568d2b8044fa48cfec6880283e",
+            "assetHash": "",
+            "metaHash": "9058aef6f4fef268513f62e7ce56ce3708dc5c347a05d453f831809f62c58892",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/NewClue/Image.controller",
+            "guid": "4fcbca079e6cdce408d3b51c20c5615f",
+            "assetHash": "b51f8b05aa833ec0ef3ed5272cf01a5f1d65ac1ef414af6abe7a371c7f160a48",
+            "metaHash": "6f1c7c26cee3535c097c47918cc822c11e535ebc348ebb22083ca07d41c1528c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/NewClue/New Animation.anim",
+            "guid": "c4272614b7fd92f46a6a344fe2b3cf40",
+            "assetHash": "728fc52b0fe841b36eee1fc8b6a3f20ed397be5a2768a8328517cacd06bc7a95",
+            "metaHash": "4c12f11eead435e497ec8ebd03ba2da77225a2a44866bffdf08a1ecd961dc877",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/NewClue/NewClue_LockStep.anim",
+            "guid": "3476fbba55dfa624b8af59f0ee6d9288",
+            "assetHash": "13b9ef072341ee3ebeb1f903383c8017304d031baa6953abf0eaac37cc698f5b",
+            "metaHash": "a6674f8964173cc8548d0a9e4f2b613e3b822fc8ce6b60187299679038c59986",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/NewClue/NewClue_LockStep_001.controller",
+            "guid": "06fb3d061ff4f6d4abbbdeed792b60e7",
+            "assetHash": "db3e70e17b3bd644d4bb2c56f0251fe41eb62600348d9f580dfc1f5ade59b7a1",
+            "metaHash": "56514fd0ccbffcf2d3cf97d0459fd3385d9cacdcdee360ec827fbdaefba77b9e",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Region",
+            "guid": "4bdc87e6652afcd428beaadf9aebc46b",
+            "assetHash": "",
+            "metaHash": "6f1fe6c492ba76a497568b0732defc2f735fd85eee3e17ad7c5d734a0a0f1cde",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Region/Front.controller",
+            "guid": "341692762fe43454a8032f275103c4de",
+            "assetHash": "eeec2ec7f2b4af055a73c3cbfa848e939658fea48baa2ca231ef43f2db0b3c88",
+            "metaHash": "7a1228cc624b3f94a9cebe0b7a4865637be16845f425eba554fb4b852d1ed7cc",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Region/RegionView_Idle.anim",
+            "guid": "57e0eda9e7002a44c9c4e78cd2d23bfa",
+            "assetHash": "8bf361907e5919b143eac0cdc9c1914218e5b9c55464085e30ec37ae16ba4211",
+            "metaHash": "75ad1c721fc8514c247bc7ee65961e3e29a6353ea2ed43b3d77f0f9c04e0029e",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Animation/Region/RegionView_Show.anim",
+            "guid": "4f0568d790d71be4c9a8ba17a78c05f8",
+            "assetHash": "86226adba84c9b3a114b83f3011d93c93797e7c729b3fdfef7e19eeb455150dc",
+            "metaHash": "236bc69a113cab488d13abd1136c2321a8a104dbcb677af67cce2088320f99f4",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Config",
+            "guid": "9b1902ee6d734714a8b98cee919d5ede",
+            "assetHash": "",
+            "metaHash": "2fb64391db8cde8ef47383302920c771df20a71d98d0d38d4b03ada54fc97279",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Config/LevelAnswerConfig_A.bytes",
+            "guid": "75ebf33c53eef4244a49966487a6fdb4",
+            "assetHash": "4aa23b43aece27aa2f63577fa8a03bf71902c9a65e9bb8750b7937e59960b725",
+            "metaHash": "b01d3bd70291c496c2975973998eeaf5422a0bbbb298729f9a4473bf14b42f3d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Config/LevelConfig_A.bytes",
+            "guid": "09aa8eb37b5b02d44bf28700eb3b662c",
+            "assetHash": "637abf37927c050b06f7acd327686875790d3666f5121358ad8fae84f42628f1",
+            "metaHash": "8e8b7660ca830ae9b859336b3a21ba02f80fb297123fc4939d9ca62d3b48fe8a",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Editor",
+            "guid": "d946ad33970bac64d861082cd4c6ef98",
+            "assetHash": "",
+            "metaHash": "4d545b38e4fbfd648117dc337feabc96443bd290ef76579c05674692bae9b5bf",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Editor/PackageManifest.json",
+            "guid": "687423da2235e274598d281e2a6365a8",
+            "assetHash": "c177a6a961487e152855e33d8c5a5bd88372cb753e2ebaeb4d09b16832784752",
+            "metaHash": "8cc5e93fc1371857ae21ecb03d8264b186775465a764adabb7f3e955e24cf91c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Entity",
+            "guid": "6a7f1627367612a4987c78a86740cd68",
+            "assetHash": "",
+            "metaHash": "338d14fd39ef32462e84a3df00b5ebd61b3c062db194bf5e1f6ec3a53d635591",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Entity/BoardView.prefab",
+            "guid": "9067a06892c2e5f41afff41691d063bf",
+            "assetHash": "932da655361f4986bf700ba54f219b0f7e71c9d1ce4127b8215be27baf00290f",
+            "metaHash": "bfd1a7f30a241b3543008677505635323e1afd7e69492e839e3c8c13454925ea",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Entity/CellView.prefab",
+            "guid": "71ee20823ce3e3144a3f79e12e4eda2c",
+            "assetHash": "cca6468cd9d942b84b202ebdb75d4d061d1e553a87ccac77905ecff4c635d3bf",
+            "metaHash": "467fab792f4e2773df3c0ce5c4589bb02fbe1af25628fcce9337cdf20be4cc9f",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Entity/RectMatch.prefab",
+            "guid": "1cccc41dca3488043b4e5e07e280251d",
+            "assetHash": "1c9b8f2efe0570973af4e244ace1486d39f864c5a995ddfb0503767432c5d928",
+            "metaHash": "5b882dcfc4c1ce4cbb99590dda47dfa6de7a41c132600823c40a618af255e1a9",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Entity/RectRegionView.prefab",
+            "guid": "9dd3a1b0bfd392745ad70445334f93d7",
+            "assetHash": "1a85628703de01634c6427ced24e85bb4943a04657a545920c197d64b5646efc",
+            "metaHash": "4a667ed862e31c27358358a8b21d0fe4821e46c3570d6cda8c52729b3da83094",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Materials",
+            "guid": "7a17828a89ff62448a0d91d258e51864",
+            "assetHash": "",
+            "metaHash": "a56b4bfc9d82fee8dbb143d295477fbb45ac3f5cf259b671bf892332cf6a5b6f",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Materials/SpriteFill.mat",
+            "guid": "f4fffc01204049e49a418009455d4839",
+            "assetHash": "62b40741b7d7488bddd0a128aef777425f123d11eaba920aa6060e0c86df1b08",
+            "metaHash": "f82d37ac117610eb36086eda50e24715ceda1fad9f7907959a762c2b77ed0335",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects",
+            "guid": "7a2a4edc327319f4eb98fe3f761d8279",
+            "assetHash": "",
+            "metaHash": "8608b8c9847ea5d4a14ae6e545affbb7dc742e91ab72dc4445baff55a3792f75",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Database",
+            "guid": "20f84470f6fe0a445a32f89cb547fab8",
+            "assetHash": "",
+            "metaHash": "7ed13d5f3a6c941e462cfbb116e91f967c2fe1aac1f20ed772efef38e168a6eb",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Database/RectMatchRegionSkinSchemeDataBase.asset",
+            "guid": "77788c19d2b04e76b8be8321e6ee0d6a",
+            "assetHash": "80e6b003ae49f994fb54029bbec2e8f8574525cf85fadb50d97f7e06a8b0f01a",
+            "metaHash": "e20da64e4a227d517ba5bae810553f7d1c2560f9c00eede9095cd5abe784a41b",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Registry",
+            "guid": "1e7652fc6c8bd6d4b8e27faba706e4f4",
+            "assetHash": "",
+            "metaHash": "2673eb6bc5c651e84a82160bed31ea939ffab9aaaebf0cd585791231c58282ac",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Registry/RectMatchAssetRegistryConfig.asset",
+            "guid": "50635bbf200d4344186b3f99b27c9a22",
+            "assetHash": "64e3efcc9e8c4a763a13a4f3c2c3de6adccf63fb06a8e522d14a67db461e91ea",
+            "metaHash": "6a3fdcc770c0764723f71dce3f57b066c82bdab3431041f076c238ef58f6910a",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Rule",
+            "guid": "b01f021ee95676c4d8ab6edab5dff637",
+            "assetHash": "",
+            "metaHash": "de7ea98eff5b4cca359025bd68b1b6b9cc2e94f6c4e5581434ec3871ee7e31e2",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Rule/RectMatch_LockStep.asset",
+            "guid": "a55fa6c2e9db2ba4096a6aa9b9381bef",
+            "assetHash": "528103c5c8f88abd94f52495365d5c34560bdf0fd587ff8b580eae3f028131af",
+            "metaHash": "657afaa39465ad52bf1541391a967fc8baec58bd406d11e1728391ea7d35fcbe",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin",
+            "guid": "f1f613b448f155048badc031adf09af4",
+            "assetHash": "",
+            "metaHash": "7ad96adcc8b3bebfe7ade9b2284f7b9c28f387d361717fa1222399a8f4f63694",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin/RectMatchRegionSkinScheme_Cat.asset",
+            "guid": "a0c283f99908312488a909d9c6cc5021",
+            "assetHash": "0bb9690dde02ece46677f9a23b969d62ef37b3263b87b55b742d859cfb12d6de",
+            "metaHash": "48e332a6018aa3e478a06a6bc8d866dfa62308780de45a54f63904eb76b15061",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin/RectMatchRegionSkinScheme_Crocodile.asset",
+            "guid": "7fcf73ae25cf93e469b90bb70ae05a6a",
+            "assetHash": "2ef795fa2d6451cc35544328adc8f12ec8e6e690b88ef9a7b02cc030bdcfded9",
+            "metaHash": "af9686b7796f667356a6a23cfead03d9ee4674e77d635a998e56ced1e3d9303b",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin/RectMatchRegionSkinScheme_Elephant.asset",
+            "guid": "2df85cc869dbbc04cb2a262990c2579e",
+            "assetHash": "0215e9040fa4d9ace4bda82d4d2fa65f99f96a8ab8a9a53aee23ce04b486ba12",
+            "metaHash": "7cc0a2356d437dbba68ac73fd8c6a699baccee6e8a92838919b04ff7e773c1cf",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin/RectMatchRegionSkinScheme_Fox.asset",
+            "guid": "b5fcfd46dfd4a204195833af7839efe7",
+            "assetHash": "5451130ecb6a55ccf8e2666aa9c64992156ced4c948fc39efd29065d5bd8a2e1",
+            "metaHash": "3de047e162978c6d69c45bde673e5598b23cd9c28ba880fb07e7f34337c5c566",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin/RectMatchRegionSkinScheme_Giraffe.asset",
+            "guid": "2171f13b12db80846a5766a267814979",
+            "assetHash": "6c1047ffa16d889e272a83cc1454dd50586540d92c6e70bddf84ce93f36fb0d9",
+            "metaHash": "a2146c8083f0dbf474f61cde9cd95e88b330408eb9696c348c4d6b63f87c575d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin/RectMatchRegionSkinScheme_Hippo.asset",
+            "guid": "6f01ec2a4e7cb5641913bdbb48783279",
+            "assetHash": "fe12dc8fadf3d944ae6af8a340dd677555e5d9fea218b464a913ebc2cb5b9366",
+            "metaHash": "8d4c1eceaf3b02e4c70228f08332f60be2ac02460f494cead08df2a578c052bb",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin/RectMatchRegionSkinScheme_Lion.asset",
+            "guid": "1e995724916cdce41b77d92fa8768071",
+            "assetHash": "62332015ebada1bfd2df75fd5a6b9088be898d98de7816f3f17b3bdd318d72aa",
+            "metaHash": "bb5f4d81fb78d18d7d35804a1c168b67e1be4e9fde58058bc10a5ad0c438d7dc",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin/RectMatchRegionSkinScheme_Monkey.asset",
+            "guid": "aa29ae5c24da9e64f8df9066a62790a2",
+            "assetHash": "854cf4fb20db8dac678350ebe22853c49a390968979ee3a509f02f633541c75c",
+            "metaHash": "6711f8de2e5fbed70b7498194c380c10ea9e595629a8516ce9a3cee5ac805b4e",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/ScriptableObjects/Skin/RectMatchRegionSkinScheme_Panda.asset",
+            "guid": "5bb5c930e50c8f14fa7e605f915a93d6",
+            "assetHash": "3c0b9d058b09092bbaad471001a22eb9e9a25b30ac62852efb3c1f2f6622e95f",
+            "metaHash": "b779a99e497b4eca6c0458b022951a0df3db8ef0607d39d70bdf37ed9d91dfd1",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts",
+            "guid": "35b668474a7754c4c86b3c7cc4852331",
+            "assetHash": "",
+            "metaHash": "24d840c4bb813b8231d5b20afb9174214669d2be2f6aface585ecde73fd8cbb0",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Config",
+            "guid": "cd11932b3f0477640a3bd9f0f19209e7",
+            "assetHash": "",
+            "metaHash": "d4c2349a4fbbf5de1508f5016f5b7ce191603974243cee2da99361c2259e769f",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Config/RectMatchServerConfig.cs",
+            "guid": "531277873ff11ca489d76df7ec99c6d9",
+            "assetHash": "e638f4e6506b995a8b0133f1ba6281d545903f8076baa0aa16f4da42fc13e53a",
+            "metaHash": "ab601d25e6d054cce58e253a53a9ad6cdc1b8a3914eef83b14c030826d8a19e7",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Core",
+            "guid": "974f28f4c5934425b8df4df4eb0dc4ef",
+            "assetHash": "",
+            "metaHash": "84d810048137b01e10e7042da349781c030f03ce7dea8306eb0ce72d21b499dd",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Core/RectMatchBoardModel.cs",
+            "guid": "d8cd04e1289f45fe8142aa83a28bdf9a",
+            "assetHash": "fe7221f3d077f49f8b7a5c2a90c951a72db120f889cf19c85e2087cc2f0cb6a2",
+            "metaHash": "325ef58b1c57d96f1eaac219c8daf94d3c39287f5be3b8fb6bb24c9a7bf3ef89",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Core/RectMatchCell.cs",
+            "guid": "e2250c9b7171421f8921b5df5343905d",
+            "assetHash": "8cfe41928e03d29b18e9f80bb93a15c6309f2466a3dc6e1afd6767d608883f17",
+            "metaHash": "152ef0f90594000f996fed93a0475aab4c14ccc1101e4390cfb285792c3c66c8",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Core/RectMatchEnums.cs",
+            "guid": "152d85c078654425ab1b0a973b29327c",
+            "assetHash": "ccb9dbccc673c17e1001f726e724944b17f095005c72632046af0ac47bf4db96",
+            "metaHash": "aa1302a528d80db26a457aeea0f9cbf16cbb477dffa0bfec7744e544db495894",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Core/RectMatchLevel.cs",
+            "guid": "aa70b5c217614623a01be8970a0fc25f",
+            "assetHash": "572b7be012889d33380f8c8f6462ad24514a37791b54bb6412f4a142153cf201",
+            "metaHash": "9e713a36a183ea70a2ec8add3e63ba7dca8b6c71f83318125355006bb22d947e",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Core/RectMatchRect.cs",
+            "guid": "381f968ff7fa47a3a330622439125990",
+            "assetHash": "417082baaa4b10fa9d124b84988dcfadcf769f5a71769a5310c4516b6d83a5e6",
+            "metaHash": "cbaea942d1baeb174d42f5dc71d583ba9d222cbff72ea7f5046e3e4a507bb88c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Data",
+            "guid": "7ef4a18e1e85d854bb3b7b92439229c7",
+            "assetHash": "",
+            "metaHash": "667d6901cc4b69dfd64cd75aa9bbd5feb6b644aff45cf52971a6d014e2b619ae",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Data/RectMatchGameData.cs",
+            "guid": "9681fde81d7746c49d0e746cf4be6ee9",
+            "assetHash": "a8ed301e0b1010b00b45f40fd52179ca9292f66644c28b61343b481dbaf73e83",
+            "metaHash": "d3bb9e4a388df44a9c72a37922c4b6680e43d50b75f3ccf06371257e321d6450",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Data/RectMatchLevelConfig.cs",
+            "guid": "5bf8b409b4f8b6e488cb02a565d6d626",
+            "assetHash": "6f0c674f6792ffdf6faabc3daecb2c6e21bf202cfc4673062e651f9bc88b4493",
+            "metaHash": "09b5f155473b799a2ffdcd5efc390aabc58f8844849105bb1fe4509ea854e9d6",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Data/RectMatchLevelConverter.cs",
+            "guid": "e3922bd0d13b46fb8237b92f97441dd7",
+            "assetHash": "3ee228168fdc57f4b2c349d3fdcb555e77b856a4d830e8807fb7a26fb582173f",
+            "metaHash": "cc208473152e509598ea903083996063ca071f6421fcf9c560b7310e9c7262ad",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Data/RectMatchLevelJsonProvider.cs",
+            "guid": "5de4632d008c76a4a8840801501baaec",
+            "assetHash": "734734f8ee12dc9b7f214b8e9f46d79a257b11c6c005ae76ef4341374419ce3c",
+            "metaHash": "b8f0a312f4814f1b8280299d4bd1e0c63e37bdb20b8cd432493861f53c189695",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Editor",
+            "guid": "cd74ce4d03f57064f9c439b7c9c66bd3",
+            "assetHash": "",
+            "metaHash": "f3447cb1e9f7c58a014591f2e039066aec1e6d6e211469d49bde9f2093c76de4",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Editor/RectMatchServerConfigTests.cs",
+            "guid": "73acd1e97c3131248b651aab21352005",
+            "assetHash": "2813a5ce6c7cad379df47474293817fea4b6c02f06ab291999dcbd548dd7ee02",
+            "metaHash": "6bd6c807acdf0c725ba9dd5ac75403293ca0ee721f654739dec7c882fc7c4cba",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Input",
+            "guid": "a4b2710adf9540149b2d33000ebbc391",
+            "assetHash": "",
+            "metaHash": "1e406c842164465bef6487f1de3709c4ed140bca713ca805d524ea83041c7d24",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Input/RectMatchInputController.cs",
+            "guid": "cb3d33752ee2410a8a61984d6ff4b562",
+            "assetHash": "5bab7fcc14bcb80c2222d9b0d8329c260ac894d2ab5321ef5f516eeda580469d",
+            "metaHash": "7f9e223e6d4f0a91f1ecb1ac759d9303d33add3be06da10946de11238493df2d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Procedure",
+            "guid": "30b6622f960b07c4b9afb8747f7c62c6",
+            "assetHash": "",
+            "metaHash": "636d8894330148f29cfde822f14caab71bbaa7fbedf74e3dddfe2e98f1ff6b76",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Procedure/ProcedureGameRectMatch.cs",
+            "guid": "a5b49a9bfe0d8954ab621d957f7503e3",
+            "assetHash": "c1216b344abec8d9e5c5b91ae0e78fa3c331ad87c5e6475e55e53567adbecc8c",
+            "metaHash": "83e800c629183bff7a718ced84645840546008cd7ff11b3d27d91a9165c4a745",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/RectMatchGameManagerComponent.Input.cs",
+            "guid": "95d6a4a6a40d476499029cc87f16fd4d",
+            "assetHash": "7cb54db4a3ac1025d22aa3e5ce3c7056db41c3515038148c92b7bf36c2755d54",
+            "metaHash": "9594bbf264ff36d0ffce7852965293bf2b82945cdc96ab2b5ae85a6aba670307",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/RectMatchGameManagerComponent.Module.cs",
+            "guid": "0183fee44fa8ede468810f5b96414727",
+            "assetHash": "b8098f57dd50d8df83ee0dd9094a02c29ee77094527cd0ac95b7b9d940e2503e",
+            "metaHash": "5ec9ba7cf8d81eff98b3d30eb314538f8ef19509f235927114c1d9376264f22f",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/RectMatchGameManagerComponent.RectRegionView.cs",
+            "guid": "8b0f19c47d884fe2a4e0bb978c44e61f",
+            "assetHash": "f3c392d15c0b8c5ec09aba96207953f8b04a21c41624c264910332208414c09e",
+            "metaHash": "64b4e8ba960c96c8c8a7f4b753a566e6f20a9c6df59bb2bea7e139ed8ef6d347",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/RectMatchGameManagerComponent.Tutorial.cs",
+            "guid": "d58b78d30558e1847aba88cbc4799e75",
+            "assetHash": "9af632b05846dd77a2808e04a628907e9ba65773b4a4ecbc9ded3cc7cc8d0557",
+            "metaHash": "b6c27ac95699b3697fe2c0937b6c599070c534f7c75017d5aadbd0d45263f1ec",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/RectMatchGameManagerComponent.cs",
+            "guid": "160234f4735e41f2951944942a519ba7",
+            "assetHash": "658cc7f69655061c6f30adde24e58c6d108ef15ea4195aac9a554be46cbe35b7",
+            "metaHash": "6baace99f80c5525813421b0850ff201724352ce7dd4e8848778b70b26cd0c9c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Rules",
+            "guid": "9b8652840bd24442aa6db6ca80a23e0b",
+            "assetHash": "",
+            "metaHash": "5fff68e6ea2ac1b4a897781f879b300ba6b009793fc7afd7bf9fe7a154ec2d2c",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Rules/CellValueParser.cs",
+            "guid": "7075aa70ce2242608178da0c9d65dbe5",
+            "assetHash": "a315d148e7307a0b8d678661c8170791152cf0048462ab7b2f7b2728d192b616",
+            "metaHash": "833f861b04c644eed14efa958dd6685c9dcfdc420c2afb1e4cbbb687dc318472",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Rules/RectMatchCompletionChecker.cs",
+            "guid": "96dd40159855499286978c2504526f53",
+            "assetHash": "0647dd1b9ff7b799f82aa6a174f28e3c73fa1e98eee75ceff3e7002f38fa6812",
+            "metaHash": "e1523ba8a2afbc82def387585e0bd8eeb4d7011ab55687585d7bf28c3ec38445",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Rules/RectMatchValidator.cs",
+            "guid": "f62d15eeb1bf4383b109f67f9d1acc22",
+            "assetHash": "906bf1ec84777aef71318c60542a53f710ba4489494e389d8e8a56e407fb2141",
+            "metaHash": "302fd87d68c3a1e6a481637659137331b51b18067ea51ff0d4b822452d39023d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Runtime",
+            "guid": "6057cb417b784cf684799387fe35b1e5",
+            "assetHash": "",
+            "metaHash": "9dbf3c764d41ea299493219d05bcc821ba6bc496e46f11bc5d118e70af304e2a",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Runtime/RectMatchSession.cs",
+            "guid": "69d19a8602bc42c6822473b8d56f25c2",
+            "assetHash": "87a3dbdda320ec6921839b0d5fd23c64fe76a26979b90a8ca26a1b8e69e99a15",
+            "metaHash": "7a0c990b45515a8dbdda232fa0edd2d72718848d23f3e1292336f0b3a430f02d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/ScriptableObjects",
+            "guid": "442609623dd3db34d9d833c288ed4b30",
+            "assetHash": "",
+            "metaHash": "85d0454233489afc8484700ed9270d75b551f5748ce150064d9a4f2b0b233788",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/ScriptableObjects/LockStepConfigSO.cs",
+            "guid": "d2dc52dfe865c494d8abbfc0fd692f48",
+            "assetHash": "afe0520a4446b428a1990053ce80d14e8f4ac4e46704dfc298f5002ef357da94",
+            "metaHash": "16aaa27f0b46acc150519bff015053062caf81e75e27a0f3df9809342d15410a",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/TestMode",
+            "guid": "0f0161ded64be9a4586078c1ef8f27f9",
+            "assetHash": "",
+            "metaHash": "88049bc0bc694ea17eb68370d4041f6d1f98bbd02600cfaf57b02779cfd01182",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/TestMode/RectMatchTestModeModule.cs",
+            "guid": "67b4d260cc1bcfd4f8f5ede49505bf5b",
+            "assetHash": "c82ad9eff8776db740209e6712b07b32d015b283b18f96adc2e2636bc0f600df",
+            "metaHash": "8ed1a314e3bc3bbff2d41c314a65526d52ebfdd7d700dbfcc956e8be7d163722",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/UI",
+            "guid": "662e783058ca74444a1c2938bac7a7b0",
+            "assetHash": "",
+            "metaHash": "47303f953ea9b2f415ec5a4ceb43b47c15b3923024058b8ec30b5e8d95940b29",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/UI/RectMatchTutorialBoardInputProxy.cs",
+            "guid": "414175786970b044b9e4d1fd80d3b532",
+            "assetHash": "4e67bad6b7e88051aed07835b1022a2aa0d51f025eaeb44499df188b5a0fc24c",
+            "metaHash": "bdff6c77504bd4d033cbbd055f26351e57ae7d400dd494dbc003bb99e8409780",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/UI/RectMatchTutorialRunner.cs",
+            "guid": "ea15722789cbd80459211bbf0c1d3ec2",
+            "assetHash": "29c748195ffb48ebbfc88c14f959a15e2a1fb0733fbbf5665dcea67642197d1f",
+            "metaHash": "baf33eaa90c76fb52274b71def3beb1d4f8d2e0532dc55994cc644fde16311cf",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/UI/RectMatchTutorialUIPanel.cs",
+            "guid": "8af4abb5624ccd448bc6cadc9fd86ce9",
+            "assetHash": "a7a67554dec084ac5f200dd80536bc496a35ec6bd02b631d5d90a92c0e847fb6",
+            "metaHash": "8887c1fe8091ceea6906fe3a113a7cb6119dbf2d59f6b90202468005f20fb9b0",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/UI/RectMatchUIPanel.Overlay.cs",
+            "guid": "0c3f7f0a8b6f4b14f9f5d1e2a6c4d8b0",
+            "assetHash": "c282c6851090fab41e18f631fbe2806f444228a8da436e0e63eb77be3cc8d029",
+            "metaHash": "e8c60fa62d5e70170d20db4ad415317c293264d2cc3cd8a605fc8ab445641bd1",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/UI/RectMatchUIPanel.cs",
+            "guid": "8207a041268a6ba4c92e60000b153cae",
+            "assetHash": "7b40b76a676a8e7931f5d5cbb4552fd25e2ff852e64e0908e0edc92ac58bae60",
+            "metaHash": "a2311d475ab586f0e540f0846c217868cf097f4ddbb823b2347cc2ca38837c40",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Utility",
+            "guid": "9651f7de32134ff408909c8692301559",
+            "assetHash": "",
+            "metaHash": "ffbf5552ab6728deb44e009c8a982534dd66039f22b2a7df5c6bdb4ad63c2d9f",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/Utility/TipTextProvider.cs",
+            "guid": "ab7a0ab8cb658024a8f2d746ed8691e8",
+            "assetHash": "9945e6df53eaa293c118fa13684f6876e117d0588a5ed1a00d772227bf7c50d2",
+            "metaHash": "a4d9530e8dbe1fe6b88b4720fad800c7b8ded32334796b5fb7f6b2836d7910a4",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/View",
+            "guid": "3a6d3d0e7e6840d48adf2ef56c7aa1b1",
+            "assetHash": "",
+            "metaHash": "647dd14fd105ed8c38d7ffaa1f8d1b4095059356a55a243150e729c3b6d83d57",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/View/RectMatchAnimalAvatarView.cs",
+            "guid": "eb204affba1efad4faac58af3342abec",
+            "assetHash": "7bf06e85607d789efe2bca36e0ac8657dae60a6b6dda633cd27d71db62358876",
+            "metaHash": "3dd8d13ff9604420885eb661fa085710d5c6c70fcf58768364510a7f2d23a90c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/View/RectMatchBoardView.cs",
+            "guid": "0e3c8c45ef3e47e4a9fcf589d9e58250",
+            "assetHash": "9252a1bcaee58cbd986843f0ef4c2c7fd49d9bf2a80bfca8893db8278aff5886",
+            "metaHash": "890d8e422afb44bfaa08b6a3e55e892c2433967eac4c5c921914945b0b108d15",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/View/RectMatchCellView.cs",
+            "guid": "c2e142ce4ec34e04b9446882c563ae54",
+            "assetHash": "84c98790473ea915fa44cb8b62a10361e9d499e860ac40e57fd20de3779a20ce",
+            "metaHash": "eeeff35b0ad82c1187b68a258da07f26e50d01338e040955d715b27f0e0381f1",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/View/RectMatchRectRegionView.cs",
+            "guid": "69aa69711b2afd549ae370072a8c97f2",
+            "assetHash": "78b4d1a0f9bf3c2a3f8a7173368690b965f707e2e9a7ce75a8308b42f43482e8",
+            "metaHash": "19848753ff48178f4c5910d10ab4a2a479ce9982d87764749d002db67995d5fd",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/View/RectMatchRegionSkinSchemeDataBaseSO.cs",
+            "guid": "b8f2f8f1c0a34d249b702fe0815e42de",
+            "assetHash": "5421e5a86c1ca6a7a4101f6f556d0da16d26be2e5cfbe72de4a83d70013914fc",
+            "metaHash": "897d9f38037c137d2f8f96cfb402cc0d911e2f58436e4003b745f8fa2d2961fe",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Scripts/View/RectMatchRegionSkinSchemeSO.cs",
+            "guid": "3e514fe5f2f144a498e21793840f3371",
+            "assetHash": "b70ff24c55f99f22480e0619aba511e70e5acd1940b0bd511ad7863486907413",
+            "metaHash": "1756291d69d06f497260b5e9c8281c4812a1fa2e6cd28ecb7e3636c92b00b113",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Shaders",
+            "guid": "3616bc93dff16b744874dc702489ae7c",
+            "assetHash": "",
+            "metaHash": "5479e26a7eac18bcaf87f0295f3cf906dd907c30abb06061775aa58947eee0b5",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Shaders/RoundedTiledSprite.mat",
+            "guid": "b5bc4bf0807d2d643bb269363d015917",
+            "assetHash": "3cef48d098e32f788c03cbeb2c5c9b4f7e2a3a98180fa153f7880ca64837a84e",
+            "metaHash": "603d326d0a468dfc48c91aeef5fc8f2c78295e25ccea49ebe6f331cdff9ca0c2",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Shaders/RoundedTiledSprite.shader",
+            "guid": "4bf0995edd1e1d84baf25ffc31117a1f",
+            "assetHash": "51d58a71b97f52258a6ced37004fa787dd34b46ac004a32a10757893bc90d94c",
+            "metaHash": "f06c4b1eef125d974820b6e13257a2f9eaaf107cc68a66ce4bdf0f8fcf2be213",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Shaders/SpriteFill.shader",
+            "guid": "1ce962f00c1840a4abc1fda0e948de94",
+            "assetHash": "4092261175ae58c270ceadc7924cd1897f5d8cf377792cf0d5d374596dd6d76e",
+            "metaHash": "32d881bb22968cb607bf1459853c80f253a2e35c9b7e70b7ef4d24fa8c679915",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Texture",
+            "guid": "51c1d4364d3afc14a89506aa389cdbf3",
+            "assetHash": "",
+            "metaHash": "8702441616c4b380dc0a4844f78038dff7391fb6371799518facc4becf92bb4e",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Texture/Patterns",
+            "guid": "b9b987bbf1d115d4fbbdb5db8114eaa3",
+            "assetHash": "",
+            "metaHash": "fd99355127aee05109443a248cd63280f29673ffb5cf04fa0120529b7ec73451",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Texture/Patterns/Square.png",
+            "guid": "fab06e0be9375cc4d823efa71629885c",
+            "assetHash": "82e8394a3122deb48992b7c6df384cba4b04bc389b776f3d26100c390815e091",
+            "metaHash": "59c8eab845f172797150083b4efa70776e5fadbd4bd0e9cc65fc7dbc55d9108d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Texture/UI",
+            "guid": "5e5f0be9f74d0484da410fbe9914422a",
+            "assetHash": "",
+            "metaHash": "974056ff43ba9a1066c50b806cad1677cf53ada2fdecf4d97424553e6fba25ea",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Texture/UI/Block_GameSprite.png",
+            "guid": "8009e2f7d2af1344c9cc1e552f9f9a99",
+            "assetHash": "170f308aa69a374554d8b0515226e73fee6537a3dfc4f494a4c08e319d02243f",
+            "metaHash": "2cc49c10fdd5ba51ab5bbeab8ab6a2a086837daa9cc2bc67a180f4fa15773df9",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Texture/animal_block_skin_layered_spritesheet.png",
+            "guid": "b83689b39f979ab4bb0f7dd3cf59b63f",
+            "assetHash": "55d9b32d8c78280f9a95c4bf0c941749612100c1d27a6d66d9fa07b23ef2c254",
+            "metaHash": "a4b7f16eea8d10cae9fce86e7454d608bb718cbdce8d063dfbb394fbc0f87bd5",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Texture/animal_block_skin_spritesheet.png",
+            "guid": "34fbf250a1864a6418b1f3d201bcb123",
+            "assetHash": "344b4e62af0d71da6def2c7e92465765f6730310985620019923ccc56a0de9a6",
+            "metaHash": "c03eb4c5cb62692483c1a3c9100d01ec50245f0d3c2d27cbeec0f11e2cc2c1fb",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Texture/animal_block_skin_square_body_spritesheet.png",
+            "guid": "73f0e6e62d7537d44a99405ebcf548a4",
+            "assetHash": "2fa25b4d48f9fa0a81050a4ae0d10157bfac663d1af9e4ed30b1812b41e2f8d9",
+            "metaHash": "e4cf0223305445266d47b9f5772bca435955dd40e78ffc30903fc1bcdf12f8f8",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/Texture/animal_block_skin_square_body_spritesheet_transparent.png",
+            "guid": "12583d9eaf0b32e49b1c2b6fb0bd2cc6",
+            "assetHash": "a0b8900982cc9039cb3b2305dd0102c0ae0b2f8abf2342c426a8c7d33b954368",
+            "metaHash": "c4e4c786c78b9b11372d083099ae14135eaa5b542fd4e713c28d29c394d8f9c9",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/UI",
+            "guid": "7cd1a95ee5b502c4fb13632deeeb7d18",
+            "assetHash": "",
+            "metaHash": "0d178ec3702bfd770b214c93685c48de6575d8183ed7b3c6e3a8979dd00f99b7",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/UI/RectMatchTutorialUIPanel.prefab",
+            "guid": "aed44f97df9c46a419d2c7b8be616d62",
+            "assetHash": "05f8389fd51d7ec42489ad0141a36895363ba45b8a12e97ee74431f19249f0de",
+            "metaHash": "298c5c16b518d00bddb6b10b45eb206c67071d909658fb3633f3f2c9f9cd726e",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/RectMatch/UI/RectMatchUIPanel.prefab",
+            "guid": "169dd274bb425a342acfc153b09c9466",
+            "assetHash": "ec9dc0e58d794182fd0b8faf10144bc8a79998e6e7da9b38f24285eb9791229a",
+            "metaHash": "fac8de554f92eaf9cca2d6a3552a0a6f6d960764c8a0d00d87f9dcf7c63b1fb6",
+            "folder": false
+        }
+    ],
+    "dependencies": [
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Game/Game_Bg.png",
+            "guid": "e8de7eaaac3ffb944b0fae743a4600bc"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Tutorial/Tutorial_bg1.png",
+            "guid": "70f39352666c27841ae7cb57a8c8dc06"
+        },
+        {
+            "path": "Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF.shader",
+            "guid": "68e6db2ebdc24f95958faec2be5558d6"
+        },
+        {
+            "path": "Assets/Plugins/ParticleEffectForUGUI-main/Shaders/UIAdditive.shader",
+            "guid": "4a584976664342942919ef4a0456ec02"
+        },
+        {
+            "path": "Assets/GameMain/UI/UIPrefabs/Buttons/Btn_Prop_Base.prefab",
+            "guid": "9d26410b3cd83ee46b28937bb0873a62"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_4.png",
+            "guid": "04f5548b403bddf48b6ea52ea913acb8"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_5.png",
+            "guid": "937990e1bfbfb994e8501039383733a7"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/BM_GameSprite.png",
+            "guid": "d41cbd79c6a5e114da0e1187d40db12e"
+        },
+        {
+            "path": "Assets/GameMain/Fonts/Main.asset",
+            "guid": "978f2278ad43fa448bb642ea98daa933"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/Common/DOTweenSequenceAnimator.cs",
+            "guid": "bb564ba3c03e4590a4f4f59d939d3a96"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Common/BM_Common.png",
+            "guid": "b3d46d0732aaa3e4c9c577c77e630345"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/DemoUISprte/GameUI/btn_front_bg.png",
+            "guid": "34337bd58a705524b842b1190586c5e5"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Widget/BlockCount/UI_BlockCount.cs",
+            "guid": "67221b91f43e0a940a3d25eed5d6748d"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_04.png",
+            "guid": "d5c03e8978f6e2944b7b83fafa3000ab"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/Tool/RoundedTiledSpriteSizeBinder.cs",
+            "guid": "d6b6f80c6e31f6d428f4d31330b74e05"
+        },
+        {
+            "path": "Assets/Plugins/UnityGameFramework/Scripts/Runtime/UI/UIStringKey.cs",
+            "guid": "087a56c75d247be4f8f7cf82ceb68e4b"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Rank/BM_Rank-1.png",
+            "guid": "96dc9392d10b48d4f8d77af66bdbe23b"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_1.png",
+            "guid": "019a230abf74522499046a653a861c4c"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_8.png",
+            "guid": "09d36ae196501044b95e5224748e5b9a"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_2.png",
+            "guid": "b63b29c4fe1ce5f43a5c05f6eda75d8b"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/Common/DOTweenSequence.cs",
+            "guid": "00d89f3c29c62d24a9f5a2f03d3de7e8"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/Tool/SpriteFillController.cs",
+            "guid": "b42c4f587b8643e49b049d70e4e25171"
+        },
+        {
+            "path": "Assets/Plugins/ParticleEffectForUGUI-main/Runtime/UIParticle.cs",
+            "guid": "3b64dba61ab510b45ad69799b49582df"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Widget/Health/HealthBoxUI.cs",
+            "guid": "f66fca3e89089ed47b390a75913b3962"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_3.png",
+            "guid": "ae4519e521f801246a84d70746b2b06b"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/DemoUISprte/Setting/common_close.png",
+            "guid": "f6755ff81a955a54d8c44802922a6d98"
+        },
+        {
+            "path": "Assets/GameMain/Fonts/Preset_Outline_Shadow_Yellow.mat",
+            "guid": "f3b22d2a2e077b54480d6bc1d843c923"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Widget/Button/ItemButton.cs",
+            "guid": "bfbdcbc8e5d3145448757a48e78ad841"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_7.png",
+            "guid": "bdddf2c39b8478448b5d80d236802605"
+        },
+        {
+            "path": "Assets/AssetsPackage/Effects/texture/star03.png",
+            "guid": "ba87ff31a33d2104f8c4c4abced5c14f"
+        },
+        {
+            "path": "Assets/AssetsPackage/Effects/Materials/UI_RankCollect.mat",
+            "guid": "f8e2f8485c5b6c1489fddebf33d544b1"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_6.png",
+            "guid": "28ae98fbad8336c4e97c4153a881b038"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_03.png",
+            "guid": "2acc1405b91320840a621528a4fa9527"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Widget/Collect/UI_RankItemCollect.cs",
+            "guid": "323169ab1789e3743bdd53d7c76cf9e1"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_01.png",
+            "guid": "6650fe0701561c5498a671c2815a4875"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Widget/Health/HeartItemUI.cs",
+            "guid": "0bec209969c193f48baee8d39669535d"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/Utility/SubGameAssetManifest.cs",
+            "guid": "5ce5ed4a39a4d50418b0601a3da4b87e"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_02.png",
+            "guid": "d48b3af78da457a42888d9023fac6ddb"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Game/BM_Game.png",
+            "guid": "06e013b09bb583348b96e4d36843c492"
+        },
+        {
+            "path": "Assets/GameMain/UI/Common/common_left.png",
+            "guid": "439bb63638fb01848a792a5f9bec4429"
+        },
+        {
+            "path": "Assets/GameMain/CustomComponents/TMPFontSystem/TMPStyleApplier.cs",
+            "guid": "c0164be9304b1b94f88e0b2096737245"
+        }
+    ]
+}

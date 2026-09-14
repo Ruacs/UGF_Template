@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d7f50c86dc48f69503ed132e95f4e5, type: 3}
+  m_Name: RedDotConfigDatabase
+  m_EditorClassIdentifier: 
+  m_Entries:
+  - m_Key: Main
+    m_DisplayName: "\u5927\u5385\u5165\u53E3"
+    m_Path: Main
+    m_Description: "\u5927\u5385\u4E00\u7EA7\u5165\u53E3\u805A\u5408\u7EA2\u70B9"
+  - m_Key: MainTask
+    m_DisplayName: "\u5927\u5385/\u4EFB\u52A1"
+    m_Path: Main.Task
+    m_Description: "\u4EFB\u52A1\u5165\u53E3\u805A\u5408\u7EA2\u70B9"
+  - m_Key: MainTaskChest
+    m_DisplayName: "\u5927\u5385/\u4EFB\u52A1/\u5B9D\u7BB1"
+    m_Path: Main.Task.Chest
+    m_Description: "\u4EFB\u52A1\u5B9D\u7BB1\u805A\u5408\u7EA2\u70B9"
+  - m_Key: MainTaskChest1
+    m_DisplayName: "\u5927\u5385/\u4EFB\u52A1/\u5B9D\u7BB11"
+    m_Path: Main.Task.Chest.1
+    m_Description: "\u4EFB\u52A1\u5B9D\u7BB11"
+  - m_Key: MainTaskChest2
+    m_DisplayName: "\u5927\u5385/\u4EFB\u52A1/\u5B9D\u7BB12"
+    m_Path: Main.Task.Chest.2
+    m_Description: "\u4EFB\u52A1\u5B9D\u7BB12"
+  - m_Key: MainTaskChest3
+    m_DisplayName: "\u5927\u5385/\u4EFB\u52A1/\u5B9D\u7BB13"
+    m_Path: Main.Task.Chest.3
+    m_Description: "\u4EFB\u52A1\u5B9D\u7BB13"
+  - m_Key: MainTaskDaily
+    m_DisplayName: "\u5927\u5385/\u4EFB\u52A1/\u6BCF\u65E5\u4EFB\u52A1"
+    m_Path: Main.Task.Daily
+    m_Description: "\u6BCF\u65E5\u4EFB\u52A1\u53EF\u9886\u53D6"
+  - m_Key: MainTaskAchievement
+    m_DisplayName: "\u5927\u5385/\u4EFB\u52A1/\u6210\u5C31"
+    m_Path: Main.Task.Achievement
+    m_Description: "\u6210\u5C31\u53EF\u9886\u53D6"
+  - m_Key: MainShop
+    m_DisplayName: "\u5927\u5385/\u5546\u5E97"
+    m_Path: Main.Shop
+    m_Description: "\u5546\u5E97\u5165\u53E3\u805A\u5408\u7EA2\u70B9"
+  - m_Key: MainShopFree
+    m_DisplayName: "\u5927\u5385/\u5546\u5E97/\u514D\u8D39\u793C\u5305"
+    m_Path: Main.Shop.Free
+    m_Description: "\u514D\u8D39\u793C\u5305\u53EF\u9886\u53D6"
+  - m_Key: MainRank
+    m_DisplayName: "\u5927\u5385/\u6392\u884C"
+    m_Path: Main.Rank
+    m_Description: "\u6392\u884C\u5165\u53E3\u805A\u5408\u7EA2\u70B9"
+  - m_Key: MainRankSeasonReward
+    m_DisplayName: "\u5927\u5385/\u6392\u884C/\u8D5B\u5B63\u5956\u52B1"
+    m_Path: Main.Rank.SeasonReward
+    m_Description: "\u6392\u884C\u8D5B\u5B63\u5956\u52B1\u53EF\u9886\u53D6"
+  - m_Key: Game
+    m_DisplayName: "\u5BF9\u5C40\u5165\u53E3"
+    m_Path: Game
+    m_Description: "\u5BF9\u5C40\u5185\u805A\u5408\u7EA2\u70B9"
+  - m_Key: GameItem
+    m_DisplayName: "\u5BF9\u5C40/\u9053\u5177"
+    m_Path: Game.Item
+    m_Description: "\u5BF9\u5C40\u5185\u9053\u5177\u7EA2\u70B9"
+  - m_Key: MainRectMatch
+    m_DisplayName: "\u5927\u5385/\u526F\u73A9\u6CD5"
+    m_Path: Main.RectMatch
+    m_Description: "\u5927\u5385\u526F\u73A9\u6CD5"

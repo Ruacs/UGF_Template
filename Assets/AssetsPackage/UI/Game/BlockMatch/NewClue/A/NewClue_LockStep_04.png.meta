@@ -1,0 +1,677 @@
+fileFormatVersion: 2
+guid: d5c03e8978f6e2944b7b83fafa3000ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewClue_LockStep_076
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1668
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465e4d810b6713448924421d48fca355
+      internalID: 1969920472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_077
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1288
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee08d486f3a0c14ea0cf070958ec933
+      internalID: -1442314063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_078
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1668
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765ad32f848523142b5c5a9bf03929c5
+      internalID: 515497646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_079
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1288
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5892d153fc1cc0c4f8df14b715be0bd7
+      internalID: 1264150196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_080
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 908
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c78c3abea95c6499ccad1ccec8f70a
+      internalID: 1460634727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_081
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 148
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba086cfb1ee99e8459de4ac81fa19e9d
+      internalID: 1098457590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_082
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 528
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4a8f9d295c6cb4486f51a39c30e980
+      internalID: 800786821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_083
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 908
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac41ea9a662a43428163387b207654b
+      internalID: -605645431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_084
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 148
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385f943117ab9674b8da2b17bd599b9f
+      internalID: -1545460342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_085
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1668
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f4aeac1feb3cb48b7ab933bb95d2c2
+      internalID: -268705686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_086
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1668
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eca7c83a095c0c4882faa3acb27f141
+      internalID: 1621344350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_087
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1288
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201b9f80a24ffe74fae525bd0044ae2a
+      internalID: -1199616557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_088
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1288
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf8ea885abb95c48923adf78392636e
+      internalID: -2117957887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_089
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1668
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9eec422b233024db753fbf3cc33a86
+      internalID: -1603331778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_090
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1288
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d870fa8ad57f1124a883bb193204be1a
+      internalID: 414657845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_091
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 908
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc1b96c57b6a7e45ba2261f35826884
+      internalID: -426948208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_092
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 908
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9dab5eaca96e34db89f159e02982e6
+      internalID: 663338652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_093
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 528
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73039f2e51f5d8a4cad383b79c853b6d
+      internalID: -90426709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_094
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 528
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4b52a996fa7e740bbc9a6e5dac594b
+      internalID: 1916252401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_095
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 528
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e400275cf876c764fbdd256fdbeb5bab
+      internalID: -1365499409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_096
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 908
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acc6c3faa17ba44fa31a7663443bb19
+      internalID: 590778716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_097
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 148
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003f298458f882c49b07a17cfc41c789
+      internalID: 588130903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_098
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 148
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17b597b799f8fb4c8400aa7f547f24f
+      internalID: 1926278006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_099
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 528
+        width: 375
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f576192ef935f3f48862777df50f016a
+      internalID: 42028955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewClue_LockStep_100
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 148
+        width: 245
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3caa6d6e7c51f49b3afebde3f103c9
+      internalID: -199172759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3ab095beb0a9f3f45be6b441b83f5176
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NewClue_LockStep_076: 1969920472
+      NewClue_LockStep_077: -1442314063
+      NewClue_LockStep_078: 515497646
+      NewClue_LockStep_079: 1264150196
+      NewClue_LockStep_080: 1460634727
+      NewClue_LockStep_081: 1098457590
+      NewClue_LockStep_082: 800786821
+      NewClue_LockStep_083: -605645431
+      NewClue_LockStep_084: -1545460342
+      NewClue_LockStep_085: -268705686
+      NewClue_LockStep_086: 1621344350
+      NewClue_LockStep_087: -1199616557
+      NewClue_LockStep_088: -2117957887
+      NewClue_LockStep_089: -1603331778
+      NewClue_LockStep_090: 414657845
+      NewClue_LockStep_091: -426948208
+      NewClue_LockStep_092: 663338652
+      NewClue_LockStep_093: -90426709
+      NewClue_LockStep_094: 1916252401
+      NewClue_LockStep_095: -1365499409
+      NewClue_LockStep_096: 590778716
+      NewClue_LockStep_097: 588130903
+      NewClue_LockStep_098: 1926278006
+      NewClue_LockStep_099: 42028955
+      NewClue_LockStep_100: -199172759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

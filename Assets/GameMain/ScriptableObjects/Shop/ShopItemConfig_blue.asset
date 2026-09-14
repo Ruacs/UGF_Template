@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f63c09f033dd046b0340fb748446df, type: 3}
+  m_Name: ShopItemConfig_blue
+  m_EditorClassIdentifier: 
+  id: 10004
+  sortOrder: 2
+  visible: 1
+  style: {fileID: 11400000, guid: 86ac65341ebaac14da80951d13de963c, type: 2}
+  icon: {fileID: -1696950617, guid: efdcc14923940214ea6202d19735a105, type: 3}
+  contentText: 
+  contentLocalizationKey: Product.blue
+  rewards:
+  - target: 3
+    propType: 1
+    count: 30
+    descriptionText: 
+  - target: 3
+    propType: 3
+    count: 30
+    descriptionText: 
+  - target: 3
+    propType: 0
+    count: 30
+    descriptionText: 
+  viewTags: []
+  priceType: 3
+  price: 5.99
+  priceText: $5.99
+  productConfig: {fileID: 11400000, guid: 387f544191f14fd4b276b4ae4cce42d2, type: 2}
+  productId: 10004
+  showBonus: 1
+  bonusText: 
+  bonusLocalizationKey: Product.bonus

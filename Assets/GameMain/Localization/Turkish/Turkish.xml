@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dictionaries>
+  <Dictionary Language="Turkish">
+    <String Key="Setting.Title" Value="Ayarlar" />
+    <String Key="Setting.Music" Value="Müzik" />
+    <String Key="Setting.Sound" Value="Ses" />
+    <String Key="Setting.on" Value="AÇIK" />
+    <String Key="Setting.off" Value="KAPALI" />
+    <String Key="Setting.Vibration" Value="Titreşim" />
+    <String Key="Main.Start" Value="OYNA" />
+    <String Key="GameOver.Title1" Value="Oyun Bitti" />
+    <String Key="Tips.payFailedCoin" Value="YETERLİ ALTIN YOK" />
+    <String Key="Tips.AdsFail" Value="REKLAM YÜKLENEMEDİ" />
+    <String Key="Btn.Close" Value="HAYIR, TEŞEKKÜRLER" />
+    <String Key="Btn.Next" Value="Sonraki" />
+    <String Key="Btn.Claim" Value="Al" />
+    <String Key="Btn.Continue" Value="Devam" />
+    <String Key="LEVEL" Value="Bölüm {0}" />
+    <String Key="HARD" Value="Zor" />
+    <String Key="Fail.GetHeart" Value="3 Kalp Al" />
+    <String Key="Restart" Value="Yeniden Başlat" />
+    <String Key="Main.Ranking" Value="SIRALAMA" />
+    <String Key="Home" Value="Ana Sayfa" />
+    <String Key="Language" Value="Dil" />
+    <String Key="BlockCount" Value="Blok Sayısı" />
+    <String Key="Profile.Save" Value="Kaydet" />
+    <String Key="NoAds.Title" Value="Reklamlar Kullanılamıyor" />
+    <String Key="NoAds.Tips" Value="Reklamlar şu anda kullanılamıyor.&lt;br&gt;Lütfen tekrar deneyin." />
+    <String Key="Btn.Cancel" Value="İptal" />
+    <String Key="Btn.Retry" Value="Tekrar Dene" />
+    <String Key="Tutorial.T1" Value="3 hücreyi kaplamak için yatay sürükleyin." />
+    <String Key="Tutorial.T2" Value="Şimdi 3 hücreyi kaplamak için dikey sürüklemeyi deneyin." />
+    <String Key="Tutorial.T3" Value="Ardından 3 hücreyi ve sonra 6 hücreyi kaplayan bir dikdörtgen çizin." />
+    <String Key="Tutorial.T4" Value="Şimdi her sayının etrafına, hücre sayısı rakamla eşleşecek şekilde bir dikdörtgen çizin." />
+    <String Key="Profile.Title" Value="Profil" />
+    <String Key="Profile.Avatar" Value="Avatar" />
+    <String Key="Profile.Frame" Value="Çerçeve" />
+    <String Key="NewClue.Title1" Value="Yön" />
+    <String Key="NewClue.Title2" Value="Mühürlü Sayı" />
+    <String Key="NewClue.Title3" Value="Gizem" />
+    <String Key="NewClue.Desc1" Value="Bloklar dikey, kare veya yatay olmalıdır." />
+    <String Key="NewClue.Desc2" Value="Bu sayının değerini ortaya çıkarmak için [X] doğru bölme tamamlayın." />
+    <String Key="NewClue.Desc3" Value="Gizli sayı; değerini tahmin edin." />
+    <String Key="Btn.OK" Value="Onayla" />
+    <String Key="GetProps.Title1" Value="Ücretsiz İpuçları" />
+    <String Key="GetProps.Desc1" Value="İpucu almak için bir reklam izleyin." />
+    <String Key="Btn.Claim2" Value="x2 Al" />
+    <String Key="Btn.Go" Value="Toplamaya Git" />
+    <String Key="RankItem.Title1" Value="Sıralama" />
+    <String Key="RankItem.Desc1" Value="Oynayarak toplayın ve her etkinlikte sıralamanızı yükseltin. Daha yüksek bir dereceyi hedefleyin!" />
+    <String Key="Rank.WinStreak" Value="Galibiyet serisi bonusu &lt;color={1}&gt;{0}&lt;/color&gt;" />
+    <String Key="Rank.LockTips" Value="{0}. bölümden sonra açılır" />
+    <String Key="Rank.Time" Value="Süre: {0}" />
+    <String Key="Rank.ResetTips" Value="Sıralama yenilendi. Yeni bir mücadele başlatın!" />
+    <String Key="Revive.Title" Value="Canları Doldur" />
+    <String Key="Revive.Desc" Value="Tüm canlarınızı doldurun!" />
+    <String Key="Btn.Revive" Value="Yeniden Diril" />
+    <String Key="Fail.Title1" Value="KAYBETTİNİZ" />
+    <String Key="Fail.Title2" Value="Canlar Tükendi" />
+    <String Key="NewClue.Vertical" Value="Dikey" />
+    <String Key="NewClue.Horizontal" Value="Yatay" />
+    <String Key="NewClue.Square" Value="Kare" />
+    <String Key="Rank.TipLabel" Value="Sıralamanız &lt;color={1}&gt;{0}&lt;/color&gt; basamak yükseldi!&lt;br&gt;Harika iş!" />
+    <String Key="RectMatch.StartTip.PassRate" Value="Oyuncuların &lt;color={1}&gt;{0}%&lt;/color&gt; kadarı bu bölümü ilk denemede geçti. Sen de yapabilirsin!" />
+    <String Key="RectMatch.StartTip.PassRateSuccess" Value="Oyuncuların &lt;color={1}&gt;{0}%&lt;/color&gt; kadarı bu mücadeleyi başarıyla tamamladı." />
+    <String Key="RectMatch.StartTip.ClearCount" Value="&lt;color={1}&gt;{0}&lt;/color&gt; oyuncu bu bölümü zaten geçti." />
+    <String Key="RectMatch.StartTip.HardRate" Value="Oyuncuların &lt;color={1}&gt;{0}%&lt;/color&gt; kadarı bu bölümü oldukça zor buluyor." />
+    <String Key="RectMatch.StartTip.HardObservation" Value="Oyuncuların &lt;color={1}&gt;{0}%&lt;/color&gt; kadarı bu bölümün gözlem yeteneğini sınadığını söylüyor." />
+    <String Key="RectMatch.StartTip.HintUseRate" Value="Oyuncuların &lt;color={1}&gt;{0}%&lt;/color&gt; kadarı bu bölümde ipucu kullandı." />
+    <String Key="RectMatch.StartTip.PassRateTurn" Value="Oyuncuların &lt;color={1}&gt;{0}%&lt;/color&gt; kadarı mücadeleyi tamamladı. Şimdi sıra sende!" />
+    <String Key="Tutorial.title" Value="Eğitim" />
+    <String Key="GameOver.chestTips" Value="Ödülün kilidini açmak için 5 bölümü tamamla." />
+    <String Key="Game.HealthTips" Value="Dikkat! Sadece bir hakkın kaldı!" />
+    <String Key="Free" Value="Ücretsiz" />
+    <String Key="GameOver.Title2" Value="Durdurulamaz" />
+    <String Key="GameOver.Title3" Value="Harika!" />
+    <String Key="GameOver.Title4" Value="Mükemmel!" />
+  </Dictionary>
+</Dictionaries>

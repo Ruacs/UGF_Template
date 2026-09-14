@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:00000000000000000000000000000000:00000000000000000000000000000000:00000000000000000000000000000000$
+#
+:format=40300
+:texture=BM_Setting.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=disabled
+
+icon_bg_sliced;2;750;184;272; 0.5;0.5; 0;0;0;0
+icon_Close;2;567;176;181; 0.5;0.5; 0;0;0;0
+tog_selected;180;597;176;151; 0.5;0.5; 0;0;0;0
+tog_nor;188;871;176;151; 0.5;0.5; 0;0;0;0
+icon_haptic;180;451;165;144; 0.5;0.5; 0;0;0;0
+tog_light;347;432;160;163; 0.5;0.5; 0;0;0;0
+icon_sound;358;747;150;122; 0.5;0.5; 0;0;0;0
+box_bg;366;894;128;128; 0.5;0.5; 0;0;0;0
+Line;366;876;128;16; 0.5;0.5; 0;0;0;0
+icon_muisc;188;750;109;119; 0.5;0.5; 0;0;0;0
+icon_sizecount;358;645;99;100; 0.5;0.5; 0;0;0;0
+icon_language;2;483;97;82; 0.5;0.5; 0;0;0;0
+btn_yuyan2;101;469;67;96; 0.5;0.5; 0;0;0;0
+tog_bg;2;388;94;93; 0.5;0.5; 0;0;0;0
+tog_Checkmark;98;404;76;63; 0.5;0.5; 0;0;0;0
+mark;176;392;75;57; 0.5;0.5; 0;0;0;0
+tog__bg_light;98;343;64;59; 0.5;0.5; 0;0;0;0

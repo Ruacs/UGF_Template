@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:00000000000000000000000000000000:00000000000000000000000000000000:00000000000000000000000000000000$
+#
+:format=40300
+:texture=BM_Rank-0.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+bg;4;1317;2040;727; 0.5;0.5; 0;0;0;0
+bg_xktu;4;69;921;1244; 0.5;0.5; 0;0;0;0
+bg_ds;4;25;1082;40; 0.5;0.5; 0;0;0;0
+bg_bk;929;993;999;320; 0.5;0.5; 0;0;0;0
+effect_fg;1090;302;728;687; 0.5;0.5; 0;0;0;0

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f63c09f033dd046b0340fb748446df, type: 3}
+  m_Name: ShopItemConfig_noAd
+  m_EditorClassIdentifier: 
+  id: 10001
+  sortOrder: 4
+  visible: 1
+  style: {fileID: 11400000, guid: 5c0d3741d1957414b890f42411570c76, type: 2}
+  icon: {fileID: -1283575113, guid: efdcc14923940214ea6202d19735a105, type: 3}
+  contentText: 
+  contentLocalizationKey: Product.removeAd
+  rewards:
+  - target: 4
+    propType: 0
+    count: 0
+    descriptionText: 
+  viewTags: []
+  priceType: 3
+  price: 7.99
+  priceText: $7.99
+  productConfig: {fileID: 11400000, guid: 944dde0cad6840fabe7810920c92d27b, type: 2}
+  productId: 10001
+  showBonus: 0
+  bonusText: 
+  bonusLocalizationKey: Product.bonus

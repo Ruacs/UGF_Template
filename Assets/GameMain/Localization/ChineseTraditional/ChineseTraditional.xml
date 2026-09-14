@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dictionaries>
+  <Dictionary Language="ChineseTraditional">
+    <String Key="Setting.Title" Value="設定" />
+    <String Key="Setting.Music" Value="音樂" />
+    <String Key="Setting.Sound" Value="音效" />
+    <String Key="Setting.on" Value="開啟" />
+    <String Key="Setting.off" Value="關閉" />
+    <String Key="Setting.Vibration" Value="震動" />
+    <String Key="Main.Start" Value="開始遊戲" />
+    <String Key="GameOver.Title1" Value="遊戲結束" />
+    <String Key="Tips.payFailedCoin" Value="金幣不足" />
+    <String Key="Tips.AdsFail" Value="廣告載入失敗" />
+    <String Key="Btn.Close" Value="不，謝謝" />
+    <String Key="Btn.Next" Value="下一關" />
+    <String Key="Btn.Claim" Value="領取" />
+    <String Key="Btn.Continue" Value="繼續" />
+    <String Key="LEVEL" Value="第{0}關" />
+    <String Key="HARD" Value="困難" />
+    <String Key="Fail.GetHeart" Value="獲得3顆愛心" />
+    <String Key="Restart" Value="重新開始" />
+    <String Key="Main.Ranking" Value="排行榜" />
+    <String Key="Home" Value="首頁" />
+    <String Key="Language" Value="語言" />
+    <String Key="BlockCount" Value="方塊數量" />
+    <String Key="Profile.Save" Value="儲存" />
+    <String Key="NoAds.Title" Value="廣告無法使用" />
+    <String Key="NoAds.Tips" Value="目前無法使用廣告。&lt;br&gt;請重試。" />
+    <String Key="Btn.Cancel" Value="取消" />
+    <String Key="Btn.Retry" Value="重試" />
+    <String Key="Tutorial.T1" Value="首先，水平拖曳以覆蓋3個格子。" />
+    <String Key="Tutorial.T2" Value="現在試試垂直拖曳覆蓋3個格子。" />
+    <String Key="Tutorial.T3" Value="接著，繪製一個覆蓋3個格子的矩形，然後是覆蓋6個的。" />
+    <String Key="Tutorial.T4" Value="現在，在每個數字周圍繪製一個矩形，使格子數與數字相符。" />
+    <String Key="Profile.Title" Value="個人資料" />
+    <String Key="Profile.Avatar" Value="頭像" />
+    <String Key="Profile.Frame" Value="頭像框" />
+    <String Key="NewClue.Title1" Value="方向" />
+    <String Key="NewClue.Title2" Value="封印數字" />
+    <String Key="NewClue.Title3" Value="謎團" />
+    <String Key="NewClue.Desc1" Value="方塊必須是垂直、正方形或水平。" />
+    <String Key="NewClue.Desc2" Value="完成[X]個正確分割，即可揭示該數字的值。" />
+    <String Key="NewClue.Desc3" Value="隱藏數字，推斷其大小。" />
+    <String Key="Btn.OK" Value="確認" />
+    <String Key="GetProps.Title1" Value="免費提示" />
+    <String Key="GetProps.Desc1" Value="觀看廣告獲得提示道具" />
+    <String Key="Btn.Claim2" Value="雙倍領取" />
+    <String Key="Btn.Go" Value="去收集" />
+    <String Key="RankItem.Title1" Value="排行榜" />
+    <String Key="RankItem.Desc1" Value="玩遊戲收集，在每期活動中提升排名。衝擊更高名次！" />
+    <String Key="Rank.WinStreak" Value="&lt;color={1}&gt;{0}&lt;/color&gt; 連勝加成" />
+    <String Key="Rank.LockTips" Value="通過第{0}關解鎖" />
+    <String Key="Rank.Time" Value="時間：{0}" />
+    <String Key="Rank.ResetTips" Value="排行榜已刷新，開始新挑戰！" />
+    <String Key="Revive.Title" Value="補充生命" />
+    <String Key="Revive.Desc" Value="補滿你的所有生命！" />
+    <String Key="Btn.Revive" Value="復活" />
+    <String Key="Fail.Title1" Value="失敗了" />
+    <String Key="Fail.Title2" Value="生命值耗盡" />
+    <String Key="NewClue.Vertical" Value="垂直" />
+    <String Key="NewClue.Horizontal" Value="水平" />
+    <String Key="NewClue.Square" Value="正方形" />
+    <String Key="Rank.TipLabel" Value="你的排名提升了 &lt;color={1}&gt;{0}&lt;/color&gt; 位！&lt;br&gt;太棒了！" />
+    <String Key="RectMatch.StartTip.PassRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家一次通關，你也可以做到！" />
+    <String Key="RectMatch.StartTip.PassRateSuccess" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家成功完成了本關挑戰。" />
+    <String Key="RectMatch.StartTip.ClearCount" Value="已有 &lt;color={1}&gt;{0}&lt;/color&gt; 位玩家成功通關本關。" />
+    <String Key="RectMatch.StartTip.HardRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家認為這一關難度較高。" />
+    <String Key="RectMatch.StartTip.HardObservation" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家表示，這一關很考驗觀察力。" />
+    <String Key="RectMatch.StartTip.HintUseRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家在本關使用過提示。" />
+    <String Key="RectMatch.StartTip.PassRateTurn" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家已經完成挑戰，現在輪到你了！" />
+    <String Key="Tutorial.title" Value="教學" />
+    <String Key="GameOver.chestTips" Value="完成5關後解鎖獎勵" />
+    <String Key="Game.HealthTips" Value="小心！只剩最後一次機會了！" />
+    <String Key="Free" Value="免費" />
+    <String Key="GameOver.Title2" Value="所向無敵" />
+    <String Key="GameOver.Title3" Value="太棒了" />
+    <String Key="GameOver.Title4" Value="完美" />
+  </Dictionary>
+</Dictionaries>

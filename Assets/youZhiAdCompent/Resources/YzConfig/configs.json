@@ -1,0 +1,63 @@
+{
+    "other": {
+        "yw_app_id": "ce38e40f13364f1",
+        "game_name": "天空跑球球",
+        "game_code": "软著登记号:2024SA0125385",
+        "game_author": "著作人:深圳市千湖网络科技有限公司",
+        "company": {
+            "subject": "深圳市千湖网络科技有限公司",
+            "contact": "youzhixx@163.com",
+            "address": "深圳市宝安区西乡街道中央大道17H"
+        }
+    },
+    "android": {
+        "app_id": "yz123456"
+    },
+    "test": {
+        "app_id": "61b863bde0f9bb492b94ce72",
+        "intersititial_first_ad": "native",
+        "banner_first_ad": "native",
+        "copyright_owner": "深圳市优智信息技术有限公司",
+        "register_num": "2021SR2108084",
+        "is_privacy": true,
+        "is_more_game": "true",
+        "refresh_ad_time": 10,
+        "icon_jump_native": 10,
+        "test_bool": true,
+        "ad_location_configs": [],
+        "isBoxPage": true,
+        "isMoreGamePage": true,
+        "box_type": 1,
+        "auto_video_interval": [
+            5,
+            10
+        ],
+        "auto_box_interval": [
+            30,
+            60,
+            30
+        ],
+        "auto_moreGame_interval": [
+            10,
+            30,
+            10
+        ],
+        "beforeOver_box_interval": [
+            30,
+            60,
+            30
+        ],
+        "beforeOver_moreGame_interval": [
+            10,
+            30,
+            10
+        ],
+        "product_configs": [
+            "10001",
+            "10002",
+            "10003",
+            "10004",
+            "10005"
+        ]
+    }
+}

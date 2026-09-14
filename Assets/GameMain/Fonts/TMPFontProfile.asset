@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d53bef8ff739a45bfd6cabc5a4b400, type: 3}
+  m_Name: TMPFontProfile
+  m_EditorClassIdentifier: 
+  styles:
+  - key: Default
+    preset: {fileID: 11400000, guid: 7736f8644d5dd624886d89805dbb2565, type: 2}
+  - key: Outline_Shadow_Red_Preset
+    preset: {fileID: 11400000, guid: d0f554c5f69a97244bf1acc9b062e00f, type: 2}
+  - key: Tilte
+    preset: {fileID: 11400000, guid: eb97abd3298540b469c4c10c03c8c82d, type: 2}
+  - key: Outline_Shadow_Blue
+    preset: {fileID: 11400000, guid: 76c1faf2656daa54ea3361b3aca9f8aa, type: 2}
+  - key: Outline_Shadow_Green
+    preset: {fileID: 11400000, guid: c9c5475934c13b64ca11eed3e49f5e5f, type: 2}
+  - key: Outline_Shadow_Yellow
+    preset: {fileID: 11400000, guid: 8864f11f920330a4bb4ed3e5dc3bddd6, type: 2}
+  - key: Outline_Red
+    preset: {fileID: 11400000, guid: fe7d93d95a2cf404e89e813a4eb7ea56, type: 2}
+  - key: Outline_Shadow_Blue
+    preset: {fileID: 11400000, guid: c66f84b9ea941654ab33fb48ca97bcbc, type: 2}
+  - key: Outline_Shadow_Brown
+    preset: {fileID: 11400000, guid: c66f84b9ea941654ab33fb48ca97bcbc, type: 2}
+  - key: Outline_Black
+    preset: {fileID: 11400000, guid: e6468913a9ffbac46868d0eea9b2b440, type: 2}
+  - key: Outline_Yellow
+    preset: {fileID: 11400000, guid: 42b687860ae82c9408021cb8e95612b7, type: 2}
+  - key: Outline_Yellow_2
+    preset: {fileID: 11400000, guid: da785e15749e76b428e162d276b73fe2, type: 2}
+  - key: Outline_Shadow_Gray
+    preset: {fileID: 11400000, guid: a0bcf4248a3b6f44e8d6a87a98fd41aa, type: 2}

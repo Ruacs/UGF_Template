@@ -1,0 +1,1796 @@
+{
+    "manifest": {
+        "schema": 1,
+        "template": "GF.Template.SubGames.1",
+        "game": "HexaAway",
+        "version": "1.0.0",
+        "mode": 2,
+        "managerPrefab": "Assets/GameMain/SubGame/HexaAway/Prefabs/HexaAway.prefab",
+        "resourceManifest": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Registry/HexaAwayAssetRegistryConfig.asset",
+        "procedure": "Lokas.ProcedureGameHexaAway",
+        "scenePaths": [
+            "Assets/GameMain/Scenes/SubGame/HexaAway/HexaAwayScene.unity"
+        ],
+        "uiRows": [
+            "\t216\t六边形消除\tHexaAwayUIPanel\tDefault\tFALSE\tFALSE",
+            "\t217\t选择页面\tSelectionUIPanel\tDefault\tFALSE\tFALSE"
+        ],
+        "sceneRows": [
+            "\t4\tHexaAway场景\tHexaAwayScene\t10001"
+        ],
+        "configRows": [
+            "\tScene.HexaAway\t\t4"
+        ],
+        "resourceDefinitions": [
+            "<Resource Name=\"HexaAway\" LoadType=\"0\" Packed=\"True\" />"
+        ],
+        "resourceAssets": [
+            "<Asset Guid=\"009c1d80b368a7345a098116383071cb\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"0675abfed3c8c324191a5ab8375520c8\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"080dea817a3adc443a411b50819bdf26\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"082e32973e9857f449fa28fff8409cbb\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"09fe08b8197812c42b28322b6dba95ee\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"0a6ca46cee2c0b6419a4792b35651033\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"0ba21845ecb7c654b8089b4485bba2dc\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"0bc0f425d5a14ba4ba80390fd2bc4072\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"0cd9e3a4d02b45c4486d1bd632c115ba\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"13f09a3cdb542514dbde7eeeac5a45ec\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"193d8841a1be7024c81620635bd1f535\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"2076829912fb85843b7c35ed943ae1aa\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"224440e33df922042bd5eeea8235504f\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"2e2bdd170c7a5784b8508db2e3640418\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"3553cf155ee3a4143a902d133b2f9ee6\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"3d6a3f751053a5a439e1e9cfcaf80252\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"3eed77dd02838da4aa7cf4bf0df0ded8\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"3f1891ce64727d24aba9179c4e263f36\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"3f84b2ae994f9424cb373bd4aa3201e4\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"40b4bbb91a6a7f844a70f30362877bf2\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"418e11abab0aabc4ca12f387d98b1ae6\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"438fa7b6ed8a4ef449cdf32a86b723b7\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"4501200033197b143b25aa71e94c46d4\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"475290aaeae251e4b8732f5940775b77\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"482425b6d4ac6db4299c6f24f62f39ca\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"4a0b59d1407ebdb4391bf5c981c8fcf7\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"4b09911402e97be45bbd0bdd506630d2\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"4b69b3e013fc678438a6c6c7987b1104\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"4d8e53a2c0141e246a0850777f71d5eb\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"50119a51fc5b4c84b8a16af13342193d\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"5317b25ea3bc4964398b8853b2f3c47f\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"5454e905154d64948bfecc7586d6ef83\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"58e14c94bef215147b90f7b0a45c03bb\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"5b89268effd3a1b4d9b221085610ec87\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"5bd7391e0f7643445afee42e53dd3a3e\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"63d8203996d537d44b8bfdbed971c274\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"6628c7d6c32798244b7811e0e69b5acd\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"69db97ce47b349a48bb60e036da81079\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"69e50706ee491ca4686aa83fbe19aec9\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"6b9241e5164561642a89cbfd685e9ba4\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"6c567d099f6e37241a9746a278a67123\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"6c621f8b2672d1a4fb7bd56cc7eeb56f\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"6c67585bea442f64bb2f3a0c2451c4a5\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"6cbf8bc329d86b9448a5a73652fc3495\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"6d4e7ed2c1b55db499bc025e0afa0212\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"766bf3c85b293e745b9e7821fab98ead\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"77d25b65cabb35d489de5162dfe09075\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"7885cef0e1d877d4c8db006a2bf5c99b\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"799c1cc07eb8a3c408a89fe005ccc49a\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"7ba79f45eef84f74ea5c0ad3be73efe2\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"7c84ba2b68f57114c877e5eb866310df\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"7e1bad5d9aaba5c4d80ae2e3c6ce1245\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"80060012c875cb04080694736b8541f3\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"8677e8790e1d73b4e9dc142c4a7ff05c\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"87617ba9bf35c984facd80e61cc62324\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"897417cfa7aa0bf4b8adfb7d3f777629\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"933f13831e1f9464283346825a461008\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"977b75d88eb876149a26ee4ec826c962\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"9a900a732b28e0740bb0592049618ebd\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"9b17a79be5ecbd54c9686bd0e639c5b3\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"a1cecb4611a8a7b46b97c645cf64eaac\" ResourceName=\"ScriptableObjects\" />",
+            "<Asset Guid=\"a2f1f03c1fc2aed4bb8338c0562c14c1\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"a53a4fa05bb1eaa42ac63d3b0028c93c\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"a558c59d5e0129f4484262b424c773a9\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"a88c7ff1595c48b1b7b2cceef837c3e5\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"acfdb16384d367a4eb2de3c0e00ac039\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"ade8f76b4a0473842964ca7ead5d2c94\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"b49f31ec8c0360340933f423942af8a1\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"b8c8f866d53a4f4d8c9f0c98d327ec7b\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"ba3847d499813bd49a15ff750680aaf6\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"be53f9d2842cc7f478e20966ff7bdb8c\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"c282f840b31d41444bff1b7d7a419dd1\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"c3e01e8ed6a2e0b42a0595ef068a47ea\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"c5de4b0c03c52ef4083db5ad9ecb5da8\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"c8c1a1549f5c6674990f9e133e035818\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"c9375288af55579499d280b9c6955e0a\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"cbe3ba2f6675e8b40a00702065520460\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"cedf4189b4e43704799556ef863fa44d\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"d13411864b224a347917d6da7feec1db\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"d4b0703acd80dc84fa346e92baaa9ebb\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"d9ebc615a0f3bbc4d930dbba57fff5f4\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"dc5b0d0644ac5444db9edb310fa80d0d\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"ddfb00e95cf12064b814f86960d63d21\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"dee143824cdd1bd4aba773cf8232ebf0\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"e29030704c183c64a8f847daf50e4a6e\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"e8352fe1111303d42b39384f7004dd19\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"ea53e0d3e2d7a72479b32b71a644bdff\" ResourceName=\"Scenes\" />",
+            "<Asset Guid=\"ef163bdd39da8964882e77853923dbbe\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"f0173a15cd3563644880625ccf6408af\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"f648c1a4c7de4e3e92d255c0fdcb94d1\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"f954c31a35d99d1409ea8561b8ea1635\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"fbc022d40494ddd458108f75dd8f21bf\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"fc4cf0af07018944183a163437a63726\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"ff741b3bf14c9384181ff546aa9f3e88\" ResourceName=\"HexaAway\" />",
+            "<Asset Guid=\"ff816c3a66d1d4d4d81ebbf5eac8e4d2\" ResourceName=\"HexaAway\" />"
+        ]
+    },
+    "packageHash": "ea0f9e85ef9d5b7fa0327accb3906b41782b7cc18c81d00e96a305e7549661f6",
+    "unityVersion": "2022.3.62f3c1",
+    "files": [
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/HexaAway",
+            "guid": "c127538d149b4c818010f0096232dd91",
+            "assetHash": "",
+            "metaHash": "c9d70b7144ebad47c95c284910437f4c0b09da7d1199b858cc03d3c0e77bba81",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/HexaAway/HexaAwayScene",
+            "guid": "d01bcaab3e72d5446b4ef6125dc20060",
+            "assetHash": "",
+            "metaHash": "6c9b6e1ef7dbdc91847a38ce2bf12735b8c189be0fadbbf194f2a4feb599b2d5",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/HexaAway/HexaAwayScene Lighting Settings.lighting",
+            "guid": "084c5411ccb42614fa5b0ca7c8eff559",
+            "assetHash": "74b11e37d5ab641d6cb6d3149744c46d801af2ccdfb1d8e6223182c8d774660e",
+            "metaHash": "84edcc499c0e40d9209d688cb6c3406c8bc3b97c7df2a2c05003a898d39243d1",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/HexaAway/HexaAwayScene.unity",
+            "guid": "ea53e0d3e2d7a72479b32b71a644bdff",
+            "assetHash": "6465a4915cae618d29bac9610bb909925e6eb26b6fc66c4b760d07ececab30e0",
+            "metaHash": "7fd4917d98575d80f75f6cfd8aebc6e352e666060c887807f1ca46c42a3b62fb",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/HexaAway/HexaAwayScene/Global Volume Profile.asset",
+            "guid": "3e9470e2a7678c54a8f027d8df2c4c66",
+            "assetHash": "18317ccb440ed330edd508f759412b23be44042102241ee69fa758b7904f09ee",
+            "metaHash": "8992fe7867ba680d509f390ca9bb2d630593a5d3417f6044d3e26f0b01cfdc7a",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/HexaAway/HexaAwayScene/LightingData.asset",
+            "guid": "3f9268f83200c7a4fa1bd005786e82f5",
+            "assetHash": "8c8908d9376e816c07f97465a41b568cde7f3c88110f73e2c4c2398849bb527e",
+            "metaHash": "9c24b9855135173954d7770149230811495e9b35a6fff4161284bfda0504495c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/HexaAway/HexaAwayScene/ReflectionProbe-0.exr",
+            "guid": "9e1c71fcff4219d459b444a487cbfbab",
+            "assetHash": "03683213b7fd662c4ae9463958ee87fe77010cd03b1ed2ebdd0bf4a82b9f0caa",
+            "metaHash": "59ba7a0a1900a805b324a1d3f003b778a78bcafbf6f58a6f0d844a51369adb2d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/Scenes/SubGame/HexaAway/Test.unity",
+            "guid": "af521294d9ded1641807f0763e4e6bc0",
+            "assetHash": "351b95a47f73486f1e775ce478adc1aee038d4cb0ced2bb8d42ad263b9e084b2",
+            "metaHash": "c951c36c4ebc56bce05d92c7e099cdc6929533330cb76f38c31339a74caabd02",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway",
+            "guid": "e57514640c4c0664ebc1cac6a663f603",
+            "assetHash": "",
+            "metaHash": "7893d01da654abf7f651df0d415d8a360783829f8d5d40f1563ccd1672e4a33d",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations",
+            "guid": "9b805af905b243f0a58f853a57f04a72",
+            "assetHash": "",
+            "metaHash": "fcfe0719a14f033fdf814019d35a7bea3c61443d9575c81c5740903ee941ac73",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/CrossHair",
+            "guid": "ed3d86c623597914999d3881c308291b",
+            "assetHash": "",
+            "metaHash": "b5eb74b10f09f19252eacdf4094ebdc6aba925e77b8886bf8aecd37f0ffa8d23",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/CrossHair/CrossHair.anim",
+            "guid": "009c1d80b368a7345a098116383071cb",
+            "assetHash": "4ee29adb567acd51ee37e9655dc86946a8cf08b5afd59b91cfbc4176ce30a6a7",
+            "metaHash": "cf057c2b50bde22102275c3b405a338f04c7af6b66bd5132db5ed58b07f0f173",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/CrossHair/Crosshair.controller",
+            "guid": "e29030704c183c64a8f847daf50e4a6e",
+            "assetHash": "4ab42d8547d0ac59761ce452ead0da55d53b1be894760a9a0a7bbd4e72fe7c6a",
+            "metaHash": "7bf95dd32b148d544d2066c215a9a6c90228827ef1884253ebb64bfe40c44dbb",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props",
+            "guid": "f260e0fa766bfc74d83dd96485d6e85f",
+            "assetHash": "",
+            "metaHash": "e57d92f164b1a2542b9cff1cdf0f46b0dcd38e069ba2414eda8c47647da72786",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props/Drill",
+            "guid": "d923a5518e9535349a3c5d8a858e0602",
+            "assetHash": "",
+            "metaHash": "c7a306c31cc9e5c7d1d518bb4f40589430b6014302d490617d0a0b45ac820587",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props/Drill/Drill Animator Controller.controller",
+            "guid": "87617ba9bf35c984facd80e61cc62324",
+            "assetHash": "ae75220175620ee13cada6b91455bcda74fba1e98afde9d9132eeae187a40c82",
+            "metaHash": "b9c81ef14fb116d5732afcd36631119d9e97d240360ccaf26351aa52a1e2ff96",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props/Drill/Drill Hit.anim",
+            "guid": "482425b6d4ac6db4299c6f24f62f39ca",
+            "assetHash": "92fcf4f0928f4281378f4904a710c01899299f84adbca0be86b781d86d87ae90",
+            "metaHash": "ea6ffcf970bfb57d00f1f51c0c00275d5418f4b0c837c30050b9b270bd50a724",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props/Hammer",
+            "guid": "d4528d25123e4a4438ada19e9436a48a",
+            "assetHash": "",
+            "metaHash": "4c8d7095aad6bc3ca94ef2e7c8860286e4c66d143a13f9c199c0500a59fc52c1",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props/Hammer/Hammer Animator Controller.controller",
+            "guid": "ade8f76b4a0473842964ca7ead5d2c94",
+            "assetHash": "e26cb7c0e9027a1c71f20adab24409d069c00e50c4af437d77783a09578c5d21",
+            "metaHash": "d96f726680053c2dd3f3e3d5ad647047ba9b1d942f4577dff95e32ace74677ac",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props/Hammer/Hammer Hit.anim",
+            "guid": "80060012c875cb04080694736b8541f3",
+            "assetHash": "9fc60baae400c4b8a3d4ffa6aafe5bdf169a70e00d7d115a63911141276ca7b0",
+            "metaHash": "43d9f8db778b9c07e34d6739abeb965d24d6ba3d7d052b831147801e766b4247",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props/TNT",
+            "guid": "33da7e5d3b36a9d40bbd35d69f3d7be0",
+            "assetHash": "",
+            "metaHash": "8f64ffcfab4d7748f746c50b0609f51f1cb62f37610198d4f67a464967088c3f",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props/TNT/TNT Animator Controller.controller",
+            "guid": "0a6ca46cee2c0b6419a4792b35651033",
+            "assetHash": "95a91e4fa7136919a57b6124750a84e5a703b78ef91ca6c5e929b57dbff32937",
+            "metaHash": "91ea691b6309b3b1a9d0f9927985c55b8869fb59c42158a30f6cc477c0198e04",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Props/TNT/TNT Hit.anim",
+            "guid": "799c1cc07eb8a3c408a89fe005ccc49a",
+            "assetHash": "eb32bd45015e12cd4a37d4b324a0f4dc81803f68591bc15554ef92df0abaf00b",
+            "metaHash": "6de908db10ef7c8c3631d527604878d032cb7baf5d304987a75895b681ebb31f",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Tile",
+            "guid": "4d01329476db40d43989b7b8ff34aae9",
+            "assetHash": "",
+            "metaHash": "8d40b73cfe221fa504e9c9bebe987316810ee2d6b29550b2257e1aeb9864f585",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Tile/Move.anim",
+            "guid": "6c621f8b2672d1a4fb7bd56cc7eeb56f",
+            "assetHash": "c6a679d6d4deb513da32aea90f56735f746393c7d22dd5ea40d5ecdb423102c3",
+            "metaHash": "03c5f73d114cb617a9ddd32233d7b0a10be0b5ae6797ac92560dd40296f50f01",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Tile/MoveBackwards.anim",
+            "guid": "4d8e53a2c0141e246a0850777f71d5eb",
+            "assetHash": "7fdfab9e69997d6712fcb0e39a2d090ec3395796bccb2d0b8954867697b19ee7",
+            "metaHash": "9f77e622d8e8810a1fc480c53aa5359a240aacc69bf4f4fe9637de8cdef0f577",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Animations/Tile/Tile Animator Controller.controller",
+            "guid": "69db97ce47b349a48bb60e036da81079",
+            "assetHash": "e115f90f386e71006a58a3ab297a263945b7e0686006e6a774f3faff4125f161",
+            "metaHash": "dbe5ad124989041a9d75d6e7264bc95f23b80fcf6e46d947928923d36c287439",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Config",
+            "guid": "6a62e0891bc247b7bc6a756647f5bdbd",
+            "assetHash": "",
+            "metaHash": "cc4a446dfb12de751122e7e970db45cae453c6267e2663c992bb45dbe2b044be",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Config/CompactLevels.json",
+            "guid": "f648c1a4c7de4e3e92d255c0fdcb94d1",
+            "assetHash": "9e8c335120849e48366ca918643761aeb2fdc74de877514ab0101c6eadec3cf7",
+            "metaHash": "2475de3380297138e1e8deb21b0ca4a8550080c7027b6f62505cbdd7780f577b",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Editor",
+            "guid": "162a35eb6f74ea1449853e3ccacb5e15",
+            "assetHash": "",
+            "metaHash": "c03e71499e4a9a1ac1cb85d750be57b44f2c610c6884a82c43722bb6977f8a5e",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Editor/PackageManifest.json",
+            "guid": "85f7eb5034ae4fc48aa56640e901c71b",
+            "assetHash": "bba44e1a777e52f569e92fa55854ec225514ba850999c19241c6fc74c3b1c7d0",
+            "metaHash": "255d2ced82ac848b1b62dc07ea1dbd7ca3f2110fd140e0b69ca9ff31c7163d54",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material",
+            "guid": "5f662ae793534d95b4e933437ec8e9eb",
+            "assetHash": "",
+            "metaHash": "003799d59eb90c430fb87a37be31fab90167a96d38c927bbf83afe8b7c62b211",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default",
+            "guid": "4aa4d22c661f16a409f24319c1f2e5ac",
+            "assetHash": "",
+            "metaHash": "40a1ea54dcb954ca8d8f4818cd74cbfec5f96b1791b62cc8fb9afbdf0da0fe24",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Arrrows",
+            "guid": "98d42dbfb75756e46b5b7e9104203322",
+            "assetHash": "",
+            "metaHash": "6fe37ac64d256d7ec6fa7daa0a0313e13594f0238604ad383729a089d8c5d6ac",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Arrrows/Arrow.mat",
+            "guid": "a558c59d5e0129f4484262b424c773a9",
+            "assetHash": "0e308d029d125f9260cdc4b37660efe62f9b8b3b6939d0e1216c4a96dc62e360",
+            "metaHash": "f2814ec1232fa4df7facfe922e8ef0291da0bd80637609487f4dc8967e61ae16",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Effects",
+            "guid": "1ba4c8fcc2dfd424ead2107670e5f5a5",
+            "assetHash": "",
+            "metaHash": "e7e6308e3a2861595201675f1126175b4803709bcfd0b43b5a583cd14b695dac",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Effects/Hex Destroy Particle.mat",
+            "guid": "6c67585bea442f64bb2f3a0c2451c4a5",
+            "assetHash": "55cd0506be87accd33dd3449dbfcb4e33c09041528238323d444f27a7900e3d2",
+            "metaHash": "d3de607d157e4dab4968ab2ed2e72703dd449fdf09727123c01be9787c4903ea",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Effects/WoodBoxEffect.mat",
+            "guid": "d9ebc615a0f3bbc4d930dbba57fff5f4",
+            "assetHash": "1a3c488d143ecb0937115e4c6f91acaab3f9d21359ff27fbf1fd39cc21426c02",
+            "metaHash": "b67ac106857d2b4a19f574b3f052528d17fce435b5f878d19c42fbf339dd51c1",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks",
+            "guid": "a06ed78ea0af6e84d9e7d16f9f5c5080",
+            "assetHash": "",
+            "metaHash": "b8b74a16c2d53be710d52bf61cc2153f2227747c3561bdcf49c9f0362f0cb3be",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/AreaChangeDirection_Base.mat",
+            "guid": "a2f1f03c1fc2aed4bb8338c0562c14c1",
+            "assetHash": "471e3d0bbff38b17ba648bbe07ecf36f348c3a6a6c7295529aab9110e3d96707",
+            "metaHash": "97802e9893bf6192ac17a35aa1e8afe2793aa3c15541563685f2d516cd73fb75",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/AreaChangeDirection_Button.mat",
+            "guid": "f954c31a35d99d1409ea8561b8ea1635",
+            "assetHash": "7a3b5d36cc380f1a1d389dc7077019cb06a61fdad800a6f10a14b747977352b4",
+            "metaHash": "cb013003524ab5422d08524fad856b2746594cb5e2bf825cf2a248a12cf3d45c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/AreaChangeDirection_Icon.mat",
+            "guid": "6c567d099f6e37241a9746a278a67123",
+            "assetHash": "b2868300c74a5175587c95031729e3e6ce91a47a6f8d0e5e65928889ab4e0ded",
+            "metaHash": "a42e634d45000407ff579d1c04e34dd86aa60f3d1765f1dc63c639f93a4303e6",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/ChangeDirectionGimmick_Arrow.mat",
+            "guid": "63d8203996d537d44b8bfdbed971c274",
+            "assetHash": "0fd46b0d5501686fa1673734d77ae3364e29b1d0cb30409e6d0e2d0401d70a8b",
+            "metaHash": "7b66ccb00bc8b49bee1eaa1e62e56df36561a2b18922fc01501e8f0389b9c18a",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/ChangeDirectionGimmick_Ground.mat",
+            "guid": "082e32973e9857f449fa28fff8409cbb",
+            "assetHash": "f53559f795616066157fb86a81661a20a350af8420a4f5815fca3f4ecae8272a",
+            "metaHash": "d7f468babff79a9be16ec82b98bfc96ece576235a3ee54adf99d707f2e34ef91",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/CollapseTriggerGimmick.mat",
+            "guid": "3f84b2ae994f9424cb373bd4aa3201e4",
+            "assetHash": "fd55012945366238983a4b7937afe0a66419658f85ea205ae77046732cce1b8d",
+            "metaHash": "0c53fe287c07b82e61f4510bc4d173b371287c98be77e9b887bec797559258f0",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/Gimmicks.mat",
+            "guid": "a53a4fa05bb1eaa42ac63d3b0028c93c",
+            "assetHash": "811ac56a093e82b849a8d80496252c1e88ce10b33f7a2410d6f6c003745b663d",
+            "metaHash": "87873d88684f29f1abfe9092ac4f83deabf5e81fd0238b278116431d041ec9d1",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/SteperGimmicks.mat",
+            "guid": "fbc022d40494ddd458108f75dd8f21bf",
+            "assetHash": "d055605c4fe633fac2a7d58bf760638eed777f5e78f5d2a06dd8c11281d0645a",
+            "metaHash": "cc33a461454ecb14b5c78a9cda1f3e97d9ccabe82a7e9cd8372f8f37a19ad81d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/SteperGimmicks_2.mat",
+            "guid": "5b89268effd3a1b4d9b221085610ec87",
+            "assetHash": "219c8a0c439147721c630974f2b0fec9d2357690014cdf0bf36013bc7dfd7300",
+            "metaHash": "6e29d82656b090249523780454bd67fc432e958e808f7ba214c05f3ed7729943",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/WallGimmicks.mat",
+            "guid": "09fe08b8197812c42b28322b6dba95ee",
+            "assetHash": "b94f200baafe1754609eb3aabc00f5037d646c2d9228dd84cf45e7fa99b8d568",
+            "metaHash": "7eac3cb6fe0b5c776b6758d38b24d274b950addfa7caea884e5d850c6916d80b",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Gimmicks/WromHoleGimmick.mat",
+            "guid": "d13411864b224a347917d6da7feec1db",
+            "assetHash": "115e3282e96416811f8f7937baab1bf9e27ed5a883190d7a8391fc5d73127699",
+            "metaHash": "9877da95205ab35a961689daf6a632bdbf327bda051a156c2cfb6537e8ec82a0",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/HexaMesh_HighLight.mat",
+            "guid": "7e1bad5d9aaba5c4d80ae2e3c6ce1245",
+            "assetHash": "ccbfeabcb836bc04f090c4f32705cda5a3ee1d6485a7b76f936d034a5329c013",
+            "metaHash": "b72813f782a550cf18044a21e047cdbf8c412a15783b362cca35b46887df4060",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Props.mat",
+            "guid": "77d25b65cabb35d489de5162dfe09075",
+            "assetHash": "3cc16ec6476fce6aeb3caeaca235c5db33a8d7160001d93f0352b21f341d6914",
+            "metaHash": "61777247b9510d6f6057032648ebbd6b289d7e0d4ed42de97867b879b79825e2",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Tiles",
+            "guid": "6aebd3640c591f04bb6c6c9ceed0094e",
+            "assetHash": "",
+            "metaHash": "38606fd192f2f9f6a286210a7c3a6183d222bdc78b1e03f25babdfac3084ccbd",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Tiles/01_Up_Red.mat",
+            "guid": "fc4cf0af07018944183a163437a63726",
+            "assetHash": "0fd7838a29f02f41e8e4c4e871c5461681330be73592a5e99cab518f917bd4c6",
+            "metaHash": "7d53c6d4e07287040ea6cc74c11e661148d5ddf7f5034fe604208ea0f36868ac",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Tiles/02_UpRight_Blue.mat",
+            "guid": "ef163bdd39da8964882e77853923dbbe",
+            "assetHash": "55e9970838e427840a5cf9df478cc633cd35b4ae18f5182d22e9163afec3753f",
+            "metaHash": "c5ff0ccdc40d4727415974046652e903adb620d9573231326fe18d8ee0f0452d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Tiles/03_DownRight_Green.mat",
+            "guid": "418e11abab0aabc4ca12f387d98b1ae6",
+            "assetHash": "6dc57e35b64ae85e71a47485865e283c8f27a462fbe0c1e75d6d629a65e4e90d",
+            "metaHash": "444c4bb9c97268d45794766dd6835ccfb86c9d63ee304cde3b298a3063a86d60",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Tiles/04_Down_Yellow.mat",
+            "guid": "d4b0703acd80dc84fa346e92baaa9ebb",
+            "assetHash": "93fa9b56a66073dddd1646cf0aa1380c60dd584b780d82f0a9a87fff02b528bd",
+            "metaHash": "5845649f9d0540608ed46f5bbf7451c656b2b3636f86f8d9ba7d60b4074f0830",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Tiles/05_DownLeft_Purple.mat",
+            "guid": "4b09911402e97be45bbd0bdd506630d2",
+            "assetHash": "5ef22b89ab411f29fbfd12a720fa60c2617ebf21cb3a5bf7665621d1b17c0cbb",
+            "metaHash": "824ad3995faf64bfa32cfe7968c3819250cf6bb08cd432ae7cc908ec9b0db267",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Tiles/06_UpLeft_Orange.mat",
+            "guid": "766bf3c85b293e745b9e7821fab98ead",
+            "assetHash": "7387580c11b72598a3144dc359e41245f5ad61ebbf992f726ef6b77e3252c4c4",
+            "metaHash": "1d2833cd6e3ccc5d3b9d285d6005e24369d5babfdf4a2c9a7b03a7a7a31235a0",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/Tiles/Base_Block.mat",
+            "guid": "dee143824cdd1bd4aba773cf8232ebf0",
+            "assetHash": "3a185c3fbc0c9869ce55109e84326506a850a102b9ba643eca298482bba2c341",
+            "metaHash": "b7f8b1ccf12ec1888f2a7e45200b38fe3c2f0cd469037b955c7aed4e15a8681b",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/Default/crosshair.mat",
+            "guid": "5bd7391e0f7643445afee42e53dd3a3e",
+            "assetHash": "aa14c26701ccc0ab1d49b1069460016c677fe842b77094575e8f15cbeec4eefc",
+            "metaHash": "9fc5a61af0fa41215c05e9334f2ca6c642cd5de3afa6ef16cd72e59690971d6c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Material/GroundTile.mat",
+            "guid": "3eed77dd02838da4aa7cf4bf0df0ded8",
+            "assetHash": "40b7862693120c9e0a40ae652b3889f9cf3187dd16c30a0128cd0e7a93f742a2",
+            "metaHash": "c1d585c88aa088a7d93f74a3f778122c9cef28dc80f53816526152ba9f891438",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh",
+            "guid": "fbe659c87048a8544944a241f3c3c30a",
+            "assetHash": "",
+            "metaHash": "1390b8acb1558e01fada6f12faf0a9fd0cb80fc9548a01cefbe31f2056c21f90",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay",
+            "guid": "179b313e5e3f3194395236c41fd353f0",
+            "assetHash": "",
+            "metaHash": "f3eeb4d5ab148ddf03139abf12a2d679e27f1f875cd83ff1d47df48178dacab9",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/bomb.fbx",
+            "guid": "f0173a15cd3563644880625ccf6408af",
+            "assetHash": "708cdbe47270cebff33532875fa943705478d5bc4554a4d7d604103ee4be706f",
+            "metaHash": "783fab27c405e94011706b2724978a3386e288c78130a2b49ce9d4991042ecfe",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/chain_piece.fbx",
+            "guid": "3f1891ce64727d24aba9179c4e263f36",
+            "assetHash": "5e6ee47d3830aa476c177ac3f0d4ac66256d8b74977ae4f2bb87a12f2ad36331",
+            "metaHash": "8b4344933e37077455130f7b1ec1609f9cb0716940ae1fd01878b0a00a79a450",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/hex_AreaChangeDirection.fbx",
+            "guid": "080dea817a3adc443a411b50819bdf26",
+            "assetHash": "7237c18f4035050240de7fb94b98a87651589842bfeb8f46c562fd10e2c18f3f",
+            "metaHash": "8d2e4e05fe2becd86d9b57860118f06ecc5e518dbcefd8eb9f1d5bab2cf77700",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/hex_GroundReverse.fbx",
+            "guid": "438fa7b6ed8a4ef449cdf32a86b723b7",
+            "assetHash": "079c6ba67cb95b2ca5465f9b499d7e6b5df8861d58e32c805dadb3c498d9a867",
+            "metaHash": "288f90875026b449f827e1f77ce5c8f5641323f9aa9ba7bd1a208c96b04af171",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/key.fbx",
+            "guid": "dc5b0d0644ac5444db9edb310fa80d0d",
+            "assetHash": "f1648bb98eac8d3923df58a69b53af2ec39852b87aa43ae1ec5fa1b64c64acbc",
+            "metaHash": "a2e59165fbeb3fa983897e7e6f0d0228dbe3ba848b1e10688f834aa8d785b646",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/lock.fbx",
+            "guid": "cedf4189b4e43704799556ef863fa44d",
+            "assetHash": "b0a8a7dedf5b4bd9a4ac524cfbe4260c4e9d83f60d196135c3de13ecae7799e3",
+            "metaHash": "31666e868f13dafc6b89b7bb9b01817567ebdc31aefe86a591e98925744cb016",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/pause_symbol.fbx",
+            "guid": "7c84ba2b68f57114c877e5eb866310df",
+            "assetHash": "0b8d0a7187f3f29029396b8cd43a69ad9d3d8e9c6c23c1d48509a738bd9429e4",
+            "metaHash": "37092d6e49a91898e5d09527c60a8d1cca6e1127ee001bab0cf593857b1b4303",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/rotate_arrows.fbx",
+            "guid": "b49f31ec8c0360340933f423942af8a1",
+            "assetHash": "26d41dae7dd0200d3b94a36061c20bf7e27612472753dc44f74b10e8ba0889b2",
+            "metaHash": "1b1efb6f5db6842126e7c984b37e4640cfe5ffd1787f1bd2d85456525b2444f3",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/rotator.fbx",
+            "guid": "9a900a732b28e0740bb0592049618ebd",
+            "assetHash": "7e34ca7c82af44f557f0770f561bb699cfee826a96e5bcce2f97dd0373d2deab",
+            "metaHash": "7f11d019245e20533f426ebf7ee858d610b62e3b76c100c5df8c9b3876b97451",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Gameplay/shredder.fbx",
+            "guid": "0cd9e3a4d02b45c4486d1bd632c115ba",
+            "assetHash": "59657c77b544cb4127b4d612ab053821901a5a7a0cd6106554af38777a9a1c00",
+            "metaHash": "5bf2e324bcf0e818d9c42def255fafcbe9ce1cc3449cafe8c663b4626833104d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Hexa_Macaron.fbx",
+            "guid": "e2293cc54a669104192c27087cc09fa1",
+            "assetHash": "f1fbeccf746454df0ef3d9613b1a5eb829a840dd041ece5265f7613e466be4f4",
+            "metaHash": "29d6f7292599968b63d4a391c75c0125faf7bb513ccdf4c32913fd2761b5ab3d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Macaron_Game.fbx",
+            "guid": "ea7f25417791e524ca5a7537806a3ac0",
+            "assetHash": "0aba5f58d6bb4d6ea91ccea15ecd697985174bdfea86ae3cc57b055bfc14893d",
+            "metaHash": "bacd89a0c5bd19bc6b46dbd5ecf78146f0839e4ca5f4d5ee917cbd512161affe",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Macaron_TexturedMeshes.asset",
+            "guid": "47d8e09fc86f16a4cafa6a96271c0262",
+            "assetHash": "288441d7bdfb96c3785b21faf2af16e6a8f94f727ff1be5ff0134167d3df59b1",
+            "metaHash": "2957ccc636b29e3079d646b2606479eac9770394131fa4e6db86275ad7c64f8c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Power Ups",
+            "guid": "99f57a4325762c342ba9cbe164b724a3",
+            "assetHash": "",
+            "metaHash": "01f9a6e2e146da5262f852ea850a7c2a5d3d48bb6a796df6148766148d8f2ead",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Power Ups/drill.fbx",
+            "guid": "0675abfed3c8c324191a5ab8375520c8",
+            "assetHash": "e7648f9d7ee3676cbc86724dbe0ea7b5270a56d0038da87867f29f9bc752cd91",
+            "metaHash": "00c0f4c8d96484849babf8051205f64231747cc8549b2d90325cc7395fb6c4a3",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Power Ups/hammer.fbx",
+            "guid": "3d6a3f751053a5a439e1e9cfcaf80252",
+            "assetHash": "fc9c39a78df716ce7c4135634d8085fb89e3f57d1fad6b845bcc44f16d7ed335",
+            "metaHash": "9097353a9208550157e8432a86abbc028a7caf8546775e6388e2afc88b560460",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Power Ups/tnt.fbx",
+            "guid": "0ba21845ecb7c654b8089b4485bba2dc",
+            "assetHash": "5de46f5828d0c5134e1114f1ef57872485f2f11d255b2517bd2c92d2904fe0e8",
+            "metaHash": "2e224271910b0dce65889d8348c92ebfc7febcaf0a1121afc130fbe58b5f11a6",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/Tile.obj",
+            "guid": "44b23d673de435e40877d9d7300d864b",
+            "assetHash": "61e87d2bf4aff885090c559e39dd0e6f28b265ab13058b581d21a7bc0e4fce13",
+            "metaHash": "5127b9bce5a5505bdc9a4dbef234104b6a76f21e9df574346799aa0cf717fbed",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/hex_gameplay.fbx",
+            "guid": "4501200033197b143b25aa71e94c46d4",
+            "assetHash": "4c1baecbff803678b67dc0fa7b1c4cb41e463436dfccafc89d42df08652eaefe",
+            "metaHash": "ea759ed718852b18cd2d38b58ecc86b16a385d8fb1a61382d6cdee4cb2270ae4",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/hex_ground.fbx",
+            "guid": "c3e01e8ed6a2e0b42a0595ef068a47ea",
+            "assetHash": "c4fb7c4952db302d3124db872bcd62833c1e6c968481e81c3294034fabdd749b",
+            "metaHash": "b62a9d1e738668de902a28800b797ae6203b4dbc81a43665302c3b8cb6f8a705",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/hex_piece.fbx",
+            "guid": "dc06c61bfb933d14e89b79abef069176",
+            "assetHash": "4cd3c060114f81e3477103004c6c98bab989112cb0f3c1049df6e34d70e25582",
+            "metaHash": "3cb4597dc30d61e15a9f89bf7ad70eadaaa98775a7506c2bcf832136fa6bc447",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Mesh/hex_steeper.fbx",
+            "guid": "c9375288af55579499d280b9c6955e0a",
+            "assetHash": "6467e21d9f27fd57be9144b2d56ac7a263f79a748db34f6f3265cc63eba33a0b",
+            "metaHash": "3de9cf5e1087a39e99f2060192dc0be48d03465dedd4a63294cc832885724175",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs",
+            "guid": "7417ebe76e8234947ba6fec48bf1d638",
+            "assetHash": "",
+            "metaHash": "ebdb9b8d20687e928e283a207eaea2373b77ce4882b77df40fa6294f9ed20a53",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Effects",
+            "guid": "8ab241368f12b5b4f90e0b22e029dcba",
+            "assetHash": "",
+            "metaHash": "fb0376bff63519a04bd684550687d937496ca5d6ea95130711975b73e6a8baff",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Effects/WoodBoxEffect.prefab",
+            "guid": "5454e905154d64948bfecc7586d6ef83",
+            "assetHash": "318a4a3c45d5513dff78b9f1102df6558a389f5780f99fcb01987ff0a86e7d67",
+            "metaHash": "2d6809c12f9ef092f77a86e695871a442cc06a0e0b5fc05efaa1dad6ce35b86a",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Gimmicks",
+            "guid": "6b599f614df286f45a459a5620b268d2",
+            "assetHash": "",
+            "metaHash": "d8cd441c48db5afcd788f4264562c9aeb44d4082db1faf9b5a030a32cd787a0d",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Gimmicks/AreaChangeDirectionGimmick.prefab",
+            "guid": "acfdb16384d367a4eb2de3c0e00ac039",
+            "assetHash": "afd6159848dc3e59f7c5f1f0571f8029c73c12aa659ced6e7eec9fa60bea45b1",
+            "metaHash": "88b0a117acb783220f58da80fc7b03ff1ad3c27a1fdb344306c9a1ee5ef0a466",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Gimmicks/BombGimmick.prefab",
+            "guid": "5317b25ea3bc4964398b8853b2f3c47f",
+            "assetHash": "298ad169232f1c6ba4daa9336c3bc2c7f6355ccf8674b2e6a835d829d7108dbc",
+            "metaHash": "321f6cdaba6750ae6deb8d6fa5d806d187d0fc459080a08e93055f42faef4c24",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Gimmicks/ReverseGimmick.prefab",
+            "guid": "0bc0f425d5a14ba4ba80390fd2bc4072",
+            "assetHash": "24bc566752d08153d2ca5da0ab6aec8046a842862119469f29ecb0d83f9d1760",
+            "metaHash": "2ef8287a2b76c7911e8ceac71dd54b4fe7537893c64f976dd31a3f17467ffbde",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Gimmicks/SawGimmick.prefab",
+            "guid": "2e2bdd170c7a5784b8508db2e3640418",
+            "assetHash": "6d0ed6791731d386b127282faa0672310d3f1e0fb4ee6a10dee384ee03830167",
+            "metaHash": "ff14987543d8dcc664653f1cadf60bf36a83e0a494fcb0912d382180732a21f2",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Gimmicks/SquareReverseGimmick.prefab",
+            "guid": "c5de4b0c03c52ef4083db5ad9ecb5da8",
+            "assetHash": "1e2577848913bc0ed4c33a59d14e4cee500642dd31d58b769396ef9b1c586d00",
+            "metaHash": "6f3e57e94301e38f7e4e20c37157a1c14db5a0dbfe4c884febacd7bdb45e3217",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Gimmicks/TripleReverseGimmick.prefab",
+            "guid": "7885cef0e1d877d4c8db006a2bf5c99b",
+            "assetHash": "ba0cac911e60b3e3d89193c3170c53015d7d460219cafc0e6def6a2b1cb640d3",
+            "metaHash": "d58071ecf55c910734b0588e6aa5f0d4a74f0d30e0b62ec8c1390085fe135053",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Gimmicks/TripleSquareReverseGimmick.prefab",
+            "guid": "977b75d88eb876149a26ee4ec826c962",
+            "assetHash": "c9d497dec1bba1a355eb0e5634491034d8c4105a9732e26e2ec606c070cee7df",
+            "metaHash": "5e0d15130e6c207363ea6e0192bbabb78ca804ba183ba686a589ee2dfc8f2020",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Gimmicks/WallGimmick.prefab",
+            "guid": "3553cf155ee3a4143a902d133b2f9ee6",
+            "assetHash": "2c796199a61e8f51ecbb4bed2a6a9c24435b11a25c96dd4228287e13aaec263b",
+            "metaHash": "d071540f16d0cf7f059a81e86035333c8cd58f48586e4649c5499591aaa5c27d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/HexaAway.prefab",
+            "guid": "5ebd4f4e8d6b93a438f24b7fee256767",
+            "assetHash": "0c61696db4eb4296bf6f7415d5c2c34e7c83b8af3126d8f7e888fcce81fb066f",
+            "metaHash": "c77d30486f9fe4bf4f3e40c1ffb46f044e0fac9841b3e9533799694b40832623",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/HexaBlock.prefab",
+            "guid": "7ba79f45eef84f74ea5c0ad3be73efe2",
+            "assetHash": "73fbd68e7de51ba834d7da3256f422afb4c969756ddf7db3a14c4634cb80173f",
+            "metaHash": "b0636e4ce71794f9da4749deac56c3f8a495fb41b9fb2c8486ccb13091192741",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/HexaTile_Piece.prefab",
+            "guid": "59b6094d2ea3ec94880c85bb44ab7356",
+            "assetHash": "3565386f8104b49d4ca5325e2ecb0efc63c52cc6cd25354af01ace2ec2874261",
+            "metaHash": "da134419380472edcf2fe02b12748c92e1110d3c6427bba3b7bc10a039587270",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Particles",
+            "guid": "ad1f683c4ba214549b80593b0169ee3f",
+            "assetHash": "",
+            "metaHash": "dc570e6fb86a60227232c96504abecdd77b478535fe5fc897cc84203e92acfb6",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Particles/Bomb Particle.prefab",
+            "guid": "9b17a79be5ecbd54c9686bd0e639c5b3",
+            "assetHash": "4af2b4eea5dbb5fe95b30d18f3f08313393530b238d0d431feaaed86a3379719",
+            "metaHash": "68464044a9965d89733466b97e88a88ab95c16a91c2798e472699497e5b53f0c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Particles/Hex Destroy Particle.prefab",
+            "guid": "6d4e7ed2c1b55db499bc025e0afa0212",
+            "assetHash": "b4ebd44c69d4d6e6f3cd2e7c742e75f86c809388663c4449521ed029aca21dd0",
+            "metaHash": "372be7e7b192de624b8248d3f618d9880a990ff6dc549636d3ea1e0ec612e03d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Platforms",
+            "guid": "5000ad37a9e606541a571236f474b344",
+            "assetHash": "",
+            "metaHash": "59ae59f59c57c70381a21dbc118923b56fd67f26d75ef74a081a9100ed572987",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Platforms/ChangeDirectionPlatform.prefab",
+            "guid": "e8352fe1111303d42b39384f7004dd19",
+            "assetHash": "9d23f33e0abe3e4211e8730b6f5a2bc12152a3804df93518356c48aa7aa0e52a",
+            "metaHash": "518bbde6641cd0d2278f026746f47a7bb0045e7238874856108ded58c55bf1ad",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Platforms/CollapsePlatform.prefab",
+            "guid": "6cbf8bc329d86b9448a5a73652fc3495",
+            "assetHash": "543c741b9443cb2ce64de363f703d4302b1dd9ebbe5dc3edfcf8452dc5f357e8",
+            "metaHash": "85cc07eda9b649bbb1bb62b30bcf39fd08730ccf2b6526a86b05e03f4c824a31",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Platforms/Platform.prefab",
+            "guid": "6b9241e5164561642a89cbfd685e9ba4",
+            "assetHash": "a012e31e5a06ac96775d8168dc740d7702b21909745ac5df9668bde4780b7c72",
+            "metaHash": "a16b565b74800706cbf7ae38a8343e043b829f1e347cd0677ac4dfb37c541364",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Platforms/StopperPlatfom.prefab",
+            "guid": "40b4bbb91a6a7f844a70f30362877bf2",
+            "assetHash": "5395a293efc8f5a5cdcd2d41a3584d02e904a42116eca0b74363a5aa8be7b5b2",
+            "metaHash": "9da664b2be69846ca1674eadb3bfa0623401e2b397e806660681ded6ca383396",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Platforms/WormHolePlatform.prefab",
+            "guid": "ddfb00e95cf12064b814f86960d63d21",
+            "assetHash": "810fa4e9203c2af30b4a4a5122e634f2e21d7135830730856491f9b2535682cc",
+            "metaHash": "03befea1b6db70d2679a6930794b259c673607ddb77c873b121d5217bb17349d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Props",
+            "guid": "17c4c965c54c84b4ca16d170270048de",
+            "assetHash": "",
+            "metaHash": "e52d83a9579186cbcf073504ad7cfc71552c12216e8a1d6e0cefaed5c00f0af7",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Props/Prop_Drill.prefab",
+            "guid": "13f09a3cdb542514dbde7eeeac5a45ec",
+            "assetHash": "b94eccb337096fbdd32fd01cf4326e1bded8e72b69e7391b71cb033079b003d1",
+            "metaHash": "08b2fbad9de23eac6d30a082814570f15265186d15ba83b98d948b92d214e0a9",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Props/Prop_Hammer.prefab",
+            "guid": "cbe3ba2f6675e8b40a00702065520460",
+            "assetHash": "51f343c25099cf0d7a17d2fb3b5d3ab8128de0eb7c365b4de09020e29f20f5c3",
+            "metaHash": "2096dfdc73180a1241743669ea3b139ec453d0b214eb9cdf34634bc4e72636f3",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Prefabs/Props/Prop_TNT.prefab",
+            "guid": "c282f840b31d41444bff1b7d7a419dd1",
+            "assetHash": "c4b206afa0842e7b2e8504022cdb5780c33b41031bf7688768098bf8aaa1ade0",
+            "metaHash": "a7c6e47638379ecfee5dfcd926e302334c7c696e4ac163ac3f8ebbc640fdfac4",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/README.md",
+            "guid": "933f13831e1f9464283346825a461008",
+            "assetHash": "768296791c5272b407faddd9c95007f17e7b7641c9a8dca1969bfae59301d244",
+            "metaHash": "e57df7708613f6922bfbf45cef3eb7b05822407685b7abb121bce8025de09663",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects",
+            "guid": "71a424287d304f6696f2264a308bb0c1",
+            "assetHash": "",
+            "metaHash": "0ffc4d878cf14b1d50efe9dd91d3e09398b1014b0fe2ef16a211ad6199a57b31",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Database",
+            "guid": "1825c9aafbe64474b67f9146c7731672",
+            "assetHash": "",
+            "metaHash": "4528197cbbd1a04d9674ff689d6f446d100d920d0cf812a01eac7099f580db57",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Database/ElementRegistry.asset",
+            "guid": "a88c7ff1595c48b1b7b2cceef837c3e5",
+            "assetHash": "092a27718eeb5f0b9ea8cb5cbd087cfe889a78aef3849b845ad17ea72b73cfc8",
+            "metaHash": "818c2bf7b116acbdbbd16d0e47e00051005a318f16165871f948383a7276e5ed",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Database/PropButtonConfigDatabase.asset",
+            "guid": "897417cfa7aa0bf4b8adfb7d3f777629",
+            "assetHash": "3ab2480c2215359b262d5c9cb37fa6197f6c57e55424cd4276e1b63853638e1a",
+            "metaHash": "f6d0cbc23b94ca9d4436a9381193916953a3d4177aa91f2b9f7a6097bac9c657",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Database/TilesVisualsData.asset",
+            "guid": "2076829912fb85843b7c35ed943ae1aa",
+            "assetHash": "963bbe99d8348e7042302e5d1ba86c95b35c20d9fbe04caa9298d9a2052a3497",
+            "metaHash": "cbc85e6cce56f38b1d0237305724fa329294d5f6ed803a5a656f3af842d23969",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Effect",
+            "guid": "ddd289909fd340e2bb5c120fdba8e674",
+            "assetHash": "",
+            "metaHash": "b118077524ceba56a7cd65133068caf638f9665d6f17de5aff18dfcb51f9ca04",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Gimmicks",
+            "guid": "a620d3f1afed4b00831dbfcfddf5506f",
+            "assetHash": "",
+            "metaHash": "d9b86ef27483e7e283ea3773ee222dd5b507c876b5b460e846351fd71f17e52e",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Registry",
+            "guid": "a1f24fb06ff63da4ebb36783ba2a4cab",
+            "assetHash": "",
+            "metaHash": "59263c7b6ad45383651e4351dcd32471aa0d2c06041e5c7273fbc0b09445c82e",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Registry/HexaAwayAssetRegistryConfig.asset",
+            "guid": "a1cecb4611a8a7b46b97c645cf64eaac",
+            "assetHash": "44b1cac602b37709e252ad2708036cbbc3d933674819eda03a8bf1632694d14a",
+            "metaHash": "5b822b8ae54d3d6bed99fcafc1b2097b03f721fa55612a66549feaee321bc745",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/UI",
+            "guid": "e5bcbab84278c8c47acedadf7b44773e",
+            "assetHash": "",
+            "metaHash": "a83c9d1b03e5645e1ec434dc5aaf876bb143021a4acdb94c1f61de0c4f019c6a",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/UI/PropButtonConfig_AddMove.asset",
+            "guid": "c8c1a1549f5c6674990f9e133e035818",
+            "assetHash": "15f6d787a98828a6b681300e0fe43d6161b4a4671d8b0a741a97af669e2e0398",
+            "metaHash": "02c89a981c0a0a0ea0409e2c28925ebaab1fbcb1200420311d25827ad5881c3e",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/UI/PropButtonConfig_Drill.asset",
+            "guid": "ff816c3a66d1d4d4d81ebbf5eac8e4d2",
+            "assetHash": "22bb6e84b484905e3d3e6e8881d2b8db6fdb84d4311bf663c2c6e18ea4ca40b9",
+            "metaHash": "f6817fe1388d8b9800981f66c3e3a30fe252f1f463fe856f553e407731ed4199",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/UI/PropButtonConfig_Hammer.asset",
+            "guid": "69e50706ee491ca4686aa83fbe19aec9",
+            "assetHash": "0b091be27a22753fad3381b1bb509114c253c25c1c75d0110428c98489a82fc4",
+            "metaHash": "c63df850cd5321834da9cc1d1607d1465e0fe8060bfd8dc4e8d2f5958fc168a4",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/UI/PropButtonConfig_TNT.asset",
+            "guid": "4b69b3e013fc678438a6c6c7987b1104",
+            "assetHash": "141d46c608672c11a9eec32e71a578f281899a6089fcff90cce4a40f7f670022",
+            "metaHash": "08f1c0a53804323848fcbf8cbdab6f4a29304f22e96a211ac024e6764c99f926",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Visual",
+            "guid": "0b6121cf889844ffb6728a2d9e40bc78",
+            "assetHash": "",
+            "metaHash": "329bf0827a4b958b88a1b29312ac3e2cf4d90ebbd3a433863a467b03291b884c",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Visual/TileVisualSkin_Default.asset",
+            "guid": "b8c8f866d53a4f4d8c9f0c98d327ec7b",
+            "assetHash": "5d3938abf8b6793c3696acb193efc564fe78a75fc2c65c7c8f646918c7950820",
+            "metaHash": "3f90cd25988b9c357c039fdc858f590c346fa485a25b8118b7c9dfceefb3cb72",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/ScriptableObjects/Visual/TileVisualSkin_Single.asset",
+            "guid": "977d6fd094674879915c06243067f970",
+            "assetHash": "4f2f0ff1b44c04a5a15e555302198bb92d1a513b29435216cb723fdcc8b9f44a",
+            "metaHash": "a34c7050381ba2eba0a6ee097fdc44342b37379ca3c8ec10e68078bba02f0078",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts",
+            "guid": "46caef28b66affc449562de7921b922c",
+            "assetHash": "",
+            "metaHash": "76f415e9dac0d0eaf7e371591c4b42b7df96e58b80052790240eac1e12091019",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Config",
+            "guid": "1bf97d650f676744da564134cc613677",
+            "assetHash": "",
+            "metaHash": "0d7bd9aaa3cf067cf548ad2a78b211dd28cd42f22591dc44a21a880356961704",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Config/HexaAwayServerConfig.cs",
+            "guid": "cd17d8e06443a0041808ab2beceb6aa9",
+            "assetHash": "a88fbf871f92e42cd9ce9903dffea60047c1a8097a95de080404c8bf59d25a7a",
+            "metaHash": "8cf10b176ac12caadc96cfcbc26858d8f054f3a0839efe829959ac5ad7ac5902",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Core",
+            "guid": "24ce710f33605c24cb7ad287235f54ca",
+            "assetHash": "",
+            "metaHash": "2abc753c813a3e86c72c3aff516a091cdec534b0aa41e6756f49b6df7baf2a19",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Core/DirectionData.cs",
+            "guid": "0623aea77a296f94ca9bb8c7b092268c",
+            "assetHash": "84acb7207d16d4bfca03e7c8943a5c33ec06a93891566cb7d932cbef47c42e8b",
+            "metaHash": "7ca77235373ca84211246d7e53609367719b862aee290a76b0688d7fd90d8fdd",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Core/DirectionHelper.cs",
+            "guid": "f01b17f7e4e49544184b9c8e564dc35d",
+            "assetHash": "e510355de1fc209971dddba879017b03175eb77b0c14c984587ea4889f56a0e2",
+            "metaHash": "40348dd813b5d454c7f90f865a53b12432bf5de3d6499821e2ca74be1d4e9f35",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Core/HexaAwayEnums.cs",
+            "guid": "1048e832a786f3f429f5ed5db0b7c431",
+            "assetHash": "a211531f99e400b680f8df11c26bdfb28221fc437360b536b2de1a8f070aae89",
+            "metaHash": "c1b67de43bdde7c0d5c031411a76f4cdc79f6e734fd489975fdded742a66e4b8",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Core/HexaAwayPropType.cs",
+            "guid": "aabeb9b2e0b847a8ad2c91e0b5b2a2a0",
+            "assetHash": "09deecf3174671ae11af05e0ad159b11f30a516e88b4bd77883250189a751eda",
+            "metaHash": "92c98ef92c006967db18e0503383d62e9e8c50fb386ad13c7ff77ee8cdb036a8",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Core/SpatialGrid.cs",
+            "guid": "3a3e155999d29ea438f7241a3d79bc36",
+            "assetHash": "d817f5c76f8f9da0ceb3c169df1a68faec1961eddacc23581353fc392618a0f6",
+            "metaHash": "f6316ce8d2f9c3426160dcbb3bc8b4996618c0151a3c698c076d13003f6b16ee",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data",
+            "guid": "434b901806f1e5f4381cc07eadda14c1",
+            "assetHash": "",
+            "metaHash": "fdd40915f9a10186e4581f7c7bb8a0fcc6e220a3a916fa6ddf24a2cd92871faa",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/CompactLevelConfig.cs",
+            "guid": "c5eecc7b014443f09e6df363391bd3db",
+            "assetHash": "17feab8c33509b9ce2f108b72e9543d4682d13727900a88901e0f50d776f8715",
+            "metaHash": "29fc438f251ed0362fbe6fbe94993d5fa442df7393f7e86f6e449e6554dcae45",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/ElementRegistrySO.cs",
+            "guid": "d4f26a70c40a4e93aa62e5d0c3c3f936",
+            "assetHash": "98ce8eec70a38cedf1622a8a317d51ecb7614c3b023a0a1144e9a157bfb74d54",
+            "metaHash": "5ca4506be8b820f704e935c9b2a10a8a0a14a0f5c88b4f5224eb5d8131931ee6",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/HexaAwayGameData.cs",
+            "guid": "34ec0efb5a505294d8d42f0b52cff581",
+            "assetHash": "a6c7964176d560d6dd55bc58ea01757537aa8afffa942f2a7bdd7db5f4e146c6",
+            "metaHash": "b0a1eae181c1d85fee581de204347cb52395c36ddfa1d8ac8f237dc1bf0aae19",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/LevelCellData.cs",
+            "guid": "7b0a39086f437fd4d81be4f2b391d168",
+            "assetHash": "f9467e518b62870160cab1de197b956bedce3e8b2ada5e71cfc05bb0e193bbf6",
+            "metaHash": "829a6bb65ea98508089842a37b309334643c0c467c0ff3b4828ef9c4905f421c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/RuntimeLevelData.cs",
+            "guid": "b19c12842ed343d48a1d8c0d0af14e7a",
+            "assetHash": "56581b33baab18da6df850e2a13a4963908a39c515707b5138ff4bf3864e5a17",
+            "metaHash": "d34978c1ad8308505581edb264b35ffc12f5aa1d64369383687cf086aeea3cbe",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/TileData.cs",
+            "guid": "0f54697e0add79043a622ad16c4321e0",
+            "assetHash": "b26d57be8074e3e6a670911a507b147ec230b85fc3b06db38e6c13af735f670a",
+            "metaHash": "62f660e00f30ca8a2fcb30474314dc2b414c10a9ccb1d8666ad71b0af77d6388",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/TileDirectionVisualData.cs",
+            "guid": "d65be78bbce0b814eb372f051f75f287",
+            "assetHash": "abbc5d0d87988620aa4de80211a1bbc79c6f4cadaf1484b100778cc28f95484b",
+            "metaHash": "639ec796ded9e1fb40a028f16bd429d7768cb23e4b16f765ebdd6ca6db2162c1",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/TileEffectData.cs",
+            "guid": "9bafcfc88669e864f8da520578f80033",
+            "assetHash": "7548a9cfd4daa238fbf631fe0ba2c1a58ba34bbbef2fa9a7d3cd833e0594181d",
+            "metaHash": "91243666912298dc13e94920145acff6da9ca0a6658432b724edf069624ab564",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/TileVisualSkinDataSO.cs",
+            "guid": "a2f60f8d6f8b4b70a2a2e16d35ab0a71",
+            "assetHash": "f3eb4edd4505b8848939319c71732c705c6fc8249e94c19441cdb4c3cf0cf200",
+            "metaHash": "bcb4a46914acf1f0bc8be04ed86bb10509d225df0290642e245ee1f29cdb5103",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Data/TilesVisualsDataSO.cs",
+            "guid": "099bf28eee92c9341be2712a8e2efcfc",
+            "assetHash": "81ce6df2ea964002c81ba6265c2bbdf7e3662d010ebefa29ba3cf2a8e5b0c6cf",
+            "metaHash": "89e403b5e82b3c24e3faca0f3738cc6a037be8c5413a4d9155eebe6f78f103df",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Editor",
+            "guid": "566cc89d054d473f9057bc10e88a1a0b",
+            "assetHash": "",
+            "metaHash": "5f2cd63587e8401ccc323503d75634e4581f866006082a4c2b3d5c258269108c",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Editor/HexaAwayServerConfigTests.cs",
+            "guid": "7dfaa68c5c0db1049806b1f824bd9fd2",
+            "assetHash": "b95dd584476278ef6034fc5cf4da2d4edb55fbfd85a85b8260fe2c93bf0884f7",
+            "metaHash": "080f145780ba7a14f602229e5b0adb6f2a0c3ea56588468f9d14cea77fce13a2",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Editor/TileMotionTests.cs",
+            "guid": "66c4f7820c8c4ef498bf7a8853937882",
+            "assetHash": "731843d4fbeb30f82dc7acd5f350cf8549c3dc278dc43dcf2df4945336b5a594",
+            "metaHash": "32b9fcc640c722b359ed2266b6779899523a586f92df47cd5f9999672a30928a",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Effects",
+            "guid": "69f09f5ae8633a84680ff3cc7accec06",
+            "assetHash": "",
+            "metaHash": "59e16710d2080658b040752bc72e95741d0f2bbda165a124ffae1dd6f69d4850",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Effects/TileEffectBehavior.cs",
+            "guid": "04be33bfaeec73747a9bed7249a57f06",
+            "assetHash": "35781e61f8b0e2ba82a1bf8acfbae20e79c630a8bb421b2d7471c92de88e79f6",
+            "metaHash": "5f4459e4191fe3dfeb9f3ecf8fe4985b772acdcfd4ca174385252727e96d8f51",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Effects/WoodBoxEffect.cs",
+            "guid": "92950b98bd706984cb30a700018db1bb",
+            "assetHash": "5dec3ba0ecec63583b58cb34eb01453e8a81748dd5fdc23d14c5284e327aaa2b",
+            "metaHash": "ef9217a0f069769065646809efb86d08eea30033988451a8bad17a0a5b5da450",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/HexaAwayGameManagerComponent.Module.cs",
+            "guid": "30b1eb8baa16fe0409898c119f87c66b",
+            "assetHash": "c2e4099f7b009bd676e944ddcbdcc1e5b65a18e8a0216898b3667151aa1483e1",
+            "metaHash": "96dd4ee21f57cfa523cbb0dae86c6b9bb7f27e0f90d1c8fb29694578e786e28c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/HexaAwayGameManagerComponent.cs",
+            "guid": "0014106516bd96b418d322330d1a5cf4",
+            "assetHash": "f670943bc2642d54cb018f1281caca03f69208759f1191b2244a3752adabbed8",
+            "metaHash": "45b3bc98b5f4095d8720811b0d0ab5e8c83b5076727947fb15b8d19bf4f82c3e",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Interactable",
+            "guid": "3d3a34153fd5fb044888ed54dd8317d8",
+            "assetHash": "",
+            "metaHash": "b3dbbcd7049e1ca9d7c26e18400cf6c91d4e8ab3c4b38f56210f499656deef84",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Interactable/AreaChangeDirectionGimmick.cs",
+            "guid": "0b413c842e2997646a111af3f610cf6f",
+            "assetHash": "0d375c26b7ae2517aeca44228f90171e2170762248bf792a663cc9b74319357b",
+            "metaHash": "5cf78c3ff02dd3d0b9b360c6dbeee87455dca66a481df396c605ee24fec77476",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Interactable/BombGimmick.cs",
+            "guid": "14de64345d62a5246b440833252123df",
+            "assetHash": "3143ade5c37e26aecd08de5eed53742a1acc4362392ab6ee573412e2ce925026",
+            "metaHash": "fef6c2e18d7d660cde701b7ee03185166c832eed0b0999080e78216b1a4e9943",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Interactable/GimmickBehavior.cs",
+            "guid": "b740d59cf1ebb7c4a8609f7bb701599a",
+            "assetHash": "ccc7e776fda960e353b71f3a12b292f73fcc8a2351212fe8c6a3dfb0dcb89dbd",
+            "metaHash": "f9ae98d0fec3b4393abe77595601c57ecef38778f526eacc8e2aede8f6195e96",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Interactable/IReverseControllable.cs",
+            "guid": "27838c8e1c26fe54ab48ebd93d0e8ba1",
+            "assetHash": "3c7828a5b7fe3df003b8c7be2ad8d821560297458836684718ef9977cc3b9d59",
+            "metaHash": "25f6bfdc3334b7bea063db9f6c2fe58fcd3199fc71c2937f63b30a42037f1025",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Interactable/ReverseGimmick.cs",
+            "guid": "99eaed539b1b5ed4fb7e62222e45aafa",
+            "assetHash": "848bcf259cf7fad3c845ddc8c5500efd68b015b407f7fcfd67b00d60c3eea424",
+            "metaHash": "22267581785593f5e966181c9690aa08adf590d2bb39c4fd8d7545b86de3a6f4",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Interactable/SawGimmick.cs",
+            "guid": "b3e37a77546ab5647b9c7b32798bf78a",
+            "assetHash": "45902678e9b119a643a03b3308d991dce342d3108756405a98a606ea7b40e311",
+            "metaHash": "f65a9afae1522ed651b0e4bb7268714ce23265d2ce9b29abed3f8c0ee8ea30a7",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Interactable/SquareReverseGimmick.cs",
+            "guid": "4c6e4e1b5a5b4b1aa1c0d9ef2d5a7c31",
+            "assetHash": "50a132c0c21601a92b8695f620478729b4cc222211f2b9cb9a4b566ca317b054",
+            "metaHash": "401de7c99b1b5e8c6e6081179c2718d7431fab9070aa6bbaee36e30829de7cb2",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Interactable/WallGimmick.cs",
+            "guid": "b69696d7bdf9b614498af6408badf07c",
+            "assetHash": "955a38a57f08f6a76157ff875edbe54f59d7c980c3f8ef522db50d631188d497",
+            "metaHash": "4df7bcaa906fba6eae81c489017a317fb326201c1bc4194aae9239dc52f79d72",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Procedure",
+            "guid": "291deb7dc216d3449b54a224153c20b7",
+            "assetHash": "",
+            "metaHash": "7622f4da93de1044ddcfcd3ef142678b12664f8be7bb505086f6364da2781e19",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Procedure/ProcedureGameHexaAway.cs",
+            "guid": "779ef3098c869ca47b0e4c838c7fb75f",
+            "assetHash": "15f300b6fee7f5bf175fd19c7b82743de9cf7ee608178bc0e5d6716c903c774d",
+            "metaHash": "6224fa8a0f10ef4fe8aea90cef8c265df8c7426b478c1b79ec0d3e7a10c1000a",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime",
+            "guid": "888f90beed79d864080350e9f107b903",
+            "assetHash": "",
+            "metaHash": "783fbd45c8b033b35889378a51845038a9362a813f8895fae71922378936e0b6",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/AnimatorTileMovement.cs",
+            "guid": "8f9b8c0408efa4b4aa7b1f152aac4687",
+            "assetHash": "fa54e12fac7058acd47a145205377bfd5e32511fb299739d9fc95f5e59eef5d6",
+            "metaHash": "b8dd1840ada656fa93b62ee13d2c04779f24c69f2863490f4756601763ee2057",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/CameraController.cs",
+            "guid": "31ed235782d992f42ae0fbc76dec6374",
+            "assetHash": "904e365937790e8a63fd58df3a8094b13d46cfb3a12eb3673b3cbe01f18f3b75",
+            "metaHash": "8bb7603996f1bea26718c3dc4303ac03e874e41e2d1712ccbf896d710f8f9aa7",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/CompactLevelParser.cs",
+            "guid": "f9132e0686394f64bb17a9e0f51709d8",
+            "assetHash": "6bac2f74d19e4d98e0c8d261d11bf39504a473b4e8c6a54f9f609e8941f87624",
+            "metaHash": "90a4b0cf402c5a8671d8229b8d8d98879d620cbde17bfe06c8fcebf34a28fd37",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/HexaAwayInputController.cs",
+            "guid": "9e816019e77e3614aa74c18625f296af",
+            "assetHash": "07ac1372bd15092271325f01019a7590ed75f5fc7342747602cf620b871e250e",
+            "metaHash": "0a4d2357eac14e4a27e29240d43ad902dcc8cc29c0a1ab3e1716bc276219ee77",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/HexaAwayRemoteLevelConfigLoader.cs",
+            "guid": "bfed626c72bff714d9c7161498389e54",
+            "assetHash": "96d56ddaf18175d2540343a457f6337a9f15a8499c8ea27c3965d11e84bba8f3",
+            "metaHash": "54779be3794ffa8ec1992f965237079fcd04f5de2f0ddbe21c4c5cf7fb8ed5e8",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/LevelContext.cs",
+            "guid": "acca2d3e9d13c364b8cc72557e222842",
+            "assetHash": "1df9af1c788f51168803a659152863fc5912d3136d8cf210dbea6de3d415256a",
+            "metaHash": "2e4ed2eaaa064b1504737b6bff2d38eaedec52675c2009f3f4ea63817bbdcc1e",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/LevelRuntime.cs",
+            "guid": "cf34b7f9ee1fbbf4cbbcb21fdffceffd",
+            "assetHash": "80a589d4a953ef2877ab2ccc31447ac0bfc901a8fb24115e814a93402f900c66",
+            "metaHash": "6ea75a2839aa65f2b328107ee6200803f81f883957c3fbbcc12caadc4344f143",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/LocalTestBootstrap.cs",
+            "guid": "431d83ff7f3d46c0808907a1c7a64b83",
+            "assetHash": "811732c36d686e9db21f8438f8f3bdbd9ccbff461abc693a9361078b5d145aef",
+            "metaHash": "924f5899e7d904706fee1470c80f7d7279c3f9b27f362614f4f2cf5e5b4664c8",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/PieceTileMovement.cs",
+            "guid": "2e3d4f5061728394a5b6c7d8e9f00112",
+            "assetHash": "87e270f8691b5e7201b3f9365830860ddae15e11df3329ab47ddc3751b465f83",
+            "metaHash": "c7f33108c525e7d9a92b208069411c02cb4c576d61a3245cd9828dbbc7d2335d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/PlatformBehavior.cs",
+            "guid": "8bd3889d4ab5065448081dcfffccf2b5",
+            "assetHash": "f7691896af3134e33168b7cc841f3772799f01a3d6aae63c5488beb07ddedcc7",
+            "metaHash": "78dbf57c1cf6258c7d9a4907c9c35c212890a226e1f2437900e0bf2610f24f19",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/Platforms",
+            "guid": "3e3d0ffcfdb3cf34cb713c19db739b4f",
+            "assetHash": "",
+            "metaHash": "42bca3c6e4f8d59fc7280490b7f4ce58018a907829821b4c48050c8182d38cca",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/Platforms/ChangeDirectionPlatform.cs",
+            "guid": "66afe1b449b65a040a8c7f75717b7a70",
+            "assetHash": "ef5056c1352c966f3f31d38fa15ce0a5683a5e9891bb8a99f734a2059e063bb9",
+            "metaHash": "376ef30b30e0a36af3c0283d71747ca8da034ba07509474f2efd0f11418aeb02",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/Platforms/CollapseTriggerPlatform.cs",
+            "guid": "38cda54fef5364143bb849839c6b313a",
+            "assetHash": "5c69f8553771510bf351d628c9119890f745c649462edc8d4f94c2bc2d550f45",
+            "metaHash": "386496615591e4de1b90d5e1d570c6974cc4191803e3cda0ed7086a7ab71a70c",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/Platforms/StepperPlatform.cs",
+            "guid": "1524f2cad4fd404469547be4c5f9da9d",
+            "assetHash": "f5a5a5336621e6dc57e82d5d91e9326ee6b71d6a580d3406a59e5336d05c3ec2",
+            "metaHash": "56c8e596434e87534ac84d1c43d2cebded90c1b9b080f9e0722e20e3a7b620b6",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/Platforms/WormHolePlatform.cs",
+            "guid": "b62d821bc20f37e41909cd44a4130124",
+            "assetHash": "280a72010616009eb1a1b8e08dec36df785e1551a433b0572fefd97a7b62a1e6",
+            "metaHash": "0c0260210dd8283ad24df4899172e0ee04a5accf0e03fae4265ec3217bc3d848",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/Props",
+            "guid": "d87d36f5303240fbbe834842f7bb4a52",
+            "assetHash": "",
+            "metaHash": "c676778dc7f0b97194f036a3de5b89b146c8dbc5f951697729f7c9f5da039772",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/Props/HexaAwayPropAnimationEventRelay.cs",
+            "guid": "f466ec5ac389450eb4f5339452463f6e",
+            "assetHash": "665a3d5f04c02f209d6df4887e25baaee37ae0f5de53e6503a19f5ec54a492a9",
+            "metaHash": "af2d4ee836056b075e69ef5250bfefd45af8d09e4a945c51f0b12308dc2bc49d",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/Props/HexaAwayPropAnimationPlayer.cs",
+            "guid": "2e270448010c45ac95544a2db5e9f307",
+            "assetHash": "aba17d4a69f53b1f55ff78ef91bf968972ae2cda3625605c4a79cd5f300e152e",
+            "metaHash": "9e07339a8c0b397264ceabcca7b9c26c3d32c69c4a13a3f647271e42c4cc8684",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/Props/HexaAwayPropPrefabBinding.cs",
+            "guid": "a19102643f984a848802a5b12a2e097f",
+            "assetHash": "c8f5a427a711c0ed6546cb36698715e0a25aeedbca30337bd6a668c179d3c516",
+            "metaHash": "2d97b34364067298e937d37aa7427c918e2e30444435dbc9530e2f2b741ab05f",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/TileBehavior.cs",
+            "guid": "574a2520e051d4749870ead057a28a73",
+            "assetHash": "49b5460b0665c07d28114d6161f8374e2bd797a9396929e8a2031e2f37a4cb70",
+            "metaHash": "5e290260705dabb4699b1b0138e8ee3672638aa0ea6431a84bc8edbf1736f201",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/TileMotionTask.cs",
+            "guid": "cf63fdbf31664c82a793b5c52146151f",
+            "assetHash": "b231cfd1e1f96751f22f3eca05a50d3c1fbdb6fa16d217078fcb345ed25e0792",
+            "metaHash": "9eae4ebfdcd2b8470945b3cf51b11b37c757aa4b319e4b4703d644151bf85af0",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/TileMovement.cs",
+            "guid": "14faab2f44f8c6c4aa95afcd84463e34",
+            "assetHash": "22552c995c1ef36e4bcec399353bb70dba8412328e44adafb9d1fdc7ca9fac53",
+            "metaHash": "bfbdcde3fe1f5a4a4b528a51738ee8adee5c6905ad665f1c2ac13f6d1c351edf",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/Runtime/TilePieceGeometry.cs",
+            "guid": "756870b95d6749568a03873e26eb6622",
+            "assetHash": "eafcfde9e3d12caf1d70f23fc36b7055acc2e5ee6121c5c27c61ee48ea868d38",
+            "metaHash": "ad1577cda287889640c65841d57b4f75a8cba868413e8fe3e081ea9d55fa5011",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/TestMode",
+            "guid": "ee7f7604c6fbed042b2f8817370fbdec",
+            "assetHash": "",
+            "metaHash": "baeee313a3e7dec9d5c61775d404d649fd03d1781ab0923f6a9290b811361446",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/TestMode/HexaAwayRemoteLevelConfigTestModeModule.cs",
+            "guid": "cb917372cc948214ca30c15288f667bd",
+            "assetHash": "46ad7dc6cd0a1d0a2b9befce94977b8c2c35131b214bfd0d0fb32944cce4492d",
+            "metaHash": "accc44f84f203805ebcca09ac43bec2d1a28132b0d12d3b141f47d921bf9acc9",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/TestMode/HexaAwayTestModeModule.cs",
+            "guid": "fb2ee302b83fbca4e81a2590225a343b",
+            "assetHash": "58153d15af9c1ce69e73faebe77165b44d6b72bcfdc206ee7ac04ea878854e48",
+            "metaHash": "431e38e4dfa114f35a5a9c096acf0cace8b0235ab324d83b49c8283e039589df",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/UI",
+            "guid": "4fd457f74094496b8dde98a371ce7ce3",
+            "assetHash": "",
+            "metaHash": "6e743c55b0b56ca874e83ac31a12c3cbed84cd3dede8614f4a1a05846634a423",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/UI/HexaAwayPropButtonController.cs",
+            "guid": "9d1962840945473f892b79bb869b3d16",
+            "assetHash": "c6a4a44399cc9577091ca835486c9daf8ae5d7fc7843e11845908eaf1a955868",
+            "metaHash": "9bbf4f5b7b950d52ffa6f91543c5e2f5a99239b75ee4881d122c0dca075bded8",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/UI/HexaAwayUIPanel.cs",
+            "guid": "49d29aad6c35bac4097434d3dd46c209",
+            "assetHash": "ceee71694affd2238497a89660c4a7570bff61e8629b9cf0a7f2960fb9d09909",
+            "metaHash": "f555b258da9ade2bdf36a804550fc5235c6d41424065319f844734e43d7baff0",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/View",
+            "guid": "1caf432f9e88eed4e9ba8c7ee72b95a6",
+            "assetHash": "",
+            "metaHash": "4f13f21652b131654d46aceb1b910035f87e46a9bb77a76bff150782ba82906b",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/View/BasicTileVisuals.cs",
+            "guid": "8cbe6e424c4fd9445a8f2c3776b843a6",
+            "assetHash": "d080513a8f00f1b6ba86ef1342baa80892393e3cfeecd82c5391756f0651bbee",
+            "metaHash": "40dbf00fd78a785e11388983608648d543472f320eee9c2bd89491332a7ce051",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/View/PieceTileVisuals.cs",
+            "guid": "1d2c3e4f5061728394a5b6c7d8e9f001",
+            "assetHash": "fde371ac4f0d2144ae3ea9f9e1e7db98669e16b54ac1723d5906636d61106d91",
+            "metaHash": "48125a3577b160071f86c19295067acb9d2620cf12bbdf85b14eb231813227b9",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Scripts/View/TileVisuals.cs",
+            "guid": "dd63803325dee5344b60a6ea7f2e1bde",
+            "assetHash": "eb449b85f1765813325e55642b1bbd782e4919c0a90432d7fa2957fa1263b022",
+            "metaHash": "b395991f75b1a8e52af905bb234973f1b9f5177b9354e3b2ee88cde33a6321f1",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Shader",
+            "guid": "e54a9df66c6cbf2439e5e3d3e6916f74",
+            "assetHash": "",
+            "metaHash": "0263a8541ee68a1081e09e420af6df30126805943c37aad7b9bcb68a27c0c6f9",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Shader/New Shader Graph.shadergraph",
+            "guid": "4a0b59d1407ebdb4391bf5c981c8fcf7",
+            "assetHash": "a5008ed167800cdf70047d7442d34467e300ee1f725ce5f5a30138c139c014c5",
+            "metaHash": "af630e1c2d7c4e9ff48b015905d2b9f61e326f9f4e17cf1c688ff8a977247ee7",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Texture",
+            "guid": "ab20246c8f6a4af7ab62fb1cc3975bb0",
+            "assetHash": "",
+            "metaHash": "56f37e8f0a0b39a9b6481819ccd43f486cbcebd200e48bd5bdf347d494e7dd82",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Texture/Change.png",
+            "guid": "475290aaeae251e4b8732f5940775b77",
+            "assetHash": "1c93a0bbf565a9e5345196d69f71c83284c64137a7c583fd37f39007cf18dd3f",
+            "metaHash": "24cf08b98af717d63a98b148e3dbf6123a37fea7b51053584d00613847b63cd5",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Texture/CrossHair.png",
+            "guid": "58e14c94bef215147b90f7b0a45c03bb",
+            "assetHash": "c64c04baa9aa0f871a54f6cd27cc42c163c7059e656df3ddbaa9c7197dbb6a10",
+            "metaHash": "6488c97be6a6d8720b04d66a269bed4f65c1df503d8887a5b570a921c7a556e0",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Texture/crosshair-2-fill.png",
+            "guid": "6628c7d6c32798244b7811e0e69b5acd",
+            "assetHash": "5f21137e862cfb3b5aedb370b3adebf4252868f0a66b242e72dae13aa2acec51",
+            "metaHash": "2a2dbdb2a9e8225776f5bfe1137341c7bdb4deebfc65b7e9424f0f5d56feda18",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Texture/effects_texture.png",
+            "guid": "193d8841a1be7024c81620635bd1f535",
+            "assetHash": "03c8ce47cf12e93cf95cc8879dc48befe5643b04a9ff55070eb7c8e83dfaad11",
+            "metaHash": "c623cf4dc4dbd7d160b3184c733ec77f61c9a974fddbb2ab258b399f3b5b05e6",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Texture/ground_texture.png",
+            "guid": "be53f9d2842cc7f478e20966ff7bdb8c",
+            "assetHash": "ec696b10f0161d1e08c0bc1d969c9a53323f8573a48bdcb80bacdca013f29539",
+            "metaHash": "31cbfd5143f3c626dd920071631c39e5d4759fdd3f222bbf97afffdf81be9ace",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Texture/ice_texture.png",
+            "guid": "ba3847d499813bd49a15ff750680aaf6",
+            "assetHash": "039efcf902b413d0d205d73b9fbf8d16cd829743a32e97f03ae73105b8325f92",
+            "metaHash": "c2df9a6001cf46c63b13bd920833763a6e8bcf6559227abd9180e7ac1cf87216",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Texture/power_ups.png",
+            "guid": "8677e8790e1d73b4e9dc142c4a7ff05c",
+            "assetHash": "8e920081f505ff1d5db98a058860f22b5e7a14e564b7d8033d8771b6018fe949",
+            "metaHash": "15c2ba967e9f09ca7e52fa6957dd3334fea2acd659db2e0e04cb122cf58485ad",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/Texture/woodbox.png",
+            "guid": "50119a51fc5b4c84b8a16af13342193d",
+            "assetHash": "ba3e76c6a08b408f9487691cded3ce4378d89b7d0b16eab0b8748f170502600a",
+            "metaHash": "7f77983e7139a5a50faec9ae50c371e385788659c6cb51b9606629d8c6dd4699",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/UI",
+            "guid": "0b2416a7449e4030a127493f585400c0",
+            "assetHash": "",
+            "metaHash": "70bfbeb959a27aae3071cf2ffb4b5b6adce19b87bd7a83d2ae70c99e2a97bbdd",
+            "folder": true
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/UI/HexaAwayUIPanel.prefab",
+            "guid": "ff741b3bf14c9384181ff546aa9f3e88",
+            "assetHash": "2b018de5042b0470507b32e296006e6d6f0044436091868d748b83092d70e00a",
+            "metaHash": "66c5a842ccc300c578ad0d6584503b841d66be73c3825e15b7e9c0db04f8fd24",
+            "folder": false
+        },
+        {
+            "path": "Assets/GameMain/SubGame/HexaAway/UI/SelectionUIPanel.prefab",
+            "guid": "224440e33df922042bd5eeea8235504f",
+            "assetHash": "6b67f041ca7c6adb4d7abb3f76d82898e3f903d7ff123e85255f50c306c95881",
+            "metaHash": "ac9dba9284e5e78ef6191913cc14905cc6dced18e409dd473208c52297f571aa",
+            "folder": false
+        }
+    ],
+    "dependencies": [
+        {
+            "path": "Assets/AssetsPackage/UI/Game/HexaAway/Test_UI_003.png",
+            "guid": "066ed0a59a39d974d86d02fc4662fa08"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/HexaAway/Test_UI_009.png",
+            "guid": "514df120f5ced2f459386dad50fa6565"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/DemoUISprte/Common/Popup_Frame_Square_White.png",
+            "guid": "bcd57c36feb7d6c488bcb57da97c0a86"
+        },
+        {
+            "path": "Assets/Plugins/DOTween/DOTweenPro/DOTweenAnimation.cs",
+            "guid": "56b490b0b37608647b1b21409a33ad09"
+        },
+        {
+            "path": "Assets/GameMain/Fonts/Main.asset",
+            "guid": "978f2278ad43fa448bb642ea98daa933"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/Common/DOTweenSequenceAnimator.cs",
+            "guid": "bb564ba3c03e4590a4f4f59d939d3a96"
+        },
+        {
+            "path": "Assets/GameMain/UI/UIPrefabs/PropButton/Base_PropBtn Variant.prefab",
+            "guid": "50f96a0dd69e2934881ba9cd3b90c948"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Widget/PropButton/PropButtonConfigDatabaseSO.cs",
+            "guid": "e81cbe3624d140fca13e33166442e6e1"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/DemoUISprte/GameUI/btn_front_bg.png",
+            "guid": "34337bd58a705524b842b1190586c5e5"
+        },
+        {
+            "path": "Assets/Plugins/UnityGameFramework/Scripts/Runtime/UI/UIStringKey.cs",
+            "guid": "087a56c75d247be4f8f7cf82ceb68e4b"
+        },
+        {
+            "path": "Assets/Plugins/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+            "guid": "8f586378b4e144a9851e7b34d9b748ee"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Widget/PropButton/PropButtonConfigSO.cs",
+            "guid": "07ac1cf3293a4b20b41ed1395714ac37"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/HexaAway/Test_UI_005.png",
+            "guid": "ace8137c5ecfff7429b35208ce6d28c0"
+        },
+        {
+            "path": "Assets/GameMain/UI/UIPrefabs/Buttons/Btn_Prop_Base_Hexa.prefab",
+            "guid": "c571ec7b784cd2240a2a3bb4a2d7e20a"
+        },
+        {
+            "path": "Assets/GameMain/UI/Common/common_left.png",
+            "guid": "439bb63638fb01848a792a5f9bec4429"
+        },
+        {
+            "path": "Assets/GameMain/CustomComponents/TMPFontSystem/TMPStyleApplier.cs",
+            "guid": "c0164be9304b1b94f88e0b2096737245"
+        },
+        {
+            "path": "Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF.shader",
+            "guid": "68e6db2ebdc24f95958faec2be5558d6"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Panel/SelectionUIPanel.cs",
+            "guid": "44c62b6d01783854f82c5c38e937e128"
+        },
+        {
+            "path": "Assets/GameMain/UI/UIPrefabs/Buttons/Btn_Prop_Base.prefab",
+            "guid": "9d26410b3cd83ee46b28937bb0873a62"
+        },
+        {
+            "path": "Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+            "guid": "fe393ace9b354375a9cb14cdbbc28be4"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Common/BM_Common.png",
+            "guid": "b3d46d0732aaa3e4c9c577c77e630345"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Widget/PropButton/PropButtonView.cs",
+            "guid": "66d2b78e9b724dd091cc6cb9b526486c"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/Common/DOTweenSequence.cs",
+            "guid": "00d89f3c29c62d24a9f5a2f03d3de7e8"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/DemoUISprte/Common/prop_num_bg.png",
+            "guid": "d3fe5a970d0931444a01e4fd3e643ebd"
+        },
+        {
+            "path": "Assets/Plugins/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+            "guid": "2e498d1c8094910479dc3e1b768306a4"
+        },
+        {
+            "path": "Assets/GameMain/Fonts/Preset_Outline_Shadow_Yellow.mat",
+            "guid": "f3b22d2a2e077b54480d6bc1d843c923"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/UI/Widget/Button/ItemButton.cs",
+            "guid": "bfbdcbc8e5d3145448757a48e78ad841"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/HexaAway/Test_UI_012.png",
+            "guid": "5b1b698803a54e6428298155285b76b7"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/HexaAway/Test_UI_002.png",
+            "guid": "1722677061a80674ebacafa015b1acd5"
+        },
+        {
+            "path": "Assets/GameMain/Scripts/Utility/SubGameAssetManifest.cs",
+            "guid": "5ce5ed4a39a4d50418b0601a3da4b87e"
+        },
+        {
+            "path": "Assets/AssetsPackage/UI/Game/BlockMatch/Game/BM_Game.png",
+            "guid": "06e013b09bb583348b96e4d36843c492"
+        },
+        {
+            "path": "Assets/Plugins/TextMesh Pro/Fonts/LiberationSans.ttf",
+            "guid": "e3265ab4bf004d28a9537516768c1c75"
+        },
+        {
+            "path": "Assets/GameMain/UI/UIPrefabs/PropButton/Base_PropBtn.prefab",
+            "guid": "69db221d5e9036749ab61d177b59a498"
+        }
+    ]
+}

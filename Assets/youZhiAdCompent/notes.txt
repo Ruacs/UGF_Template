@@ -1,0 +1,7 @@
+1，版本："1.1.2",具体子版本："1.1.2.0"
+2，版本功能：融合版，可以同时打包安卓，微信小游戏，oppo小游戏平台。
+3, 所有文件：
+   1, Assets/OPPO-GAME-SDK, OPPO小游戏sdk
+   2, Assets/WX-WASM-SDK-V2, 微信小游戏sdk v2版
+   3, Assets/WebGLTemplates, 微信小游戏打包模板文件
+   4, Assets/youZhiAdCompent, 广告组件本体

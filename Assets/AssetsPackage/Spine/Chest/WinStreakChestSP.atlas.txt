@@ -1,0 +1,153 @@
+
+WinStreakChestSP.png
+size: 1961,1365
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2-1
+  rotate: true
+  xy: 1333, 28
+  size: 440, 298
+  orig: 442, 300
+  offset: 1, 1
+  index: -1
+2-3
+  rotate: true
+  xy: 1633, 43
+  size: 434, 213
+  orig: 436, 215
+  offset: 1, 1
+  index: -1
+2-4K
+  rotate: true
+  xy: 1642, 493
+  size: 434, 317
+  orig: 436, 319
+  offset: 1, 1
+  index: -1
+3_1
+  rotate: true
+  xy: 342, 453
+  size: 454, 299
+  orig: 456, 301
+  offset: 1, 1
+  index: -1
+3_3
+  rotate: true
+  xy: 1406, 479
+  size: 438, 234
+  orig: 440, 236
+  offset: 1, 1
+  index: -1
+3_4K
+  rotate: true
+  xy: 1459, 929
+  size: 434, 325
+  orig: 436, 327
+  offset: 1, 1
+  index: -1
+fenSe_01
+  rotate: false
+  xy: 2, 62
+  size: 453, 338
+  orig: 455, 341
+  offset: 1, 1
+  index: -1
+fenSe_02
+  rotate: true
+  xy: 1119, 919
+  size: 444, 338
+  orig: 446, 340
+  offset: 1, 1
+  index: -1
+fenSe_03
+  rotate: true
+  xy: 643, 461
+  size: 447, 215
+  orig: 449, 217
+  offset: 1, 1
+  index: -1
+fg_1
+  rotate: true
+  xy: 2, 858
+  size: 505, 257
+  orig: 582, 344
+  offset: 42, 1
+  index: -1
+fg_2
+  rotate: true
+  xy: 1786, 945
+  size: 418, 129
+  orig: 436, 143
+  offset: 9, 7
+  index: -1
+gd
+  rotate: false
+  xy: 1848, 409
+  size: 82, 82
+  orig: 93, 93
+  offset: 6, 6
+  index: -1
+lvSe_01
+  rotate: true
+  xy: 457, 2
+  size: 449, 325
+  orig: 449, 325
+  offset: 0, 0
+  index: -1
+lvSe_02
+  rotate: true
+  xy: 261, 909
+  size: 454, 302
+  orig: 454, 302
+  offset: 0, 0
+  index: -1
+lvSe_03
+  rotate: true
+  xy: 904, 917
+  size: 446, 213
+  orig: 446, 214
+  offset: 0, 1
+  index: -1
+shenLanSe_01
+  rotate: true
+  xy: 1076, 470
+  size: 445, 328
+  orig: 447, 330
+  offset: 1, 1
+  index: -1
+shenLanSe_02
+  rotate: true
+  xy: 565, 910
+  size: 453, 337
+  orig: 455, 339
+  offset: 1, 1
+  index: -1
+shenLanSe_03
+  rotate: true
+  xy: 784, 12
+  size: 447, 214
+  orig: 450, 216
+  offset: 2, 1
+  index: -1
+zongSe_01
+  rotate: true
+  xy: 1000, 14
+  size: 445, 331
+  orig: 449, 333
+  offset: 1, 1
+  index: -1
+zongSe_02
+  rotate: true
+  xy: 2, 402
+  size: 454, 338
+  orig: 456, 341
+  offset: 1, 2
+  index: -1
+zongSe_03
+  rotate: true
+  xy: 860, 461
+  size: 447, 214
+  orig: 451, 216
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,2327 @@
+fileFormatVersion: 2
+guid: 28ae98fbad8336c4e97c4153a881b038
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Giraffe_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e14b2501b2623548853ee5944537d8c
+      internalID: -847753688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_02
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04153a21f5be3cb40b2290788adc229c
+      internalID: 455071855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da28aee3cd9de6545b56e7bce42138eb
+      internalID: -292216038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_04
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fbb1dbd68caae4e8cd618ab403959f
+      internalID: 1021834750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_05
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be586106d7f41e4182013ed487605f8
+      internalID: -605346127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_06
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a3310b1c8efbd43b121f12b5b6cddb
+      internalID: -1758310515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_07
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6be61f1abeaed44ab323f2e8118ae15
+      internalID: -1853095177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_08
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39680de6a5f509c45980b275933383bf
+      internalID: 177161237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_09
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fa93570a97dd74b8842d74c969a00a
+      internalID: 689968407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_10
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a16c97f98df9a43aad3f6583243949
+      internalID: 858140631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_11
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876e73324b5e6b74899af2209e32c7a1
+      internalID: -1794463171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_12
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caca16d12ecac14887b49d7c09976cf
+      internalID: -789310251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_13
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8f7d4683fdeda4a89b193eb8ae67d6
+      internalID: 584211676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_14
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f908d67ba42e504eaa86f9da96656d7
+      internalID: 1825388694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_15
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319a4620ee8ee344eaa776c4f75c9beb
+      internalID: -702191600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_16
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d969aac75ddd64c8b7f6e215d9e7be
+      internalID: -1350165721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_17
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cef072603341d4b8e4b2e9f7c9bcad
+      internalID: 1112529469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_18
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a036ef7b5d42046b7daed2ff3d47d1
+      internalID: 1323237740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_19
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d924a6712a3f44f408d17425b5d7d0e6
+      internalID: 243382600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_20
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9a687e85ed06c4a81089d81a8af955
+      internalID: -1110463899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_21
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00333a428d136bd41ba1d16d25bc14c0
+      internalID: -481717145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_22
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b3b9d1dbb8ae545bb3f0851c3a7aee
+      internalID: -604855556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_23
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549543e41aec9c34a937ed51e88a6570
+      internalID: 1571422716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_24
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f9d78b2d1993b4d88725ef7b87114d
+      internalID: -2103806213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_25
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52970b4a35bd5e54aa0705f4643f4a19
+      internalID: 1748853990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_26
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403a74572133adb46bb6e84396070d8b
+      internalID: -1575114991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_27
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5255c22d832a2ce4789e8d15444d33c9
+      internalID: 991091934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_28
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90e79f7fe5cb5144ae709764caba310
+      internalID: 41774976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_29
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f8c793402309842912ff0cebb85abf
+      internalID: 1254991286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_30
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72072f4c92e367849a2de7c33c498b16
+      internalID: -487088412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_31
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13a3c3e12bab00429afc24567ad8549
+      internalID: 1359251447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_32
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9b711d8e5e0984f9585ba1481cba8e
+      internalID: 1749707838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_33
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f66369a6eb8aad41a2ccb77f4f8aafa
+      internalID: -269652524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_34
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c73f77ece04526459b716a803ec21be
+      internalID: -1421921499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_35
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05932ef5c13b81449280cb12564b48d
+      internalID: -1816505199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_36
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f515b376da7db545babc2d44edc0f2f
+      internalID: -816441482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_37
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc34a8db7dc4ab84e8496d308b597025
+      internalID: -346157190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_38
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37dd3d114b723e4e8cffe21d81bb7b4
+      internalID: 1045101384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_39
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0688331650694864caf854097a7df16e
+      internalID: 55233294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_40
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f121f801885ae4587dac2febe9d53f
+      internalID: 648700071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_41
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a90b5bbdf511b54797c3477474299ea
+      internalID: -1882048209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_42
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f88a47fdb435434bb202298c7ce9ab9
+      internalID: -1071357821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_43
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c600987e3eac51943b84220f306a92b7
+      internalID: 979589795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_44
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a88cf55cbb0c3945a4885a9679da7b4
+      internalID: 1322501529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_45
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39453583f4d87b47afcee04f09836e6
+      internalID: 93191281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_46
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d007aecf027bd1a48b4fde886f2bd2aa
+      internalID: -1330547297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_47
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa81933c6cdf23e40a3d8b98faea3e35
+      internalID: 943861858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_48
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34275c77b6f3bd4786e8c7f86c6b968
+      internalID: 1382948976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_49
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8a8fc85c77f394a8d271826ca2adea
+      internalID: -733442995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_50
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a71db3a084d86e43997fbf14d71acc6
+      internalID: 1744455996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_51
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b993eec3e04dc294a92d7cf6f1549550
+      internalID: 764004292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_52
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c015a7dc79034704da31b61f2376a3c0
+      internalID: 1849205000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_53
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acf0f6adbe58cc47bc0e839c5a8933f
+      internalID: 2105852473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_54
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972ee14418e4d7f48bf9328ec0810274
+      internalID: -1017879440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_55
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25c4436764167d4380daec221735e8a
+      internalID: -331976387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_56
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103b5c4f31648d743a75d73823fcb83a
+      internalID: -239487789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_57
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba69476da73702c4fa12684e49ef7069
+      internalID: 988090354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_58
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c812fea6500bb34f81135bea73118b1
+      internalID: -1242023318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_59
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fbd6f767815d3499b0ccc32d7107bc
+      internalID: -2146008286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_60
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a447031ccb1e34f9d239f0ab4fc17d
+      internalID: 1557585126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_61
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8634f165f0ec9a84ab79dac194836861
+      internalID: -601632540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_62
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2cd89ce860cec41887b092300f68cd
+      internalID: -1628842927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_63
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daba6ac1f4f70ff4ca67f07e928795ed
+      internalID: 310449491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_64
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef0194268938e14a8acf8b64bf5c8f7
+      internalID: -1463620884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742855eed341a6342ab265c63bf38003
+      internalID: -175562385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_66
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 38
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8b17dba74f3f540b641edf755cc677
+      internalID: -172261354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf9648c2abc7784ca9702a059a3a866
+      internalID: -991470505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 239
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0a75d34f741324fa403e251953aa34
+      internalID: -574363384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_69
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3058bd1399190064999396e3d7ecda75
+      internalID: 486600526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_70
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76a090a28beecd4888aade707906a40
+      internalID: -206513304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_71
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e975272844ac7fc40a42bd86f7f03234
+      internalID: -1680658227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_72
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 641
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feda908e127bd54c8ea5afc4a177672
+      internalID: 752976065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_73
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598537c66b924c4469b9676adcf85665
+      internalID: -960067644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_74
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 440
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6b298e991693e4eb2fc1a737709756
+      internalID: -1621908646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Giraffe_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 842
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afb4a42695f4104cba6e316e8a7423a
+      internalID: 1435509713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_51
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6787c57b7c2f2c849923c2d13bcbffe1
+      internalID: -100640641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23caa414da8e97469ac4816fd6639d0
+      internalID: 280730435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_53
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5cd6a7a7446cd4baeb7d05bce08159
+      internalID: -778037758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_54
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c5ba1fba8e1654b8e15c2a2a37d7e9
+      internalID: -1713810953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_55
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012dad418739b7949b6516fa11a602f1
+      internalID: -381797140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4890e58c9a5e074797bfef9ba1b3864
+      internalID: 2088963205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_57
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ff36dd7e136ff4bb67ff121ea45101
+      internalID: 1933361365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d46d2a542390be44af032aecb5c6e8c
+      internalID: -598946105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_59
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7f4c9688b97cf4093ad00ea87e55ad
+      internalID: -1099211056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_60
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776182482ad39e84ba805f050d149add
+      internalID: 625381366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_61
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e47cca2fdebf4a42b29ecf02311b4bb
+      internalID: 508236522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_62
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f06ba7b207b774abdb75c3e6b6dbcd
+      internalID: -1514068039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_63
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6687e784ab21eb341801423cc08011e4
+      internalID: -880962355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_64
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a7e8d88e8a39d48bae9c2cacab4741
+      internalID: 677360556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_65
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1847
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec249737178f814baf5d70cd3fd18e8
+      internalID: 2023906085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_66
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce42680f642babe41891b16c7f10c524
+      internalID: -1514434784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_67
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab1ce1505217f34e9e16726d9d506ec
+      internalID: -521903346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_68
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1646
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1b66e5d33585b488c4d52bad42d7d6
+      internalID: 496341017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_69
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ce00c58f639df43a9c451b0b6b2f49
+      internalID: 1188981041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_70
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367d0b15367970240b5a6366689ed1f3
+      internalID: 1254717778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_71
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26950490f04f00e4b960c212ef5011b6
+      internalID: 1581981852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_72
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7a821058484be4e8ba33ab2cafd783
+      internalID: 958531991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_73
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1043
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6ac8b75229b41498d063ac65b3b4d4
+      internalID: -1730007211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_74
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1445
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea1bb3d22e826a45976205c2fe32a4e
+      internalID: 332787653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panda_75
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1244
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2ff82dd3122a744a21f643d95620df
+      internalID: 1054429891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d3e39e9323d02b8469b81a531bd46074
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Giraffe_01: -847753688
+      Giraffe_02: 455071855
+      Giraffe_03: -292216038
+      Giraffe_04: 1021834750
+      Giraffe_05: -605346127
+      Giraffe_06: -1758310515
+      Giraffe_07: -1853095177
+      Giraffe_08: 177161237
+      Giraffe_09: 689968407
+      Giraffe_10: 858140631
+      Giraffe_11: -1794463171
+      Giraffe_12: -789310251
+      Giraffe_13: 584211676
+      Giraffe_14: 1825388694
+      Giraffe_15: -702191600
+      Giraffe_16: -1350165721
+      Giraffe_17: 1112529469
+      Giraffe_18: 1323237740
+      Giraffe_19: 243382600
+      Giraffe_20: -1110463899
+      Giraffe_21: -481717145
+      Giraffe_22: -604855556
+      Giraffe_23: 1571422716
+      Giraffe_24: -2103806213
+      Giraffe_25: 1748853990
+      Giraffe_26: -1575114991
+      Giraffe_27: 991091934
+      Giraffe_28: 41774976
+      Giraffe_29: 1254991286
+      Giraffe_30: -487088412
+      Giraffe_31: 1359251447
+      Giraffe_32: 1749707838
+      Giraffe_33: -269652524
+      Giraffe_34: -1421921499
+      Giraffe_35: -1816505199
+      Giraffe_36: -816441482
+      Giraffe_37: -346157190
+      Giraffe_38: 1045101384
+      Giraffe_39: 55233294
+      Giraffe_40: 648700071
+      Giraffe_41: -1882048209
+      Giraffe_42: -1071357821
+      Giraffe_43: 979589795
+      Giraffe_44: 1322501529
+      Giraffe_45: 93191281
+      Giraffe_46: -1330547297
+      Giraffe_47: 943861858
+      Giraffe_48: 1382948976
+      Giraffe_49: -733442995
+      Giraffe_50: 1744455996
+      Giraffe_51: 764004292
+      Giraffe_52: 1849205000
+      Giraffe_53: 2105852473
+      Giraffe_54: -1017879440
+      Giraffe_55: -331976387
+      Giraffe_56: -239487789
+      Giraffe_57: 988090354
+      Giraffe_58: -1242023318
+      Giraffe_59: -2146008286
+      Giraffe_60: 1557585126
+      Giraffe_61: -601632540
+      Giraffe_62: -1628842927
+      Giraffe_63: 310449491
+      Giraffe_64: -1463620884
+      Giraffe_65: -175562385
+      Giraffe_66: -172261354
+      Giraffe_67: -991470505
+      Giraffe_68: -574363384
+      Giraffe_69: 486600526
+      Giraffe_70: -206513304
+      Giraffe_71: -1680658227
+      Giraffe_72: 752976065
+      Giraffe_73: -960067644
+      Giraffe_74: -1621908646
+      Giraffe_75: 1435509713
+      Panda_51: -100640641
+      Panda_52: 280730435
+      Panda_53: -778037758
+      Panda_54: -1713810953
+      Panda_55: -381797140
+      Panda_56: 2088963205
+      Panda_57: 1933361365
+      Panda_58: -598946105
+      Panda_59: -1099211056
+      Panda_60: 625381366
+      Panda_61: 508236522
+      Panda_62: -1514068039
+      Panda_63: -880962355
+      Panda_64: 677360556
+      Panda_65: 2023906085
+      Panda_66: -1514434784
+      Panda_67: -521903346
+      Panda_68: 496341017
+      Panda_69: 1188981041
+      Panda_70: 1254717778
+      Panda_71: 1581981852
+      Panda_72: 958531991
+      Panda_73: -1730007211
+      Panda_74: 332787653
+      Panda_75: 1054429891
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

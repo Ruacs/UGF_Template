@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00274d67cb81174384ac2d8d8d26448, type: 3}
+  m_Name: RewardDataBase
+  m_EditorClassIdentifier: 
+  TaskRewardDataList: []
+  ChestRewardList:
+  - {fileID: 11400000, guid: 2ad8bca153478fe4b9c75eb31bb3c117, type: 2}
+  FirstWinRewardList: []
+  RankRewardList:
+  - {fileID: 11400000, guid: 5e99008f25f15d24da31a7987d1890ae, type: 2}
+  - {fileID: 11400000, guid: 3ca34b9b578126647ac8bc1e046a1f86, type: 2}
+  - {fileID: 11400000, guid: 0e924d1179d3a664fb54432eda8dd49d, type: 2}
+  - {fileID: 11400000, guid: b26f9fa5dbb6fe2469c534775be3c911, type: 2}
+  - {fileID: 11400000, guid: 4a7c0f90264c47e4c9be392ec8a70fa6, type: 2}
+  - {fileID: 11400000, guid: be3bbbbbe65a93e4297bae23ce66ca76, type: 2}

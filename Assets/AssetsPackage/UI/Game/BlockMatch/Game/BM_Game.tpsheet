@@ -1,0 +1,33 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:00000000000000000000000000000000:00000000000000000000000000000000:00000000000000000000000000000000$
+#
+:format=40300
+:texture=BM_Game.png
+:size=1024x512
+:pivotpoints=enabled
+:borders=disabled
+
+tips_hard_label_bg;4;350;437;158; 0.5;0.5; 0;0;0;0
+level_label_bg;4;237;326;109; 0.5;0.5; 0;0;0;0
+topbox_hard_label_bg;4;129;236;104; 0.5;0.5; 0;0;0;0
+bg_collect_sliced;244;56;192;177; 0.5;0.5; 0;0;0;0
+tapBox_bg_sliced;440;163;144;183; 0.5;0.5; 0;0;0;0
+tips_hard_bg_sliced;588;332;180;176; 0.5;0.5; 0;0;0;0
+tips_bg_sliced;772;332;180;176; 0.5;0.5; 0;0;0;0
+icon_hint;445;358;138;150; 0.5;0.5; 0;0;0;0
+heart_outligth;440;22;148;137; 0.5;0.5; 0;0;0;0
+btn_help;4;8;115;117; 0.5;0.5; 0;0;0;0
+btn_setting;123;8;115;117; 0.5;0.5; 0;0;0;0
+Hearth_bg;334;254;101;92; 0.5;0.5; 0;0;0;0
+hint_bg;588;228;100;100; 0.5;0.5; 0;0;0;0
+prop_btn_add;592;131;90;93; 0.5;0.5; 0;0;0;0
+prop_count_bg;592;34;90;93; 0.5;0.5; 0;0;0;0
+heard_l;956;424;59;84; 0.5;0.5; 0;0;0;0
+heart_r;956;337;55;83; 0.5;0.5; 0;0;0;0
+icon_topbox_hard;686;143;79;81; 0.5;0.5; 0;0;0;0
+icon_tips_HARD;956;266;60;67; 0.5;0.5; 0;0;0;0

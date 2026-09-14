@@ -1,0 +1,58 @@
+﻿[
+  {
+    "Key": "Setting.Title",
+    "Value": "Setting"
+  },
+  {
+    "Key": "Setting.Music",
+    "Value": "Music"
+  },
+  {
+    "Key": "Setting.Sound",
+    "Value": "Sound"
+  },
+  {
+    "Key": "Setting.on",
+    "Value": "ON"
+  },
+  {
+    "Key": "Setting.off",
+    "Value": "OFF"
+  },
+  {
+    "Key": "Setting.Vibration",
+    "Value": "Haptic"
+  },
+  {
+    "Key": "Main.Start",
+    "Value": "PLAY"
+  },
+  {
+    "Key": "GameOver.Title",
+    "Value": "Game Over"
+  },
+  {
+    "Key": "Tips.payFailedCoin",
+    "Value": "NOT ENOUGH GOLD COINS"
+  },
+  {
+    "Key": "Tips.AdsFail",
+    "Value": "AD LOADING FAILED"
+  },
+  {
+    "Key": "Btn.Close",
+    "Value": "NO,THANKS"
+  },
+  {
+    "Key": "Btn.Next",
+    "Value": "Next"
+  },
+  {
+    "Key": "Btn.Claim",
+    "Value": "Claim"
+  },
+  {
+    "Key": "Btn.Continue",
+    "Value": "Continue"
+  }
+]

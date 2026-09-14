@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dictionaries>
+  <Dictionary Language="Korean">
+    <String Key="Setting.Title" Value="설정" />
+    <String Key="Setting.Music" Value="음악" />
+    <String Key="Setting.Sound" Value="효과음" />
+    <String Key="Setting.on" Value="켜기" />
+    <String Key="Setting.off" Value="끄기" />
+    <String Key="Setting.Vibration" Value="진동" />
+    <String Key="Main.Start" Value="플레이" />
+    <String Key="GameOver.Title1" Value="게임 오버" />
+    <String Key="Tips.payFailedCoin" Value="코인이 부족합니다" />
+    <String Key="Tips.AdsFail" Value="광고 로드 실패" />
+    <String Key="Btn.Close" Value="아니요, 괜찮습니다" />
+    <String Key="Btn.Next" Value="다음" />
+    <String Key="Btn.Claim" Value="받기" />
+    <String Key="Btn.Continue" Value="계속" />
+    <String Key="LEVEL" Value="레벨 {0}" />
+    <String Key="HARD" Value="어려움" />
+    <String Key="Fail.GetHeart" Value="하트 3개 받기" />
+    <String Key="Restart" Value="다시 시작" />
+    <String Key="Main.Ranking" Value="순위" />
+    <String Key="Home" Value="홈" />
+    <String Key="Language" Value="언어" />
+    <String Key="BlockCount" Value="블록 수" />
+    <String Key="Profile.Save" Value="저장" />
+    <String Key="NoAds.Title" Value="광고를 사용할 수 없음" />
+    <String Key="NoAds.Tips" Value="현재 광고를 사용할 수 없습니다.&lt;br&gt;다시 시도해 주세요." />
+    <String Key="Btn.Cancel" Value="취소" />
+    <String Key="Btn.Retry" Value="재시도" />
+    <String Key="Tutorial.T1" Value="먼저 가로로 드래그하여 3칸을 덮어 보세요." />
+    <String Key="Tutorial.T2" Value="이제 세로로 드래그하여 3칸을 덮어 보세요." />
+    <String Key="Tutorial.T3" Value="다음으로 3칸을 덮는 직사각형을 그린 다음 6칸을 덮는 직사각형을 그려 보세요." />
+    <String Key="Tutorial.T4" Value="이제 각 숫자 주위에 직사각형을 그려 칸 수가 숫자와 일치하도록 하세요." />
+    <String Key="Profile.Title" Value="프로필" />
+    <String Key="Profile.Avatar" Value="아바타" />
+    <String Key="Profile.Frame" Value="프레임" />
+    <String Key="NewClue.Title1" Value="방향" />
+    <String Key="NewClue.Title2" Value="봉인된 숫자" />
+    <String Key="NewClue.Title3" Value="수수께끼" />
+    <String Key="NewClue.Desc1" Value="블록은 세로, 정사각형 또는 가로 모양이어야 합니다." />
+    <String Key="NewClue.Desc2" Value="[X]개의 올바른 분할을 완료하면 이 숫자의 값이 표시됩니다." />
+    <String Key="NewClue.Desc3" Value="숨겨진 숫자, 그 크기를 추측하세요." />
+    <String Key="Btn.OK" Value="확인" />
+    <String Key="GetProps.Title1" Value="무료 힌트" />
+    <String Key="GetProps.Desc1" Value="광고를 시청하고 힌트 받기" />
+    <String Key="Btn.Claim2" Value="2배 받기" />
+    <String Key="Btn.Go" Value="수집하러 가기" />
+    <String Key="RankItem.Title1" Value="순위" />
+    <String Key="RankItem.Desc1" Value="게임을 플레이하고 수집하여 각 이벤트에서 순위를 올리세요. 더 높은 순위를 목표로 하세요!" />
+    <String Key="Rank.WinStreak" Value="연승 보너스 &lt;color={1}&gt;{0}&lt;/color&gt;" />
+    <String Key="Rank.LockTips" Value="레벨 {0}을 완료하면 잠금 해제" />
+    <String Key="Rank.Time" Value="시간: {0}" />
+    <String Key="Rank.ResetTips" Value="순위표가 새로 고침되었습니다. 새로운 도전을 시작하세요!" />
+    <String Key="Revive.Title" Value="생명 충전" />
+    <String Key="Revive.Desc" Value="모든 생명을 충전하세요!" />
+    <String Key="Btn.Revive" Value="부활" />
+    <String Key="Fail.Title1" Value="패배했습니다" />
+    <String Key="Fail.Title2" Value="생명력 소진" />
+    <String Key="NewClue.Vertical" Value="세로" />
+    <String Key="NewClue.Horizontal" Value="가로" />
+    <String Key="NewClue.Square" Value="정사각형" />
+    <String Key="Rank.TipLabel" Value="순위가 &lt;color={1}&gt;{0}&lt;/color&gt;계단 상승했습니다!&lt;br&gt;훌륭합니다!" />
+    <String Key="RectMatch.StartTip.PassRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;의 플레이어가 한 번에 클리어했어요. 당신도 할 수 있어요!" />
+    <String Key="RectMatch.StartTip.PassRateSuccess" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;의 플레이어가 이 도전을 성공적으로 완료했어요." />
+    <String Key="RectMatch.StartTip.ClearCount" Value="이미 &lt;color={1}&gt;{0}&lt;/color&gt;명의 플레이어가 이 레벨을 클리어했어요." />
+    <String Key="RectMatch.StartTip.HardRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;의 플레이어가 이 레벨을 어렵다고 생각해요." />
+    <String Key="RectMatch.StartTip.HardObservation" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;의 플레이어가 이 레벨은 관찰력을 시험한다고 말해요." />
+    <String Key="RectMatch.StartTip.HintUseRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;의 플레이어가 이 레벨에서 힌트를 사용했어요." />
+    <String Key="RectMatch.StartTip.PassRateTurn" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;의 플레이어가 도전을 완료했어요. 이제 당신 차례예요!" />
+    <String Key="Tutorial.title" Value="튜토리얼" />
+    <String Key="GameOver.chestTips" Value="5개 레벨을 클리어하면 보상이 잠금 해제돼요" />
+    <String Key="Game.HealthTips" Value="조심하세요! 이제 기회가 한 번밖에 남지 않았어요!" />
+    <String Key="Free" Value="무료" />
+    <String Key="GameOver.Title2" Value="무적" />
+    <String Key="GameOver.Title3" Value="대단해요!" />
+    <String Key="GameOver.Title4" Value="완벽해요!" />
+  </Dictionary>
+</Dictionaries>

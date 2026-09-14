@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dictionaries>
+  <Dictionary Language="ChineseSimplified">
+    <String Key="Setting.Title" Value="设置" />
+    <String Key="Setting.Music" Value="音乐" />
+    <String Key="Setting.Sound" Value="音效" />
+    <String Key="Setting.on" Value="振动" />
+    <String Key="Setting.off" Value="开" />
+    <String Key="Setting.Vibration" Value="关" />
+    <String Key="Main.Start" Value="开始" />
+    <String Key="GameOver.Title1" Value="天才" />
+    <String Key="Tips.payFailedCoin" Value="金币不足" />
+    <String Key="Tips.AdsFail" Value="广告加载失败" />
+    <String Key="Btn.Close" Value="不,谢谢" />
+    <String Key="Btn.Next" Value="下一关" />
+    <String Key="Btn.Claim" Value="立即领取" />
+    <String Key="Btn.Continue" Value="继续" />
+    <String Key="LEVEL" Value="第{0}关" />
+    <String Key="HARD" Value="困难" />
+    <String Key="Fail.GetHeart" Value="获得3颗心" />
+    <String Key="Restart" Value="重新开始" />
+    <String Key="Main.Ranking" Value="排行榜" />
+    <String Key="Home" Value="首页" />
+    <String Key="Language" Value="语言" />
+    <String Key="BlockCount" Value="方块计数" />
+    <String Key="Profile.Save" Value="保存" />
+    <String Key="NoAds.Title" Value="广告不可用" />
+    <String Key="NoAds.Tips" Value="当前广告不可用,请重试" />
+    <String Key="Btn.Cancel" Value="取消" />
+    <String Key="Btn.Retry" Value="重试" />
+    <String Key="Tutorial.T1" Value="首先，横向拖动以覆盖3个格子。" />
+    <String Key="Tutorial.T2" Value="现在试试纵向拖动覆盖3个格子。" />
+    <String Key="Tutorial.T3" Value="接着，绘制一个覆盖3个格子的矩形，然后是覆盖6个的。" />
+    <String Key="Tutorial.T4" Value="现在，在每个数字周围绘制一个矩形，使其格子数与数字匹配。" />
+    <String Key="Profile.Title" Value="个人信息" />
+    <String Key="Profile.Avatar" Value="头像" />
+    <String Key="Profile.Frame" Value="头像框" />
+    <String Key="NewClue.Title1" Value="方向" />
+    <String Key="NewClue.Title2" Value="密封数字" />
+    <String Key="NewClue.Title3" Value="谜团" />
+    <String Key="NewClue.Desc1" Value="方块必须是竖向、正方形或横向。" />
+    <String Key="NewClue.Desc2" Value="完成[X]个正确划分，即可揭示改数字的值" />
+    <String Key="NewClue.Desc3" Value="隐藏数字，推断其大小" />
+    <String Key="Btn.OK" Value="确认" />
+    <String Key="GetProps.Title1" Value="免费提示" />
+    <String Key="GetProps.Desc1" Value="观看广告获得提示道具" />
+    <String Key="Btn.Claim2" Value="双倍领取" />
+    <String Key="Btn.Go" Value="去收集" />
+    <String Key="RankItem.Title1" Value="排行榜" />
+    <String Key="RankItem.Desc1" Value="玩游戏收集，在每期活动中提升排名。冲击更高名次！" />
+    <String Key="Rank.WinStreak" Value="&lt;color={1}&gt;{0}&lt;/color&gt; 连胜加成" />
+    <String Key="Rank.LockTips" Value="通过第{0}关解锁" />
+    <String Key="Rank.Time" Value="时间: {0}" />
+    <String Key="Rank.ResetTips" Value="排行榜已刷新，开始新挑战" />
+    <String Key="Revive.Title" Value="补充生命" />
+    <String Key="Revive.Desc" Value="补满你的所有生命！" />
+    <String Key="Btn.Revive" Value="复活" />
+    <String Key="Fail.Title1" Value="失败了" />
+    <String Key="Fail.Title2" Value="生命值耗尽" />
+    <String Key="NewClue.Vertical" Value="竖向" />
+    <String Key="NewClue.Horizontal" Value="横向" />
+    <String Key="NewClue.Square" Value="正方形" />
+    <String Key="Rank.TipLabel" Value="你的排名提升了 &lt;color={1}&gt;{0}&lt;/color&gt; 位！&lt;br&gt;太棒了！" />
+    <String Key="RectMatch.StartTip.PassRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家一次通关，你也可以做到！" />
+    <String Key="RectMatch.StartTip.PassRateSuccess" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家成功完成了本关挑战。" />
+    <String Key="RectMatch.StartTip.ClearCount" Value="已有 &lt;color={1}&gt;{0}&lt;/color&gt; 位玩家成功通关本关。" />
+    <String Key="RectMatch.StartTip.HardRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家认为这一关难度较高。" />
+    <String Key="RectMatch.StartTip.HardObservation" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家表示，这一关很考验观察力。" />
+    <String Key="RectMatch.StartTip.HintUseRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家在本关使用过提示。" />
+    <String Key="RectMatch.StartTip.PassRateTurn" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; 的玩家已经完成挑战，现在轮到你了！" />
+    <String Key="Tutorial.title" Value="教程" />
+    <String Key="GameOver.chestTips" Value="完成5关后解锁奖励" />
+    <String Key="Game.HealthTips" Value="当心！只剩最后一次机会了！" />
+    <String Key="Free" Value="免费" />
+    <String Key="GameOver.Title2" Value="所向披靡" />
+    <String Key="GameOver.Title3" Value="太棒了" />
+    <String Key="GameOver.Title4" Value="完美" />
+  </Dictionary>
+</Dictionaries>

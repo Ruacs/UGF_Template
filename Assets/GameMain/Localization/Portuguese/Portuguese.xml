@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dictionaries>
+  <Dictionary Language="Portuguese">
+    <String Key="Setting.Title" Value="Configurações" />
+    <String Key="Setting.Music" Value="Música" />
+    <String Key="Setting.Sound" Value="Som" />
+    <String Key="Setting.on" Value="ATIVADO" />
+    <String Key="Setting.off" Value="DESATIVADO" />
+    <String Key="Setting.Vibration" Value="Vibração" />
+    <String Key="Main.Start" Value="JOGAR" />
+    <String Key="GameOver.Title1" Value="Fim de jogo" />
+    <String Key="Tips.payFailedCoin" Value="MOEDAS INSUFICIENTES" />
+    <String Key="Tips.AdsFail" Value="FALHA AO CARREGAR O ANÚNCIO" />
+    <String Key="Btn.Close" Value="NÃO, OBRIGADO" />
+    <String Key="Btn.Next" Value="Próxima" />
+    <String Key="Btn.Claim" Value="Resgatar" />
+    <String Key="Btn.Continue" Value="Continuar" />
+    <String Key="LEVEL" Value="Nível {0}" />
+    <String Key="HARD" Value="Difícil" />
+    <String Key="Fail.GetHeart" Value="Ganhe 3 corações" />
+    <String Key="Restart" Value="Reiniciar" />
+    <String Key="Main.Ranking" Value="CLASSIFICAÇÃO" />
+    <String Key="Home" Value="Início" />
+    <String Key="Language" Value="Idioma" />
+    <String Key="BlockCount" Value="Contagem de blocos" />
+    <String Key="Profile.Save" Value="Salvar" />
+    <String Key="NoAds.Title" Value="Anúncios indisponíveis" />
+    <String Key="NoAds.Tips" Value="Os anúncios estão indisponíveis no momento.&lt;br&gt;Tente novamente." />
+    <String Key="Btn.Cancel" Value="Cancelar" />
+    <String Key="Btn.Retry" Value="Tentar novamente" />
+    <String Key="Tutorial.T1" Value="Arraste horizontalmente para cobrir 3 células." />
+    <String Key="Tutorial.T2" Value="Agora tente arrastar verticalmente para cobrir 3 células." />
+    <String Key="Tutorial.T3" Value="Em seguida, desenhe um retângulo cobrindo 3 células e depois outro cobrindo 6." />
+    <String Key="Tutorial.T4" Value="Agora desenhe um retângulo ao redor de cada número para que a quantidade de células corresponda ao número." />
+    <String Key="Profile.Title" Value="Perfil" />
+    <String Key="Profile.Avatar" Value="Avatar" />
+    <String Key="Profile.Frame" Value="Moldura" />
+    <String Key="NewClue.Title1" Value="Direção" />
+    <String Key="NewClue.Title2" Value="Número selado" />
+    <String Key="NewClue.Title3" Value="Mistério" />
+    <String Key="NewClue.Desc1" Value="Os blocos devem ser verticais, quadrados ou horizontais." />
+    <String Key="NewClue.Desc2" Value="Conclua [X] divisões corretas para revelar o valor deste número." />
+    <String Key="NewClue.Desc3" Value="Número oculto; deduza seu valor." />
+    <String Key="Btn.OK" Value="Confirmar" />
+    <String Key="GetProps.Title1" Value="Dicas grátis" />
+    <String Key="GetProps.Desc1" Value="Assista a um anúncio para obter uma dica." />
+    <String Key="Btn.Claim2" Value="Resgatar x2" />
+    <String Key="Btn.Go" Value="Ir coletar" />
+    <String Key="RankItem.Title1" Value="Classificação" />
+    <String Key="RankItem.Desc1" Value="Jogue para coletar e melhorar sua posição em cada evento. Busque uma posição ainda melhor!" />
+    <String Key="Rank.WinStreak" Value="Bônus de sequência de vitórias &lt;color={1}&gt;{0}&lt;/color&gt;" />
+    <String Key="Rank.LockTips" Value="Desbloqueado ao concluir o nível {0}" />
+    <String Key="Rank.Time" Value="Tempo: {0}" />
+    <String Key="Rank.ResetTips" Value="A classificação foi atualizada. Comece um novo desafio!" />
+    <String Key="Revive.Title" Value="Recarregar vidas" />
+    <String Key="Revive.Desc" Value="Recarregue todas as suas vidas!" />
+    <String Key="Btn.Revive" Value="Reviver" />
+    <String Key="Fail.Title1" Value="VOCÊ PERDEU" />
+    <String Key="Fail.Title2" Value="Vidas esgotadas" />
+    <String Key="NewClue.Vertical" Value="Vertical" />
+    <String Key="NewClue.Horizontal" Value="Horizontal" />
+    <String Key="NewClue.Square" Value="Quadrado" />
+    <String Key="Rank.TipLabel" Value="Sua posição subiu &lt;color={1}&gt;{0}&lt;/color&gt; lugar(es)!&lt;br&gt;Mandou bem!" />
+    <String Key="RectMatch.StartTip.PassRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; dos jogadores concluem este nível na primeira tentativa. Você também consegue!" />
+    <String Key="RectMatch.StartTip.PassRateSuccess" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; dos jogadores concluíram este desafio com sucesso." />
+    <String Key="RectMatch.StartTip.ClearCount" Value="&lt;color={1}&gt;{0}&lt;/color&gt; jogadores já concluíram este nível." />
+    <String Key="RectMatch.StartTip.HardRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; dos jogadores consideram este nível bastante difícil." />
+    <String Key="RectMatch.StartTip.HardObservation" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; dos jogadores dizem que este nível testa a observação." />
+    <String Key="RectMatch.StartTip.HintUseRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; dos jogadores usaram uma dica neste nível." />
+    <String Key="RectMatch.StartTip.PassRateTurn" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; dos jogadores concluíram este desafio. Agora é a sua vez!" />
+    <String Key="Tutorial.title" Value="Tutorial" />
+    <String Key="GameOver.chestTips" Value="Conclua 5 níveis para desbloquear a recompensa" />
+    <String Key="Game.HealthTips" Value="Cuidado! Resta apenas uma chance!" />
+    <String Key="Free" Value="Grátis" />
+    <String Key="GameOver.Title2" Value="Imbatível" />
+    <String Key="GameOver.Title3" Value="Muito bom!" />
+    <String Key="GameOver.Title4" Value="Perfeito!" />
+  </Dictionary>
+</Dictionaries>

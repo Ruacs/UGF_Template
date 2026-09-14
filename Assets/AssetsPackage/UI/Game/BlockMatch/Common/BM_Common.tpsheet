@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:00000000000000000000000000000000:00000000000000000000000000000000:00000000000000000000000000000000$
+#
+:format=40300
+:texture=BM_Common.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+
+Common_Box_Bg_sliced;4;700;998;320; 0.5;0.5; 0;0;0;0
+Common_Title_Bg;4;452;787;244; 0.5;0.5; 0;0;0;0
+Tutorial_Hand;4;161;257;287; 0.5;0.5; 0;0;0;0
+Common_Btn_Border_sliced;795;422;172;274; 0.5;0.5; 0;0;0;0
+Common_Btn_Border_Gray_sliced;265;144;170;274; 0.5;0.5; 0;0;0;0
+Btn_lighting_sliced;439;208;220;240; 0.5;0.5; 0;0;0;0
+Tutorial_sz;663;232;66;216; 0.5;0.5; 0;0;0;0
+Common_Btn_Gray_sliced;439;0;120;204; 0.5;0.5; 0;0;0;0
+Common_Btn_Yellow_sliced;563;0;120;204; 0.5;0.5; 0;0;0;0
+Common_Btn_Blue_sliced;687;24;120;204; 0.5;0.5; 0;0;0;0
+Common_Btn_Red_sliced;811;214;120;204; 0.5;0.5; 0;0;0;0
+Common_Btn_Green_sliced;811;6;120;204; 0.5;0.5; 0;0;0;0
+box_bg;4;12;128;128; 0.5;0.5; 0;0;0;0
+Common_Btn_Close;136;30;123;127; 0.5;0.5; 0;0;0;0
+Common_Icon_Ads;935;340;82;78; 0.5;0.5; 0;0;0;0
+Step_Bg;265;427;39;21; 0.5;0.5; 0;0;0;0
+Step_Mark;308;427;39;21; 0.5;0.5; 0;0;0;0

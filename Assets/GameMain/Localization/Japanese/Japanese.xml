@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dictionaries>
+  <Dictionary Language="Japanese">
+    <String Key="Setting.Title" Value="設定" />
+    <String Key="Setting.Music" Value="音楽" />
+    <String Key="Setting.Sound" Value="サウンド" />
+    <String Key="Setting.on" Value="ON" />
+    <String Key="Setting.off" Value="OFF" />
+    <String Key="Setting.Vibration" Value="バイブレーション" />
+    <String Key="Main.Start" Value="プレイ" />
+    <String Key="GameOver.Title1" Value="ゲームオーバー" />
+    <String Key="Tips.payFailedCoin" Value="コインが足りません" />
+    <String Key="Tips.AdsFail" Value="広告の読み込みに失敗しました" />
+    <String Key="Btn.Close" Value="いいえ、結構です" />
+    <String Key="Btn.Next" Value="次へ" />
+    <String Key="Btn.Claim" Value="受け取る" />
+    <String Key="Btn.Continue" Value="続ける" />
+    <String Key="LEVEL" Value="レベル {0}" />
+    <String Key="HARD" Value="難しい" />
+    <String Key="Fail.GetHeart" Value="ハートを3個獲得" />
+    <String Key="Restart" Value="リスタート" />
+    <String Key="Main.Ranking" Value="ランキング" />
+    <String Key="Home" Value="ホーム" />
+    <String Key="Language" Value="言語" />
+    <String Key="BlockCount" Value="ブロック数" />
+    <String Key="Profile.Save" Value="保存" />
+    <String Key="NoAds.Title" Value="広告を利用できません" />
+    <String Key="NoAds.Tips" Value="現在広告を利用できません。&lt;br&gt;もう一度お試しください。" />
+    <String Key="Btn.Cancel" Value="キャンセル" />
+    <String Key="Btn.Retry" Value="リトライ" />
+    <String Key="Tutorial.T1" Value="まず、横にドラッグして3マスを覆ってください。" />
+    <String Key="Tutorial.T2" Value="次に、縦にドラッグして3マスを覆ってみましょう。" />
+    <String Key="Tutorial.T3" Value="続いて、3マスを覆う長方形を描き、その後6マスを覆う長方形を描きます。" />
+    <String Key="Tutorial.T4" Value="次に、各数字の周りに、その数字と同じマス数になるよう長方形を描いてください。" />
+    <String Key="Profile.Title" Value="プロフィール" />
+    <String Key="Profile.Avatar" Value="アバター" />
+    <String Key="Profile.Frame" Value="フレーム" />
+    <String Key="NewClue.Title1" Value="方向" />
+    <String Key="NewClue.Title2" Value="封印された数字" />
+    <String Key="NewClue.Title3" Value="謎" />
+    <String Key="NewClue.Desc1" Value="ブロックは縦長、正方形、または横長でなければなりません。" />
+    <String Key="NewClue.Desc2" Value="[X]個の正しい分割を完了すると、この数字の値が表示されます。" />
+    <String Key="NewClue.Desc3" Value="隠された数字。その大きさを推測してください。" />
+    <String Key="Btn.OK" Value="OK" />
+    <String Key="GetProps.Title1" Value="無料ヒント" />
+    <String Key="GetProps.Desc1" Value="広告を見てヒントを獲得" />
+    <String Key="Btn.Claim2" Value="2倍受け取る" />
+    <String Key="Btn.Go" Value="集めに行く" />
+    <String Key="RankItem.Title1" Value="ランキング" />
+    <String Key="RankItem.Desc1" Value="ゲームをプレイして集め、各イベントで順位を上げましょう。さらに上位を目指そう！" />
+    <String Key="Rank.WinStreak" Value="連勝ボーナス &lt;color={1}&gt;{0}&lt;/color&gt;" />
+    <String Key="Rank.LockTips" Value="レベル{0}クリアで解放" />
+    <String Key="Rank.Time" Value="時間: {0}" />
+    <String Key="Rank.ResetTips" Value="ランキングが更新されました。新しい挑戦を始めましょう！" />
+    <String Key="Revive.Title" Value="ライフを補充" />
+    <String Key="Revive.Desc" Value="すべてのライフを補充！" />
+    <String Key="Btn.Revive" Value="復活" />
+    <String Key="Fail.Title1" Value="負けました" />
+    <String Key="Fail.Title2" Value="ライフ切れ" />
+    <String Key="NewClue.Vertical" Value="縦" />
+    <String Key="NewClue.Horizontal" Value="横" />
+    <String Key="NewClue.Square" Value="正方形" />
+    <String Key="Rank.TipLabel" Value="順位が&lt;color={1}&gt;{0}&lt;/color&gt;位上がりました！&lt;br&gt;すごい！" />
+    <String Key="RectMatch.StartTip.PassRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;のプレイヤーが一度でクリアしています。あなたもできます！" />
+    <String Key="RectMatch.StartTip.PassRateSuccess" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;のプレイヤーがこのチャレンジをクリアしました。" />
+    <String Key="RectMatch.StartTip.ClearCount" Value="すでに&lt;color={1}&gt;{0}&lt;/color&gt;人のプレイヤーがこのステージをクリアしています。" />
+    <String Key="RectMatch.StartTip.HardRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;のプレイヤーが、このステージは難しいと感じています。" />
+    <String Key="RectMatch.StartTip.HardObservation" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;のプレイヤーが、このステージは観察力を試すと答えています。" />
+    <String Key="RectMatch.StartTip.HintUseRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;のプレイヤーがこのステージでヒントを使いました。" />
+    <String Key="RectMatch.StartTip.PassRateTurn" Value="&lt;color={1}&gt;{0}%&lt;/color&gt;のプレイヤーがチャレンジを完了しました。次はあなたの番です！" />
+    <String Key="Tutorial.title" Value="チュートリアル" />
+    <String Key="GameOver.chestTips" Value="5ステージクリアで報酬を解放" />
+    <String Key="Game.HealthTips" Value="注意！残り1回しかありません！" />
+    <String Key="Free" Value="無料" />
+    <String Key="GameOver.Title2" Value="無敵" />
+    <String Key="GameOver.Title3" Value="すごい！" />
+    <String Key="GameOver.Title4" Value="パーフェクト！" />
+  </Dictionary>
+</Dictionaries>

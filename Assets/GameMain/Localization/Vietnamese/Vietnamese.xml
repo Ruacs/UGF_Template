@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dictionaries>
+  <Dictionary Language="Vietnamese">
+    <String Key="Setting.Title" Value="Cài đặt" />
+    <String Key="Setting.Music" Value="Nhạc" />
+    <String Key="Setting.Sound" Value="Âm thanh" />
+    <String Key="Setting.on" Value="BẬT" />
+    <String Key="Setting.off" Value="TẮT" />
+    <String Key="Setting.Vibration" Value="Rung" />
+    <String Key="Main.Start" Value="CHƠI" />
+    <String Key="GameOver.Title1" Value="Kết thúc trò chơi" />
+    <String Key="Tips.payFailedCoin" Value="KHÔNG ĐỦ XU" />
+    <String Key="Tips.AdsFail" Value="TẢI QUẢNG CÁO THẤT BẠI" />
+    <String Key="Btn.Close" Value="KHÔNG, CẢM ƠN" />
+    <String Key="Btn.Next" Value="Tiếp theo" />
+    <String Key="Btn.Claim" Value="Nhận" />
+    <String Key="Btn.Continue" Value="Tiếp tục" />
+    <String Key="LEVEL" Value="Màn {0}" />
+    <String Key="HARD" Value="Khó" />
+    <String Key="Fail.GetHeart" Value="Nhận 3 trái tim" />
+    <String Key="Restart" Value="Chơi lại" />
+    <String Key="Main.Ranking" Value="XẾP HẠNG" />
+    <String Key="Home" Value="Trang chủ" />
+    <String Key="Language" Value="Ngôn ngữ" />
+    <String Key="BlockCount" Value="Số khối" />
+    <String Key="Profile.Save" Value="Lưu" />
+    <String Key="NoAds.Title" Value="Quảng cáo không khả dụng" />
+    <String Key="NoAds.Tips" Value="Quảng cáo hiện không khả dụng.&lt;br&gt;Vui lòng thử lại." />
+    <String Key="Btn.Cancel" Value="Hủy" />
+    <String Key="Btn.Retry" Value="Thử lại" />
+    <String Key="Tutorial.T1" Value="Kéo ngang để phủ 3 ô." />
+    <String Key="Tutorial.T2" Value="Bây giờ hãy thử kéo dọc để phủ 3 ô." />
+    <String Key="Tutorial.T3" Value="Tiếp theo, hãy vẽ một hình chữ nhật phủ 3 ô, rồi phủ 6 ô." />
+    <String Key="Tutorial.T4" Value="Bây giờ, hãy vẽ một hình chữ nhật quanh mỗi số sao cho số ô khớp với con số." />
+    <String Key="Profile.Title" Value="Hồ sơ" />
+    <String Key="Profile.Avatar" Value="Ảnh đại diện" />
+    <String Key="Profile.Frame" Value="Khung" />
+    <String Key="NewClue.Title1" Value="Hướng" />
+    <String Key="NewClue.Title2" Value="Số bị khóa" />
+    <String Key="NewClue.Title3" Value="Bí ẩn" />
+    <String Key="NewClue.Desc1" Value="Các khối phải theo chiều dọc, hình vuông hoặc chiều ngang." />
+    <String Key="NewClue.Desc2" Value="Hoàn thành [X] lần chia đúng để hiển thị giá trị của số này." />
+    <String Key="NewClue.Desc3" Value="Số bị ẩn, hãy suy ra giá trị của nó." />
+    <String Key="Btn.OK" Value="Xác nhận" />
+    <String Key="GetProps.Title1" Value="Gợi ý miễn phí" />
+    <String Key="GetProps.Desc1" Value="Xem quảng cáo để nhận gợi ý." />
+    <String Key="Btn.Claim2" Value="Nhận x2" />
+    <String Key="Btn.Go" Value="Đi thu thập" />
+    <String Key="RankItem.Title1" Value="Xếp hạng" />
+    <String Key="RankItem.Desc1" Value="Chơi game để thu thập và cải thiện thứ hạng trong mỗi sự kiện. Hãy vươn tới thứ hạng cao hơn!" />
+    <String Key="Rank.WinStreak" Value="Thưởng chuỗi thắng &lt;color={1}&gt;{0}&lt;/color&gt;" />
+    <String Key="Rank.LockTips" Value="Mở khóa sau màn {0}" />
+    <String Key="Rank.Time" Value="Thời gian: {0}" />
+    <String Key="Rank.ResetTips" Value="Bảng xếp hạng đã được làm mới. Hãy bắt đầu thử thách mới!" />
+    <String Key="Revive.Title" Value="Nạp lại mạng" />
+    <String Key="Revive.Desc" Value="Nạp đầy toàn bộ mạng!" />
+    <String Key="Btn.Revive" Value="Hồi sinh" />
+    <String Key="Fail.Title1" Value="BẠN ĐÃ THUA" />
+    <String Key="Fail.Title2" Value="Hết mạng" />
+    <String Key="NewClue.Vertical" Value="Dọc" />
+    <String Key="NewClue.Horizontal" Value="Ngang" />
+    <String Key="NewClue.Square" Value="Hình vuông" />
+    <String Key="Rank.TipLabel" Value="Thứ hạng của bạn đã tăng &lt;color={1}&gt;{0}&lt;/color&gt; bậc!&lt;br&gt;Tuyệt vời!" />
+    <String Key="RectMatch.StartTip.PassRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; người chơi đã vượt qua màn này ngay lần đầu. Bạn cũng có thể!" />
+    <String Key="RectMatch.StartTip.PassRateSuccess" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; người chơi đã hoàn thành thử thách này thành công." />
+    <String Key="RectMatch.StartTip.ClearCount" Value="Đã có &lt;color={1}&gt;{0}&lt;/color&gt; người chơi vượt qua màn này." />
+    <String Key="RectMatch.StartTip.HardRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; người chơi cho rằng màn này khá khó." />
+    <String Key="RectMatch.StartTip.HardObservation" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; người chơi cho rằng màn này thử thách khả năng quan sát." />
+    <String Key="RectMatch.StartTip.HintUseRate" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; người chơi đã sử dụng gợi ý ở màn này." />
+    <String Key="RectMatch.StartTip.PassRateTurn" Value="&lt;color={1}&gt;{0}%&lt;/color&gt; người chơi đã hoàn thành thử thách. Đến lượt bạn!" />
+    <String Key="Tutorial.title" Value="Hướng dẫn" />
+    <String Key="GameOver.chestTips" Value="Vượt qua 5 màn để mở khóa phần thưởng" />
+    <String Key="Game.HealthTips" Value="Cẩn thận! Bạn chỉ còn một cơ hội!" />
+    <String Key="Free" Value="Miễn phí" />
+    <String Key="GameOver.Title2" Value="Bất khả chiến bại" />
+    <String Key="GameOver.Title3" Value="Tuyệt vời!" />
+    <String Key="GameOver.Title4" Value="Hoàn hảo!" />
+  </Dictionary>
+</Dictionaries>

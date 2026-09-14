@@ -1,0 +1,23 @@
+﻿#	界面配置表					
+#	Id		AssetName	UIGroupName	AllowMultiInstance	PauseCoveredUIForm
+#	int		string	string	bool	bool
+#	界面编号	策划备注	资源名称	界面组名称	是否允许多个界面实例	是否暂停被其覆盖的界面
+	100	加载页	LoadingUIPanel	Default	FALSE	TRUE
+	101	主界面	MainUIPanel	Default	FALSE	TRUE
+	102	游戏界面	GameUIPanel	Default	FALSE	TRUE
+	103	设置界面	SettingUIPanel	Default	FALSE	FALSE
+	104	签到页面	SignInUIPanel	Default	FALSE	FALSE
+	105	结算页面	GameOverUIPanel	Default	FALSE	FALSE
+	201	提示页面	PromptUIPanel	SystemOverlay	FALSE	FALSE
+	202	物品动画页面	ItemsTweenUIPanel	Dialog	FALSE	FALSE
+	204	失败页面	FailUIPanel	Default	FALSE	FALSE
+	205	排行榜页面	RankingUIPanel	Default	FALSE	FALSE
+	206	排行榜提示页面	RankTipsUIPanel	Default	FALSE	FALSE
+	207	个人信息页面	ProfileUIPanel	Default	FALSE	FALSE
+	208	广告不可用页面	AdsUnavailableUIPanel	Default	FALSE	FALSE
+	209	获取道具页面	GetPropsUIPanel	Default	FALSE	FALSE
+	211	新线索提示	NewClueUIPanel	Default	FALSE	FALSE
+	212	奖励领取页面	ClaimRewardsUIPanel	Default	FALSE	FALSE
+	213	语言选择页	LanguageUIPanel	Default	FALSE	FALSE
+	214	结算排行榜页	SettlementRankUIPanel	Default	FALSE	FALSE
+	215	复活页面	ReviveUIPanel	Default	FALSE	FALSE

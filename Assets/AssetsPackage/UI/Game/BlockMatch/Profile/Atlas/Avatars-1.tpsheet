@@ -1,0 +1,26 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:00000000000000000000000000000000:00000000000000000000000000000000:00000000000000000000000000000000$
+#
+:format=40300
+:texture=Avatars-1.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=disabled
+
+Avatar_036;1;865;158;158; 0.5;0.5; 0;0;0;0
+Avatar_037;1;706;158;158; 0.5;0.5; 0;0;0;0
+Avatar_039;1;547;158;158; 0.5;0.5; 0;0;0;0
+Avatar_040;160;865;158;158; 0.5;0.5; 0;0;0;0
+Avatar_041;319;865;158;158; 0.5;0.5; 0;0;0;0
+Avatar_043;160;706;158;158; 0.5;0.5; 0;0;0;0
+Avatar_042;160;547;158;158; 0.5;0.5; 0;0;0;0
+Avatar_044;319;706;158;158; 0.5;0.5; 0;0;0;0
+Avatar_046;319;547;158;158; 0.5;0.5; 0;0;0;0
+Avatar_045;1;388;158;158; 0.5;0.5; 0;0;0;0
+Avatar_047;160;388;158;158; 0.5;0.5; 0;0;0;0
+Avatar_048;319;388;158;158; 0.5;0.5; 0;0;0;0

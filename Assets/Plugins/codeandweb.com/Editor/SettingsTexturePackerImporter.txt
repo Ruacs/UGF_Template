@@ -1,0 +1,131 @@
+version: 2
+tpsheetFileNames:
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_1.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_2.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_3.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_4.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_5.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_6.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_7.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_8.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/BM_GameSprite.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Common/BM_Common.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Game/BM_Game.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Main/BM_Main.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_01.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_02.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_03.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_04.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/BM_Main.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Profile/Atlas/Avatars-0.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Profile/Atlas/Avatars-1.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Profile/Atlas/BM_Profile.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Profile/Atlas/Frames_01.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Rank/BM_Chests.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Rank/BM_Rank-0.tpsheet
+- Assets/AssetsPackage/UI/Game/BlockMatch/Setting/BM_Setting.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/BoxAndSetUI.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/Common.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/GameOver_FailUI.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/GameOver_WinUI.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/GameStartUI.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/GameUI.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/Light.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/LoadingUI.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/LockMap.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/Main.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/Map-0.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/Map-1.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/Prop_Task_Item.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/Role.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/SignInUI.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/TaskItem.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/TaskUI.tpsheet
+- Assets/GameMain/UI/UISprites/Atlas/Test.tpsheet
+textureFileNames:
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_1.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_2.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_3.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_4.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_5.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_6.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_7.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Animals/BM_Animal_Face_8.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/BM_GameSprite.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Common/BM_Common.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Game/BM_Game.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Main/BM_Main.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_01.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_02.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_03.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/A/NewClue_LockStep_04.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/NewClue/BM_Main.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Profile/Atlas/Avatars-0.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Profile/Atlas/Avatars-1.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Profile/Atlas/BM_Profile.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Profile/Atlas/Frames_01.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Rank/BM_Chests.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Rank/BM_Rank-0.png
+- Assets/AssetsPackage/UI/Game/BlockMatch/Setting/BM_Setting.png
+- Assets/GameMain/UI/UISprites/Atlas/BoxAndSetUI.png
+- Assets/GameMain/UI/UISprites/Atlas/Common.png
+- Assets/GameMain/UI/UISprites/Atlas/GameOver_FailUI.png
+- Assets/GameMain/UI/UISprites/Atlas/GameOver_WinUI.png
+- Assets/GameMain/UI/UISprites/Atlas/GameStartUI.png
+- Assets/GameMain/UI/UISprites/Atlas/GameUI.png
+- Assets/GameMain/UI/UISprites/Atlas/Light.png
+- Assets/GameMain/UI/UISprites/Atlas/LoadingUI.png
+- Assets/GameMain/UI/UISprites/Atlas/LockMap.png
+- Assets/GameMain/UI/UISprites/Atlas/Main.png
+- Assets/GameMain/UI/UISprites/Atlas/Map-0.png
+- Assets/GameMain/UI/UISprites/Atlas/Map-1.png
+- Assets/GameMain/UI/UISprites/Atlas/Prop_Task_Item.png
+- Assets/GameMain/UI/UISprites/Atlas/Role.png
+- Assets/GameMain/UI/UISprites/Atlas/SignInUI.png
+- Assets/GameMain/UI/UISprites/Atlas/TaskItem.png
+- Assets/GameMain/UI/UISprites/Atlas/TaskUI.png
+- Assets/GameMain/UI/UISprites/Atlas/Test.png
+normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

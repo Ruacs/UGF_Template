@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:00000000000000000000000000000000:00000000000000000000000000000000:00000000000000000000000000000000$
+#
+:format=40300
+:texture=BM_Profile.png
+:size=256x512
+:pivotpoints=enabled
+:borders=disabled
+
+nameBox_Bg_sliced;1;356;80;155; 0.5;0.5; 0;0;0;0
+ToggleBox_bg_sliced;1;211;90;144; 0.5;0.5; 0;0;0;0
+btn_Refresh_bg_sliced;1;68;80;142; 0.5;0.5; 0;0;0;0
+Content_bg_sliced;82;383;128;128; 0.5;0.5; 0;0;0;0
+tog_avatar_bg_sliced;82;82;80;128; 0.5;0.5; 0;0;0;0
+tog_frame_bg_sliced;92;254;80;128; 0.5;0.5; 0;0;0;0
+mark;82;10;94;71; 0.5;0.5; 0;0;0;0
+icon_refresh;163;168;93;85; 0.5;0.5; 0;0;0;0

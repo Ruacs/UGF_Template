@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: RankRewardDataSO_1
   m_EditorClassIdentifier: 
   id: 0
-  rewardDatas:
-  - propType: 0
-    Count: 5
+  m_Entries:
+  - m_Definition: {fileID: 11400000, guid: cb4017253a005f24a98d5d4008ce3826, type: 2}
+    m_GrantMode: 0
+    m_Amount: 5
+    m_LegacyMinuteRequest: 0
+  - m_Definition: {fileID: 11400000, guid: cb4017253a005f24a98d5d4008ce3826, type: 2}
+    m_GrantMode: 0
+    m_Amount: 5
+    m_LegacyMinuteRequest: 0
+  m_ChestStyle: {fileID: 11400000, guid: f2f7fe6b9f9bd9d488de84d74803c0cf, type: 2}

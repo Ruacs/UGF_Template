@@ -430,7 +430,7 @@ namespace Lokas
             TryGetPropSprite(reward.propType, out sprite);
             string countText = $"x{Mathf.Max(0, reward.count)}";
 
-            if (itemObject.TryGetComponent(out UI_ItemProp itemProp))
+            if (itemObject.TryGetComponent(out RewardItemView itemProp))
             {
                 itemProp.RefreshUI(sprite, countText);
             }

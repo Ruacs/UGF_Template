@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb91960834a2cb145823171036fa7e83, type: 3}
+  m_Name: game_hammer
+  m_EditorClassIdentifier: 
+  id: 10016
+  displayName: "\u9524\u5B50"
+  sprite: {fileID: 21300000, guid: dc5667100baa3db40a966e669335d151, type: 3}
+  m_Scope: Game
+  m_ResourceKey: game.hammer
+  m_Kind: 1
+  m_AllowUnlimitedUse: 1
+  m_UnlimitedUseKey: effect.unlimited_game.hammer
+  m_UnlimitedIcon: {fileID: 0}

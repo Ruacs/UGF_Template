@@ -15,6 +15,7 @@ namespace Lokas
         public static ShopComponent Shop { get; private set; }
         public static RankComponent Rank { get; private set; }
         public static TestModeComponent TestMode { get; private set; }
+        public static ActivityComponent Activity { get; private set; }
 
         public static DefaultGameManagerComponent DefaultGameManager { get; private set; }
 
@@ -48,8 +49,10 @@ namespace Lokas
             Shop = UnityGameFramework.Runtime.GameEntry.GetComponent<ShopComponent>();
             Rank = UnityGameFramework.Runtime.GameEntry.GetComponent<RankComponent>();
             TestMode = UnityGameFramework.Runtime.GameEntry.GetComponent<TestModeComponent>();
+            Activity = UnityGameFramework.Runtime.GameEntry.GetComponent<ActivityComponent>();
 
             DefaultGameManager = UnityGameFramework.Runtime.GameEntry.GetComponent<DefaultGameManagerComponent>();
+            InitActivities();
         }
     }
 }

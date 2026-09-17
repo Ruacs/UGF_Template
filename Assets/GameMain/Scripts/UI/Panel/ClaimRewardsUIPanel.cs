@@ -32,7 +32,7 @@ namespace Lokas
 
         public bool isChest;
         public ChestSkinType chestSkinType;
-        public List<RewardData> rewardDatas;
+        public IReadOnlyList<RewardEntry> rewardDatas { get; }
 
         public Action OnChestOpen;
 
@@ -56,11 +56,11 @@ namespace Lokas
 
         public int shopChestSkinIndex;
 
-        public ChestRewardData(bool isChest, ChestSkinType skinType, List<RewardData> rewardDatas, Action callback = null, string sourcePage = "", bool skipChestOpenAnimation = false, bool allowDoubleClaim = true)
+        public ChestRewardData(bool isChest, ChestSkinType skinType, IReadOnlyList<RewardEntry> rewardDatas, Action callback = null, string sourcePage = "", bool skipChestOpenAnimation = false, bool allowDoubleClaim = true)
         {
             this.isChest = isChest;
             this.chestSkinType = skinType;
-            this.rewardDatas = rewardDatas;
+            this.rewardDatas = new List<RewardEntry>(rewardDatas ?? Array.Empty<RewardEntry>()).AsReadOnly();
             this.OnChestOpen = callback;
             this.sourcePage = sourcePage;
             this.skipChestOpenAnimation = skipChestOpenAnimation;
@@ -68,10 +68,9 @@ namespace Lokas
         }
 
         //跳过宝箱动画，当个奖励
-        public ChestRewardData(RewardData rewardData, string sourcePage = "", bool skipChestOpenAnimation = false, bool allowDoubleClaim = true)
+        public ChestRewardData(RewardEntry rewardData, string sourcePage = "", bool skipChestOpenAnimation = false, bool allowDoubleClaim = true)
         {
-            this.rewardDatas = new List<RewardData>();
-            rewardDatas.Add(rewardData);
+            rewardDatas = new List<RewardEntry> { rewardData }.AsReadOnly();
             this.sourcePage = sourcePage;
             this.skipChestOpenAnimation = skipChestOpenAnimation;
             this.allowDoubleClaim = allowDoubleClaim;
@@ -81,10 +80,10 @@ namespace Lokas
     public class RewardFlyTargetData
     {
         public object target;
-        public Action<RewardData> onRewardArrived;
+        public Action<RewardEntry> onRewardArrived;
         public Action onAllArrived;
 
-        public RewardFlyTargetData(object target, Action<RewardData> onRewardArrived = null, Action onAllArrived = null)
+        public RewardFlyTargetData(object target, Action<RewardEntry> onRewardArrived = null, Action onAllArrived = null)
         {
             this.target = target;
             this.onRewardArrived = onRewardArrived;
@@ -129,7 +128,7 @@ namespace Lokas
         [SerializeField] private RectTransform m_Claim2BtnRT;
         [SerializeField] private RectTransform m_ClaimBtnRT;
 
-        [SerializeField] private List<UI_ItemProp> m_ItemPropList;
+        [SerializeField] private List<RewardItemView> m_ItemPropList;
 
         [SerializeField] private RectTransform m_chestRoot;
 
@@ -262,6 +261,7 @@ namespace Lokas
 
         protected override void OnClose(bool isShutdown, object userData)
         {
+            m_ChestRewardData = null;
             m_canvasGroupRoot?.DOKill();
             m_Claim2BtnRT?.DOKill();
             m_ClaimBtnRT?.DOKill();
@@ -292,13 +292,9 @@ namespace Lokas
                     m_ItemPropList[i].gameObject.SetActive(true);
 
                     var reward = m_ChestRewardData.rewardDatas[i];
-                    if (GameEntry.CustomConfig.PropDataBaseSO.TryGetPropData(reward.propType, out PropData propData))
-                    {
-                        m_ItemPropList[i].SetIcon(propData.sprite_big, true);
-                        m_ItemPropList[i].SetContent("x" + reward.Count);
-                        m_ItemPropList[i].Init();
-                        m_ItemPropList[i].DoPlayMove(positions[i]);
-                    }
+                    m_ItemPropList[i].Bind(RewardPresentation.BuildItem(reward));
+                    m_ItemPropList[i].Init();
+                    m_ItemPropList[i].DoPlayMove(positions[i]);
                 }
                 else
                 {
@@ -324,7 +320,7 @@ namespace Lokas
                     continue;
 
                 var reward = m_ChestRewardData.rewardDatas[i];
-                m_ItemPropList[i].SetContent("x" + reward.Count * multiplier);
+                m_ItemPropList[i].Bind(RewardPresentation.BuildItem(reward, multiplier));
             }
         }
 
@@ -353,6 +349,13 @@ namespace Lokas
         private void OnClickClaim2()
         {
             if (m_IsClaiming) return;
+            if (m_ChestRewardData == null) return;
+            if (m_ChestRewardData.applyRewardsOnClaim &&
+                !RewardQuantityUtility.TryPrepare(m_ChestRewardData.rewardDatas, 2, out _, out string reason))
+            {
+                Log.Warning("[ClaimRewards] Double claim is unavailable: {0}", reason);
+                return;
+            }
 
             PlayUISound(SoundId.UI_Click);
 
@@ -360,12 +363,13 @@ namespace Lokas
                 ("lv", GetCurrentLevel()),
                 ("scene", string.IsNullOrEmpty(m_ChestRewardData?.sourcePage) ? "Unknown" : m_ChestRewardData.sourcePage));
 
+            ChestRewardData requestedReward = m_ChestRewardData;
             Action action = () =>
             {
-                if (m_IsClaiming) return;
+                if (m_IsClaiming || !gameObject.activeInHierarchy || m_ChestRewardData != requestedReward) return;
                 m_IsClaiming = true;
+                if (!ApplyRewards(2)) return;
                 RefreshItemCountDisplay(2);
-                ApplyRewards(2);
                 AdsAnalytics.EventWithName("Claim2Success",
                     ("lv", GetCurrentLevel()),
                     ("scene", string.IsNullOrEmpty(m_ChestRewardData?.sourcePage) ? "Unknown" : m_ChestRewardData.sourcePage));
@@ -390,7 +394,7 @@ namespace Lokas
 
             m_IsClaiming = true;
             PlayUISound(SoundId.UI_Click);
-            ApplyRewards(1);
+            if (!ApplyRewards(1)) return;
 
             PlayClaimAnimation().Forget();
         }
@@ -398,36 +402,37 @@ namespace Lokas
 
         private async void AutoClaim()
         {
+            ChestRewardData requestedReward = m_ChestRewardData;
             await UniTask.Delay(1000);
-            ApplyRewards(1);
+            if (m_IsClaiming || !gameObject.activeInHierarchy || m_ChestRewardData != requestedReward) return;
+            m_IsClaiming = true;
+            if (!ApplyRewards(1)) return;
             PlayClaimAnimation().Forget();
         }
 
-        private void ApplyRewards(int multiplier)
+        private bool ApplyRewards(int multiplier)
         {
-            if (m_ChestRewardData.rewardDatas == null) return;
-            PlayUISound(SoundId.SFX_ItemReward);
             if (!m_ChestRewardData.applyRewardsOnClaim)
             {
                 Log.Info("[ClaimRewards] Rewards already applied before claim panel.");
-                return;
+                return true;
             }
-
-            foreach (var reward in m_ChestRewardData.rewardDatas)
+            if (!RewardQuantityUtility.TryPrepare(m_ChestRewardData.rewardDatas, multiplier, out var rewards, out string reason))
             {
-                int amount = reward.Count * multiplier;
-                switch (reward.propType)
-                {
-                    case PropType.Hint:
-                        AddHintCount(amount);
-                        break;
-                    default:
-                        Log.Warning("[ClaimRewards] 未处理的道具类型: {0}", reward.propType);
-                        break;
-                }
+                Log.Warning("[ClaimRewards] Cannot claim rewards: {0}", reason);
+                m_IsClaiming = false;
+                return false;
             }
-
+            foreach (QuantityReward reward in rewards)
+            {
+                if (RewardQuantityUtility.TryGrant(reward, out reason)) continue;
+                // 可能已有条目成功，保持领取锁定，避免同一页面重试导致重复增加。
+                Log.Error("[ClaimRewards] Reward delivery stopped: {0}", reason);
+                return false;
+            }
+            PlayUISound(SoundId.SFX_ItemReward);
             Log.Info("[ClaimRewards] 领取奖励完成，倍率: {0}", multiplier);
+            return true;
         }
 
         private int GetCurrentLevel()
@@ -435,15 +440,6 @@ namespace Lokas
             return GameEntry.GameManager != null ? GameEntry.GameManager.GetCurrentLevel() : 0;
         }
 
-        private void AddHintCount(int amount)
-        {
-            if (GameEntry.GameManager == null || GameEntry.SaveData == null)
-            {
-                return;
-            }
-
-            GameEntry.SubGames?.Get(GameEntry.GameManager.CurrentGameMode)?.TryGrantProp(PropType.Hint, amount);
-        }
 
 
 
@@ -484,7 +480,7 @@ namespace Lokas
                 Vector2 startPos = itemRT.anchoredPosition;
                 Vector2 liftPos = startPos + Vector2.up * 90f;
                 float delay = flyIndex * 0.3f;
-                RewardData reward = GetRewardData(flyIndex);
+                RewardEntry reward = GetRewardData(flyIndex);
 
                 DG.Tweening.Sequence itemSequence = DOTween.Sequence();
                 _ = itemSequence.Append(itemRT.DOAnchorPos(liftPos, 0.15f).SetEase(Ease.OutQuad));
@@ -529,7 +525,7 @@ namespace Lokas
             }
         }
 
-        private RewardData GetRewardData(int index)
+        private RewardEntry GetRewardData(int index)
         {
             if (m_ChestRewardData?.rewardDatas == null || index < 0 || index >= m_ChestRewardData.rewardDatas.Count)
                 return null;
@@ -595,7 +591,7 @@ namespace Lokas
                 m_canvasGroupRoot = GetComponent<CanvasGroup>();
         }
 
-        private void ResetItemCanvasGroup(UI_ItemProp item)
+        private void ResetItemCanvasGroup(RewardItemView item)
         {
             if (item == null || !item.TryGetComponent(out CanvasGroup canvasGroup))
                 return;
@@ -604,7 +600,7 @@ namespace Lokas
             canvasGroup.ignoreParentGroups = false;
         }
 
-        private void PrepareItemCanvasGroupForClaim(UI_ItemProp item)
+        private void PrepareItemCanvasGroupForClaim(RewardItemView item)
         {
             if (item == null)
                 return;

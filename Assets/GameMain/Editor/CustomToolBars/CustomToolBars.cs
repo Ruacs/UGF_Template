@@ -108,6 +108,12 @@ namespace Lokas.Editor
             );
 
             menu.AddItem(
+                new GUIContent("活动/通行证/安装配置并检查UI"),
+                false,
+                () => Lokas.Activities.SeasonPass.Editor.SeasonPassAssetInstaller.InstallOrUpdate()
+            );
+
+            menu.AddItem(
                 new GUIContent("资源/资源ID生成器"),
                 false,
                 () => IdGeneratorWindow.ShowWindow()

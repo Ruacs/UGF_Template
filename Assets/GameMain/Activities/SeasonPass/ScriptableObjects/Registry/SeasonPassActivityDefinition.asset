@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c8b47de27bea24db56d80d9f220901, type: 3}
+  m_Name: SeasonPassActivityDefinition
+  m_EditorClassIdentifier: 
+  m_ModuleId: season_pass
+  m_GameIds:
+  - Game
+  m_Pages:
+  - m_PageKey: main
+    m_UIFormId: 216
+    m_AssetName: SeasonPassMainPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/SeasonPass/UI/SeasonPassMainPanel.prefab
+  - m_PageKey: rules
+    m_UIFormId: 217
+    m_AssetName: SeasonPassRulesPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/SeasonPass/UI/SeasonPassRulesPanel.prefab
+  - m_PageKey: gold_pass_purchase
+    m_UIFormId: 218
+    m_AssetName: SeasonPassGoldPassPurchasePanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/SeasonPass/UI/SeasonPassGoldPassPurchasePanel.prefab
+    m_AssetNameAliases:
+    - SeasonPassRewardPanel
+  m_Config: {fileID: 11400000, guid: e0d29d6a916d8874589f250b61fa90ec, type: 2}

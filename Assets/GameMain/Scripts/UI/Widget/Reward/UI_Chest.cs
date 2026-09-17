@@ -20,7 +20,7 @@ namespace Lokas
         [SerializeField] private RectTransform m_ProgressRoot;
         [SerializeField] private CanvasGroup[] m_ProgressIcons;
 
-        [SerializeField] private UI_RewardTipsBox m_RewardTipsBox;
+        [SerializeField] private RewardTooltipView m_RewardTipsBox;
 
         private const int PlayCountTarget = 5;
         private const float IconFadeDuration = 0.25f;
@@ -103,7 +103,7 @@ namespace Lokas
             GameEntry.Sound.PlayUISound(SoundId.UI_Click);
             var chestRewards = GameEntry.CustomConfig.RewardConfig?.ChestRewardList;
             if (chestRewards == null || chestRewards.Count == 0 || chestRewards[0] == null) return;
-            m_RewardTipsBox?.Show(chestRewards[0].rewardDatas);
+            m_RewardTipsBox?.Show(chestRewards[0].Entries);
         }
 
         private async UniTask RefreshUI()
@@ -174,7 +174,7 @@ namespace Lokas
                 return;
 
             Log.Info("[UI_Chest] OnClaimRewardEvent");
-            GameEntry.Event.Fire(this, OnClaimRewardsEventArgs.Create(0, chestRewards[0].rewardDatas));
+            GameEntry.Event.Fire(this, OnClaimRewardsEventArgs.Create(0, chestRewards[0].Entries));
 
             SetChestProgress(0);
 

@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: ChestRewardDataSO
   m_EditorClassIdentifier: 
   id: 0
-  rewardDatas:
-  - propType: 0
-    Count: 2
+  m_Entries:
+  - m_Definition: {fileID: 11400000, guid: cb4017253a005f24a98d5d4008ce3826, type: 2}
+    m_GrantMode: 0
+    m_Amount: 2
+    m_LegacyMinuteRequest: 0
+  m_ChestStyle: {fileID: 0}

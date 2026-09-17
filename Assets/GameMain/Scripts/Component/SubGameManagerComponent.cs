@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityGameFramework.Runtime;
@@ -13,6 +14,8 @@ namespace Lokas
 
         private bool m_IsResourcesInitialized;
         private UniTaskCompletionSource m_ResourceInitializationSource;
+        private readonly string m_ActivityFactSessionId = Guid.NewGuid().ToString("N");
+        private long m_ActivityFactSequence;
 
         public abstract GameMode GameMode { get; }
         public virtual string SceneConfigKey => null;
@@ -130,7 +133,24 @@ namespace Lokas
         public virtual void GameWin()
         {
             CurrentResult = GameResult.Win;
+            PublishLevelCompletedFacts();
             GameOver();
+        }
+
+        private void PublishLevelCompletedFacts()
+        {
+            if (GameEntry.Event == null) return;
+
+            long sequence = ++m_ActivityFactSequence;
+            string gameId = GameMode.ToString();
+            string levelId = CurrentLevel.ToString(CultureInfo.InvariantCulture);
+            string factId = string.Concat(m_ActivityFactSessionId, ":", sequence.ToString(CultureInfo.InvariantCulture));
+            var fact = new ActivityLevelCompletedFact(factId, gameId, m_ActivityFactSessionId, sequence,
+                DateTimeOffset.UtcNow, levelId, won: true);
+            GameEntry.Event.Fire(this, ActivityGameFactEventArgs.Create(fact));
+
+            // 兼容现有任务系统；它此前只有编辑器快捷键会发出通关事件。
+            GameEntry.Event.Fire(this, LevelPassedEventArgs.Create(levelId));
         }
 
         public virtual void GameFail()

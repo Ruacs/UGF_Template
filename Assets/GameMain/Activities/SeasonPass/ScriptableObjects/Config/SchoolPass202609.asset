@@ -1,0 +1,466 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee1412d07ff2134a92cf14a66009c1a, type: 3}
+  m_Name: SchoolPass202609
+  m_EditorClassIdentifier: 
+  m_PassId: school_pass_202609
+  m_DisplayName: Back To Scholl Pass
+  m_EntryLabel: PASS
+  m_StartUtcUnixSeconds: 1788393600
+  m_EndUtcUnixSeconds: 1790812800
+  m_UnlockLevel: 50
+  m_ChargePerCompletedLevel: 1
+  m_EditorAlwaysUnlocked: 1
+  m_Tiers:
+  - m_Tier: 1
+    m_RequiredCharge: 0
+    m_FreeReward: {fileID: 11400000, guid: 2abc58b951f6da84a98288dd13db0cf6, type: 2}
+    m_PremiumReward: {fileID: 0}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 300
+    m_PremiumRewards: []
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 2
+    m_RequiredCharge: 2
+    m_FreeReward: {fileID: 11400000, guid: 0bc7b035fa2356642ae9b50d7a6c3930, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: a072a8043598bf54c80feaec9cfe2168, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u70B8\u5F39"
+      m_ResourceKey: game.bomb
+      m_Unit: count
+      m_Amount: 1
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 3
+    m_RequiredCharge: 3
+    m_FreeReward: {fileID: 11400000, guid: 8c19bf7d619aa7e4aa83e7ca122d7c26, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 630e1b6b648468445a2a2725801c94e7, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 1000
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 4
+    m_RequiredCharge: 3
+    m_FreeReward: {fileID: 11400000, guid: a47e13def888ed3418ef0149c3aaa108, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: b854af2c34935a04d8b56fdf4da1151b, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 300
+    m_PremiumRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 5
+    m_RequiredCharge: 5
+    m_FreeReward: {fileID: 11400000, guid: 60b2043e6e8fb06409783a8f0163a8f1, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 11ca8198279fa0a43be2f5c885a87b12, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u94BB\u5934"
+      m_ResourceKey: game.drill
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 700
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 2
+    - m_DisplayName: "\u65E0\u9650\u751F\u547D"
+      m_ResourceKey: effect.unlimited_life
+      m_Unit: minute
+      m_Amount: 30
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 6
+    m_RequiredCharge: 6
+    m_FreeReward: {fileID: 11400000, guid: b1e2f19c6a17594418df18a1a0888d51, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 63a448f1e74780e4c8b286cf4b7c6080, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 1200
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 7
+    m_RequiredCharge: 6
+    m_FreeReward: {fileID: 11400000, guid: 44c120c33cad6124e8fda821402f5609, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 3748cba3c38134e4692f283c1c930aad, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u70B8\u5F39"
+      m_ResourceKey: game.bomb
+      m_Unit: count
+      m_Amount: 1
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 8
+    m_RequiredCharge: 7
+    m_FreeReward: {fileID: 11400000, guid: d3ad7449ce4c2f14d85db00b6010f0e0, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 624811921a4a92741a9c810039afd501, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 400
+    m_PremiumRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 9
+    m_RequiredCharge: 7
+    m_FreeReward: {fileID: 11400000, guid: d90a4418e4d2a594ba9409bc94c3f5aa, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 91c2a19d11d935c4fbdef4237844c076, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u94BB\u5934"
+      m_ResourceKey: game.drill
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 1300
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 10
+    m_RequiredCharge: 8
+    m_FreeReward: {fileID: 11400000, guid: 3ab9e09ce6c092444bce66e062e6a3fc, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 8ccdb371d335ef74ca4bc37ba4b0f86a, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 300
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 1
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u70B8\u5F39"
+      m_ResourceKey: game.bomb
+      m_Unit: count
+      m_Amount: 1
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 1200
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 11
+    m_RequiredCharge: 8
+    m_FreeReward: {fileID: 11400000, guid: 6073212a7093b6c4b9f1a122b3ee905d, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 3ba5d8c6a18bed4479c48b879fec4a9d, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u70B8\u5F39"
+      m_ResourceKey: game.bomb
+      m_Unit: count
+      m_Amount: 1
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 12
+    m_RequiredCharge: 9
+    m_FreeReward: {fileID: 11400000, guid: 748a82207f4646c44b2a8fb29057bd55, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 96282533d632bc341ac263e509a4c978, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 500
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 1800
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 13
+    m_RequiredCharge: 10
+    m_FreeReward: {fileID: 11400000, guid: e5a367aa64150e342bfd7032ea1f6296, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 4ef0dadf514b379408abcb8aaca35f1a, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u70B8\u5F39"
+      m_ResourceKey: game.bomb
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 14
+    m_RequiredCharge: 12
+    m_FreeReward: {fileID: 11400000, guid: 20cbc7818dc1fdd4484bc434dfe09884, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 189f718e03d2f3b48944e3541b43f8f5, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 15
+    m_RequiredCharge: 13
+    m_FreeReward: {fileID: 11400000, guid: 2ceb7f9ed4627704db034b07b7a1527d, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 2e0e43902a7637d47b5487dd3fe42643, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 600
+    m_PremiumRewards:
+    - m_DisplayName: "\u70B8\u5F39"
+      m_ResourceKey: game.bomb
+      m_Unit: count
+      m_Amount: 1
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 2
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 16
+    m_RequiredCharge: 16
+    m_FreeReward: {fileID: 11400000, guid: d3141cb5b334e83498c351f63f38dabf, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: b856c680b249fd546b347c1c75ed1e93, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 2000
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 17
+    m_RequiredCharge: 18
+    m_FreeReward: {fileID: 11400000, guid: 43de852357ebc9f458636c54105d95f8, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 35dcf85c8fe675a4fbc3b24a8f71b569, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u70B8\u5F39"
+      m_ResourceKey: game.bomb
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 18
+    m_RequiredCharge: 19
+    m_FreeReward: {fileID: 11400000, guid: d75f5770ebc016145b594dec794b8878, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 81c87abd9871032418cb69b328da187d, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 700
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 2000
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 19
+    m_RequiredCharge: 20
+    m_FreeReward: {fileID: 11400000, guid: 66506e6ddce3b8c43bb9adf138df20a7, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: de24f5c91bd2e7849915ebb05ee814bf, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 3
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 20
+    m_RequiredCharge: 25
+    m_FreeReward: {fileID: 11400000, guid: 69a9c825547ae3b4ba36839e2864e76f, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 6d9fdaabf52654e47a041f9c39f4d9da, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 700
+    - m_DisplayName: "\u94BB\u5934"
+      m_ResourceKey: game.drill
+      m_Unit: count
+      m_Amount: 1
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 2
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 1500
+    - m_DisplayName: "\u94BB\u5934"
+      m_ResourceKey: game.drill
+      m_Unit: count
+      m_Amount: 1
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 2
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 21
+    m_RequiredCharge: 30
+    m_FreeReward: {fileID: 11400000, guid: c12f59b203761b44ba0ef90d9a920c75, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 49cf56db5dedd9c43aff465b3963ef3b, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 2
+    m_PremiumRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 22
+    m_RequiredCharge: 35
+    m_FreeReward: {fileID: 11400000, guid: 4dc5a7080f23eed4993bcf1c21ad039e, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: ec27a4a6513b05a4e8633bd2541d89e3, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 800
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 2500
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 23
+    m_RequiredCharge: 45
+    m_FreeReward: {fileID: 11400000, guid: 25e0d37c03f752f48a2ad06ddc41caf1, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: caec57162fbe66d4f9bf3d032fbf7e2f, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 2
+    m_PremiumRewards:
+    - m_DisplayName: "\u70B8\u5F39"
+      m_ResourceKey: game.bomb
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 24
+    m_RequiredCharge: 55
+    m_FreeReward: {fileID: 11400000, guid: af7b9a9af2f551341ab7be2269466797, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 654780911e9438b40891a22e26e55b05, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 1200
+    m_PremiumRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 3000
+    m_RewardAssetsMigrated: 1
+  - m_Tier: 25
+    m_RequiredCharge: 70
+    m_FreeReward: {fileID: 11400000, guid: a7789cb2b387b34438e3001c8db12d3a, type: 2}
+    m_PremiumReward: {fileID: 11400000, guid: 3df87e7beeafe85428f265d433b0b7a4, type: 2}
+    m_FreeRewards:
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 2500
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 2
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 1
+    m_PremiumRewards:
+    - m_DisplayName: "\u70B8\u5F39"
+      m_ResourceKey: game.bomb
+      m_Unit: count
+      m_Amount: 2
+    - m_DisplayName: "\u91D1\u5E01"
+      m_ResourceKey: currency.money
+      m_Unit: count
+      m_Amount: 3500
+    - m_DisplayName: "\u989D\u5916\u6B65\u6570"
+      m_ResourceKey: game.extra_move
+      m_Unit: count
+      m_Amount: 3
+    - m_DisplayName: "\u9524\u5B50"
+      m_ResourceKey: game.hammer
+      m_Unit: count
+      m_Amount: 2
+    m_RewardAssetsMigrated: 1

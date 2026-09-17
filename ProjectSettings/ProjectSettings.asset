@@ -80,7 +80,7 @@ PlayerSettings:
   androidPredictiveBackSupport: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 0
+  runInBackground: 1
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -757,24 +757,24 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: AMPLIFY_SHADER_EDITOR;DOTWEEN;ENABLE_LOG;UNITASK_DOTWEEN_SUPPORT
-    EmbeddedLinux: DOTWEEN
+    Android: AMPLIFY_SHADER_EDITOR;DOTWEEN;ENABLE_LOG;UNITASK_DOTWEEN_SUPPORT;DOTWEEN_PRO
+    EmbeddedLinux: DOTWEEN;DOTWEEN_PRO
     GameCoreScarlett: DOTWEEN
-    GameCoreXboxOne: DOTWEEN
+    GameCoreXboxOne: DOTWEEN;DOTWEEN_PRO
     LinuxHeadlessSimulation: DOTWEEN
     Lumin: DOTWEEN
-    Nintendo Switch: DOTWEEN
-    PS4: DOTWEEN
-    PS5: DOTWEEN
-    QNX: DOTWEEN
-    Stadia: DOTWEEN
-    Standalone: DOTWEEN;AMPLIFY_SHADER_EDITOR;ENABLE_LOG;UNITASK_DOTWEEN_SUPPORT
-    VisionOS: DOTWEEN
-    WebGL: DOTWEEN;AMPLIFY_SHADER_EDITOR;UNITY_WEBGL_DOUYIN_;TTSDK_MIX_ENGINE;ENABLE_LOG;UNITASK_DOTWEEN_SUPPORT
+    Nintendo Switch: DOTWEEN;DOTWEEN_PRO
+    PS4: DOTWEEN;DOTWEEN_PRO
+    PS5: DOTWEEN;DOTWEEN_PRO
+    QNX: DOTWEEN;DOTWEEN_PRO
+    Stadia: DOTWEEN;DOTWEEN_PRO
+    Standalone: DOTWEEN;AMPLIFY_SHADER_EDITOR;ENABLE_LOG;UNITASK_DOTWEEN_SUPPORT;DOTWEEN_PRO
+    VisionOS: DOTWEEN;DOTWEEN_PRO
+    WebGL: DOTWEEN;AMPLIFY_SHADER_EDITOR;UNITY_WEBGL_DOUYIN_;TTSDK_MIX_ENGINE;ENABLE_LOG;UNITASK_DOTWEEN_SUPPORT;DOTWEEN_PRO
     Windows Store Apps: DOTWEEN;ENABLE_LOG
-    XboxOne: DOTWEEN
+    XboxOne: DOTWEEN;DOTWEEN_PRO
     iPhone: DOTWEEN;ENABLE_LOG
-    tvOS: DOTWEEN
+    tvOS: DOTWEEN;DOTWEEN_PRO
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

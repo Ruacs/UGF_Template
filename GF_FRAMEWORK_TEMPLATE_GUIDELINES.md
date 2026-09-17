@@ -6,9 +6,15 @@
 >
 > **适用阶段**：本文中的“必须”“禁止”描述目标模板的规范；当前样例已经实现的操作路径以 `Assets/AAA_DevAssets/Docs/02_NEW_SUBGAME_CURRENT.md` 和 `Assets/AAA_DevAssets/Docs/03_REGISTRATION_MAP.md` 为准。两者不一致时，必须显式标注为“待实现的目标能力”，不得把目标 API 当作当前可用 API。
 
+### AI 使用入口
+
+本文保留完整解释、示例与架构背景，主要供开发者阅读。AI 执行项目任务时，先遵循 [AGENTS.md](AGENTS.md)，再使用项目内的 [gf-workflow Skill](.agents/skills/gf-workflow/SKILL.md) 按任务查阅相关章节，无需为每个局部修改通读全文。
+
+Skill 负责阅读路由、技术约束摘要和任务范围；本文件与专题文档保留详细规则。授权、风险分级和验证范围由 AGENTS 统一规定；例如子游戏完整验收不适用于普通 Widget 字段绑定。若摘要与正文不一致，应核实并同步修正，不擅自改变项目行为。
+
 ## 1. 文档目标
 
-模板项目应让开发者或 AI 能够根据固定流程完成以下工作：
+模板项目应为以下工作提供清晰的归属、接入步骤和验证依据：
 
 - 新增一个子游戏。
 - 新增一个子游戏管理器。
@@ -489,6 +495,16 @@ RectMatchCurrentLevel
 6. 保留当前加载协议期间，各类资源的 `AssetName` 仍须满足现有全局唯一约束；聚合时检测同名、重复游戏标识及缺失清单，报告归属和冲突来源，禁止静默覆盖。若要改成带作用域的复合键，必须单独批准并迁移所有查询方，不能把“拆清单”当成已完成协议改造。
 7. 移除包时先撤销全局清单引用，再移除专用资源，并重建运行时索引以清除旧映射；重复导入不能出现重复引用。根索引为空是合法的空模板状态，有残留的空引用或 Missing Script 则是配置错误。
 8. 独立资源清单不能替代 UIForm、Scene DataTable、Procedure、Build Settings 或资源收集注册。音频仍按全局音频目录约定管理，不能随本次拆分改变音频目录规则。
+
+### 5.9 可复用活动模块
+
+活动采用公共接口接入，每个活动自行实现业务、服务、配置、存档格式与页面。公共契约和宿主位于 `Assets/GameMain/CustomComponents/ActivitySystem/Scripts/`；`GameEntry` 对象上的 `ActivityComponent : GameFrameworkComponent` 持有纯 C# 的 `ActivityModuleHost`，`GameEntry.Activities` 返回该宿主供显式注册。组件 Inspector 从活动目录只读展示已配置模块，不为每个活动添加全局单例或场景组件，也不在公共层引用具体活动类型。
+
+具体可复用活动归属 `Assets/GameMain/Activities/{ActivityName}/`：脚本位于 `Scripts/`，所有专用 UI 脚本位于 `Scripts/UI/`，多个页面与私有 Widget 的 Prefab 位于 `UI/`，配置与资源清单位于 `ScriptableObjects/`。公共 UI 目录只保留跨模块通用页面。目标游戏的事实适配代码仍归属于该子游戏的 `Scripts/`。
+
+当前已实现生命周期、隔离上下文、入口聚合、Setting 存储、GF 事实适配、活动 SO Catalog、页面注册表、GF UI 路由与本地奖励适配。`ActivityComponent` 保存 Catalog 的逻辑资源名，`ProcedurePreload` 在依赖就绪后按现有 GF 资源流程加载并安装 `ActivityModuleCatalogConfig`；`AssetUtility` 只按 Catalog 显式声明的页面资源路径加载活动 Prefab。安装工具可以同步 UIForm 生成物和校验设计师 Prefab，但不创建、覆盖或删除设计师维护的活动 UI；移除/导入工具仍未实现。音频、多语言和字体仍遵守既有全局约定。
+
+新增模块必须声明允许接收的游戏来源。停用时等待入口撤回、普通任务取消、窗口关闭、模块清理与保存；失败保留诊断并允许重试，成功后才允许删除资产，默认保留存档。详情、代码示例与验证入口见 [活动模块接入](Assets/AAA_DevAssets/Docs/06_ACTIVITY_MODULES.md)。
 
 ## 6. 新增 UI 页面规范
 

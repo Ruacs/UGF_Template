@@ -18,7 +18,7 @@ namespace Lokas
         public Action OnClosed;     //关闭页面回调
 
 
-        public RewardData RewardData;    //奖励数据
+        public RewardEntry Reward;    //奖励配置；广告成功后的业务处理仍由回调负责。
 
         public Action OnPurchasedRewardClick;
 
@@ -67,9 +67,11 @@ namespace Lokas
             RefreshShopBottomPagedViewVisible();
             RefreshGetButtonState();
 
-            if (GameEntry.CustomConfig.PropDataBaseSO.TryGetPropData(m_UIData.RewardData.propType, out PropData propData))
+            RewardItemViewData rewardView = m_UIData.Reward != null ? RewardPresentation.BuildItem(m_UIData.Reward) : null;
+            if (m_PropImg != null)
             {
-                m_PropImg.sprite = propData.sprite_big;
+                m_PropImg.sprite = rewardView?.Icon;
+                m_PropImg.enabled = rewardView?.Icon != null;
             }
 
 
@@ -81,9 +83,9 @@ namespace Lokas
             {
                 m_TitleTMP.text = m_UIData.Title;
             }
-            if (m_TitleTMP != null)
+            if (m_CountTMP != null)
             {
-                m_CountTMP.text = "x" + m_UIData.RewardData.Count;
+                m_CountTMP.text = rewardView?.Text ?? string.Empty;
             }
         }
 
@@ -191,7 +193,7 @@ namespace Lokas
             m_ShopBottomPagedView?.RefreshVisibleState();
         }
 
-        private void OnShopRewardFlyArrived(RewardData reward)
+        private void OnShopRewardFlyArrived(RewardEntry reward)
         {
             if (m_GetBtnRT != null)
                 _ = m_GetBtnRT.PlayScale(0.8f, 0.6f, 0.3f);
@@ -203,11 +205,13 @@ namespace Lokas
             RefreshGetButtonState();
         }
 
-        private bool IsRewardForCurrentProp(RewardData reward)
+        private bool IsRewardForCurrentProp(RewardEntry reward)
         {
             return reward != null &&
-                   m_UIData?.RewardData != null &&
-                   reward.propType == m_UIData.RewardData.propType;
+                   m_UIData?.Reward != null &&
+                   reward.Definition != null && m_UIData.Reward.Definition != null &&
+                   reward.Definition.Scope == m_UIData.Reward.Definition.Scope &&
+                   reward.ResourceKey == m_UIData.Reward.ResourceKey && reward.GrantMode == m_UIData.Reward.GrantMode;
         }
 
         private void RefreshGetButtonState()

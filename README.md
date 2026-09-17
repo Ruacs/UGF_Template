@@ -27,6 +27,7 @@
 | 将样例工程初始化为不含玩法的产品基线 | [05 · Sample SubGames](Assets/AAA_DevAssets/Docs/05_SAMPLE_SUBGAMES.md) |
 | 新建模板或演进架构 | [GF Framework Template Guidelines](GF_FRAMEWORK_TEMPLATE_GUIDELINES.md) |
 | 让 Agent 协作时遵守的边界 | [AGENTS.md](AGENTS.md) |
+| AI 按任务选择阅读、修改与验证范围 | [gf-workflow Skill](.agents/skills/gf-workflow/SKILL.md)（可用 `$gf-workflow` 显式调用） |
 
 ## 当前样例与目标模板
 
@@ -70,7 +71,7 @@ Assets/GameMain/SubGame/{GameName}/UI/
 
 ## 交付给其他开发者
 
-完整模板 ZIP 应包含 `Assets/`（连同 `.meta` 及 `SamplePackages~/` 的真实文件）、`Packages/`、`ProjectSettings/`，以及根目录的 `README.md`、`AGENTS.md`、`GF_FRAMEWORK_TEMPLATE_GUIDELINES.md`。通常不包含 `Library/`、`Temp/`、`Logs/`、`UserSettings/`、`Backups/`、IDE 缓存和生成的 `.csproj` / `.sln`。发送前另行审查 SDK Key、服务地址等产品私有配置。
+完整模板 ZIP 应包含 `Assets/`（连同 `.meta` 及 `SamplePackages~/` 的真实文件）、`Packages/`、`ProjectSettings/`、项目 AI Skill `.agents/skills/gf-workflow/`，以及根目录的 `README.md`、`AGENTS.md`、`GF_FRAMEWORK_TEMPLATE_GUIDELINES.md`。通常不包含 `Library/`、`Temp/`、`Logs/`、`UserSettings/`、`Backups/`、IDE 缓存和生成的 `.csproj` / `.sln`。发送前另行审查 SDK Key、服务地址等产品私有配置。
 
 用文件管理器或压缩工具打包，并检查 ZIP 内确实包含 `SamplePackages~/`；不要使用 Unity 的 Export Package 代替完整工程压缩，因为被 Unity 忽略的目录不会随资源导出。示例目录内的 `SampleSubGames-*.zip` 只是两个玩法包和说明的合集，**不是完整模板工程**。
 

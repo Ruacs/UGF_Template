@@ -43,6 +43,7 @@ namespace Lokas
         [SerializeField] private GameMode m_SecondaryGameMode = GameMode.None;
         private SubGameManagerComponent m_BoundPrimary;
         private SubGameManagerComponent m_BoundSecondary;
+        private ActivityEntryLauncher m_ActivityEntryLauncher;
 
         protected override void OnInit(object userData)
         {
@@ -52,6 +53,7 @@ namespace Lokas
             m_RectMatchStateBtn.OnClick.AddListener(OnClickStartRectMatch);
             m_ProfileBtn.AddSafeClick(OnClickProfile);
             m_RankingBtn.AddSafeClick(OnClickRanking);
+            m_ActivityEntryLauncher = GetComponent<ActivityEntryLauncher>() ?? gameObject.AddComponent<ActivityEntryLauncher>();
             base.OnInit(userData);
         }
 
@@ -69,6 +71,7 @@ namespace Lokas
             UpdatePlayerInfo();
             SetStartBtnState();
             SetUIInteractable();
+            m_ActivityEntryLauncher?.Bind();
             TryOpenRankReward();
             AdsAnalytics.EventWithName("首页_打开");
             AdsManager.ShowBanner(AdsServerConfig.PrimaryGameMode);
@@ -85,6 +88,7 @@ namespace Lokas
 
         protected override void OnClose(bool isShutdown, object userData)
         {
+            m_ActivityEntryLauncher?.Unbind();
             base.OnClose(isShutdown, userData);
 
             AdsAnalytics.EventWithName("首页_关闭");
@@ -114,7 +118,7 @@ namespace Lokas
                 }
 
                 var rewardDataSO = rankRewardList[rank - 1];
-                if (rewardDataSO?.rewardDatas == null || rewardDataSO.rewardDatas.Count == 0)
+                if (rewardDataSO?.Entries == null || rewardDataSO.Entries.Count == 0)
                 {
                     return;
                 }
@@ -133,7 +137,7 @@ namespace Lokas
                         break;
                 }
 
-                var chestRewardData = new ChestRewardData(true, chestSkinType, rewardDataSO.rewardDatas, sourcePage: "Main");
+                var chestRewardData = new ChestRewardData(true, chestSkinType, rewardDataSO.Entries, sourcePage: "Main");
 
                 chestRewardData.OnClaim = () =>
                 {

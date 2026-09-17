@@ -79,5 +79,17 @@
         /// 复活页面
         /// </summary>
         ReviveUIPanel = 215,
+        /// <summary>
+        /// 通行证主页面
+        /// </summary>
+        SeasonPassMainPanel = 216,
+        /// <summary>
+        /// 通行证规则页面
+        /// </summary>
+        SeasonPassRulesPanel = 217,
+        /// <summary>
+        /// Gold Pass购买页面
+        /// </summary>
+        SeasonPassGoldPassPurchasePanel = 218,
     }
 }

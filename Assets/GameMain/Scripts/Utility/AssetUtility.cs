@@ -149,6 +149,11 @@ namespace Lokas
         /// <returns></returns>
         public static string GetUIFormAsset(string assetName)
         {
+            if (ActivityPageRegistry.TryGetPrefabAsset(assetName, out string activityPrefabAsset))
+            {
+                return activityPrefabAsset;
+            }
+
             if (SubGameAssetRegistry.TryGetUIFormGameName(assetName, out string gameName))
             {
                 return GetSubGameUIFormAsset(gameName, assetName);

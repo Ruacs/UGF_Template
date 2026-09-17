@@ -30,6 +30,7 @@ SubGameAssetRegistryConfig.asset → SubGameAssetRegistry → AssetUtility → �
 | 目标游戏 Procedure | 自己的管理器 `GameProcedureType` | 返回游戏 Procedure 类型，并加入 Launcher 的 Procedure 组件配置 | Scene Config / 表 / Build Settings 仍需显式登记。 |
 | 子游戏资源域 | 各游戏 `ScriptableObjects/Registry/{GameName}AssetRegistryConfig.asset` + 全局 `SubGameAssetRegistryConfig.asset` | 游戏清单维护逻辑名；全局 `m_Manifests` 只挂引用 | 使用 `Tools/SubGame/Asset Registry Config`，Missing/重复键会报错；启动元数据资源组也要登记清单。 |
 | UI 注册 | `Assets/GameMain/DataTables/UIForm.txt` → `UIForm.bytes`、`Scripts/UI/Runtime/UIFormId.cs` | 添加 ID、组别、暂停行为、Prefab，并同步生成 | 当前 `UIFormId : byte`，ID 不能超过 `255`；子游戏 UI 还必须添加到资源注册表。 |
+| 活动模块 Catalog | `Assets/GameMain/ScriptableObjects/ActivitySystem/ActivityModuleCatalog.asset` + `GameEntry/ActivityComponent` | 将活动自己的 Definition 资产加入清单，声明允许游戏、页面键、UIForm ID 和模块内 Prefab 路径；组件 Inspector 只读展示清单模块 | `ProcedurePreload` 按组件的逻辑资源名安装清单；活动不加入子游戏管理器列表，页面 Prefab 归属 `Activities/{ActivityName}/UI/`。 |
 | 子游戏存档 | 自己的 `Scripts/Data/`、管理器 `InitializeModule(SaveDataStore)` | 实现 `IGameSaveData`，由游戏自己注册模块 | 公共 Store 不 new 具体玩法；使用 `GameEntry.SaveData.Get<T>()`。 |
 | 子游戏测试模式 | 各游戏 `Scripts/TestMode/`、自己的 Procedure、公共 `TestModeModuleRegistry` | 资源就绪后注册自己的模块；退出按实例注销并释放上下文 | `TestModeModules.cs` 仅保留通用模块，游戏退出不会清空其他页。 |
 | 广告/服务器配置 | 各游戏 `Scripts/Config/` + `AdsServerConfig.Common` | 玩法专用策略按 GameMode 注册；7 个公共功能/计时字段只维护一份 | 主玩法在 GameManager Inspector 设置；副玩法不自动成为公共进度来源。参见 `04_SUBGAME_MODULES.md`。 |
@@ -56,6 +57,8 @@ SubGameAssetRegistryConfig.asset → SubGameAssetRegistry → AssetUtility → �
 因此新增资源时，`GameName`、UIForm/Scene 的 AssetName、SO Category 与实际路径必须完全一致。资源表不是可选的说明性配置，而是运行时路径解析的一部分。
 
 ## 存档的当前规则
+
+活动模块的注册和存储独立于子游戏管理器，当前接入方式见 [活动模块接入](06_ACTIVITY_MODULES.md)。活动通过 `GameEntry` 上的 `ActivityComponent`、`GameEntry.Activities` 和 `ActivityModuleCatalog.asset` 显式装配，不加入子游戏管理器列表；活动业务数据不添加到公共 Store 的字段中。
 
 每个子游戏的存档应放入：
 

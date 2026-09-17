@@ -21,3 +21,6 @@
 	213	语言选择页	LanguageUIPanel	Default	FALSE	FALSE
 	214	结算排行榜页	SettlementRankUIPanel	Default	FALSE	FALSE
 	215	复活页面	ReviveUIPanel	Default	FALSE	FALSE
+	216	通行证主页面	SeasonPassMainPanel	Default	FALSE	FALSE
+	217	通行证规则页面	SeasonPassRulesPanel	Dialog	FALSE	FALSE
+	218	Gold Pass购买页面	SeasonPassGoldPassPurchasePanel	Dialog	FALSE	FALSE

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UI.Pagination;
@@ -36,7 +36,7 @@ namespace Lokas
         private readonly List<int> m_CurrentItemIds = new();
         private readonly HashSet<int> m_TrackedBuyItemIds = new();
         private object m_RewardFlyTargetOverride;
-        private Action<RewardData> m_OnRewardFlyArrived;
+        private Action<RewardEntry> m_OnRewardFlyArrived;
         private Action m_OnAllRewardsFlyArrived;
         private Coroutine m_ResumeAutoScrollCoroutine;
         private bool m_AutoScrollPausedForPurchase;
@@ -222,7 +222,7 @@ namespace Lokas
             m_AnalyticsPage = string.IsNullOrWhiteSpace(page) ? ShopAnalytics.PageShop : page;
         }
 
-        public void SetRewardFlyTarget(object target, Action<RewardData> onRewardArrived = null, Action onAllArrived = null)
+        public void SetRewardFlyTarget(object target, Action<RewardEntry> onRewardArrived = null, Action onAllArrived = null)
         {
             m_RewardFlyTargetOverride = target;
             m_OnRewardFlyArrived = onRewardArrived;
@@ -649,9 +649,9 @@ namespace Lokas
         {
         }
 
-        private static List<RewardData> GetPropRewardDatas(ShopItemConfigSO item)
+        private static List<RewardEntry> GetPropRewardDatas(ShopItemConfigSO item)
         {
-            return new List<RewardData>();
+            return new List<RewardEntry>();
         }
 
         private static bool IsPropReward(ShopRewardTarget target)

@@ -34,7 +34,7 @@ namespace Lokas
         [SerializeField] private Button m_rewardsBtn;
         [SerializeField] private Image m_iconReward;
 
-        [SerializeField] private UI_RewardTipsBox m_RewardTipBox;
+        [SerializeField] private RewardTooltipView m_RewardTipBox;
 
         [Header("Right - ItemSlot")]
         [SerializeField] private Image m_itemBg;
@@ -75,7 +75,7 @@ namespace Lokas
 
         private void OnClickReward()
         {
-            m_RewardTipBox.Show(GameEntry.CustomConfig.RewardConfig.RankRewardList[m_rank - 1].rewardDatas);
+            m_RewardTipBox.Show(GameEntry.CustomConfig.RewardConfig.RankRewardList[m_rank - 1].Entries);
         }
 
 

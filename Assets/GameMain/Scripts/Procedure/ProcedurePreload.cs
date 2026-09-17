@@ -1,4 +1,5 @@
 using Ads;
+using Cysharp.Threading.Tasks;
 using GameFramework;
 using GameFramework.Event;
 using GameFramework.Localization;
@@ -103,6 +104,7 @@ namespace Lokas
         private void LoadAllCustomConfigSO()
         {
             LoadConfigSO<SubGameAssetRegistryConfig>(SubGameAssetRegistryConfig.AssetName, config => { SubGameAssetRegistry.RegisterConfig(config); });
+            LoadActivityCatalog();
             // LoadSubGameConfigSO<TilesVisualsDataSO>("HexaAway", "Database", "TilesVisualsData");
             // LoadSubGameConfigSO<PropButtonConfigDatabaseSO>("HexaAway", "Database", "PropButtonConfigDatabase");
             s_FontKey = "Font.Main";
@@ -117,6 +119,53 @@ namespace Lokas
             LoadConfigSO<RankTargetConfigSO>("RankTargetConfig", config => { GameEntry.Rank.SetRankTargetConfig(config); });
             // LoadConfigSO<PlayerConfigSO>("PlayerConfigSO", config => { GameEntry.CustomConfig.SetPlayerConfig(config); });
 
+        }
+
+        private void LoadActivityCatalog()
+        {
+            if (GameEntry.Activity == null || string.IsNullOrWhiteSpace(GameEntry.Activity.CatalogAssetName))
+            {
+                Log.Error("ActivityComponent is missing or has no activity catalog asset name.");
+                return;
+            }
+
+            string assetName = AssetUtility.GetScriptableObjectAsset(GameEntry.Activity.CatalogAssetName);
+            m_LoadedFlag.Add(assetName, false);
+            GameEntry.Resource.LoadAsset(assetName, typeof(ActivityModuleCatalogConfig), new LoadAssetCallbacks(
+                (loadedAssetName, asset, duration, userData) =>
+                {
+                    if (!(asset is ActivityModuleCatalogConfig catalog))
+                    {
+                        Log.Error("Activity catalog '{0}' has an unexpected type.", loadedAssetName);
+                        MarkLoadComplete(assetName);
+                        return;
+                    }
+
+                    InstallActivityCatalogAsync(catalog, assetName);
+                },
+                (loadedAssetName, status, errorMessage, userData) =>
+                {
+                    Log.Error("Can not load activity catalog '{0}' with error message '{1}'.", loadedAssetName, errorMessage);
+                    MarkLoadComplete(assetName);
+                }));
+        }
+
+        private async UniTaskVoid InstallActivityCatalogAsync(ActivityModuleCatalogConfig catalog, string loadKey)
+        {
+            try
+            {
+                await GameEntry.InstallActivityCatalogAsync(catalog);
+                Log.Info("Installed activity module catalog with {0} module(s).", catalog.Modules.Count);
+            }
+            catch (System.Exception exception)
+            {
+                // 单个活动配置错误不能阻塞基础游戏启动；宿主不会保留失败模块的入口。
+                Log.Error("Can not install activity module catalog: {0}", exception);
+            }
+            finally
+            {
+                MarkLoadComplete(loadKey);
+            }
         }
 
         private void LoadConfigSO<T>(string configSOName, System.Action<T> onSuccess = null, System.Action onFailure = null) where T : ScriptableObject

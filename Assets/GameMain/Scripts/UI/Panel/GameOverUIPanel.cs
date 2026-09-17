@@ -105,7 +105,7 @@ namespace Lokas
             base.OnUpdate(elapseSeconds, realElapseSeconds);
             if (Input.GetKeyDown(KeyCode.K))
             {
-                PlayChsetAnimation(GameEntry.CustomConfig.RewardConfig.ChestRewardList[0].rewardDatas);
+                PlayChsetAnimation(GameEntry.CustomConfig.RewardConfig.ChestRewardList[0].Entries);
             }
         }
 
@@ -163,7 +163,7 @@ namespace Lokas
 
 
 
-        public async void PlayChsetAnimation(List<RewardData> rewardDatas)
+        public async void PlayChsetAnimation(IReadOnlyList<RewardEntry> rewardDatas)
         {
 
             // Action action = () => { CheckWin(m_currentLevel, true); };

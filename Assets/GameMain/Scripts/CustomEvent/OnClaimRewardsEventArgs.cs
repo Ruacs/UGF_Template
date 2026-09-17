@@ -23,16 +23,16 @@ namespace Lokas
             private set;
         }
 
-        public List<RewardData> rewardDatas
+        public IReadOnlyList<RewardEntry> rewardDatas
         {
             get;
             private set;
         }
 
-        public static OnClaimRewardsEventArgs Create(int chestIndex,List<RewardData> rewardDatas)
+        public static OnClaimRewardsEventArgs Create(int chestIndex, IReadOnlyList<RewardEntry> rewardDatas)
         {
             OnClaimRewardsEventArgs e = ReferencePool.Acquire<OnClaimRewardsEventArgs>();
-            e.rewardDatas = rewardDatas;
+            e.rewardDatas = new List<RewardEntry>(rewardDatas ?? System.Array.Empty<RewardEntry>()).AsReadOnly();
             e.ChestIndex = chestIndex;
             return e;
         }
@@ -40,6 +40,7 @@ namespace Lokas
         public override void Clear()
         {
             rewardDatas = null;
+            ChestIndex = 0;
         }
     }
 

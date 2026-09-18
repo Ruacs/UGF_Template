@@ -49,6 +49,23 @@ namespace Lokas
             return result.AsReadOnly();
         }
 
+        /// <summary>
+        /// Returns a ready module instance for an activity-specific presenter.
+        /// The host still owns the lifetime; callers must not initialize or shut down the returned module.
+        /// </summary>
+        public bool TryGetModule<TModule>(string moduleId, out TModule module)
+            where TModule : class, IActivityModule
+        {
+            module = null;
+            if (string.IsNullOrWhiteSpace(moduleId) ||
+                !m_Modules.TryGetValue(moduleId, out Registration registration) ||
+                registration.State != ActivityModuleState.Ready)
+                return false;
+
+            module = registration.Module as TModule;
+            return module != null;
+        }
+
         public IReadOnlyList<ActivityEntrySnapshot> GetEntries()
         {
             var result = new List<ActivityEntrySnapshot>();

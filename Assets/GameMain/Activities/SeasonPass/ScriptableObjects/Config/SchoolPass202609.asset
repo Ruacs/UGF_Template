@@ -24,7 +24,7 @@ MonoBehaviour:
   - m_Tier: 1
     m_RequiredCharge: 0
     m_FreeReward: {fileID: 11400000, guid: 2abc58b951f6da84a98288dd13db0cf6, type: 2}
-    m_PremiumReward: {fileID: 0}
+    m_PremiumReward: {fileID: 11400000, guid: 0420cab56901656408463407e192950f, type: 2}
     m_FreeRewards:
     - m_DisplayName: "\u91D1\u5E01"
       m_ResourceKey: currency.money

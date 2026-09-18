@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1fa428278190c84d94b0fb8e586df36, type: 3}
+  m_Name: HexaCollector202609
+  m_EditorClassIdentifier: 
+  m_CollectorId: hexa_collector_202609
+  m_DisplayName: HEXA COLLECTOR
+  m_EntryLabel: COLLECTOR
+  m_StartUtcUnixSeconds: 1788393600
+  m_EndUtcUnixSeconds: 1790812800
+  m_UnlockLevel: 1
+  m_EditorAlwaysUnlocked: 1
+  m_TargetCount: 50
+  m_CollectionPerWin: 1
+  m_CollectibleIcon: {fileID: 0}
+  m_Tasks:
+  - m_Tier: 1
+    m_RequiredCount: 50
+    m_Reward: {fileID: 11400000, guid: 86582ea1b259c3d44bef8854fb59a87f, type: 2}
+  - m_Tier: 2
+    m_RequiredCount: 50
+    m_Reward: {fileID: 11400000, guid: 3d102ad1344350747b6952e99017185b, type: 2}
+  - m_Tier: 3
+    m_RequiredCount: 50
+    m_Reward: {fileID: 11400000, guid: 6d30daa84fab4f44cbe2f2d29966f269, type: 2}
+  - m_Tier: 4
+    m_RequiredCount: 50
+    m_Reward: {fileID: 11400000, guid: 406a3835f708d9146980d570b42ecc63, type: 2}
+  - m_Tier: 5
+    m_RequiredCount: 50
+    m_Reward: {fileID: 11400000, guid: f4f8356f1accea54183be25b93956ef9, type: 2}
+  - m_Tier: 6
+    m_RequiredCount: 100
+    m_Reward: {fileID: 11400000, guid: 020e0496300232c468487c8c3f1e7ecb, type: 2}
+  - m_Tier: 7
+    m_RequiredCount: 100
+    m_Reward: {fileID: 11400000, guid: 4057494a1df32f9408481615712cd119, type: 2}
+  - m_Tier: 8
+    m_RequiredCount: 150
+    m_Reward: {fileID: 11400000, guid: f335522de77a9054195d5f5cdb77d3ba, type: 2}
+  - m_Tier: 9
+    m_RequiredCount: 150
+    m_Reward: {fileID: 11400000, guid: 3047710c242c2a44b8399edfff82a49e, type: 2}
+  - m_Tier: 10
+    m_RequiredCount: 150
+    m_Reward: {fileID: 11400000, guid: da6e7682f78b7b9469aa2f702cb6bfe8, type: 2}
+  - m_Tier: 11
+    m_RequiredCount: 200
+    m_Reward: {fileID: 11400000, guid: f811f0cd83f29c5429e4dcf9915eb13c, type: 2}
+  - m_Tier: 12
+    m_RequiredCount: 200
+    m_Reward: {fileID: 11400000, guid: 6668938011d7a22468b1aef6e696348c, type: 2}
+  - m_Tier: 13
+    m_RequiredCount: 200
+    m_Reward: {fileID: 11400000, guid: c1b0e9442e8078643bed19cf832f8434, type: 2}
+  - m_Tier: 14
+    m_RequiredCount: 400
+    m_Reward: {fileID: 11400000, guid: 8ff41153cd1cf004cafdae224bc46b40, type: 2}
+  - m_Tier: 15
+    m_RequiredCount: 400
+    m_Reward: {fileID: 11400000, guid: 68b2c965e9cc9b340aa7bd7c8658916c, type: 2}
+  - m_Tier: 16
+    m_RequiredCount: 400
+    m_Reward: {fileID: 11400000, guid: 7a1c4edc7bb554246bbd0401e24b24a8, type: 2}
+  - m_Tier: 17
+    m_RequiredCount: 800
+    m_Reward: {fileID: 11400000, guid: d2f02a4bca16d284ea5cbf0b02aa2bcf, type: 2}
+  - m_Tier: 18
+    m_RequiredCount: 800
+    m_Reward: {fileID: 11400000, guid: 191ed0d9287ccad4e9306c08e8912462, type: 2}
+  - m_Tier: 19
+    m_RequiredCount: 800
+    m_Reward: {fileID: 11400000, guid: c0682a5f7dfffcd46ae7d41c0fa4ba5b, type: 2}

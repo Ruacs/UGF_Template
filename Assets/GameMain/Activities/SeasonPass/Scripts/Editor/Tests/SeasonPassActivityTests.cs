@@ -412,6 +412,7 @@ namespace Lokas.Activities.SeasonPass.Editor.Tests
             var module = new SeasonPassActivityModule(config);
             SeasonPassTierRowView row = CreateTierRow();
             int clicks = 0;
+            int purchaseClicks = 0;
             Action<int> onClaim = _ => clicks++;
             try
             {
@@ -421,8 +422,8 @@ namespace Lokas.Activities.SeasonPass.Editor.Tests
                 Button claim = free.Find("ClaimButton").GetComponent<Button>();
                 Image progress = row.transform.Find("Root/MilestoneLane/Root/LevelBox/ProgressBox/Fill_Progress").GetComponent<Image>();
 
-                row.Bind(module.GetSnapshot().Tiers[1], 0, 0f, onClaim);
-                Assert.That(free.Find("LockedMask").gameObject.activeSelf, Is.True);
+                row.Bind(module.GetSnapshot().Tiers[1], 0, 0f, onClaim, null, () => purchaseClicks++, false);
+                Assert.That(free.Find("LockedMask").gameObject.activeSelf, Is.False);
                 Assert.That(free.Find("ClaimedMask").gameObject.activeSelf, Is.False);
                 Assert.That(claim.gameObject.activeSelf, Is.False);
                 Assert.That(claim.interactable, Is.False);
@@ -436,7 +437,7 @@ namespace Lokas.Activities.SeasonPass.Editor.Tests
 
                 SeasonPassSnapshot partialSnapshot = module.GetSnapshot();
                 row.Bind(partialSnapshot.Tiers[1], partialSnapshot.Charge,
-                    partialSnapshot.GetTierFillAmount(partialSnapshot.Tiers[1]), onClaim);
+                    partialSnapshot.GetTierFillAmount(partialSnapshot.Tiers[1]), onClaim, null, () => purchaseClicks++, false);
                 Assert.That(free.Find("LockedMask").gameObject.activeSelf, Is.False);
                 Assert.That(claim.gameObject.activeSelf, Is.True);
                 Assert.That(claim.interactable, Is.True);
@@ -445,12 +446,13 @@ namespace Lokas.Activities.SeasonPass.Editor.Tests
                     "A reached tier must use its own completed fill instead of the whole pass progress.");
                 Assert.That(row.transform.Find("Root/MilestoneLane/Root/LevelBox/LevelBox/LevelText").GetComponent<TMP_Text>().text, Is.EqualTo("2"));
                 Assert.That(premium.Find("LockedMask").gameObject.activeSelf, Is.True);
-                Assert.That(premium.GetComponent<Button>().interactable, Is.False);
+                Assert.That(premium.GetComponent<Button>().interactable, Is.True);
                 Assert.That(premium.Find("ClaimButton").gameObject.activeSelf, Is.False);
                 Assert.That(premium.Find("ClaimButton").GetComponent<Button>().interactable, Is.False);
                 premium.GetComponent<Button>().onClick.Invoke();
                 premium.Find("ClaimButton").GetComponent<Button>().onClick.Invoke();
                 Assert.That(clicks, Is.Zero, "Premium buttons must not dispatch a free claim.");
+                Assert.That(purchaseClicks, Is.EqualTo(1), "An inactive Gold Pass lane opens its purchase flow.");
 
                 facts.Publish(new ActivityLevelCompletedFact("row-fact-2", "Game", "row", 3, clock.UtcNow, "1", true));
                 SeasonPassSnapshot completedSnapshot = module.GetSnapshot();
@@ -472,7 +474,7 @@ namespace Lokas.Activities.SeasonPass.Editor.Tests
                 row.Bind(claimedSnapshot.Tiers[2], claimedSnapshot.Charge,
                     claimedSnapshot.GetTierFillAmount(claimedSnapshot.Tiers[2]), onClaim);
                 Assert.That(free.Find("ClaimedMask").gameObject.activeSelf, Is.False);
-                Assert.That(free.Find("LockedMask").gameObject.activeSelf, Is.True);
+                Assert.That(free.Find("LockedMask").gameObject.activeSelf, Is.False);
                 Assert.That(claim.gameObject.activeSelf, Is.False);
                 Assert.That(claim.interactable, Is.False);
                 Assert.That(claim.GetComponentInChildren<TMP_Text>(true).text, Is.EqualTo("Claim"));

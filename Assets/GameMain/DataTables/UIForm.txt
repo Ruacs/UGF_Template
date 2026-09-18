@@ -24,3 +24,7 @@
 	216	通行证主页面	SeasonPassMainPanel	Default	FALSE	FALSE
 	217	通行证规则页面	SeasonPassRulesPanel	Dialog	FALSE	FALSE
 	218	Gold Pass购买页面	SeasonPassGoldPassPurchasePanel	Dialog	FALSE	FALSE
+	219	Race报名页面	RaceStartUIPanel	Dialog	FALSE	FALSE
+	220	Race赛道页面	RaceMainUIPanel	Default	FALSE	FALSE
+	221	Race规则页面	RaceDetailUIPanel	Dialog	FALSE	FALSE
+	222	Collector主页面	CollectorMainPanel	Default	FALSE	FALSE

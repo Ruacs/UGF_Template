@@ -2,10 +2,13 @@ using Ads;
 using DG.Tweening;
 using GameFramework;
 using System;
+using System.Threading;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityGameFramework.Runtime;
+using Lokas.Activities.Collector;
+using Lokas.Activities.Collector.UI;
 
 using Cysharp.Threading.Tasks;
 namespace Lokas
@@ -44,6 +47,11 @@ namespace Lokas
         private SubGameManagerComponent m_BoundPrimary;
         private SubGameManagerComponent m_BoundSecondary;
         private ActivityEntryLauncher m_ActivityEntryLauncher;
+        private ActivityModuleHost m_BoundActivityHost;
+        private CollectorActivityModule m_CollectorModule;
+
+        [Header("Activity widgets")]
+        [SerializeField] private CollectorHomeWidget m_CollectorHomeWidget;
 
         protected override void OnInit(object userData)
         {
@@ -53,6 +61,8 @@ namespace Lokas
             m_RectMatchStateBtn.OnClick.AddListener(OnClickStartRectMatch);
             m_ProfileBtn.AddSafeClick(OnClickProfile);
             m_RankingBtn.AddSafeClick(OnClickRanking);
+            if (m_CollectorHomeWidget != null)
+                m_CollectorHomeWidget.MainPanelRequested += OnClickCollectorMainPanel;
             m_ActivityEntryLauncher = GetComponent<ActivityEntryLauncher>() ?? gameObject.AddComponent<ActivityEntryLauncher>();
             base.OnInit(userData);
         }
@@ -72,6 +82,7 @@ namespace Lokas
             SetStartBtnState();
             SetUIInteractable();
             m_ActivityEntryLauncher?.Bind();
+            BindCollectorModule();
             TryOpenRankReward();
             AdsAnalytics.EventWithName("首页_打开");
             AdsManager.ShowBanner(AdsServerConfig.PrimaryGameMode);
@@ -83,12 +94,14 @@ namespace Lokas
             UpdatePlayerInfo();
             SetStartBtnState();
             SetUIInteractable();
+            BindCollectorModule();
             base.OnReveal();
         }
 
         protected override void OnClose(bool isShutdown, object userData)
         {
             m_ActivityEntryLauncher?.Unbind();
+            UnbindCollectorModule();
             base.OnClose(isShutdown, userData);
 
             AdsAnalytics.EventWithName("首页_关闭");
@@ -308,6 +321,94 @@ namespace Lokas
             }
 
             Log.Info("排行榜按钮被点击了");
+        }
+
+        private void OnClickCollectorMainPanel()
+        {
+            PlayUISound(SoundId.UI_Click);
+            if (m_CollectorModule != null)
+            {
+                m_CollectorModule.OpenEntryAsync(CollectorPageKeys.Main, CancellationToken.None)
+                    .Forget(Debug.LogException);
+                return;
+            }
+
+            Log.Warning("Collector 主页面打开失败：活动模块尚未初始化。");
+        }
+
+        private void BindCollectorModule()
+        {
+            ActivityModuleHost host = GameEntry.Activities;
+            if (!ReferenceEquals(host, m_BoundActivityHost))
+            {
+                UnbindCollectorModule();
+                m_BoundActivityHost = host;
+                if (m_BoundActivityHost != null) m_BoundActivityHost.EntriesChanged += OnActivityEntriesChanged;
+            }
+
+            CollectorActivityModule currentModule = null;
+            if (m_BoundActivityHost != null)
+                m_BoundActivityHost.TryGetModule(CollectorActivityModule.Id, out currentModule);
+
+            if (!ReferenceEquals(currentModule, m_CollectorModule))
+            {
+                if (m_CollectorModule != null) m_CollectorModule.StateChanged -= RefreshCollectorWidget;
+                m_CollectorModule = currentModule;
+                if (m_CollectorModule != null) m_CollectorModule.StateChanged += RefreshCollectorWidget;
+            }
+
+            RefreshCollectorWidget();
+        }
+
+        private void UnbindCollectorModule()
+        {
+            if (m_CollectorModule != null) m_CollectorModule.StateChanged -= RefreshCollectorWidget;
+            m_CollectorModule = null;
+            if (m_BoundActivityHost != null) m_BoundActivityHost.EntriesChanged -= OnActivityEntriesChanged;
+            m_BoundActivityHost = null;
+        }
+
+        private void OnActivityEntriesChanged()
+        {
+            // CollectorActivityModule raises StateChanged and EntriesChanged together.
+            // The widget already refreshes from StateChanged; only rebind here when the
+            // host/module identity actually changed, otherwise the same progress tween
+            // would be restarted immediately by the second notification.
+            ActivityModuleHost host = GameEntry.Activities;
+            CollectorActivityModule currentModule = null;
+            if (host != null)
+                host.TryGetModule(CollectorActivityModule.Id, out currentModule);
+            if (!ReferenceEquals(host, m_BoundActivityHost) ||
+                !ReferenceEquals(currentModule, m_CollectorModule))
+                BindCollectorModule();
+        }
+
+        private void RefreshCollectorWidget()
+        {
+            if (m_CollectorHomeWidget == null) return;
+            if (m_CollectorModule == null)
+            {
+                m_CollectorHomeWidget.gameObject.SetActive(false);
+                return;
+            }
+
+            CollectorSnapshot snapshot = m_CollectorModule.GetSnapshot();
+            bool visible = snapshot.IsActive;
+            m_CollectorHomeWidget.gameObject.SetActive(visible);
+            if (!visible) return;
+
+            CollectorTaskSnapshot current = snapshot.CurrentTask;
+            CollectorTaskSnapshot next = snapshot.NextTask;
+            TimeSpan remaining = snapshot.EndUtc - DateTimeOffset.UtcNow;
+            if (remaining < TimeSpan.Zero) remaining = TimeSpan.Zero;
+            string countdown = string.Concat(remaining.Days.ToString(), "d ", remaining.Hours.ToString("00"), "h");
+            m_CollectorHomeWidget.Bind(
+                m_CollectorModule.Config.CollectibleIcon,
+                snapshot.CollectedCount,
+                snapshot.TargetCount,
+                current?.Reward,
+                next?.Reward,
+                countdown);
         }
 
         #endregion

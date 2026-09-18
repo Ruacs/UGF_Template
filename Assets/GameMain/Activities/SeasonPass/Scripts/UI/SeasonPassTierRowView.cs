@@ -23,10 +23,13 @@ namespace Lokas.Activities.SeasonPass.UI
         private int m_Tier;
         private Action<int> m_OnClaimFree;
         private Action<int> m_OnClaimPremium;
+        private Action m_OnPremiumLaneClick;
         private bool m_FreeClaimListenerBound;
         private bool m_PremiumClaimListenerBound;
+        private bool m_PremiumLaneListenerBound;
         private bool m_CanClaimFree;
         private bool m_CanClaimPremium;
+        private bool m_PremiumActivated;
 
         private enum RewardState
         {
@@ -54,8 +57,15 @@ namespace Lokas.Activities.SeasonPass.UI
             public Button RewardButton => m_RewardButton;
             public Button ClaimButton => m_ClaimButton;
 
+            public void SetRewardPreviewInteractable(bool interactable)
+            {
+                if (m_RewardContentRoot == null) return;
+                foreach (Button button in m_RewardContentRoot.GetComponentsInChildren<Button>(true))
+                    button.interactable = interactable;
+            }
+
             public void Refresh(SeasonPassRewardDefinition bundle, IReadOnlyList<RewardEntry> rewards, RewardState state,
-                bool lockWhenUnavailable = false)
+                bool showLockedMask, bool allowRewardCardClick)
             {
                 bool hasRewards = state != RewardState.Empty;
                 bool claimed = state == RewardState.Claimed;
@@ -64,8 +74,8 @@ namespace Lokas.Activities.SeasonPass.UI
                 SetText(m_RewardsText, Describe(rewards));
                 if (m_RewardSlot != null) m_RewardSlot.Bind(bundle);
                 if (m_RewardContentRoot != null) m_RewardContentRoot.gameObject.SetActive(hasRewards);
-                // 内部宝箱按钮独立预览，卡片不再触发领取。
-                if (m_RewardButton != null) m_RewardButton.interactable = false;
+                // 奖励卡不直接领取；未购买高级通行证时用于打开购买页。
+                if (m_RewardButton != null) m_RewardButton.interactable = allowRewardCardClick;
                 if (m_ClaimButton != null)
                 {
                     m_ClaimButton.interactable = canClaim;
@@ -73,8 +83,7 @@ namespace Lokas.Activities.SeasonPass.UI
                 }
 
                 SetActive(m_ClaimedMask, claimed);
-                SetActive(m_LockedMask, state == RewardState.Locked
-                    || (lockWhenUnavailable && state == RewardState.Unavailable));
+                SetActive(m_LockedMask, showLockedMask && hasRewards);
             }
         }
 
@@ -89,18 +98,21 @@ namespace Lokas.Activities.SeasonPass.UI
                 m_FreeLane.ClaimButton.onClick.RemoveListener(ClaimFree);
             if (m_PremiumClaimListenerBound && m_PremiumLane.ClaimButton != null)
                 m_PremiumLane.ClaimButton.onClick.RemoveListener(ClaimPremium);
+            if (m_PremiumLaneListenerBound && m_PremiumLane.RewardButton != null)
+                m_PremiumLane.RewardButton.onClick.RemoveListener(OpenGoldPassPurchase);
             m_OnClaimFree = null;
             m_OnClaimPremium = null;
+            m_OnPremiumLaneClick = null;
         }
 
         /// <param name="tierProgressFill">本档位的局部进度；已完成为 1，未到达为 0。</param>
         public void Bind(SeasonPassTierSnapshot tier, int passCharge, float tierProgressFill, Action<int> onClaim)
         {
-            Bind(tier, passCharge, tierProgressFill, onClaim, null, false);
+            Bind(tier, passCharge, tierProgressFill, onClaim, null, null, false);
         }
 
         public void Bind(SeasonPassTierSnapshot tier, int passCharge, float tierProgressFill, Action<int> onClaimFree,
-            Action<int> onClaimPremium, bool premiumActivated = false)
+            Action<int> onClaimPremium, Action onPremiumLaneClick, bool premiumActivated = false)
         {
             if (tier == null) throw new ArgumentNullException(nameof(tier));
 
@@ -108,6 +120,8 @@ namespace Lokas.Activities.SeasonPass.UI
             m_Tier = tier.Tier;
             m_OnClaimFree = onClaimFree;
             m_OnClaimPremium = onClaimPremium;
+            m_OnPremiumLaneClick = onPremiumLaneClick;
+            m_PremiumActivated = premiumActivated;
 
             // RequiredCharge is local to this tier; the local fill tells whether it is reached.
             bool unlocked = tierProgressFill >= 1f;
@@ -115,11 +129,14 @@ namespace Lokas.Activities.SeasonPass.UI
 
             RewardState freeState = GetRewardState(tier.FreeRewards, tier.FreeClaimed, unlocked, tier.CanClaimFree);
             m_CanClaimFree = freeState == RewardState.Claimable && onClaimFree != null;
-            m_FreeLane.Refresh(tier.FreeReward, tier.FreeRewards, freeState);
+            m_FreeLane.Refresh(tier.FreeReward, tier.FreeRewards, freeState, showLockedMask: false, allowRewardCardClick: false);
+            m_FreeLane.SetRewardPreviewInteractable(true);
 
             RewardState premiumState = GetRewardState(tier.PremiumRewards, tier.PremiumClaimed, unlocked, tier.CanClaimPremium);
             m_CanClaimPremium = premiumState == RewardState.Claimable && onClaimPremium != null;
-            m_PremiumLane.Refresh(tier.PremiumReward, tier.PremiumRewards, premiumState, lockWhenUnavailable: !premiumActivated);
+            m_PremiumLane.Refresh(tier.PremiumReward, tier.PremiumRewards, premiumState,
+                showLockedMask: !premiumActivated, allowRewardCardClick: !premiumActivated);
+            m_PremiumLane.SetRewardPreviewInteractable(premiumActivated);
         }
 
         public void ApplyFont(TMP_FontAsset font)
@@ -140,6 +157,11 @@ namespace Lokas.Activities.SeasonPass.UI
                 m_PremiumLane.ClaimButton.onClick.AddListener(ClaimPremium);
                 m_PremiumClaimListenerBound = true;
             }
+            if (!m_PremiumLaneListenerBound && m_PremiumLane.RewardButton != null)
+            {
+                m_PremiumLane.RewardButton.onClick.AddListener(OpenGoldPassPurchase);
+                m_PremiumLaneListenerBound = true;
+            }
         }
 
         private void ClaimFree()
@@ -150,6 +172,11 @@ namespace Lokas.Activities.SeasonPass.UI
         private void ClaimPremium()
         {
             if (m_CanClaimPremium) m_OnClaimPremium?.Invoke(m_Tier);
+        }
+
+        private void OpenGoldPassPurchase()
+        {
+            if (!m_PremiumActivated) m_OnPremiumLaneClick?.Invoke();
         }
 
         private void RefreshMilestone(SeasonPassTierSnapshot tier, float tierProgressFill)

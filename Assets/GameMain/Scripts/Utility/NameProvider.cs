@@ -23,8 +23,15 @@ public class NameProvider
 
     private void Init<T>() where T : DataRowBase
     {
+        if (GameEntry.DataTable == null)
+        {
+            _shuffledIds = new List<int>();
+            return;
+        }
         IDataTable<T> dt = GameEntry.DataTable.GetDataTable<T>();
         _shuffledIds = new List<int>();
+
+        if (dt == null) return;
 
         foreach (var row in dt)
             _shuffledIds.Add(row.Id);
@@ -65,7 +72,7 @@ public class NameProvider
 
     public string GetNameById(int id)
     {
-
+        if (GameEntry.DataTable == null) return "KK";
         var dr = GetNameDataById<DRNameDataEN>(id);
         return dr != null ? dr.Name : "KK";
 

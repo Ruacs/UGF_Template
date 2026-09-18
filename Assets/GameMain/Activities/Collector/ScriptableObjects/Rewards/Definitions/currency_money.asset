@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb91960834a2cb145823171036fa7e83, type: 3}
+  m_Name: currency_money
+  m_EditorClassIdentifier: 
+  id: 10066
+  displayName: "\u91D1\u5E01"
+  sprite: {fileID: 21300000, guid: 4872a7b52f21d6c4c961474931570fcf, type: 3}
+  m_Scope: common
+  m_ResourceKey: currency.money
+  m_Kind: 0
+  m_AllowUnlimitedUse: 0
+  m_UnlimitedUseKey: 
+  m_UnlimitedIcon: {fileID: 0}

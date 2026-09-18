@@ -97,7 +97,7 @@ namespace Lokas.Activities.SeasonPass.UI
                 {
                     SeasonPassTierSnapshot tier = snapshot.Tiers[i];
                     m_Rows[i].Bind(tier, snapshot.Charge, snapshot.GetTierFillAmount(tier), OnClaimFree, OnClaimPremium,
-                        snapshot.IsPremiumActivated);
+                        OnClickPremiumLane, snapshot.IsPremiumActivated);
                 }
             }
 
@@ -194,6 +194,11 @@ namespace Lokas.Activities.SeasonPass.UI
         }
 
         private void OnClickActivate()
+        {
+            if (m_Module != null) m_Module.OpenGoldPassPurchaseAsync().Forget(Debug.LogException);
+        }
+
+        private void OnClickPremiumLane()
         {
             if (m_Module != null) m_Module.OpenGoldPassPurchaseAsync().Forget(Debug.LogException);
         }

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951ccd8a2054990429d902228f7b220f, type: 3}
+  m_Name: HexaRace202609
+  m_EditorClassIdentifier: 
+  m_RaceId: hexa_race_202609
+  m_DisplayName: HEXA RACE
+  m_EntryLabel: RACE
+  m_StartUtcUnixSeconds: 1788220800
+  m_EndUtcUnixSeconds: 1798761599
+  m_UnlockLevel: 1
+  m_EditorAlwaysUnlocked: 1
+  m_TermHours: 0.5
+  m_InfiniteHeartHours: 0.25
+  m_TargetStageDifference: 10
+  m_NpcCount: 4
+  m_NpcMinGoalRate: 0.8
+  m_NpcMaxGoalRate: 1.35
+  m_PlayerMinGoalRate: 0.75
+  m_PlayerMaxGoalRate: 1.25
+  m_NpcInitialProgress: 0
+  m_DefaultStartType: 0
+  m_RankRewards:
+  - m_Label: "\u51A0\u519B\u5956\u52B1"
+    m_MinRank: 1
+    m_MaxRank: 1
+    m_Reward: {fileID: 11400000, guid: b6431612a2e5b4e47bc9d9c4c44e82c6, type: 2}
+  - m_Label: "\u4E9A\u519B\u5956\u52B1"
+    m_MinRank: 2
+    m_MaxRank: 2
+    m_Reward: {fileID: 11400000, guid: a2ef1eb54488f7d4299333cf3424a978, type: 2}
+  - m_Label: "\u5B8C\u8D5B\u5956\u52B1"
+    m_MinRank: 3
+    m_MaxRank: 5
+    m_Reward: {fileID: 11400000, guid: cab8ad6f073a1584692dee51a9020762, type: 2}

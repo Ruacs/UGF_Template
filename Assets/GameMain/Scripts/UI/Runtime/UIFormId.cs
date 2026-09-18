@@ -91,5 +91,21 @@
         /// Gold Pass购买页面
         /// </summary>
         SeasonPassGoldPassPurchasePanel = 218,
+        /// <summary>
+        /// Race报名页面
+        /// </summary>
+        RaceStartUIPanel = 219,
+        /// <summary>
+        /// Race赛道页面
+        /// </summary>
+        RaceMainUIPanel = 220,
+        /// <summary>
+        /// Race规则页面
+        /// </summary>
+        RaceDetailUIPanel = 221,
+        /// <summary>
+        /// Collector主页面
+        /// </summary>
+        CollectorMainPanel = 222,
     }
 }

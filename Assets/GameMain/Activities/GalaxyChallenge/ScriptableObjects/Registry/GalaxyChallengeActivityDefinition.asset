@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1efbc4596845a3847af74df356b097f6, type: 3}
+  m_Name: GalaxyChallengeActivityDefinition
+  m_EditorClassIdentifier: 
+  m_ModuleId: galaxy_challenge
+  m_GameIds:
+  - Game
+  m_Pages:
+  - m_PageKey: start
+    m_UIFormId: 400
+    m_AssetName: GalaxyChallengeStartUIPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/GalaxyChallenge/UI/GalaxyChallengeStartUIPanel.prefab
+    m_AssetNameAliases: []
+  - m_PageKey: main
+    m_UIFormId: 401
+    m_AssetName: GalaxyChallengeMainUIPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/GalaxyChallenge/UI/GalaxyChallengeMainUIPanel.prefab
+    m_AssetNameAliases: []
+  - m_PageKey: details
+    m_UIFormId: 402
+    m_AssetName: GalaxyChallengeDetailUIPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/GalaxyChallenge/UI/GalaxyChallengeDetailUIPanel.prefab
+    m_AssetNameAliases: []
+  - m_PageKey: end
+    m_UIFormId: 403
+    m_AssetName: GalaxyChallengeEndUIPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/GalaxyChallenge/UI/GalaxyChallengeEndUIPanel.prefab
+    m_AssetNameAliases: []
+  - m_PageKey: interval
+    m_UIFormId: 404
+    m_AssetName: GalaxyChallengeIntervalUIPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/GalaxyChallenge/UI/GalaxyChallengeIntervalUIPanel.prefab
+    m_AssetNameAliases: []
+  m_Config: {fileID: 11400000, guid: 3d9f05898d2eb1b4282ced46b0682d9b, type: 2}

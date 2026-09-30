@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5da42f033204c498a3e23f8e046585, type: 3}
+  m_Name: HexaWinStreak202609
+  m_EditorClassIdentifier: 
+  m_EventId: 2
+  m_StreakId: hexa_win_streak_event_2_202609
+  m_DisplayName: HEXA STREAK
+  m_EntryLabel: STREAK
+  m_StartUtcUnixSeconds: 1788393600
+  m_EndUtcUnixSeconds: 1790812800
+  m_UnlockLevel: 40
+  m_ProgressPerWin: 1
+  m_ResetOnLoss: 1
+  m_EditorAlwaysUnlocked: 1
+  m_Checkpoints:
+  - m_Checkpoint: 2
+    m_RewardId: 5001
+    m_ChestTier: 0
+    m_Reward: {fileID: 11400000, guid: d5396fa6a2f48454d90992550dce8b52, type: 2}
+  - m_Checkpoint: 5
+    m_RewardId: 5002
+    m_ChestTier: 0
+    m_Reward: {fileID: 11400000, guid: 96d299ef8b8a90f4dab01f857979e667, type: 2}
+  - m_Checkpoint: 8
+    m_RewardId: 5003
+    m_ChestTier: 0
+    m_Reward: {fileID: 11400000, guid: 1dfba100d02a9a243a57a10060566299, type: 2}
+  - m_Checkpoint: 16
+    m_RewardId: 5005
+    m_ChestTier: 1
+    m_Reward: {fileID: 11400000, guid: ff2fa0b1bd375864d8e18d525b925ad1, type: 2}
+  - m_Checkpoint: 24
+    m_RewardId: 5006
+    m_ChestTier: 1
+    m_Reward: {fileID: 11400000, guid: e000eb6760b30be46b2994635b289ba0, type: 2}
+  - m_Checkpoint: 36
+    m_RewardId: 5007
+    m_ChestTier: 2
+    m_Reward: {fileID: 11400000, guid: a16e6cee29332214b933408b2bb61e6e, type: 2}
+  - m_Checkpoint: 48
+    m_RewardId: 5010
+    m_ChestTier: 2
+    m_Reward: {fileID: 11400000, guid: 84391446b09569246a329e762231147e, type: 2}
+  - m_Checkpoint: 70
+    m_RewardId: 5012
+    m_ChestTier: 3
+    m_Reward: {fileID: 11400000, guid: 266040bcc7c0d2f4383711cd7ad4ab4c, type: 2}

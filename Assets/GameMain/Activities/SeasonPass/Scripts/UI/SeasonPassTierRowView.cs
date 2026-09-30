@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,6 +11,8 @@ namespace Lokas.Activities.SeasonPass.UI
     [DisallowMultipleComponent]
     public sealed class SeasonPassTierRowView : MonoBehaviour
     {
+        private const float ProgressTweenDuration = 0.35f;
+
         [Header("Milestone Lane")]
         [SerializeField] private TMP_Text m_TierText;
         [SerializeField] private TMP_Text m_RequiredChargeText;
@@ -30,6 +33,9 @@ namespace Lokas.Activities.SeasonPass.UI
         private bool m_CanClaimFree;
         private bool m_CanClaimPremium;
         private bool m_PremiumActivated;
+        private Tween m_ProgressTween;
+        private float m_ProgressTarget;
+        private bool m_HasProgressTarget;
 
         private enum RewardState
         {
@@ -92,8 +98,17 @@ namespace Lokas.Activities.SeasonPass.UI
             EnsureClaimListener();
         }
 
+        private void OnDisable()
+        {
+            m_ProgressTween?.Kill();
+            m_ProgressTween = null;
+            m_HasProgressTarget = false;
+        }
+
         private void OnDestroy()
         {
+            m_ProgressTween?.Kill();
+            m_ProgressTween = null;
             if (m_FreeClaimListenerBound && m_FreeLane.ClaimButton != null)
                 m_FreeLane.ClaimButton.onClick.RemoveListener(ClaimFree);
             if (m_PremiumClaimListenerBound && m_PremiumLane.ClaimButton != null)
@@ -183,8 +198,28 @@ namespace Lokas.Activities.SeasonPass.UI
         {
             SetText(m_TierText, tier.Tier.ToString());
             SetText(m_RequiredChargeText,tier.RequiredCharge.ToString());
-            if (m_ProgressFill != null)
-                m_ProgressFill.fillAmount = Mathf.Clamp01(tierProgressFill);
+            SetProgress(Mathf.Clamp01(tierProgressFill));
+        }
+
+        private void SetProgress(float target)
+        {
+            if (m_ProgressFill == null) return;
+
+            if (!m_HasProgressTarget)
+            {
+                m_ProgressFill.fillAmount = target;
+                m_ProgressTarget = target;
+                m_HasProgressTarget = true;
+                return;
+            }
+
+            if (Mathf.Approximately(m_ProgressTarget, target)) return;
+            m_ProgressTween?.Kill();
+            m_ProgressTarget = target;
+            m_ProgressTween = DOTween.To(() => m_ProgressFill.fillAmount,
+                    value => m_ProgressFill.fillAmount = value, target, ProgressTweenDuration)
+                .SetEase(Ease.OutCubic)
+                .SetTarget(this);
         }
 
         private static RewardState GetRewardState(IReadOnlyList<RewardEntry> rewards,

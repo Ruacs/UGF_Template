@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363b39a8118ff7c49810b5f8519f84cd, type: 3}
+  m_Name: MiningGemVisualConfig
+  m_EditorClassIdentifier: 
+  m_ClosedCellSprite: {fileID: 21300000, guid: 0794d28109fdb834e92175709c5fa589, type: 3}
+  m_CrackCellSprite: {fileID: 21300000, guid: e4f0498b118a359499e1a27c2ec4e5cb, type: 3}
+  m_ClashCellSprite: {fileID: 21300000, guid: 97ddd40d0666b08488031cca57e11269, type: 3}
+  m_GemVisuals:
+  - m_GemType: 1
+    m_GridSize: {x: 2, y: 1}
+    m_GemSprite: {fileID: 21300000, guid: c0a97fdb8c0cca440aa5ab32c2df3b7e, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: ccb960a039c8b034cb476138b4d9e892, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 76f89470a446e3b4b912cd1220db444c, type: 3}
+  - m_GemType: 2
+    m_GridSize: {x: 3, y: 1}
+    m_GemSprite: {fileID: 21300000, guid: d0b27756f7a7b1a47a4ef366ba12d315, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: f8ac262f324873a4b9cb5170c1e346f8, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 316511a09137ab04daee5efb4c46f0f4, type: 3}
+  - m_GemType: 3
+    m_GridSize: {x: 3, y: 1}
+    m_GemSprite: {fileID: 21300000, guid: 0294d372cc995d049bec015d61552bfb, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: 2d9f45fe3c5b402418ff024f488787da, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 1a6a4306ffb4fe846a157d624418ed1b, type: 3}
+  - m_GemType: 4
+    m_GridSize: {x: 2, y: 2}
+    m_GemSprite: {fileID: 21300000, guid: f94b2266bf0ce2b4693b80a04e93af4c, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: d7e1bf219c5a2f147a3afbaba6cc3286, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 4abaf685cb3d76a44838fe58a2ca1db9, type: 3}
+  - m_GemType: 5
+    m_GridSize: {x: 2, y: 2}
+    m_GemSprite: {fileID: 21300000, guid: bf7c850b78edcde43b604abf350e5d4b, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: 43aeda95d0134d54899b6a049b4e434f, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 8292bae6eff12c34d8910d28718b6327, type: 3}
+  - m_GemType: 6
+    m_GridSize: {x: 2, y: 2}
+    m_GemSprite: {fileID: 21300000, guid: 32753a69a33c04947afb79180b661b51, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: c33b7d02b8d2f44499461c99bbf5464c, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 0e70f5f98dcfafb4ab04bb7708398e45, type: 3}
+  - m_GemType: 7
+    m_GridSize: {x: 4, y: 1}
+    m_GemSprite: {fileID: 21300000, guid: 687a6c2b93583f341b7a7e1961ac13c3, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: efecd6bc3a91e484f9322f08babf4181, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 5f03d69b876bf5a4599f3801a1570542, type: 3}
+  - m_GemType: 8
+    m_GridSize: {x: 5, y: 1}
+    m_GemSprite: {fileID: 21300000, guid: 7b38b736b324be042822a5b8a63ebb69, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: f099a16cf3059624dbedeb4e381f0ccf, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: d170a69570943654ebed155ba3132be0, type: 3}
+  - m_GemType: 9
+    m_GridSize: {x: 2, y: 3}
+    m_GemSprite: {fileID: 21300000, guid: 7e891aa3f1c8f6d4a99b67ee36573883, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: bab373613471bd849b6749ca441820ed, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: c5665e9c6ef0df646ac9d5e96b54b3c8, type: 3}
+  - m_GemType: 10
+    m_GridSize: {x: 2, y: 3}
+    m_GemSprite: {fileID: 21300000, guid: 0b96b0ed0cfd2d34a91fe558a00c3315, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: 1926ccf4b0704724dba717814360837d, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 113e56e69d56bc5499caf72d95c0bdee, type: 3}
+  - m_GemType: 11
+    m_GridSize: {x: 2, y: 3}
+    m_GemSprite: {fileID: 21300000, guid: 44716e393116d5c48a11d4d9a37be4a8, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: a490a62e6de3a3a459232bf3cbeaf3b1, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 437cbdfbd2661b0489b9a728477f4ada, type: 3}
+  - m_GemType: 12
+    m_GridSize: {x: 2, y: 4}
+    m_GemSprite: {fileID: 21300000, guid: 585fe9b5324501d4da67dcafde42d312, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: c056e87313c4375489f910d4d210d61f, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: fe13babfddbe1bc4a8cf96e1c57c02aa, type: 3}
+  - m_GemType: 13
+    m_GridSize: {x: 3, y: 3}
+    m_GemSprite: {fileID: 21300000, guid: e1963ee298653ed45bc3f3d931d13cb8, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: 115459a0931e7f24ebc4690cb8fd19c9, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: c34745ace01da184aafc697ba58f4fc1, type: 3}
+  - m_GemType: 14
+    m_GridSize: {x: 4, y: 4}
+    m_GemSprite: {fileID: 21300000, guid: c076f0974a9a22843ae3b6f943ef773c, type: 3}
+    m_HoleSprite: {fileID: 21300000, guid: 87b937b0b19a4714093ec480d77bc050, type: 3}
+    m_FrameSprite: {fileID: 21300000, guid: 549b942fa274b2c42b8e5e35c79b34d3, type: 3}

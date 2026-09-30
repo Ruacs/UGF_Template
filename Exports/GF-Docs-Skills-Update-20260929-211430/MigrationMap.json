@@ -1,0 +1,347 @@
+{
+  "description": "Only apply matching legacy paths after checking the target. Anchor mappings take precedence over whole-file mappings. Use Unity AssetDatabase.MoveAsset to preserve target GUIDs; merge if destination exists.",
+  "files": [
+    {
+      "from": "Assets/AAA_DevAssets/Docs/00_MODULE_GUIDE.md",
+      "to": "Assets/AAA_DevAssets/Docs/README.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/01_GETTING_STARTED.md",
+      "to": "Assets/AAA_DevAssets/Docs/GettingStarted.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/02_NEW_SUBGAME_CURRENT.md",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/SubGame/Integration.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/03_REGISTRATION_MAP.md",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/RegistrationMap.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/04_SUBGAME_MODULES.md",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/SubGame/Extensions.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/05_SAMPLE_SUBGAMES.md",
+      "to": "Assets/AAA_DevAssets/Docs/Samples/SamplePackages.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/06_ACTIVITY_MODULES.md",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Activity/Integration.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/07_SEASON_PASS_UI_PREFAB_CONTRACT.md",
+      "to": "Assets/GameMain/Activities/SeasonPass/Docs/UIPrefabContract.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/08_REWARD_UI_DESIGN_DRAFT.md",
+      "to": "Assets/AAA_DevAssets/Docs/Archive/Implementation/RewardUI-20260916.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/README.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Activity/README.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/12_LOCALIZATION.md",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/DEV_ASSETS_LAYOUT_VALIDATION.md",
+      "to": "Assets/AAA_DevAssets/Docs/Archive/Validation/DevAssetsLayout-20260914.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/SAMPLE_PACKAGES_VALIDATION.md",
+      "to": "Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePackages.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/SAMPLE_PACKAGING_IMPLEMENTATION.md",
+      "to": "Assets/AAA_DevAssets/Docs/Archive/Implementation/SamplePackaging.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/SAMPLE_PREFLIGHT_20260914.md",
+      "to": "Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePreflight-20260914.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/SUBGAME_MODULES_VALIDATION.md",
+      "to": "Assets/AAA_DevAssets/Docs/Archive/Validation/SubGameModules.md"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/validation",
+      "to": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results"
+    }
+  ],
+  "anchors": [
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#1-启动入口与内置加载视图",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Bootstrap/README.md#1-启动入口与内置加载视图"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#2-procedure场景与子游戏路由",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Procedure/README.md#1-procedure场景与子游戏路由"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#3-resourcecomponent-与资源域",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Resource/README.md#1-resourcecomponent-与资源域"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#4-configdatatablecustomconfig",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Configuration/README.md#1-configdatatablecustomconfig"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#5-eventcomponent",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Event/README.md#1-eventcomponent"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#6-savedata-与-setting",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/SaveData/README.md#1-savedata-与-setting"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#8-soundcomponent",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Sound/README.md#1-soundcomponent"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#9-entity-与-objectpool",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Entity/README.md#1-entity-与-objectpool"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#10-其他-gf-基础设施",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Infrastructure/README.md#1-其他-gf-基础设施"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#1-activitycomponent-活动系统",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Activity/README.md#1-activitycomponent-活动系统"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#2-taskcomponent-任务系统",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Task/README.md#1-taskcomponent-任务系统"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#3-shopcomponent-商店",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Shop/README.md#1-shopcomponent-商店"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#4-rankcomponent-排行榜",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Rank/README.md#1-rankcomponent-排行榜"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#5-reddotcomponent-红点",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/RedDot/README.md#1-reddotcomponent-红点"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#6-飞行物品飘字与连击",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UIEffects/README.md#1-飞行物品飘字与连击"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#7-奖励配置与-widget",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Reward/README.md#1-奖励配置与-widget"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#8-testmodecomponent-测试模式",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TestMode/README.md#1-testmodecomponent-测试模式"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#9-广告与服务器配置",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Ads/README.md#1-广告与服务器配置"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/11_BUSINESS_COMPONENTS.md#10-引导模块",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/Guide/README.md#1-引导模块"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#0-从需求和效果图到制作方案",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#1-从需求和效果图到制作方案"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#01-先明确任务与交付范围",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#11-先明确任务与交付范围"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#02-分析效果图和页面状态",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#12-分析效果图和页面状态"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#03-调查现有页面和可复用元素",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#13-调查现有页面和可复用元素"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#04-判断滚动与-prefab-拆分",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#14-判断滚动与-prefab-拆分"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#05-一次确认关键制作决定",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#15-一次确认关键制作决定"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#06-按确认方案制作和接入",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#16-按确认方案制作和接入"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#07-结算页分析示例",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#17-结算页分析示例"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#2-新建前确定的配置",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#2-新建前确定的配置"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#21-页面归属",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#21-页面归属"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#22-uiform-表与-id",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#22-uiform-表与-id"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#23-分组和覆盖",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#23-分组和覆盖"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#3-添加页面与注册流程",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#3-添加页面与注册流程"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#31-公共页面",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#31-公共页面"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#32-子游戏页面",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#32-子游戏页面"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#33-活动页面",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md#33-活动页面"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#1-职责与加载链",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md#1-职责与加载链"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#4-调用方式与生命周期",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md#2-调用方式与生命周期"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#41-打开查询和关闭",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md#21-打开查询和关闭"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#42-页面脚本模板",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md#22-页面脚本模板"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#6-排错顺序",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md#3-排错顺序"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#8-实现依据",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md#4-实现依据"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#5-ui-prefab-制作规范",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md#ui-prefab-制作规范"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#51-根节点与推荐结构",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md#11-根节点与推荐结构"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#52-布局滚动与点击",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md#12-布局滚动与点击"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#53-引用动画和复用",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md#13-引用动画和复用"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#54-多语言与资源归属",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md#14-多语言与资源归属"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/09_UI_COMPONENT.md#7-页面交付验收",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/UI/Validation.md#1-页面交付验收"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#1-职责与配置关系",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#1-职责与配置关系"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#2-当前资产与加载方式",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#2-当前资产与加载方式"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#21-文件位置与创建入口",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#21-文件位置与创建入口"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#22-当前语言映射",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#22-当前语言映射"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#23-运行时链路与回退",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#23-运行时链路与回退"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#3-从效果图或缺字问题确定方案",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#3-从效果图或缺字问题确定方案"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#4-接入语言字体与选择列表",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#4-接入语言字体与选择列表"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#6-制作与使用字体样式",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#5-制作与使用字体样式"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#61-样式的接入步骤",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#51-样式的接入步骤"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#62-当前样式与共享规则",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#52-当前样式与共享规则"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#7-生命周期与-api-的实际保证",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#6-生命周期与-api-的实际保证"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#8-排错与验收",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md#7-排错与验收"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#5-字符集与-sdf-更新流程",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md#1-字符集与-sdf-更新流程"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#51-确定字符来源",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md#11-确定字符来源"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#52-统一更新工具日常操作",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md#12-统一更新工具日常操作"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#53-失败处理备份与自动化入口",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md#13-失败处理备份与自动化入口"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/13_TMPFONT.md#54-手工-font-asset-creator-流程",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md#14-手工-font-asset-creator-流程"
+    },
+    {
+      "from": "Assets/AAA_DevAssets/Docs/10_CORE_COMPONENTS.md#7-localization-与-tmpfont",
+      "to": "Assets/AAA_DevAssets/Docs/Framework/README.md#1-localization-与-tmpfont"
+    }
+  ]
+}

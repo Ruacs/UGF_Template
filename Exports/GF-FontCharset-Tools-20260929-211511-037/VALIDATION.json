@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "assets": [
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontStylePresetEditor.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetConfig.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/Tests/FontStylePreviewValidation.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetWindow.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/Tests/FontCharsetValidation.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/README_IMPORT.md",
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetCollector.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontStylePreview.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetService.cs"
+  ],
+  "sha256": "91e012a1e3058e4061ca11a9efbed88845330732216f14ab2b750520fdedf2a8",
+  "targetProjectImportTested": false,
+  "sourcePreviewValidation": "PASS\n通过：预设渲染、实时修改、默认材质恢复、字号、字体切换、缺字处理及资产/场景隔离。"
+}

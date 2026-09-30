@@ -13,4 +13,4 @@
 
 导入不会自动切换主玩法；在 GameLauncher 的 `GameEntry/GameFramework/GameManager` 中显式设置。新产品应使用工具逐个移除两个示例，不要直接删文件夹。
 
-完整操作与恢复说明：[Sample SubGames](../Docs/05_SAMPLE_SUBGAMES.md)。
+完整操作与恢复说明：[Sample SubGames](../Docs/Samples/SamplePackages.md)。

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180cdc2225f669a49a269cdd33e6211d, type: 3}
+  m_Name: MiningActivityDefinition
+  m_EditorClassIdentifier: 
+  m_ModuleId: mining
+  m_GameIds:
+  - Game
+  m_Pages:
+  - m_PageKey: start
+    m_UIFormId: 381
+    m_AssetName: MiningStartUIPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/Mining/UI/MiningStartUIPanel.prefab
+    m_AssetNameAliases: []
+  - m_PageKey: main
+    m_UIFormId: 380
+    m_AssetName: MiningMainUIPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/Mining/UI/MiningMainUIPanel.prefab
+    m_AssetNameAliases: []
+  - m_PageKey: details
+    m_UIFormId: 382
+    m_AssetName: MiningDetailUIPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/Mining/UI/MiningDetailUIPanel.prefab
+    m_AssetNameAliases: []
+  - m_PageKey: end
+    m_UIFormId: 383
+    m_AssetName: MiningEndUIPanel
+    m_PrefabAssetPath: Assets/GameMain/Activities/Mining/UI/MiningEndUIPanel.prefab
+    m_AssetNameAliases: []
+  m_Config: {fileID: 11400000, guid: ca4bffc3aa8af764d95bd86480d3cf91, type: 2}

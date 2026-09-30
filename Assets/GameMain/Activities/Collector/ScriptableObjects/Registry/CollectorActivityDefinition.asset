@@ -17,7 +17,7 @@ MonoBehaviour:
   - Game
   m_Pages:
   - m_PageKey: main
-    m_UIFormId: 222
+    m_UIFormId: 340
     m_AssetName: CollectorMainPanel
     m_PrefabAssetPath: Assets/GameMain/Activities/Collector/UI/CollectorMainPanel.prefab
     m_AssetNameAliases: []

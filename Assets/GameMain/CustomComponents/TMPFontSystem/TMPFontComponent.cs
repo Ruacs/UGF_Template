@@ -15,7 +15,7 @@ public class TMPFontComponent : GameFrameworkComponent
 {
     public static event Action<TMPFontProfile> OnFontProfileChanged;
 
-    [SerializeField] private string _DefaultFontName = "Main";
+    [SerializeField] private string _DefaultFontName = "MFont_BASE";
     [SerializeField] private TMPLanguageFontConfig _config;
 
     [SerializeField] private TMPFontProfile _currentProfile;
@@ -244,4 +244,3 @@ public class TMPFontComponent : GameFrameworkComponent
             OnFontProfileChanged?.Invoke(_currentProfile);
     }
 }
-

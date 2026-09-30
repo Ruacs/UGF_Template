@@ -82,9 +82,9 @@ namespace Lokas.Activities.Race.Editor
 
             var pages = new[]
             {
-                new ActivityPageDefinition(RacePageKeys.Start, 219, "RaceStartUIPanel", UiPath + "/RaceStartUIPanel.prefab"),
-                new ActivityPageDefinition(RacePageKeys.Main, 220, "RaceMainUIPanel", UiPath + "/RaceMainUIPanel.prefab"),
-                new ActivityPageDefinition(RacePageKeys.Details, 221, "RaceDetailUIPanel", UiPath + "/RaceDetailUIPanel.prefab")
+                new ActivityPageDefinition(RacePageKeys.Start, UIFormIdRanges.RaceStartPage, "RaceStartUIPanel", UiPath + "/RaceStartUIPanel.prefab"),
+                new ActivityPageDefinition(RacePageKeys.Main, UIFormIdRanges.RaceMain, "RaceMainUIPanel", UiPath + "/RaceMainUIPanel.prefab"),
+                new ActivityPageDefinition(RacePageKeys.Details, UIFormIdRanges.RaceDetails, "RaceDetailUIPanel", UiPath + "/RaceDetailUIPanel.prefab")
             };
             EnsurePagePrefab<RaceStartUIPanel>(pages[0].PrefabAssetPath, PopupTemplatePath);
             EnsurePagePrefab<RaceMainUIPanel>(pages[1].PrefabAssetPath, UiPanelTemplatePath);
@@ -101,9 +101,9 @@ namespace Lokas.Activities.Race.Editor
             EditorUtility.SetDirty(catalog);
 
             EnsureUiFormRows(
-                new UiFormRow(219, "Race报名页面", "RaceStartUIPanel", "Dialog"),
-                new UiFormRow(220, "Race赛道页面", "RaceMainUIPanel", "Default"),
-                new UiFormRow(221, "Race规则页面", "RaceDetailUIPanel", "Dialog"));
+                new UiFormRow(UIFormIdRanges.RaceStartPage, "Race报名页面", "RaceStartUIPanel", "Dialog"),
+                new UiFormRow(UIFormIdRanges.RaceMain, "Race赛道页面", "RaceMainUIPanel", "Default"),
+                new UiFormRow(UIFormIdRanges.RaceDetails, "Race规则页面", "RaceDetailUIPanel", "Dialog"));
             UIFormPanelGeneratorWindow.SynchronizeRegistrationFiles();
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();

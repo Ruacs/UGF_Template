@@ -31,9 +31,9 @@ namespace Lokas.Activities.SeasonPass.Editor
 
             var pages = new[]
             {
-                new ActivityPageDefinition(SeasonPassPageKeys.Main, 216, "SeasonPassMainPanel", UiPath + "/SeasonPassMainPanel.prefab"),
-                new ActivityPageDefinition(SeasonPassPageKeys.Rules, 217, "SeasonPassRulesPanel", UiPath + "/SeasonPassRulesPanel.prefab"),
-                new ActivityPageDefinition(SeasonPassPageKeys.GoldPassPurchase, 218, "SeasonPassGoldPassPurchasePanel", UiPath + "/SeasonPassGoldPassPurchasePanel.prefab",
+                new ActivityPageDefinition(SeasonPassPageKeys.Main, UIFormIdRanges.SeasonPassMain, "SeasonPassMainPanel", UiPath + "/SeasonPassMainPanel.prefab"),
+                new ActivityPageDefinition(SeasonPassPageKeys.Rules, UIFormIdRanges.SeasonPassRules, "SeasonPassRulesPanel", UiPath + "/SeasonPassRulesPanel.prefab"),
+                new ActivityPageDefinition(SeasonPassPageKeys.GoldPassPurchase, UIFormIdRanges.SeasonPassGoldPassPurchase, "SeasonPassGoldPassPurchasePanel", UiPath + "/SeasonPassGoldPassPurchasePanel.prefab",
                     new[] { "SeasonPassRewardPanel" })
             };
             SeasonPassActivityDefinition definition = LoadOrCreate<SeasonPassActivityDefinition>(DefinitionPath);
@@ -50,7 +50,7 @@ namespace Lokas.Activities.SeasonPass.Editor
             ReportDesignerOwnedPrefabs(pages);
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
-            Debug.Log("Season Pass config and registrations installed: 25 tiers and UIForm IDs 216-218. Module UI Prefabs remain designer-owned.");
+            Debug.Log("Season Pass config and registrations installed: 25 tiers and UIForm IDs 300-302. Module UI Prefabs remain designer-owned.");
         }
 
         private static T LoadOrCreate<T>(string assetPath) where T : ScriptableObject
@@ -78,12 +78,17 @@ namespace Lokas.Activities.SeasonPass.Editor
                     case "SeasonPassMainPanel":
                         SeasonPassMainPanel main = prefab.GetComponent<SeasonPassMainPanel>();
                         ReportBindings(main, page.PrefabAssetPath, "m_Title", "m_Countdown", "m_Progress", "m_ProgressFill",
-                            "m_ActivateButton", "m_RulesButton", "m_CloseButton", "m_TierContent", "m_TierRowTemplate");
+                            "m_ActivateButton", "m_RulesButton", "m_CloseButton", "m_TierContent", "m_TierRowTemplate",
+                            "m_BonusBankRowRoot");
                         if (main != null)
                         {
                             var mainSerialized = new SerializedObject(main);
                             var template = mainSerialized.FindProperty("m_TierRowTemplate")?.objectReferenceValue as SeasonPassTierRowView;
                             ReportTierRowBindings(template, page.PrefabAssetPath + " / TierRowTemplate");
+                            var bonusBankRoot = mainSerialized.FindProperty("m_BonusBankRowRoot")?.objectReferenceValue as Transform;
+                            ReportBindings(bonusBankRoot != null ? bonusBankRoot.GetComponent<SeasonPassBonusBankView>() : null,
+                                page.PrefabAssetPath + " / BonusBank", "m_LockedMask", "m_RewardContentRoot", "m_TokenImg",
+                                "m_TierText", "m_ProgressText", "m_ProgressFill", "m_BankCoinsText", "m_BonusBankButton");
                         }
                         break;
                     case "SeasonPassRulesPanel":

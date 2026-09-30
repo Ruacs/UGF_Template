@@ -1,0 +1,6 @@
+interface:
+  display_name: "UIAgent"
+  short_description: "Analyze and build GF Unity UI using shared module manuals."
+  default_prompt: "Use $ui-agent to inspect the requested UI, resolve reuse and page scope, implement it with the existing GF framework, and verify the result."
+policy:
+  allow_implicit_invocation: true

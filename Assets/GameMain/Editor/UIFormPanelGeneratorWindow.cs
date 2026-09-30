@@ -36,6 +36,14 @@ namespace Lokas.Editor
             window.RefreshEntries();
         }
 
+        [MenuItem("Tools/UI/Sync UIForm Registration")]
+        private static void SyncRegistrationMenu()
+        {
+            SynchronizeRegistrationFiles();
+            AssetDatabase.Refresh();
+            Debug.Log("UIForm.txt, UIForm.bytes and UIFormId.cs synchronized.");
+        }
+
         private void OnEnable()
         {
             RefreshEntries();
@@ -61,9 +69,9 @@ namespace Lokas.Editor
                 GUILayout.FlexibleSpace();
                 if (GUILayout.Button("Sync UIFormId", GUILayout.Width(160f)))
                 {
-                    SyncUIFormIdCommentsFromText();
+                    SynchronizeRegistrationFiles();
                     AssetDatabase.Refresh();
-                    Debug.Log("UI Panel Manager synced UIFormId.cs from UIForm.txt.");
+                    Debug.Log("UI Panel Manager synchronized UIForm.txt, UIForm.bytes and UIFormId.cs.");
                 }
             }
         }
@@ -466,7 +474,6 @@ namespace Lokas.Editor
         {
             NormalizeUIFormTextFile();
             string[] lines = File.ReadAllLines(UIFormTextPath, Encoding.UTF8);
-            int maxId = 0;
             foreach (string line in lines)
             {
                 if (!TryParseEntry(line, out UIFormEntry entry))
@@ -474,7 +481,6 @@ namespace Lokas.Editor
                     continue;
                 }
 
-                maxId = Mathf.Max(maxId, entry.id);
                 if (entry.assetName == panelName)
                 {
                     UpdateUIFormTextLine(panelName, note, uiGroupName, pauseCoveredUIForm);
@@ -482,11 +488,35 @@ namespace Lokas.Editor
                 }
             }
 
-            int nextId = maxId + 1;
+            int nextId = FindNextCommonUIFormId(lines);
             string pause = pauseCoveredUIForm ? "TRUE" : "FALSE";
             string displayNote = string.IsNullOrWhiteSpace(note) ? panelName : note.Trim();
             File.AppendAllText(UIFormTextPath, $"{Environment.NewLine}\t{nextId}\t{displayNote}\t{panelName}\t{uiGroupName}\tFALSE\t{pause}", Encoding.UTF8);
             return nextId;
+        }
+
+        private static int FindNextCommonUIFormId(IEnumerable<string> lines)
+        {
+            var usedIds = new HashSet<int>();
+            foreach (string line in lines)
+            {
+                if (TryParseEntry(line, out UIFormEntry entry))
+                {
+                    usedIds.Add(entry.id);
+                }
+            }
+
+            for (int id = UIFormIdRanges.CommonStart; id <= UIFormIdRanges.CommonEnd; id++)
+            {
+                if (!usedIds.Contains(id))
+                {
+                    return id;
+                }
+            }
+
+            throw new InvalidOperationException(
+                $"The common UIForm ID range {UIFormIdRanges.CommonStart}-{UIFormIdRanges.CommonEnd} is full. " +
+                "Activity and sample ranges must be assigned by their own installers.");
         }
 
         private static void UpdateUIFormTextLine(string panelName, string note, string uiGroupName, bool pauseCoveredUIForm)
@@ -603,6 +633,8 @@ namespace Lokas.Editor
                 }
             }
 
+            ValidateUIFormIds(entries);
+
             string content = File.ReadAllText(UIFormIdPath, Encoding.UTF8);
             content = RewriteUIFormIdEnum(content, entries);
             File.WriteAllText(UIFormIdPath, content, Encoding.UTF8);
@@ -709,7 +741,24 @@ namespace Lokas.Editor
 
         private static Match FindUIFormIdEnumMatch(string content)
         {
-            return Regex.Match(content, @"public\s+enum\s+UIFormId\s*(?::\s*byte)?\s*\{");
+            return Regex.Match(content, @"public\s+enum\s+UIFormId\s*(?::\s*(?:byte|int))?\s*\{");
+        }
+
+        private static void ValidateUIFormIds(IEnumerable<UIFormEntry> entries)
+        {
+            var ids = new HashSet<int>();
+            foreach (UIFormEntry entry in entries)
+            {
+                if (!UIFormIdRanges.IsValid(entry.id))
+                {
+                    throw new InvalidOperationException($"UIForm ID must be positive: {entry.id} / {entry.assetName}.");
+                }
+
+                if (!ids.Add(entry.id))
+                {
+                    throw new InvalidOperationException($"Duplicate UIForm ID: {entry.id} / {entry.assetName}.");
+                }
+            }
         }
 
         private static void RemoveUIFormId(string panelName)

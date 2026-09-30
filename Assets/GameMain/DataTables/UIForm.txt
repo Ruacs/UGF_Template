@@ -21,10 +21,25 @@
 	213	语言选择页	LanguageUIPanel	Default	FALSE	FALSE
 	214	结算排行榜页	SettlementRankUIPanel	Default	FALSE	FALSE
 	215	复活页面	ReviveUIPanel	Default	FALSE	FALSE
-	216	通行证主页面	SeasonPassMainPanel	Default	FALSE	FALSE
-	217	通行证规则页面	SeasonPassRulesPanel	Dialog	FALSE	FALSE
-	218	Gold Pass购买页面	SeasonPassGoldPassPurchasePanel	Dialog	FALSE	FALSE
-	219	Race报名页面	RaceStartUIPanel	Dialog	FALSE	FALSE
-	220	Race赛道页面	RaceMainUIPanel	Default	FALSE	FALSE
-	221	Race规则页面	RaceDetailUIPanel	Dialog	FALSE	FALSE
-	222	Collector主页面	CollectorMainPanel	Default	FALSE	FALSE
+	216	六边形消除	HexaAwayUIPanel	Default	FALSE	FALSE
+	217	选择页面	SelectionUIPanel	Default	FALSE	FALSE
+	300	通行证主页面	SeasonPassMainPanel	Default	FALSE	FALSE
+	301	通行证规则页面	SeasonPassRulesPanel	Dialog	FALSE	FALSE
+	302	Gold Pass购买页面	SeasonPassGoldPassPurchasePanel	Dialog	FALSE	FALSE
+	320	Race报名页面	RaceStartUIPanel	Dialog	FALSE	FALSE
+	321	Race赛道页面	RaceMainUIPanel	Default	FALSE	FALSE
+	322	Race规则页面	RaceDetailUIPanel	Dialog	FALSE	FALSE
+	340	Collector主页面	CollectorMainPanel	Default	FALSE	FALSE
+	360	WinStreak报名页面	WinStreakStartUIPanel	Dialog	FALSE	FALSE
+	361	WinStreak主页面	WinStreakMainUIPanel	Default	FALSE	FALSE
+	362	WinStreak规则页面	WinStreakDetailUIPanel	Dialog	FALSE	FALSE
+	363	WinStreak结束页面	WinStreakEndUIPanel	Dialog	FALSE	FALSE
+	380	Mining测试主页面	MiningMainUIPanel	Default	FALSE	FALSE
+	381	Mining开始页面	MiningStartUIPanel	Dialog	FALSE	FALSE
+	382	Mining详细页面	MiningDetailUIPanel	Dialog	FALSE	FALSE
+	383	Mining结束页面	MiningEndUIPanel	Dialog	FALSE	FALSE
+	400	Galaxy Challenge开始页面	GalaxyChallengeStartUIPanel	Dialog	FALSE	FALSE
+	401	Galaxy Challenge主页面	GalaxyChallengeMainUIPanel	Default	FALSE	FALSE
+	402	Galaxy Challenge规则页面	GalaxyChallengeDetailUIPanel	Dialog	FALSE	FALSE
+	403	Galaxy Challenge结束页面	GalaxyChallengeEndUIPanel	Dialog	FALSE	FALSE
+	404	Galaxy Challenge间隔页面	GalaxyChallengeIntervalUIPanel	Dialog	FALSE	FALSE

@@ -17,15 +17,15 @@ MonoBehaviour:
   - Game
   m_Pages:
   - m_PageKey: main
-    m_UIFormId: 216
+    m_UIFormId: 300
     m_AssetName: SeasonPassMainPanel
     m_PrefabAssetPath: Assets/GameMain/Activities/SeasonPass/UI/SeasonPassMainPanel.prefab
   - m_PageKey: rules
-    m_UIFormId: 217
+    m_UIFormId: 301
     m_AssetName: SeasonPassRulesPanel
     m_PrefabAssetPath: Assets/GameMain/Activities/SeasonPass/UI/SeasonPassRulesPanel.prefab
   - m_PageKey: gold_pass_purchase
-    m_UIFormId: 218
+    m_UIFormId: 302
     m_AssetName: SeasonPassGoldPassPurchasePanel
     m_PrefabAssetPath: Assets/GameMain/Activities/SeasonPass/UI/SeasonPassGoldPassPurchasePanel.prefab
     m_AssetNameAliases:

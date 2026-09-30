@@ -79,7 +79,7 @@ namespace Lokas
             string[] assetNameAliases = null)
         {
             m_PageKey = ActivityContract.RequireId(pageKey, nameof(pageKey));
-            if (uiFormId <= 0 || uiFormId > byte.MaxValue) throw new ArgumentOutOfRangeException(nameof(uiFormId));
+            if (!UIFormIdRanges.IsActivityId(uiFormId)) throw new ArgumentOutOfRangeException(nameof(uiFormId));
             m_UIFormId = uiFormId;
             m_AssetName = ActivityContract.RequireId(assetName, nameof(assetName));
             m_PrefabAssetPath = ActivityContract.RequireId(prefabAssetPath, nameof(prefabAssetPath));
@@ -89,7 +89,7 @@ namespace Lokas
         internal void Validate(string moduleId)
         {
             ActivityContract.RequireId(m_PageKey, nameof(m_PageKey));
-            if (m_UIFormId <= 0 || m_UIFormId > byte.MaxValue)
+            if (!UIFormIdRanges.IsActivityId(m_UIFormId))
                 throw new InvalidOperationException($"Activity module '{moduleId}' has an invalid UI form ID on page '{m_PageKey}'.");
             ActivityContract.RequireId(m_AssetName, nameof(m_AssetName));
             ActivityContract.RequireId(m_PrefabAssetPath, nameof(m_PrefabAssetPath));
@@ -116,6 +116,7 @@ namespace Lokas
 
             var pages = new Dictionary<string, ActivityPageDefinition>(StringComparer.Ordinal);
             var prefabs = new Dictionary<string, string>(StringComparer.Ordinal);
+            var uiFormIds = new Dictionary<int, string>();
             foreach (ActivityModuleDefinition definition in catalog.Modules)
             {
                 if (definition == null) throw new InvalidOperationException("Activity module catalog contains a null definition.");
@@ -125,6 +126,9 @@ namespace Lokas
                     string pageId = BuildPageId(definition.ModuleId, page.PageKey);
                     if (!pages.TryAdd(pageId, page))
                         throw new InvalidOperationException($"Activity page '{pageId}' is registered more than once.");
+                    if (!uiFormIds.TryAdd(page.UIFormId, pageId))
+                        throw new InvalidOperationException(
+                            $"UIForm ID '{page.UIFormId}' is shared by activity pages '{uiFormIds[page.UIFormId]}' and '{pageId}'.");
                     if (!prefabs.TryAdd(page.AssetName, page.PrefabAssetPath))
                         throw new InvalidOperationException($"Activity UI asset name '{page.AssetName}' is registered more than once.");
                     foreach (string alias in page.AssetNameAliases)

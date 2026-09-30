@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "assetCount": 6,
+  "assets": [
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetConfig.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetWindow.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/Tests/FontCharsetValidation.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/README_IMPORT.md",
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetCollector.cs",
+    "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetService.cs"
+  ],
+  "folderEntries": [],
+  "sha256": "0d3e209b13c6c1217bc3a8d551c8ceb2ce375efdb320e4606ed29e214cdda9b2",
+  "packageBytes": 21650,
+  "checks": [
+    "explicit assets only",
+    "source content and meta hashes",
+    "GUID preservation",
+    "package SHA256"
+  ],
+  "targetProjectImportTested": false
+}

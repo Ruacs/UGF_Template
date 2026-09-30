@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02852872b4df6f54dae8c0a0c710b986, type: 3}
+  m_Name: FontCharsetConfig
+  m_EditorClassIdentifier: 
+  languageConfig: {fileID: 11400000, guid: f1e405738b9888a409e87d46ce752ea5, type: 2}
+  entries:
+  - selected: 1
+    language: ChineseSimplified
+    sourceFont: {fileID: 12800000, guid: cb73118d4ebdff741b6d9332989bb858, type: 3}
+    targetFont: {fileID: 11400000, guid: 66a41a6c8ad02b74bae1880b92ceb84d, type: 2}
+    charset: {fileID: 4900000, guid: 34f319239d33f1b49afbbc896fd716e0, type: 3}
+    localizationFiles:
+    - {fileID: 4900000, guid: a2229ce185fd32f49bc511b271a69ce5, type: 3}
+    extraText: 0123456789%+-.,:/ ()
+    autoSize: 1
+    pointSize: 55
+    atlasWidth: 1024
+    atlasHeight: 1024
+    padding: 5
+    renderMode: 4165
+    generatedSignature: OsF3PSp91hruSxE3Dulrc8sEnXh63lMSj7pLx0Tmu9M=
+  - selected: 1
+    language: ChineseTraditional
+    sourceFont: {fileID: 12800000, guid: cb73118d4ebdff741b6d9332989bb858, type: 3}
+    targetFont: {fileID: 11400000, guid: 452678dafaba6e74b9a123b33e8afc5a, type: 2}
+    charset: {fileID: 4900000, guid: 4724de1292f4ada41ad779f6912a5f2e, type: 3}
+    localizationFiles:
+    - {fileID: 4900000, guid: 4f403b8af0c3418ca98e0c34e263cc16, type: 3}
+    extraText: 0123456789%+-.,:/ ()
+    autoSize: 1
+    pointSize: 55
+    atlasWidth: 1024
+    atlasHeight: 1024
+    padding: 5
+    renderMode: 4165
+    generatedSignature: 59u1sc+qKrEFCPLcKt+wUeHMnXzrhxQp0g3imP9u9bA=
+  - selected: 1
+    language: Japanese
+    sourceFont: {fileID: 12800000, guid: cb73118d4ebdff741b6d9332989bb858, type: 3}
+    targetFont: {fileID: 11400000, guid: 2e120e708da2b214b9db72add433f9f8, type: 2}
+    charset: {fileID: 4900000, guid: fcf79425eaed0d14492b2f55700567a2, type: 3}
+    localizationFiles:
+    - {fileID: 4900000, guid: a4aeb632988e47b4a61af37ffb3966a9, type: 3}
+    extraText: 0123456789%+-.,:/ ()
+    autoSize: 1
+    pointSize: 62
+    atlasWidth: 1024
+    atlasHeight: 1024
+    padding: 7
+    renderMode: 4165
+    generatedSignature: TEcle5Qoudhcr7C4xxpRkVwA+LR4EBPXzn5vqcUECMg=
+  - selected: 1
+    language: Korean
+    sourceFont: {fileID: 12800000, guid: 055125be8ab81ba438424644f885bc89, type: 3}
+    targetFont: {fileID: 11400000, guid: 5b2c55bc0ec4bae4e819a34ef3fee86d, type: 2}
+    charset: {fileID: 4900000, guid: da2df4722c631a14198f97ab5c863f1a, type: 3}
+    localizationFiles:
+    - {fileID: 4900000, guid: b0c63402f2ae4de0b01976ba63a5eb6b, type: 3}
+    extraText: 0123456789%+-.,:/ ()
+    autoSize: 1
+    pointSize: 70
+    atlasWidth: 1024
+    atlasHeight: 1024
+    padding: 9
+    renderMode: 4165
+    generatedSignature: fQc9i3/ResD0rlLJc39CRfTVlCFDQgBT4y6/aCN3+vE=

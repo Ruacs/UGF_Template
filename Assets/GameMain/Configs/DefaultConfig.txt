@@ -3,3 +3,4 @@
 	Game.Id		RectMatch
 	Scene.Menu		1
 	Scene.Game		2
+	Scene.HexaAway		4

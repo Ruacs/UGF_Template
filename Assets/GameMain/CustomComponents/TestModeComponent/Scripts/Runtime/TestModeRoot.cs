@@ -40,6 +40,8 @@ namespace Lokas
         private readonly List<Button> m_Tabs = new List<Button>();
         private readonly List<TestModeTabButton> m_TabViews = new List<TestModeTabButton>();
         private readonly List<TestModePage> m_Pages = new List<TestModePage>();
+        private readonly List<PageBuildState> m_PageBuildStates = new List<PageBuildState>();
+        private TestModeModuleRegistry m_Registry;
         private int m_SelectedIndex = 0;
 
         // 选中 / 未选中的 Tab 颜色
@@ -90,18 +92,21 @@ namespace Lokas
         public void Render(TestModeModuleRegistry registry)
         {
             ClearAll();
+            m_Registry = registry;
 
-            var pageMap = new Dictionary<string, TestModePage>();
+            var pageMap = new Dictionary<string, PageBuildState>();
 
             foreach (var module in registry.Modules)
             {
                 string pageKey = module.OwnerId + "/" + module.PageName;
-                if (!pageMap.TryGetValue(pageKey, out var page))
+                if (!pageMap.TryGetValue(pageKey, out var pageState))
                 {
-                    page = CreatePage(module.PageName);
-                    pageMap[pageKey] = page;
+                    pageState = new PageBuildState(CreatePage(module.PageName));
+                    pageMap[pageKey] = pageState;
+                    m_PageBuildStates.Add(pageState);
                 }
-                module.Build(page, registry.GetContext(module));
+
+                pageState.Modules.Add(module);
             }
 
             int clamp = Mathf.Clamp(m_SelectedIndex, 0, Mathf.Max(0, m_Pages.Count - 1));
@@ -143,6 +148,9 @@ namespace Lokas
 
         private void ClearAll()
         {
+            m_Registry = null;
+            m_PageBuildStates.Clear();
+
             // 销毁 Tab 按钮
             foreach (var tab in m_Tabs)
                 if (tab != null) Destroy(tab.gameObject);
@@ -153,6 +161,27 @@ namespace Lokas
             foreach (var page in m_Pages)
                 if (page != null) Destroy(page.gameObject);
             m_Pages.Clear();
+        }
+
+        private void BuildPageIfNeeded(int index)
+        {
+            if (m_Registry == null || index < 0 || index >= m_PageBuildStates.Count)
+            {
+                return;
+            }
+
+            PageBuildState pageState = m_PageBuildStates[index];
+            if (pageState.IsBuilt)
+            {
+                return;
+            }
+
+            foreach (ITestModeModule module in pageState.Modules)
+            {
+                module.Build(pageState.Page, m_Registry.GetContext(module));
+            }
+
+            pageState.IsBuilt = true;
         }
 
         private TestModePage CreatePage(string pageName)
@@ -235,6 +264,21 @@ namespace Lokas
 
                 // 也更新 ColorBlock 里的 normalColor，防止 hover 恢复错误颜色
             }
+
+            // 只构建当前页，避免首次打开时把所有测试项一次性实例化并触发布局重建。
+            BuildPageIfNeeded(index);
+        }
+
+        private sealed class PageBuildState
+        {
+            public PageBuildState(TestModePage page)
+            {
+                Page = page;
+            }
+
+            public readonly TestModePage Page;
+            public readonly List<ITestModeModule> Modules = new List<ITestModeModule>();
+            public bool IsBuilt;
         }
 
         private static TestModeTabButton GetOrAddTabView(Button tab)

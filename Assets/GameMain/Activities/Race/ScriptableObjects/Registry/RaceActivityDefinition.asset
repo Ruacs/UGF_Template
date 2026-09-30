@@ -17,17 +17,17 @@ MonoBehaviour:
   - Game
   m_Pages:
   - m_PageKey: start
-    m_UIFormId: 219
+    m_UIFormId: 320
     m_AssetName: RaceStartUIPanel
     m_PrefabAssetPath: Assets/GameMain/Activities/Race/UI/RaceStartUIPanel.prefab
     m_AssetNameAliases: []
   - m_PageKey: main
-    m_UIFormId: 220
+    m_UIFormId: 321
     m_AssetName: RaceMainUIPanel
     m_PrefabAssetPath: Assets/GameMain/Activities/Race/UI/RaceMainUIPanel.prefab
     m_AssetNameAliases: []
   - m_PageKey: details
-    m_UIFormId: 221
+    m_UIFormId: 322
     m_AssetName: RaceDetailUIPanel
     m_PrefabAssetPath: Assets/GameMain/Activities/Race/UI/RaceDetailUIPanel.prefab
     m_AssetNameAliases: []

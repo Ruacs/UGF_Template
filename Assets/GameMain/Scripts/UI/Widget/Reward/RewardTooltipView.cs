@@ -18,6 +18,7 @@ namespace Lokas
         [SerializeField, Min(1)] private int m_BaseItemCount = 2;
 
         private bool m_isShow;
+        private bool m_HideOnOutsideInput;
         private int m_ShowFrame = -1;
         private RectTransform m_Anchor;
         private bool m_HasAnchor;
@@ -37,7 +38,7 @@ namespace Lokas
 
         private void Update()
         {
-            if (!m_isShow || Time.frameCount <= m_ShowFrame)
+            if (!m_isShow || !m_HideOnOutsideInput || Time.frameCount <= m_ShowFrame)
                 return;
 
             if (m_HasAnchor && (m_Anchor == null || !m_Anchor.gameObject.activeInHierarchy))
@@ -68,6 +69,32 @@ namespace Lokas
             ShowPresentation(RewardPresentation.Build(rewards), anchor);
         }
 
+        /// <summary>填充并持续显示嵌入页面内的奖励提示，不播放弹出音效，也不因点击外部区域关闭。</summary>
+        public void ShowPersistent(IReadOnlyList<RewardEntry> rewards)
+        {
+            ShowPersistentPresentation(RewardPresentation.Build(rewards));
+        }
+
+        public void ShowPersistentPresentation(IReadOnlyList<RewardItemViewData> rewardDatas)
+        {
+            if (!isActiveAndEnabled || !RefreshItems(rewardDatas))
+            {
+                HideImmediate();
+                return;
+            }
+
+            m_Anchor = null;
+            m_HasAnchor = false;
+            m_isShow = true;
+            m_HideOnOutsideInput = false;
+            m_ShowFrame = -1;
+            m_ScaleTween?.Kill();
+            m_ScaleTween = null;
+            Vector3 scale = transform.localScale;
+            scale.x = 1f;
+            transform.localScale = scale;
+        }
+
         public void ShowPresentation(IReadOnlyList<RewardItemViewData> rewardDatas, RectTransform anchor = null)
         {
             if (!isActiveAndEnabled || !RefreshItems(rewardDatas))
@@ -90,6 +117,7 @@ namespace Lokas
                 tooltipCanvas.sortingOrder = ownerCanvas.sortingOrder + 1;
             }
             m_isShow = true;
+            m_HideOnOutsideInput = true;
             m_ShowFrame = Time.frameCount;
             SetVisibleScale(true);
         }
@@ -100,6 +128,7 @@ namespace Lokas
                 return;
 
             m_isShow = false;
+            m_HideOnOutsideInput = false;
             m_Anchor = null;
             m_HasAnchor = false;
             SetVisibleScale(false);
@@ -108,6 +137,7 @@ namespace Lokas
         public void HideImmediate()
         {
             m_isShow = false;
+            m_HideOnOutsideInput = false;
             m_ShowFrame = -1;
             m_Anchor = null;
             m_HasAnchor = false;

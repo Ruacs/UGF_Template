@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89157b502a27cd47bd263c6ce3667d7, type: 3}
+  m_Name: MiningEvent02Config
+  m_EditorClassIdentifier: 
+  m_EventId: 2
+  m_Stages:
+  - m_EventId: 2
+    m_StepId: 1
+    m_CellCount: 4
+    m_RewardId: 9001
+    m_TreasureBoxType: 0
+    m_Gems:
+    - m_GemId: 1
+      m_GemType: 1
+      m_GridOrigin: {x: 1, y: 0}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: 100}
+      m_GateRotation: 0
+      m_GateScale: 0.4
+    - m_GemId: 2
+      m_GemType: 1
+      m_GridOrigin: {x: 1, y: 3}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: -100}
+      m_GateRotation: 0
+      m_GateScale: 0.4
+    - m_GemId: 3
+      m_GemType: 2
+      m_GridOrigin: {x: 3, y: 0}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: 100, y: 0}
+      m_GateRotation: 90
+      m_GateScale: 0.4
+    - m_GemId: 4
+      m_GemType: 2
+      m_GridOrigin: {x: 0, y: 0}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: -100, y: 0}
+      m_GateRotation: 90
+      m_GateScale: 0.4
+    - m_GemId: 5
+      m_GemType: 4
+      m_GridOrigin: {x: 1, y: 1}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: 0}
+      m_GateRotation: 0
+      m_GateScale: 0.5
+  - m_EventId: 2
+    m_StepId: 2
+    m_CellCount: 6
+    m_RewardId: 9002
+    m_TreasureBoxType: 1
+    m_Gems:
+    - m_GemId: 1
+      m_GemType: 1
+      m_GridOrigin: {x: 2, y: 1}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: 110}
+      m_GateRotation: 0
+      m_GateScale: 0.5
+    - m_GemId: 2
+      m_GemType: 3
+      m_GridOrigin: {x: 0, y: 4}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: -100, y: -100}
+      m_GateRotation: 0
+      m_GateScale: 0.5
+    - m_GemId: 3
+      m_GemType: 3
+      m_GridOrigin: {x: 3, y: 4}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 100, y: -100}
+      m_GateRotation: 0
+      m_GateScale: 0.5
+    - m_GemId: 4
+      m_GemType: 6
+      m_GridOrigin: {x: 0, y: 0}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: -120, y: 50}
+      m_GateRotation: 0
+      m_GateScale: 0.5
+    - m_GemId: 5
+      m_GemType: 6
+      m_GridOrigin: {x: 4, y: 1}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 120, y: 50}
+      m_GateRotation: 0
+      m_GateScale: 0.5
+    - m_GemId: 6
+      m_GemType: 9
+      m_GridOrigin: {x: 1, y: 2}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: 0, y: 0}
+      m_GateRotation: 90
+      m_GateScale: 0.4
+  - m_EventId: 2
+    m_StepId: 3
+    m_CellCount: 7
+    m_RewardId: 9003
+    m_TreasureBoxType: 2
+    m_Gems:
+    - m_GemId: 1
+      m_GemType: 5
+      m_GridOrigin: {x: 0, y: 4}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: -100, y: -100}
+      m_GateRotation: 0
+      m_GateScale: 0.4
+    - m_GemId: 2
+      m_GemType: 5
+      m_GridOrigin: {x: 5, y: 4}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 100, y: -100}
+      m_GateRotation: 0
+      m_GateScale: 0.4
+    - m_GemId: 3
+      m_GemType: 7
+      m_GridOrigin: {x: 0, y: 0}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: -140, y: 20}
+      m_GateRotation: 90
+      m_GateScale: 0.4
+    - m_GemId: 4
+      m_GemType: 7
+      m_GridOrigin: {x: 6, y: 0}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: 140, y: 20}
+      m_GateRotation: 90
+      m_GateScale: 0.4
+    - m_GemId: 5
+      m_GemType: 9
+      m_GridOrigin: {x: 2, y: 0}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: 0, y: 140}
+      m_GateRotation: 90
+      m_GateScale: 0.4
+    - m_GemId: 6
+      m_GemType: 13
+      m_GridOrigin: {x: 2, y: 2}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: -10}
+      m_GateRotation: 0
+      m_GateScale: 0.5
+  - m_EventId: 2
+    m_StepId: 4
+    m_CellCount: 8
+    m_RewardId: 9004
+    m_TreasureBoxType: 3
+    m_Gems:
+    - m_GemId: 1
+      m_GemType: 3
+      m_GridOrigin: {x: 2, y: 7}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: -130}
+      m_GateRotation: 0
+      m_GateScale: 0.4
+    - m_GemId: 2
+      m_GemType: 7
+      m_GridOrigin: {x: 7, y: 0}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: 100, y: -65}
+      m_GateRotation: 90
+      m_GateScale: 0.4
+    - m_GemId: 3
+      m_GemType: 7
+      m_GridOrigin: {x: 1, y: 4}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: -100, y: -65}
+      m_GateRotation: 90
+      m_GateScale: 0.4
+    - m_GemId: 4
+      m_GemType: 11
+      m_GridOrigin: {x: 5, y: 4}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: 120, y: 80}
+      m_GateRotation: 90
+      m_GateScale: 0.35
+    - m_GemId: 5
+      m_GemType: 11
+      m_GridOrigin: {x: 0, y: 1}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: -120, y: 80}
+      m_GateRotation: 90
+      m_GateScale: 0.35
+    - m_GemId: 6
+      m_GemType: 12
+      m_GridOrigin: {x: 5, y: 0}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: 140}
+      m_GateRotation: 0
+      m_GateScale: 0.3
+    - m_GemId: 7
+      m_GemType: 13
+      m_GridOrigin: {x: 2, y: 3}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: -10}
+      m_GateRotation: 0
+      m_GateScale: 0.4
+  - m_EventId: 2
+    m_StepId: 5
+    m_CellCount: 9
+    m_RewardId: 9005
+    m_TreasureBoxType: 4
+    m_Gems:
+    - m_GemId: 1
+      m_GemType: 1
+      m_GridOrigin: {x: 1, y: 0}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: -75, y: 135}
+      m_GateRotation: -45
+      m_GateScale: 0.35
+    - m_GemId: 2
+      m_GemType: 1
+      m_GridOrigin: {x: 4, y: 0}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 75, y: 135}
+      m_GateRotation: 45
+      m_GateScale: 0.35
+    - m_GemId: 3
+      m_GemType: 2
+      m_GridOrigin: {x: 1, y: 8}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: -70, y: -150}
+      m_GateRotation: 0
+      m_GateScale: 0.35
+    - m_GemId: 4
+      m_GemType: 2
+      m_GridOrigin: {x: 5, y: 8}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 70, y: -150}
+      m_GateRotation: 0
+      m_GateScale: 0.35
+    - m_GemId: 5
+      m_GemType: 8
+      m_GridOrigin: {x: 1, y: 2}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: -130, y: 0}
+      m_GateRotation: 90
+      m_GateScale: 0.35
+    - m_GemId: 6
+      m_GemType: 8
+      m_GridOrigin: {x: 8, y: 2}
+      m_GridQuarterTurns: 1
+      m_GatePosition: {x: 130, y: 0}
+      m_GateRotation: 90
+      m_GateScale: 0.35
+    - m_GemId: 7
+      m_GemType: 12
+      m_GridOrigin: {x: 6, y: 0}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: 145}
+      m_GateRotation: 180
+      m_GateScale: 0.3
+    - m_GemId: 8
+      m_GemType: 14
+      m_GridOrigin: {x: 2, y: 3}
+      m_GridQuarterTurns: 0
+      m_GatePosition: {x: 0, y: -30}
+      m_GateRotation: 0
+      m_GateScale: 0.4

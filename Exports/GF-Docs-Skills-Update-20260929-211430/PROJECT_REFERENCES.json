@@ -1,0 +1,597 @@
+[
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Activity/README.md",
+    "target": "Assets/GameMain/CustomComponents/ActivitySystem/Scripts/Runtime/ActivityComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Activity/README.md",
+    "target": "Assets/GameMain/CustomComponents/ActivitySystem/Scripts/Integration/GameFrameworkActivityUI.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Ads/README.md",
+    "target": "Assets/GameMain/Scripts/Base/GameEntry.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Bootstrap/README.md",
+    "target": "Assets/GameMain/Scripts/Base/GameEntry.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Bootstrap/README.md",
+    "target": "Assets/GameMain/Scripts/Base/GameEntry.Custom.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Bootstrap/README.md",
+    "target": "Assets/GameMain/CustomComponents/BuiltinView/BuiltinViewComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Bootstrap/README.md",
+    "target": "Assets/GameMain/Scripts/Procedure/ProcedurePreload.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Configuration/README.md",
+    "target": "Assets/GameMain/Scripts/DataTable/DataTableExtension.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Configuration/README.md",
+    "target": "Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableGeneratorMenu.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Configuration/README.md",
+    "target": "Assets/GameMain/Scripts/Component/CustomConfigComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Entity/README.md",
+    "target": "Assets/GameMain/Scripts/Entity/Core/EntityExtension.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Entity/README.md",
+    "target": "Assets/GameMain/Scripts/Component/ObjectPool/Core/ObjectPoolComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Event/README.md",
+    "target": "Assets/Plugins/UnityGameFramework/Scripts/Runtime/Event/EventComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Event/README.md",
+    "target": "Assets/GameMain/CustomComponents/TaskSystem/Scripts/Events/LevelPassedEventArgs.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Guide/README.md",
+    "target": "Assets/GameMain/GuideMask/Script/GuideMaskController.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Guide/README.md",
+    "target": "Assets/GameMain/GuideMask/Script/GuideRunner.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Guide/README.md",
+    "target": "Assets/GameMain/GuideMask/Script/GuideMaskFlowExample.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Infrastructure/README.md",
+    "target": "Assets/Plugins/UnityGameFramework/Scripts/Runtime",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/Localization/LocalizationKeys.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/Localization/LocalizationKeys.Manual.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/Plugins/GFTools/Editor/LocalizationEditor/Scripts/LocalizationEditor.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/ScriptableObjects/TMPLanguageFontConfig.asset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/Procedure/ProcedurePreload.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Localization/English/English.xml",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/Utility/AssetUtility.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/Localization/XmlLocalizationHelper.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/Localization/LocalizationExtension.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/Component/Save/SaveDataStore.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/UI/Panel/SettingUIPanel.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/UI/Widget/LanguageItem.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/UI/Runtime/UGuiForm.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/GameMain/Scripts/UI/Runtime/UILocalizedImageKey.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+    "target": "Assets/Plugins/UnityGameFramework/GameFramework/Localization/LocalizationManager.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Procedure/README.md",
+    "target": "Assets/GameMain/Scripts/Component/GameManagerComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Procedure/README.md",
+    "target": "Assets/GameMain/Scripts/Component/SubGameManagerComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Procedure/README.md",
+    "target": "Assets/GameMain/Scripts/Procedure/ProcedureChangeScene.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Rank/README.md",
+    "target": "Assets/GameMain/CustomComponents/Rank/Runtime/RankComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/RedDot/README.md",
+    "target": "Assets/GameMain/CustomComponents/RedDotSystem/RedDotComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/RedDot/README.md",
+    "target": "Assets/GameMain/CustomComponents/RedDot/Core/RedDotComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Resource/README.md",
+    "target": "Assets/GameMain/Scripts/Utility/AssetUtility.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Resource/README.md",
+    "target": "Assets/GameMain/Scripts/Utility/ResourceExtension.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Reward/README.md",
+    "target": "Assets/GameMain/Scripts/UI/Widget/Reward/RewardPresentation.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Reward/README.md",
+    "target": "Assets/GameMain/Scripts/Config/Reward/RewardEntry.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/SaveData/README.md",
+    "target": "Assets/GameMain/Scripts/Component/SaveDataComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/SaveData/README.md",
+    "target": "Assets/GameMain/Scripts/Component/Save/SaveDataStore.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Shop/README.md",
+    "target": "Assets/GameMain/CustomComponents/Shop/Scripts/ShopComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Sound/README.md",
+    "target": "Assets/GameMain/Scripts/Sound/SoundExtension.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Task/README.md",
+    "target": "Assets/GameMain/CustomComponents/TaskSystem/Scripts/Rewards",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Task/README.md",
+    "target": "Assets/GameMain/CustomComponents/TaskSystem/Scripts/Runtime/TaskComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Task/README.md",
+    "target": "Assets/GameMain/CustomComponents/TaskSystem/Scripts/Providers/TaskSOProvider.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Task/README.md",
+    "target": "Assets/GameMain/CustomComponents/TaskSystem/Scripts/Providers/TaskJsonProvider.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/Task/README.md",
+    "target": "Assets/GameMain/CustomComponents/TaskSystem/Scripts/Providers/TaskRemoteProvider.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TestMode/README.md",
+    "target": "Assets/GameMain/CustomComponents/TestModeComponent/Scripts/TestModeComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md",
+    "target": "Assets/AAA_DevAssets/Fonts/Charset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md",
+    "target": "Assets/GameMain/CustomComponents/BuiltinView/Font/unity_sdf_charset_loading.txt",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md",
+    "target": "Assets/AAA_DevAssets/Fonts/Editor/FontCharsetConfig.asset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md",
+    "target": "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetService.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/CustomComponents/TMPFontSystem",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/ScriptableObjects/TMPLanguageFontConfig.asset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/ScriptableObjects/TMPLanguageEntries",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/Fonts",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/Fonts/TMPFontProfile.asset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/Fonts/MaterialPreset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/AAA_DevAssets/Fonts/Fonts",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/AAA_DevAssets/Fonts/Charset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/AAA_DevAssets/Fonts/Editor/FontCharsetConfig.asset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/CustomComponents/TMPFontSystem/TMPFontComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/CustomComponents/TMPFontSystem/TMPLanguageFontConfig.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/CustomComponents/TMPFontSystem/LanguageEntry.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/CustomComponents/TMPFontSystem/TMPFontProfile.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/CustomComponents/TMPFontSystem/FontStylePreset.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/CustomComponents/TMPFontSystem/TMPStyleApplier.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+    "target": "Assets/GameMain/Editor/TMPFontProfileEditor.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/Scripts/UI/Panel/GameOverUIPanel.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/UI/UIPanel/GameOverUIPanel.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/Scripts/UI/Panel/SettlementRankUIPanel.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/UI/UIPanel/SettlementRankUIPanel.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/Scripts/UI/Panel/ClaimRewardsUIPanel.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/UI/UIPanel/ClaimRewardsUIPanel.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/UI/UIPrefabs/Reward/RewardItemView.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/UI/UIPrefabs/Reward/RewardSlotView.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/UI/UIPrefabs/Reward/RewardChestView.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/UI/Template/UIPanel_Template.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/UI/Template/PopupUIPanel_Template.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/DataTables/UIForm.txt",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/Scripts/UI/Runtime/UIFormIdRanges.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/Scripts/UI/Runtime/UIGroupType.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+    "target": "Assets/GameMain/UI/Template/UIPanel_Template.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md",
+    "target": "Assets/GameMain/Scripts/UI/Panel/LanguageUIPanel.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+    "target": "Assets/Plugins/UnityGameFramework/Scripts/Runtime/UI/UIComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+    "target": "Assets/GameMain/Scripts/UI/Runtime/UIExtension.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+    "target": "Assets/GameMain/Scripts/UI/Runtime/UGuiForm.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+    "target": "Assets/GameMain/Scripts/UI/Runtime/UGuiGroupHelper.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+    "target": "Assets/GameMain/Scripts/Utility/AssetUtility.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+    "target": "Assets/GameMain/Editor/UIFormPanelGeneratorWindow.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+    "target": "Assets/GameMain/Scripts/UI/Panel/SettingUIPanel.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+    "target": "Assets/GameMain/Scenes/GameLauncher.unity",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/UI/Template/UIPanel_Template.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/Editor/UIFormPanelGeneratorWindow.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/UI/Template/PopupUIPanel_Template.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/UI/UIPanel",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/UI/UIPrefabs/Reward/RewardItemView_Base.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/UI/UIPrefabs/Reward/RewardItemView.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/UI/UIPrefabs/Reward/RewardSlotView.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/UI/UIPrefabs/Reward/RewardChestView_Base.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/UI/UIPrefabs/Reward/RewardTooltipView.prefab",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/Scripts/UI/Widget/Reward",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/Scripts/UI/Widget/Button/ButtonClickAnim.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/Scripts/UI/Runtime/UIItemBase.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+    "target": "Assets/GameMain/Scripts/UI/Runtime/UGuiForm.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UIEffects/README.md",
+    "target": "Assets/GameMain/CustomComponents/FlyItemUI/FlyItemUIComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UIEffects/README.md",
+    "target": "Assets/GameMain/CustomComponents/FlyItemUI/FlyItemUI.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UIEffects/README.md",
+    "target": "Assets/GameMain/CustomComponents/FloatingText/FloatingTextComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/AAA_DevAssets/Docs/Framework/UIEffects/README.md",
+    "target": "Assets/GameMain/CustomComponents/ComboSystem/ComboComponent.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/GameMain/Activities/SeasonPass/Docs/README.md",
+    "target": "Assets/GameMain/Activities/SeasonPass/Scripts/SeasonPassActivityModule.cs",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/GameMain/Activities/SeasonPass/Docs/README.md",
+    "target": "Assets/GameMain/Activities/SeasonPass/ScriptableObjects/Config",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/GameMain/Activities/SeasonPass/Docs/README.md",
+    "target": "Assets/GameMain/Activities/SeasonPass/ScriptableObjects/Registry/SeasonPassActivityDefinition.asset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/GameMain/Activities/SeasonPass/Docs/README.md",
+    "target": "Assets/GameMain/Activities/SeasonPass/ScriptableObjects/Config/SchoolPass202609.asset",
+    "sourceExists": true
+  },
+  {
+    "document": "Assets/GameMain/Activities/SeasonPass/Docs/README.md",
+    "target": "Assets/GameMain/Activities/SeasonPass/ScriptableObjects/Rewards",
+    "sourceExists": true
+  }
+]

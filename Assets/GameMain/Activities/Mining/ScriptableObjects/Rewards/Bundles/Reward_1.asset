@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bb9cda7e70d0c44a87a119e12b5ba9, type: 3}
+  m_Name: Reward_1
+  m_EditorClassIdentifier: 
+  id: 9001
+  m_Entries:
+  - m_Definition: {fileID: 11400000, guid: 587c5525cc680e947b754280d278d9c0, type: 2}
+    m_GrantMode: 0
+    m_Amount: 100
+    m_LegacyMinuteRequest: 0
+  - m_Definition: {fileID: 11400000, guid: 095283fa261d0db46a84638e6bc6704f, type: 2}
+    m_GrantMode: 0
+    m_Amount: 1
+    m_LegacyMinuteRequest: 0
+  - m_Definition: {fileID: 11400000, guid: a8b93052a0692ed4698a55e1be9f2bac, type: 2}
+    m_GrantMode: 0
+    m_Amount: 3
+    m_LegacyMinuteRequest: 0
+  - m_Definition: {fileID: 11400000, guid: ca85399f05bc903448022f1cd50bae4d, type: 2}
+    m_GrantMode: 1
+    m_Amount: 600
+    m_LegacyMinuteRequest: 0
+  m_ChestStyle: {fileID: 11400000, guid: 120d681f9663a784c8f647a6eec690fc, type: 2}

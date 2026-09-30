@@ -18,12 +18,12 @@ namespace Lokas
 
         private void Awake()
         {
-            if (m_Button == null)
-                m_Button = GetComponent<Button>();
+            ResolveBindings();
         }
 
         private void OnEnable()
         {
+            ResolveBindings();
             BindButton();
             RefreshInteractable();
         }
@@ -43,6 +43,7 @@ namespace Lokas
 
         public void SetIcon(Sprite chestIcon)
         {
+            ResolveBindings();
             if (m_ChestIcon == null)
                 return;
 
@@ -52,6 +53,7 @@ namespace Lokas
 
         public void SetRewards(IReadOnlyList<RewardEntry> rewards)
         {
+            ResolveBindings();
             m_Presentation = RewardPresentation.Build(rewards);
             HidePreview();
             if (isActiveAndEnabled)
@@ -61,6 +63,7 @@ namespace Lokas
 
         public void BindPresentation(Sprite chestIcon, IReadOnlyList<RewardItemViewData> rewards)
         {
+            ResolveBindings();
             HidePreview();
             SetIcon(chestIcon);
             m_Presentation = rewards == null ? new List<RewardItemViewData>() : new List<RewardItemViewData>(rewards);
@@ -96,8 +99,7 @@ namespace Lokas
 
         private void BindButton()
         {
-            if (m_Button == null)
-                m_Button = GetComponent<Button>();
+            ResolveBindings();
             if (m_Button == null)
                 return;
 
@@ -116,13 +118,25 @@ namespace Lokas
             return m_Presentation != null && m_Presentation.Count > 0;
         }
 
+        private void ResolveBindings()
+        {
+            if (m_Button == null)
+                m_Button = GetComponent<Button>();
+            if (m_ChestIcon == null)
+            {
+                Transform icon = transform.Find("Root/Icon_Chest");
+                if (icon == null)
+                    icon = transform.Find("Chest_Close");
+                m_ChestIcon = icon != null ? icon.GetComponent<Image>() : null;
+            }
+            if (m_Tooltip == null)
+                m_Tooltip = GetComponentInChildren<RewardTooltipView>(true);
+        }
+
 #if UNITY_EDITOR
         private void Reset()
         {
-            m_Button = GetComponent<Button>();
-            Transform icon = transform.Find("Root/Icon_Chest");
-            m_ChestIcon = icon != null ? icon.GetComponent<Image>() : null;
-            m_Tooltip = GetComponentInChildren<RewardTooltipView>(true);
+            ResolveBindings();
         }
 #endif
     }

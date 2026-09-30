@@ -89,6 +89,8 @@ namespace Lokas.Activities.SeasonPass
 
     public sealed class SeasonPassSnapshot
     {
+        public const int BonusBankRequiredProgress = 10;
+
         public string PassId { get; }
         public string DisplayName { get; }
         public int Charge { get; }
@@ -99,11 +101,16 @@ namespace Lokas.Activities.SeasonPass
         public bool IsPremiumActivated { get; }
         public DateTimeOffset EndUtc { get; }
         public IReadOnlyList<SeasonPassTierSnapshot> Tiers { get; }
+        public bool IsBasePassCompleted { get; }
+        public int BonusBankTier { get; }
+        public int BonusBankProgress { get; }
+        public bool IsBonusBankUnlocked => IsPremiumActivated;
         /// <summary>供顶部进度条显示的当前目标档位局部充能。</summary>
         public SeasonPassTierProgress CurrentTierProgress { get; }
         public int CurrentTier => CurrentTierProgress.TargetTier;
 
-        internal SeasonPassSnapshot(SeasonPassActivityConfig config, int charge, bool isActive, bool isUnlocked, bool isPremiumActivated,
+        internal SeasonPassSnapshot(SeasonPassActivityConfig config, int charge, int bonusBankTier,
+            int bonusBankProgress, bool isActive, bool isUnlocked, bool isPremiumActivated,
             IReadOnlyList<SeasonPassTierSnapshot> tiers)
         {
             PassId = config.PassId;
@@ -116,6 +123,14 @@ namespace Lokas.Activities.SeasonPass
             IsPremiumActivated = isPremiumActivated;
             EndUtc = config.EndUtc;
             Tiers = tiers;
+            int totalRequiredCharge = 0;
+            foreach (SeasonPassTierSnapshot tier in tiers)
+                totalRequiredCharge = checked(totalRequiredCharge + Math.Max(0, tier.RequiredCharge));
+            IsBasePassCompleted = charge >= totalRequiredCharge;
+            BonusBankTier = IsBasePassCompleted ? Math.Max(0, bonusBankTier) : 0;
+            BonusBankProgress = IsBasePassCompleted
+                ? Mathf.Clamp(bonusBankProgress, 0, BonusBankRequiredProgress - 1)
+                : 0;
             CurrentTierProgress = SeasonPassTierProgress.Create(charge, tiers);
         }
 
@@ -163,6 +178,8 @@ namespace Lokas.Activities.SeasonPass
     {
         public string passId;
         public int charge;
+        public int bonusBankTier;
+        public int bonusBankProgress;
         public bool premiumActivated;
         public List<int> claimedFreeTiers = new List<int>();
         public List<int> claimedPremiumTiers = new List<int>();
@@ -174,7 +191,7 @@ namespace Lokas.Activities.SeasonPass
     {
         public const string Id = "season_pass";
         private const string StateKey = "state";
-        private const int StateSchemaVersion = 1;
+        private const int StateSchemaVersion = 3;
 
         private readonly SeasonPassActivityConfig m_Config;
         private readonly IReadOnlyList<string> m_GameIds;
@@ -267,7 +284,8 @@ namespace Lokas.Activities.SeasonPass
                     && !premiumClaimed && reached && CanGrantAll(tier.PremiumRewards);
                 tiers.Add(new SeasonPassTierSnapshot(tier, freeClaimed, premiumClaimed, canClaimFree, canClaimPremium));
             }
-            return new SeasonPassSnapshot(m_Config, m_State?.charge ?? 0, active, unlocked,
+            return new SeasonPassSnapshot(m_Config, m_State?.charge ?? 0, m_State?.bonusBankTier ?? 0,
+                m_State?.bonusBankProgress ?? 0, active, unlocked,
                 m_State != null && m_State.premiumActivated, tiers.AsReadOnly());
         }
 
@@ -360,7 +378,21 @@ namespace Lokas.Activities.SeasonPass
             if (!m_IsInitialized || fact == null || !fact.Won || !m_Config.IsActiveAt(m_Context.Clock.UtcNow)) return;
             if (!m_ProcessedFactIds.Add(fact.FactId)) return;
 
-            checked { m_State.charge += m_Config.ChargePerCompletedLevel; }
+            int totalRequiredCharge = GetTotalRequiredCharge();
+            if (m_State.charge < totalRequiredCharge)
+            {
+                long updatedCharge = (long)m_State.charge + m_Config.ChargePerCompletedLevel;
+                m_State.charge = (int)Math.Min(totalRequiredCharge, updatedCharge);
+            }
+            else
+            {
+                m_State.bonusBankProgress++;
+                if (m_State.bonusBankProgress >= SeasonPassSnapshot.BonusBankRequiredProgress)
+                {
+                    m_State.bonusBankProgress = 0;
+                    if (m_State.bonusBankTier < int.MaxValue) m_State.bonusBankTier++;
+                }
+            }
             SaveStateAsync(m_Context.LifetimeToken).Forget(Debug.LogException);
             NotifyChanged();
         }
@@ -417,12 +449,46 @@ namespace Lokas.Activities.SeasonPass
             }
 
             m_State.charge = Math.Max(0, m_State.charge);
+            int totalRequiredCharge = GetTotalRequiredCharge();
+            bool migrateLegacyState = read.SchemaVersion < StateSchemaVersion;
+            if (read.SchemaVersion < 2)
+            {
+                long overflowCharge = Math.Max(0L, (long)m_State.charge - totalRequiredCharge);
+                m_State.charge = Math.Min(m_State.charge, totalRequiredCharge);
+                long overflowWins = overflowCharge / m_Config.ChargePerCompletedLevel;
+                SetBonusBankProgressFromWins(overflowWins);
+            }
+            else
+            {
+                m_State.charge = Math.Min(m_State.charge, totalRequiredCharge);
+                if (read.SchemaVersion < StateSchemaVersion)
+                {
+                    // Schema 2 stored charge units (capped at 10), not won-level count or bank tier.
+                    int legacyProgress = Mathf.Clamp(m_State.bonusBankProgress, 0,
+                        SeasonPassSnapshot.BonusBankRequiredProgress);
+                    long legacyWins = (legacyProgress + (long)m_Config.ChargePerCompletedLevel - 1)
+                        / m_Config.ChargePerCompletedLevel;
+                    SetBonusBankProgressFromWins(legacyWins);
+                }
+                else
+                {
+                    m_State.bonusBankTier = Math.Max(0, m_State.bonusBankTier);
+                    m_State.bonusBankProgress = Mathf.Clamp(m_State.bonusBankProgress, 0,
+                        SeasonPassSnapshot.BonusBankRequiredProgress - 1);
+                }
+            }
+            if (m_State.charge < totalRequiredCharge)
+            {
+                m_State.bonusBankTier = 0;
+                m_State.bonusBankProgress = 0;
+            }
             m_State.claimedFreeTiers ??= new List<int>();
             m_State.claimedPremiumTiers ??= new List<int>();
             m_State.processedFactIds ??= new List<string>();
             foreach (int tier in m_State.claimedFreeTiers.Where(IsKnownTier)) m_ClaimedFreeTiers.Add(tier);
             foreach (int tier in m_State.claimedPremiumTiers.Where(IsKnownTier)) m_ClaimedPremiumTiers.Add(tier);
             foreach (string factId in m_State.processedFactIds.Where(id => !string.IsNullOrWhiteSpace(id))) m_ProcessedFactIds.Add(factId);
+            if (migrateLegacyState) await SaveStateAsync(cancellationToken);
         }
 
         private void ResetState()
@@ -488,6 +554,22 @@ namespace Lokas.Activities.SeasonPass
                 if (definition.Tier == tier) return m_State.charge >= completionCharge;
             }
             return false;
+        }
+
+        private int GetTotalRequiredCharge()
+        {
+            int totalRequiredCharge = 0;
+            foreach (SeasonPassTierDefinition definition in m_Config.Tiers)
+                totalRequiredCharge = checked(totalRequiredCharge + Math.Max(0, definition.RequiredCharge));
+            return totalRequiredCharge;
+        }
+
+        private void SetBonusBankProgressFromWins(long bonusBankWins)
+        {
+            long requiredProgress = SeasonPassSnapshot.BonusBankRequiredProgress;
+            long tier = Math.Max(0L, bonusBankWins) / requiredProgress;
+            m_State.bonusBankTier = (int)Math.Min(int.MaxValue, tier);
+            m_State.bonusBankProgress = (int)(Math.Max(0L, bonusBankWins) % requiredProgress);
         }
 
         private async UniTask OpenPageAsync(string pageKey, object userData, CancellationToken cancellationToken)

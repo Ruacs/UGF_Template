@@ -53,6 +53,15 @@ namespace Lokas
             }
 
             m_RefreshRequested = false;
+
+            // Registry changes can arrive while the debug window is hidden. Do not
+            // instantiate and lay out every test item in the background; showing the
+            // window requests a fresh render again.
+            if (!IsTestModeRootActive())
+            {
+                return;
+            }
+
             RefreshUI();
         }
 
@@ -112,10 +121,10 @@ namespace Lokas
             EnsureRoot();
             if (m_Root != null)
             {
-                return m_Root.gameObject.activeSelf;
+                return m_Root.gameObject.activeInHierarchy;
             }
 
-            return TestModeRoot != null && TestModeRoot.activeSelf;
+            return TestModeRoot != null && TestModeRoot.activeInHierarchy;
         }
 
         private void RefreshUI()
@@ -148,6 +157,13 @@ namespace Lokas
             if (m_Root == null && TestModeRoot != null)
             {
                 m_Root = TestModeRoot.GetComponent<TestModeRoot>();
+                if (m_Root == null)
+                {
+                    // Reuse a root already present elsewhere in this prefab hierarchy
+                    // before instantiating another copy under the legacy container.
+                    m_Root = GetComponentInChildren<TestModeRoot>(true);
+                }
+
                 if (m_Root == null)
                 {
                     if (m_RootPrefab != null)

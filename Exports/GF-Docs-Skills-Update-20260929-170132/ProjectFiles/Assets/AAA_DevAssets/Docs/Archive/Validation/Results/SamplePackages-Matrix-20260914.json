@@ -1,0 +1,36 @@
+{
+  "step": 13,
+  "phase": "complete",
+  "playPhase": "draining",
+  "gameIndex": 2,
+  "modes": [
+    2,
+    3
+  ],
+  "primary": 3,
+  "deadline": 639249766451508900,
+  "nextAction": 639249762881508900,
+  "failure": "",
+  "passed": [
+    "operation -1: import HexaAway restored",
+    "play 0: modes=2,3; menu/settings/test pages/pause/resume/restart/game-module cleanup passed; editor-stop diagnostics tracked separately",
+    "operation 1: remove RectMatch complete",
+    "play 2: modes=2; menu/settings/test pages/pause/resume/restart/game-module cleanup passed; editor-stop diagnostics tracked separately",
+    "operation 3: remove HexaAway complete",
+    "play 4: modes=; menu/settings/test pages/pause/resume/restart/game-module cleanup passed; editor-stop diagnostics tracked separately",
+    "operation 5: import RectMatch complete",
+    "play 6: modes=3; menu/settings/test pages/pause/resume/restart/game-module cleanup passed; editor-stop diagnostics tracked separately",
+    "operation 7: import HexaAway complete",
+    "play 8: modes=2,3; menu/settings/test pages/pause/resume/restart/game-module cleanup passed; editor-stop diagnostics tracked separately",
+    "operation 9: import HexaAway complete",
+    "operation 10: import HexaAway restored",
+    "operation 11: remove RectMatch complete",
+    "operation 12: remove RectMatch restored",
+    "final: two games restored with valid registrations; see editorStopDiagnostics for Editor shutdown findings",
+    "after editor restart: installed registrations, persisted build scenes and both package baselines verified"
+  ],
+  "errors": [],
+  "editorStopDiagnostics": [
+    "Step 8: Some objects were not cleaned up when closing the scene. (Did you spawn new GameObjects from OnDestroy?)\nThe following scene GameObjects were found:\n[DOTween]\n"
+  ]
+}

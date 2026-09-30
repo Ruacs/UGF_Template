@@ -1,0 +1,6 @@
+interface:
+  display_name: "Localization SDF Charset"
+  short_description: "Sync Unity character sets and TMP atlases via project tools."
+  default_prompt: "Use $localization-sdf-charset to resolve the requested language scope, synchronize its character sets and TMP atlases with the project's editor tool, and verify every requested language without relying on stale editor selections."
+policy:
+  allow_implicit_invocation: true

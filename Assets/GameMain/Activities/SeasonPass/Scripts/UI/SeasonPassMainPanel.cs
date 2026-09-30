@@ -13,6 +13,8 @@ namespace Lokas.Activities.SeasonPass.UI
     /// </summary>
     public sealed class SeasonPassMainPanel : UGuiForm
     {
+        private const float ProgressTweenDuration = 0.35f;
+
         [Header("Designer-owned bindings")]
         [SerializeField] private TMP_Text m_Title;
         [SerializeField] private TMP_Text m_Countdown;
@@ -24,11 +26,16 @@ namespace Lokas.Activities.SeasonPass.UI
         [SerializeField] private Button m_CloseButton;
         [SerializeField] private Transform m_TierContent;
         [SerializeField] private SeasonPassTierRowView m_TierRowTemplate;
+        [SerializeField] private Transform m_BonusBankRowRoot;
         [Tooltip("留空时保留项目当前语言字体；有中文正文时由页面 Prefab 显式指定。")]
         [SerializeField] private TMP_FontAsset m_TextFont;
 
         private readonly List<SeasonPassTierRowView> m_Rows = new List<SeasonPassTierRowView>();
         private SeasonPassActivityModule m_Module;
+        private SeasonPassBonusBankView m_BonusBankView;
+        private Tween m_ProgressTween;
+        private float m_ProgressTarget;
+        private bool m_HasProgressTarget;
         private Tween m_FocusTierTween;
         private bool m_ReportedMissingBindings;
         private bool m_ShouldFocusCurrentTier;
@@ -40,6 +47,9 @@ namespace Lokas.Activities.SeasonPass.UI
             if (m_ActivateButton != null) m_ActivateButton.AddSafeClick(OnClickActivate);
             if (m_CloseButton != null) m_CloseButton.AddSafeClick(() => Close());
             if (m_TierRowTemplate != null) m_TierRowTemplate.gameObject.SetActive(false);
+            m_BonusBankView = m_BonusBankRowRoot != null
+                ? m_BonusBankRowRoot.GetComponent<SeasonPassBonusBankView>()
+                : null;
             ApplyConfiguredFont();
             ReportMissingBindingsOnce();
         }
@@ -55,11 +65,19 @@ namespace Lokas.Activities.SeasonPass.UI
 
         protected override void OnClose(bool isShutdown, object userData)
         {
+            StopProgressAnimation();
             m_FocusTierTween?.Kill();
             m_FocusTierTween = null;
             m_ShouldFocusCurrentTier = false;
             base.OnClose(isShutdown, userData);
             m_Module = null;
+        }
+
+        private void OnDisable()
+        {
+            StopProgressAnimation();
+            m_FocusTierTween?.Kill();
+            m_FocusTierTween = null;
         }
 
         protected override void SubscribeEvents()
@@ -100,6 +118,11 @@ namespace Lokas.Activities.SeasonPass.UI
                         OnClickPremiumLane, snapshot.IsPremiumActivated);
                 }
             }
+
+            if (m_BonusBankView != null)
+                m_BonusBankView.Bind(true, snapshot.BonusBankTier, snapshot.BonusBankProgress,
+                    SeasonPassSnapshot.BonusBankRequiredProgress, snapshot.IsBonusBankUnlocked, OnClickPremiumLane);
+            if (m_BonusBankRowRoot != null) m_BonusBankRowRoot.SetAsLastSibling();
 
             if (!m_ShouldFocusCurrentTier) return;
             m_ShouldFocusCurrentTier = false;
@@ -155,6 +178,38 @@ namespace Lokas.Activities.SeasonPass.UI
         private void SetProgress(float fill)
         {
             if (m_ProgressFill == null) return;
+            fill = Mathf.Clamp01(fill);
+
+            if (!m_HasProgressTarget)
+            {
+                ApplyProgress(fill);
+                m_ProgressTarget = fill;
+                m_HasProgressTarget = true;
+                return;
+            }
+
+            if (Mathf.Approximately(m_ProgressTarget, fill)) return;
+            m_ProgressTween?.Kill();
+            m_ProgressTarget = fill;
+            if (m_ProgressFill.type == Image.Type.Filled)
+            {
+                Image progressFill = m_ProgressFill;
+                m_ProgressTween = DOTween.To(() => progressFill.fillAmount,
+                        value => progressFill.fillAmount = value, fill, ProgressTweenDuration)
+                    .SetEase(Ease.OutCubic)
+                    .SetTarget(this);
+                return;
+            }
+
+            RectTransform rect = m_ProgressFill.rectTransform;
+            m_ProgressTween = DOTween.To(() => rect.anchorMax.x,
+                    value => rect.anchorMax = new Vector2(value, rect.anchorMax.y), fill, ProgressTweenDuration)
+                .SetEase(Ease.OutCubic)
+                .SetTarget(this);
+        }
+
+        private void ApplyProgress(float fill)
+        {
             if (m_ProgressFill.type == Image.Type.Filled)
             {
                 m_ProgressFill.fillAmount = fill;
@@ -163,6 +218,13 @@ namespace Lokas.Activities.SeasonPass.UI
 
             RectTransform rect = m_ProgressFill.rectTransform;
             rect.anchorMax = new Vector2(fill, rect.anchorMax.y);
+        }
+
+        private void StopProgressAnimation()
+        {
+            m_ProgressTween?.Kill();
+            m_ProgressTween = null;
+            m_HasProgressTarget = false;
         }
 
         private void OnClaimFree(int tier)
@@ -222,6 +284,8 @@ namespace Lokas.Activities.SeasonPass.UI
             if (m_CloseButton == null) missing.Add(nameof(m_CloseButton));
             if (m_TierContent == null) missing.Add(nameof(m_TierContent));
             if (m_TierRowTemplate == null) missing.Add(nameof(m_TierRowTemplate));
+            if (m_BonusBankRowRoot == null) missing.Add(nameof(m_BonusBankRowRoot));
+            else if (m_BonusBankView == null) missing.Add(nameof(SeasonPassBonusBankView));
             if (missing.Count == 0) return;
             m_ReportedMissingBindings = true;
             Debug.LogWarning($"[SeasonPassMainPanel] Bind these fields on the designer-owned Prefab: {string.Join(", ", missing)}.");

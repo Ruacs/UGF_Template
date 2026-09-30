@@ -1,0 +1,4 @@
+interface:
+  display_name: "GF 项目工作流"
+  short_description: "GF 模板任务分流、组件绑定与模块接入，按范围读取并验证"
+  default_prompt: "使用 $gf-workflow 完成当前 GF 项目任务，先确定最小修改范围，再按需查阅和验证。"

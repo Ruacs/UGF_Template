@@ -16,5 +16,5 @@ MonoBehaviour:
   displayName: "\u65E5\u672C\u8A9E"
   icon: {fileID: 0}
   displayNameSprite: {fileID: 650459285, guid: 1c377467a1e97584db18ce234047e4ef, type: 3}
-  fontAssetName: MiSans_Japanese
+  fontAssetName: MFont_JP
   fontProfile: {fileID: 11400000, guid: 79c5c046e921172429c66abc971ced36, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7a0f172be30944d97dd5d178a1bb07, type: 3}
+  m_Name: MiningGateThemeConfig
+  m_EditorClassIdentifier: 
+  m_Themes:
+  - m_StepId: 1
+    m_BackSprite: {fileID: 21300000, guid: 0ef26075466a6044db605cd4954204c6, type: 3}
+    m_SceneSprite: {fileID: 21300000, guid: 7fbc422ea22f0dc44a0568ebbbe00b9c, type: 3}
+  - m_StepId: 2
+    m_BackSprite: {fileID: 21300000, guid: 01baf03132fbea64c8742b38bd210d95, type: 3}
+    m_SceneSprite: {fileID: 21300000, guid: 441474bc938352e478cc851f1d6c19cd, type: 3}
+  - m_StepId: 3
+    m_BackSprite: {fileID: 21300000, guid: a2253e938ed4e2942a3d06dbd8e493e8, type: 3}
+    m_SceneSprite: {fileID: 21300000, guid: a00f207d0fb4dd54ea1594ec5b9cd80e, type: 3}
+  - m_StepId: 4
+    m_BackSprite: {fileID: 21300000, guid: eff1a80251274b442a3d46f9d8b89572, type: 3}
+    m_SceneSprite: {fileID: 21300000, guid: 04b797350eba9e94d81764ce3bd79c3b, type: 3}
+  - m_StepId: 5
+    m_BackSprite: {fileID: 21300000, guid: 19e93f592c07b8a4183e19db478e4242, type: 3}
+    m_SceneSprite: {fileID: 21300000, guid: 440d1ae1cf5b7f04694999bc4c0cd48a, type: 3}

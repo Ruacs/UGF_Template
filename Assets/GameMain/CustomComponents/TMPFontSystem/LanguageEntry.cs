@@ -10,7 +10,7 @@ public sealed class LanguageEntry : ScriptableObject
     public Sprite icon;
     [Tooltip("语言选择列表中显示的语言名图片。配置后优先使用图片，避免为了语言列表加载多套字体。")]
     public Sprite displayNameSprite;
-    [Tooltip("TMP 字体资源名称，不填写扩展名，例如 Main、MiSans_ChineseSimplified")]
+    [Tooltip("TMP 字体资源名称，不填写扩展名，统一使用 MFont_ 前缀，例如 MFont_BASE、MFont_CNS")]
     public string fontAssetName;
     public TMPFontProfile fontProfile;
 

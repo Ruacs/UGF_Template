@@ -10,7 +10,7 @@ namespace Lokas
         [SerializeField] private GameObject m_TestModeRoot;
         [SerializeField] private KeyCode m_ToggleKey = KeyCode.BackQuote;
 
-        private bool m_LastVisible;
+        private bool m_LastEnabled;
 
         private TestModeModuleRegistry m_Modules;
         public TestModeModuleRegistry Modules
@@ -85,7 +85,7 @@ namespace Lokas
 
         private void Update()
         {
-            if (m_LastVisible != IsEnabled)
+            if (m_LastEnabled != IsEnabled)
             {
                 RefreshVisibility();
             }
@@ -105,12 +105,14 @@ namespace Lokas
                 m_TestModeUI.SetAvailable(IsEnabled);
             }
 
-            if (m_TestModeRoot != null)
+            // Enabling test mode only exposes its entry point. The heavy debug window
+            // remains closed until Show/ToggleVisible is requested explicitly.
+            else if (!IsEnabled && m_TestModeRoot != null)
             {
-                m_TestModeRoot.SetActive(IsEnabled);
+                m_TestModeRoot.SetActive(false);
             }
 
-            m_LastVisible = IsEnabled;
+            m_LastEnabled = IsEnabled;
         }
 
         public void Show()
@@ -147,6 +149,7 @@ namespace Lokas
             {
                 m_TestModeUI.SetAvailable(IsEnabled);
                 m_TestModeUI.SetTestModeRootActive(visible);
+                return;
             }
 
             if (m_TestModeRoot != null)
@@ -174,9 +177,9 @@ namespace Lokas
 
             if (m_TestModeUI == null)
             {
-                if (m_TestModeRoot != null)
+                if (!IsEnabled && m_TestModeRoot != null)
                 {
-                    m_TestModeRoot.SetActive(IsEnabled);
+                    m_TestModeRoot.SetActive(false);
                 }
 
                 return;

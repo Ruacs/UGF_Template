@@ -16,5 +16,5 @@ MonoBehaviour:
   displayName: "Portugu\xEAs"
   icon: {fileID: 0}
   displayNameSprite: {fileID: -1545248411, guid: 1c377467a1e97584db18ce234047e4ef, type: 3}
-  fontAssetName: Main
+  fontAssetName: MFont_BASE
   fontProfile: {fileID: 11400000, guid: 79c5c046e921172429c66abc971ced36, type: 2}

@@ -16,5 +16,5 @@ MonoBehaviour:
   displayName: "\u4E2D\u6587"
   icon: {fileID: 0}
   displayNameSprite: {fileID: -2062037196, guid: 1c377467a1e97584db18ce234047e4ef, type: 3}
-  fontAssetName: MiSans_ChineseSimplified
+  fontAssetName: MFont_CNS
   fontProfile: {fileID: 11400000, guid: 79c5c046e921172429c66abc971ced36, type: 2}

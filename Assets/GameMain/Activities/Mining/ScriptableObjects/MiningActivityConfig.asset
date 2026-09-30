@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170fe77140ba72e4b8b8a7c22673823c, type: 3}
+  m_Name: MiningActivityConfig
+  m_EditorClassIdentifier: 
+  m_ScheduleConfig: {fileID: 11400000, guid: 8a309bc8a074d084396bae0c5fb14559, type: 2}
+  m_GemVisualConfig: {fileID: 11400000, guid: d00381b0c880c3e4d9287151742c5a40, type: 2}
+  m_GateThemeConfig: {fileID: 11400000, guid: 96134d1cadf3da141a730edc7c6c714b, type: 2}
+  m_RewardConfig: {fileID: 11400000, guid: 747898d2fdadba946b47ad402586444f, type: 2}
+  m_EventConfigs:
+  - {fileID: 11400000, guid: 7fcc55ecbb535dc4eb33ae300127bbc3, type: 2}
+  - {fileID: 11400000, guid: 2d7fbedac59b07d47a7ee1ba49df8dc1, type: 2}

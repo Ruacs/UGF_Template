@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fa1b325eea04c9db358b39921606be6, type: 3}
   m_Name: SubGameAssetRegistryConfig
   m_EditorClassIdentifier: 
-  m_Manifests: []
+  m_Manifests:
+  - {fileID: 11400000, guid: a1cecb4611a8a7b46b97c645cf64eaac, type: 2}
   m_Entries: []

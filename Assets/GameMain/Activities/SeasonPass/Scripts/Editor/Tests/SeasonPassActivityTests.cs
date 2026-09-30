@@ -391,11 +391,11 @@ namespace Lokas.Activities.SeasonPass.Editor.Tests
             Assert.That(ActivityPageRegistry.TryGetPrefabAsset("SeasonPassMainPanel", out string mainPath), Is.True);
             Assert.That(mainPath, Is.EqualTo("Assets/GameMain/Activities/SeasonPass/UI/SeasonPassMainPanel.prefab"));
             Assert.That(ActivityPageRegistry.TryGetPage(SeasonPassActivityModule.Id, SeasonPassPageKeys.Main, out ActivityPageDefinition mainPage), Is.True);
-            Assert.That(mainPage.UIFormId, Is.EqualTo(216));
+            Assert.That(mainPage.UIFormId, Is.EqualTo(UIFormIdRanges.SeasonPassMain));
             Assert.That(ActivityPageRegistry.TryGetPage(SeasonPassActivityModule.Id, SeasonPassPageKeys.Rules, out ActivityPageDefinition rulesPage), Is.True);
-            Assert.That(rulesPage.UIFormId, Is.EqualTo(217));
+            Assert.That(rulesPage.UIFormId, Is.EqualTo(UIFormIdRanges.SeasonPassRules));
             Assert.That(ActivityPageRegistry.TryGetPage(SeasonPassActivityModule.Id, SeasonPassPageKeys.GoldPassPurchase, out ActivityPageDefinition purchasePage), Is.True);
-            Assert.That(purchasePage.UIFormId, Is.EqualTo(218));
+            Assert.That(purchasePage.UIFormId, Is.EqualTo(UIFormIdRanges.SeasonPassGoldPassPurchase));
             Assert.That(purchasePage.AssetName, Is.EqualTo("SeasonPassGoldPassPurchasePanel"));
             Assert.That(ActivityPageRegistry.TryGetPrefabAsset("SeasonPassRewardPanel", out string legacyPurchasePath), Is.True);
             Assert.That(legacyPurchasePath, Is.EqualTo("Assets/GameMain/Activities/SeasonPass/UI/SeasonPassGoldPassPurchasePanel.prefab"));

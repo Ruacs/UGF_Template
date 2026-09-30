@@ -1,6 +1,6 @@
 ﻿namespace Lokas
 {
-    public enum UIFormId : byte
+    public enum UIFormId : int
     {
         Undefined = 0,
         /// <summary>
@@ -80,32 +80,92 @@
         /// </summary>
         ReviveUIPanel = 215,
         /// <summary>
+        /// 六边形消除
+        /// </summary>
+        HexaAwayUIPanel = 216,
+        /// <summary>
+        /// 选择页面
+        /// </summary>
+        SelectionUIPanel = 217,
+        /// <summary>
         /// 通行证主页面
         /// </summary>
-        SeasonPassMainPanel = 216,
+        SeasonPassMainPanel = 300,
         /// <summary>
         /// 通行证规则页面
         /// </summary>
-        SeasonPassRulesPanel = 217,
+        SeasonPassRulesPanel = 301,
         /// <summary>
         /// Gold Pass购买页面
         /// </summary>
-        SeasonPassGoldPassPurchasePanel = 218,
+        SeasonPassGoldPassPurchasePanel = 302,
         /// <summary>
         /// Race报名页面
         /// </summary>
-        RaceStartUIPanel = 219,
+        RaceStartUIPanel = 320,
         /// <summary>
         /// Race赛道页面
         /// </summary>
-        RaceMainUIPanel = 220,
+        RaceMainUIPanel = 321,
         /// <summary>
         /// Race规则页面
         /// </summary>
-        RaceDetailUIPanel = 221,
+        RaceDetailUIPanel = 322,
         /// <summary>
         /// Collector主页面
         /// </summary>
-        CollectorMainPanel = 222,
+        CollectorMainPanel = 340,
+        /// <summary>
+        /// WinStreak报名页面
+        /// </summary>
+        WinStreakStartUIPanel = 360,
+        /// <summary>
+        /// WinStreak主页面
+        /// </summary>
+        WinStreakMainUIPanel = 361,
+        /// <summary>
+        /// WinStreak规则页面
+        /// </summary>
+        WinStreakDetailUIPanel = 362,
+        /// <summary>
+        /// WinStreak结束页面
+        /// </summary>
+        WinStreakEndUIPanel = 363,
+        /// <summary>
+        /// Mining测试主页面
+        /// </summary>
+        MiningMainUIPanel = 380,
+        /// <summary>
+        /// Mining开始页面
+        /// </summary>
+        MiningStartUIPanel = 381,
+        /// <summary>
+        /// Mining详细页面
+        /// </summary>
+        MiningDetailUIPanel = 382,
+        /// <summary>
+        /// Mining结束页面
+        /// </summary>
+        MiningEndUIPanel = 383,
+        /// <summary>
+        /// Galaxy Challenge开始页面
+        /// </summary>
+        GalaxyChallengeStartUIPanel = 400,
+        /// <summary>
+        /// Galaxy Challenge主页面
+        /// </summary>
+        GalaxyChallengeMainUIPanel = 401,
+        /// <summary>
+        /// Galaxy Challenge规则页面
+        /// </summary>
+        GalaxyChallengeDetailUIPanel = 402,
+        /// <summary>
+        /// Galaxy Challenge结束页面
+        /// </summary>
+        GalaxyChallengeEndUIPanel = 403,
+        /// <summary>
+        /// Galaxy Challenge间隔页面
+        /// </summary>
+        GalaxyChallengeIntervalUIPanel = 404,
     }
 }

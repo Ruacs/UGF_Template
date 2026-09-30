@@ -1,0 +1,1304 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-29T21:14:33.588963+08:00",
+  "sourceProject": "GF_Template",
+  "sourceKind": "working-tree-snapshot",
+  "skills": [
+    "gf-workflow",
+    "ui-agent",
+    "localization-sdf-charset"
+  ],
+  "files": [
+    {
+      "path": "AGENT_UPDATE_PROMPT.md",
+      "category": "package-instructions-and-validation",
+      "policy": "read-only-reference",
+      "size": 2885,
+      "sha256": "d31a2a81b7823dc50337a8b0ac95dfd5f2e39c414c2682413b8a487c96fc86d7"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Implementation/RewardUI-20260916.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Implementation/RewardUI-20260916.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "834aceaedb8dd676e4f2d2ea54f4a9f47b608ce098ceafbfa82c81965ad0dba3"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Implementation/SamplePackaging.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Implementation/SamplePackaging.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "65aaf873f46ddb999a707f5d7cb2894eab4703fc443ef020dcb31df48844be2d"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Implementation.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Implementation.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "dda81a99c6173c2382973a9d0beb4a464db0fc920152af9873ebff0376148213"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "5e4ad9ad1e4d3d8c877c4c7b6310a38baa3fd8a75f292871f2f4bb01a0152c5c"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation/DevAssetsLayout-20260914.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/DevAssetsLayout-20260914.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "d906f2169c297fc49f4b10f5ba5595c08b6b307701887fccd9f41f3e5bbe42cc"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation/Results/DevAssetsLayout-EditMode-20260914.json.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results/DevAssetsLayout-EditMode-20260914.json.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "d31affbe96f40559718f289db4903d974b55ee8f5173555ffc9318a574fd8587"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation/Results/DevAssetsLayout-Matrix-20260914.json.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results/DevAssetsLayout-Matrix-20260914.json.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "4b55f3db7b20342a5c3d4f30b77cc481eeb1749536f090d767dab5122647d66b"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation/Results/SamplePackages-EditMode-20260914.json.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results/SamplePackages-EditMode-20260914.json.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "d9567a0b500a2bc34c188db394f5d89ac4caeb51e0b0ba02280d3fbfb347e790"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation/Results/SamplePackages-Matrix-20260914.json.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results/SamplePackages-Matrix-20260914.json.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "981556a2cb984eef7ff78465d395f5d196ea959b7df366ce8d44e08eb6b23187"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation/Results.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "a8383f4630165b73510946d96764d6ab7bcabc3d166be1920d450de459055e1e"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePackages.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePackages.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "65957bcf87dc76c95dbfbf5643d89b89bef694c59bd6b25324c1991c04acfb2c"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePreflight-20260914.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePreflight-20260914.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "97cc24218dcdc4536db67aa2713e41366bd8865f7191f9e002c71ef1ef15eb55"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation/SubGameModules.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/SubGameModules.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "1696b36a0609ed5cbc12788450fae673157aace9aee89b833ec528b0bb28c0fe"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive/Validation.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "f0f7b9c569d36db5a293c20568958b9408197506e60584f8829f00c4f1bfeb34"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Archive.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "8b07ab83a70976ab873910d2a3a78a33442ff4238aaca309449f08354286403e"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Design/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Design/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "a7b48447b40ecd0b1a2d3a9ea0232d099ea0abbaa076f6aeb8c1c2aeacbce2e9"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Design/RewardUI.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Design/RewardUI.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "58c9b7d8582df196ad00e2bbd79adcad7c1320b13068cb9fa983da83d128ee0d"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Design.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Design.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "163ca6f21dc0fc603a101742fe0fc99e84a20f6a0178b6998347fcba2acaf928"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Activity/Integration.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Activity/Integration.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "68c9a4a5a22a513ca17ddd186445bc68ee10c5e89e6911e48748b22aab2da6de"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Activity/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Activity/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "7a3ed91756c47f1724354af1c4f70bc5f4fb2ade394e3b1f8a1e4db3352e15ae"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Activity.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Activity.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "22259a1217208229e31b2362a7e222d29498f7531720d8e5e09cdd8b5aeb4407"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Ads/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Ads/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "21c1499635d1190bf6479cd56f805e49526196e0ed5742f24de02e7309b71d2c"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Ads.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Ads.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "cad59001ae6950c3a6b0b09a8f8fe132e20e2cf6bd3e46a6b9e8a5d4a0729606"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Bootstrap/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Bootstrap/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "e2967cd35f967284122cfe8c7fff9a4eabb0b221fa796ec9d45ef6c591c4573c"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Bootstrap.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Bootstrap.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "b1d2be60cec55317e15d5ac734321c312a203bfb4d1acbd46a1cd93ca326eeea"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Configuration/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Configuration/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "10019a9e26acd1b8c2176542137365f8af6f78c6ea13be2a9093f8ba1a2dc8d8"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Configuration.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Configuration.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "967430f65d9a3bbc2f6307639cd676ac5dbb48efc27a3da1b2625d47fe87a0b8"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Entity/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Entity/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "fd24e758b1131ce190874f5bdb123491ff93422c2b15196d5c8e7ae3e872121f"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Entity.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Entity.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "3a6147700a89b5978c6b715a898e9f3b7b22f4a40886984984cce9b4b0d5b35a"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Event/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Event/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "bdea916a94513fb38b473232be862a4d2fc7c3445f72801eb92c2678e94edfbd"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Event.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Event.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "9ed629214e108c4418579eb001cde5bbb4b7af828903a76fd3aa162ac7322391"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Guide/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Guide/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "829de9d40f0347616f1285e64562c966574fbefc938b597d30987a00999c6b25"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Guide.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Guide.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "8ec760d85385ff0302eee2187f0358f7e7863cd9542ffca23fb3c59c904c984f"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Infrastructure/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Infrastructure/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "463f7bed5f47b72489d454af7e092beea35dfbeb683db0c5dd376ccd22835e6e"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Infrastructure.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Infrastructure.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "8e7f556ad9eeab770622a7e64964d9726a445f2935b70918c2fef2e1e59e90e9"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Localization/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "826dfc2e38b7da4f098f6384bd562f74c90c8059f1b3a683868a1fcef756e896"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Localization.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Localization.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "fc2498734aabd5fbea38e174820effe2b19198db70aaa1e28d0584e31f23859a"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Procedure/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Procedure/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "d725379428fdf7ca4b5c9fba2687be26bb569f8e4ffde5040bfa4228eb25905a"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Procedure.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Procedure.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "cb6ac242dd19d85867202b55c36dc7e4d69e7432e5828a7d7e7c6f43a7b3c7f8"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Rank/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Rank/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "f4bc9c092033a38e9f09a33dca9189cbe9dfcd73008fd3644a7e090e557f7ab5"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Rank.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Rank.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "6bd8e75692a460553d1d715e761c4c005e69550be6d8c757b79df640cf2ace1e"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "994e5645f3bcc312cd0ef7d9b367db121eae903172c7a12c7ff60c8881115d72"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/RedDot/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/RedDot/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "b633d569b459b7dca29ee615fb617eedfbd7a52ff2314277803fad53c5c7a1ac"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/RedDot.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/RedDot.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "77da252f457966f8ec9236a7bb1b54e632990ee8e322885506e2e5ec678f6c6d"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/RegistrationMap.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/RegistrationMap.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "ebf2d561f8f61745a4b643134c12d6a35558edd260cad778a6a415c20c316bb8"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Resource/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Resource/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "37c847fd3de088a2800e421e80ae2256a6feeeef063f7811979acfba368c06bf"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Resource.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Resource.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "65a25c2c777fb49cd62965d92e76a90a0e0263790b0c2b42c28dc61503ea7d98"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Reward/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Reward/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "bf0d0400b3890904b660bb7810e9d22140533a1d53055de08b5571a78f415608"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Reward.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Reward.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "494428bcdc74df840218836fca29ebb379f0a9cbfd03b0ce8543b7539e580735"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/SaveData/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SaveData/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "c09df041b2fdc8d0d278e83d29fb500824b20be4437150ed2b95e62cecc0643d"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/SaveData.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SaveData.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "173ccf0d15ba701e132041da2579c2c5d035b4a103dd3bbcda2b4fd84b330392"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Shop/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Shop/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "1acab916a395213aa52157b9198b7d67fc43bf1390b7704b5d14486c04f6d403"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Shop.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Shop.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "05d771a9cd56bf05562d51fa8dd9528c6b9240f9f3686b459b87d4871d378696"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Sound/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Sound/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "af8aa9829ba88a090f4416d17ebcd537208a1a5ef94de74a90bfbbd71dc2a448"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Sound.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Sound.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "bbf7566dd9f47b7991f37d9e00538a9fb8a5a3ebb22683d9e32be8de75ff8531"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/SubGame/Extensions.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SubGame/Extensions.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "dc47318232cb0446c9df4d8392a9a811980d717dd3a78fa0f370026c038ad740"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/SubGame/Integration.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SubGame/Integration.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "65bb12a0dfc8989c71561d9e7093b64376688f6ba5724907288b7d863a09859e"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/SubGame/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SubGame/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "bc59de2945cfdcdd9520ef69acf7a3c193e8fda5c672754ca4a1fbdb7500c556"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/SubGame.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SubGame.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "bed16d721acf7fea8946cea768676941735a7f39458992be9b7997ff789c708a"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Task/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Task/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "86ecea37307be071ecd1faa2b51f3ab505ce4e38c78bdc72c1c57bea5479bf0e"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/Task.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Task.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "c8ebd24c31805d0b86f59c3ed2f9015659d322af15f197bd0e1e19611a335355"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/TestMode/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/TestMode/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "7ab3dcecd222e5aeaf7f70dd5cfabb710d6cd8523268f30d93a3c84b0f7e43a2"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/TestMode.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/TestMode.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "dbb6732acbe9833a9fc2698393c47dbef27ac21ecc8e1ba926d7a9541896ef1d"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "89fd92ec5e63730eea79e7a19cade1be30eda30ee1ce3b1dea20da52b335e5bc"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "078c3e63e3fee6f8eac34be17d057682d726f93af3439b86e2c1c0f9c74d2da8"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/TMPFont.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/TMPFont.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "532e8d742db2e0899602cec65d4281c5d9765fe62174c78a68dd518d9efe7103"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "c577b71503d9686bd5f2a4c4a7f97daaebf193e2d2d803dd04211cdc5883628a"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "2a364d9ff2442a9aa53b555129ad32ffce5b86991fdd933d97a8c4cbb73a78ed"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/UI/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "6a40807a0fdfa7e96f40e5f8bac57d8d7cef06047bc36095ac0d5919ad66bae0"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "b785d77669b98eef92d053ed068231f0349092090c7015980ed290977aa4b1df"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/UI/Validation.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/Validation.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "999db81d4f1ad4b74c416d5d96de32655528d6af77b57e1ea4da19673346e600"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/UI.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "060b29cb7bfc73e05709f85cbd4dd13c63d4737418db6b0376ccd8dd49fb8fd3"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/UIEffects/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UIEffects/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "7aa39b91c8e3537810c86451ed0a66e988cc93d0b5e2bb15cd1adee04561edc6"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework/UIEffects.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UIEffects.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "66bf591bee1e71076b43de5510470e938fd0cec69ba450297afced07dff8e78d"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Framework.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "350854f95bdfbb05c8e44d0b6da15e46b2a64d36cef3ce2abe9ebd3c3f285927"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/GettingStarted.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/GettingStarted.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "3441af1703da3d71e4b7d62339576e8e3d251a7439ea23ba0ff87fb74101a559"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "0e9713d7acfcdd82c74727fc42d448ff2468157b59dbea5407712ebaf1f31664"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Samples/README.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Samples/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "248302b8934a5a9a74841cb67fd54f1e16ad1455e88324ad2b14799071ed0712"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Samples/SamplePackages.md.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Samples/SamplePackages.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "a39285daf568aea3f078af444b12bd6ac47d34ca8fdccb8f779180c566edb4dd"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs/Samples.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Samples.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "40d9a96b7703bf5546f7029347bb0a73e4282d664aa90c3f2547afa96ab82f4f"
+    },
+    {
+      "path": "MetaReference/Assets/AAA_DevAssets/Docs.meta",
+      "targetPath": "Assets/AAA_DevAssets/Docs.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 172,
+      "sha256": "797962f10d131d2833cf8654dce1c635f2a6fe542b5f73bdc3b72d358c11759b"
+    },
+    {
+      "path": "MetaReference/Assets/GameMain/Activities/Collector/README.md.meta",
+      "targetPath": "Assets/GameMain/Activities/Collector/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "4b5975256d6c37ad23b62c3849880ddc87b53eeb44df6b8bc807c4db9f001b2b"
+    },
+    {
+      "path": "MetaReference/Assets/GameMain/Activities/GalaxyChallenge/README.md.meta",
+      "targetPath": "Assets/GameMain/Activities/GalaxyChallenge/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "d69850972e61b01775c81a5ef4e0c12ecc863f6f4c858fe7f9bd933482346438"
+    },
+    {
+      "path": "MetaReference/Assets/GameMain/Activities/Mining/README.md.meta",
+      "targetPath": "Assets/GameMain/Activities/Mining/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "f4af2eb79c44fca5ebbd3b35737eb84ac12e5a7cd249928dff15d03a24aa40b5"
+    },
+    {
+      "path": "MetaReference/Assets/GameMain/Activities/Race/README.md.meta",
+      "targetPath": "Assets/GameMain/Activities/Race/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "7319739003f265874492927c09c4c557cedec558cabbeeb3df2303d97c084870"
+    },
+    {
+      "path": "MetaReference/Assets/GameMain/Activities/SeasonPass/Docs/README.md.meta",
+      "targetPath": "Assets/GameMain/Activities/SeasonPass/Docs/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "a30cc1e349924ff463097e33f239d67ea40c6a2a67bee0599fb9d9da4e10f925"
+    },
+    {
+      "path": "MetaReference/Assets/GameMain/Activities/SeasonPass/Docs/UIPrefabContract.md.meta",
+      "targetPath": "Assets/GameMain/Activities/SeasonPass/Docs/UIPrefabContract.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "a8aeab4b9decee093f6406f11cf07fd3a0e72aac4ad8528f3e5265c745207157"
+    },
+    {
+      "path": "MetaReference/Assets/GameMain/CustomComponents/Shop/Scripts/UI/ShopItemViewEventsUsage.md.meta",
+      "targetPath": "Assets/GameMain/CustomComponents/Shop/Scripts/UI/ShopItemViewEventsUsage.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 163,
+      "sha256": "91553efabac59c2864b6f236c5eb74a56a6509d1088b429cb333690115c197aa"
+    },
+    {
+      "path": "MetaReference/Assets/GameMain/SubGame/HexaAway/README.md.meta",
+      "targetPath": "Assets/GameMain/SubGame/HexaAway/README.md.meta",
+      "category": "source-guid-reference",
+      "policy": "reference-only-do-not-overwrite-target-meta",
+      "size": 158,
+      "sha256": "e57df7708613f6922bfbf45cef3eb7b05822407685b7abb121bce8025de09663"
+    },
+    {
+      "path": "MigrationMap.json",
+      "category": "package-instructions-and-validation",
+      "policy": "read-only-reference",
+      "size": 16515,
+      "sha256": "33641b633336d169be5a3a4ab5f94d8860e362361f4d344199ea2f6001e7e446"
+    },
+    {
+      "path": "PROJECT_REFERENCES.json",
+      "category": "package-instructions-and-validation",
+      "policy": "read-only-reference",
+      "size": 22400,
+      "sha256": "700cd646930c2967596cb8e7adbd01bb8153c49c07ca4582538a90cefadfde51"
+    },
+    {
+      "path": "ProjectFiles/.agents/skills/gf-workflow/agents/openai.yaml",
+      "targetPath": ".agents/skills/gf-workflow/agents/openai.yaml",
+      "category": "skills",
+      "policy": "merge-preserving-target-customizations",
+      "size": 283,
+      "sha256": "a4d1867888ea4fb31364711e7f3fa6fdba22ede4aa30df23ceaf00b977d91d56"
+    },
+    {
+      "path": "ProjectFiles/.agents/skills/gf-workflow/SKILL.md",
+      "targetPath": ".agents/skills/gf-workflow/SKILL.md",
+      "category": "skills",
+      "policy": "merge-preserving-target-customizations",
+      "size": 10532,
+      "sha256": "270bc4fece183e59fe7e57a8cd29b0f0751d695c8c22a9a9a31e8f5553c1b0f3"
+    },
+    {
+      "path": "ProjectFiles/.agents/skills/localization-sdf-charset/agents/openai.yaml",
+      "targetPath": ".agents/skills/localization-sdf-charset/agents/openai.yaml",
+      "category": "skills",
+      "policy": "merge-preserving-target-customizations",
+      "size": 431,
+      "sha256": "ae1ff2118941279068481417237e9a2857681321e6e384970392bf08bc25254e"
+    },
+    {
+      "path": "ProjectFiles/.agents/skills/localization-sdf-charset/scripts/update_charset.py",
+      "targetPath": ".agents/skills/localization-sdf-charset/scripts/update_charset.py",
+      "category": "skills",
+      "policy": "merge-preserving-target-customizations",
+      "size": 4045,
+      "sha256": "00389a9867b65711d7bef8ba6358f7aec53bb8c66b1b49069624863e90295aa8"
+    },
+    {
+      "path": "ProjectFiles/.agents/skills/localization-sdf-charset/SKILL.md",
+      "targetPath": ".agents/skills/localization-sdf-charset/SKILL.md",
+      "category": "skills",
+      "policy": "merge-preserving-target-customizations",
+      "size": 11250,
+      "sha256": "6654e6579493935f85b649fc1e41f3e68c1b8b71729b1b76da5de45e09222990"
+    },
+    {
+      "path": "ProjectFiles/.agents/skills/ui-agent/agents/openai.yaml",
+      "targetPath": ".agents/skills/ui-agent/agents/openai.yaml",
+      "category": "skills",
+      "policy": "merge-preserving-target-customizations",
+      "size": 322,
+      "sha256": "6e873bffe9f3bd0d73dc9e0f1fc3a1029d2b706b6dc12334a30ee55ff03b123f"
+    },
+    {
+      "path": "ProjectFiles/.agents/skills/ui-agent/SKILL.md",
+      "targetPath": ".agents/skills/ui-agent/SKILL.md",
+      "category": "skills",
+      "policy": "merge-preserving-target-customizations",
+      "size": 5387,
+      "sha256": "2e90cc140ba2e7e5103c628391eca4a3b0265f8d3bc6e8fe1516b1e2dfc0385f"
+    },
+    {
+      "path": "ProjectFiles/AGENTS.md",
+      "targetPath": "AGENTS.md",
+      "category": "merge-root-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 5935,
+      "sha256": "2d6bb22a46ccd3590e9878cc142ca0a347eb24b377afe3912eda49b7ec6927f3"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Implementation/RewardUI-20260916.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Implementation/RewardUI-20260916.md",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 50428,
+      "sha256": "57bd6df96bf77c3621b3c240302732b83a2e504840f51d8428675e422ec66012"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Implementation/SamplePackaging.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Implementation/SamplePackaging.md",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2633,
+      "sha256": "5260bd5270481cacb9bdbb2cea35b34ed4363f9160ace2642b201b2c76027198"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/README.md",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 835,
+      "sha256": "bcf99945394eff6abee0dfe98db596e57b4060ce7a37450a130974869514c2c5"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Validation/DevAssetsLayout-20260914.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/DevAssetsLayout-20260914.md",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 5882,
+      "sha256": "6eafb69804a8fff97a8a4a3c44d0af035f032a6040a63ccf308becebfaeaeb61"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Validation/Results/DevAssetsLayout-EditMode-20260914.json",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results/DevAssetsLayout-EditMode-20260914.json",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 27416,
+      "sha256": "0737142ee80551de8250eb41b4c3cbecb9f5f6e009f6c67d58fea4b51dcbebde"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Validation/Results/DevAssetsLayout-Matrix-20260914.json",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results/DevAssetsLayout-Matrix-20260914.json",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2465,
+      "sha256": "228c7956202b6dcac7a9477aee306fb4887d205604b5f1be99eff67afb22cc85"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Validation/Results/SamplePackages-EditMode-20260914.json",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results/SamplePackages-EditMode-20260914.json",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 27965,
+      "sha256": "b0e3291f7c7e435813113bbedb9febe0800ef23e4cbe41dd75961eadadd5c680"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Validation/Results/SamplePackages-Matrix-20260914.json",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/Results/SamplePackages-Matrix-20260914.json",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1812,
+      "sha256": "236fa03b5766d41e592a95756404d147f8d13ed89ed6e30c1c4fc282093116d5"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePackages.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePackages.md",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 7286,
+      "sha256": "207a7102d4f018b21522c9c7ca13e47ea50ac78a9479593aeb40da4946b9289a"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePreflight-20260914.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/SamplePreflight-20260914.md",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 6654,
+      "sha256": "b05f84d05e8beb4239f1a73ce8a729e0f3b8c3b63a737fa232a66aac5f6d18ec"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Archive/Validation/SubGameModules.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Archive/Validation/SubGameModules.md",
+      "category": "optional-history",
+      "policy": "merge-preserving-target-customizations",
+      "size": 3861,
+      "sha256": "6506dbf73c0725c90af66603d899d4f4f534fad28aaaeec6568619798648417c"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Design/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Design/README.md",
+      "category": "optional-design",
+      "policy": "merge-preserving-target-customizations",
+      "size": 240,
+      "sha256": "9856e77cad37995c67dec41dfe6593b4bdceeae68efa1e47760ef76c7217b9f7"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Design/RewardUI.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Design/RewardUI.md",
+      "category": "optional-design",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1726,
+      "sha256": "a1edc7f7c65ed42d11ac1ec1bca850e047f9141d3671cdbe66323ad0302bc53c"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Activity/Integration.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Activity/Integration.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 15264,
+      "sha256": "f29b6528a5e85b38f83abe953b32fe820102cb0c0236652dc2e9af2f0603dd48"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Activity/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Activity/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2094,
+      "sha256": "6e9d6388fe5a9bf741d00f462de31236fa3b1c9980ec7e06b4242b766b6c9c71"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Ads/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Ads/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1403,
+      "sha256": "452faf1557a31d72592190097c56675e5687628a41890f5bcac7bb3ffb522d88"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Bootstrap/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Bootstrap/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1740,
+      "sha256": "2273a073fdef9ca37cb46af5841af0f05403d9e1aae4db2b699f67a055a646da"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Configuration/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Configuration/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2569,
+      "sha256": "0d05173e5ab758229ef496173c3ebe9e1d4f2f075944ddffe06e68833feede8a"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Entity/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Entity/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2110,
+      "sha256": "f9120909ce800b0d0a93dea5bcbee928d8f74a0532942f59bffa66c19de8640a"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Event/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Event/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1884,
+      "sha256": "83be40f3468d622ec7191a0de281591dac474f5228972f51857aea5376d87faf"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Guide/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Guide/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1388,
+      "sha256": "9f46a89929f281f485e2e445a95145078a92c459483572de951c2bb7966de354"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Infrastructure/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Infrastructure/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1974,
+      "sha256": "ea67264755f3f43f7b0ca9e2723cb7faf6c747ef2c949e15ccdbdc29e4d7a05b"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Localization/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 15591,
+      "sha256": "167e8416b9ca2c7f80ae8e8e46b793554096ca2c0899fb5bd9293f293918f445"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Procedure/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Procedure/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2078,
+      "sha256": "349cb5edb564ad3c39b9f5943e7b589ea2ceb45e3df7783cc01eaf753b8528c8"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Rank/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Rank/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1470,
+      "sha256": "2483b37f32d82b017c318a22fe497b9db630cbb0a847af24ecc6b141b555f009"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2580,
+      "sha256": "ae1b975e017b19f8c200937c81ef6a8ec8cc8a95dfcc872ca647aff8c00e5f60"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/RedDot/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/RedDot/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1934,
+      "sha256": "8dc49f138f549bc55caacf5cdfc6c6a0424970b8eeceb0ce7662ecbfc5b07fff"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/RegistrationMap.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/RegistrationMap.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 7878,
+      "sha256": "55115ece7e9d184e2120f4788e81453d8d27df1bd3cf1442c83f65463c4d69d7"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Resource/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Resource/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2005,
+      "sha256": "7486beb13941ee3ed029a9ee6b5909125f00c5d41adde19be4ecb2ee691570c1"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Reward/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Reward/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2971,
+      "sha256": "039d031a813ad80461f1a340b22c59c5680c5b0411361f9e4287ece47e743446"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/SaveData/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SaveData/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1880,
+      "sha256": "7e004ce2f1ea3a6a3014da627bbb41a5d14ba037f71bdd66dd9aa723a9499581"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Shop/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Shop/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1648,
+      "sha256": "fb91ceec19c0b356e6fcdf458e28ff7ba4b1d4ad048acb85f5b57319dd440e8c"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Sound/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Sound/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1262,
+      "sha256": "64084bc0eab01025fa015b20547ee7215c06a4c6171f7d141cc485819722a120"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/SubGame/Extensions.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SubGame/Extensions.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 9634,
+      "sha256": "e5635be3de38f5eea42136c39d685183d294c42b670e9833232fcf6a8ec8748b"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/SubGame/Integration.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SubGame/Integration.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 8315,
+      "sha256": "93612a3b831a4f94273bdbc76ae9e50170ad28cf6d2b04085d1f73d538dac773"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/SubGame/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/SubGame/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1357,
+      "sha256": "d292223b2a1cba975f1698f3460c9257d916c923728d76c39d1f9e6a6403a045"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/Task/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/Task/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2713,
+      "sha256": "d8ba20954129ad24994bfea811e06a48f82dc031aac54e866d6248ab782fe76c"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/TestMode/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/TestMode/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1350,
+      "sha256": "70e9607d32b9d427c818854dcfc69925fb83c3d772a4d1570cb6ff6f860e7aae"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/FontAuthoring.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 9971,
+      "sha256": "bca334122611a5329afb1debed2c601a6606f4ac1d9c758e78ba1fae74746379"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/TMPFont/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 16893,
+      "sha256": "8870d2113f2808d9082f2f94e3c3fea73893f2da3f6de78e3724451bb98f6db8"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/PageWorkflow.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 19847,
+      "sha256": "3b27862b0ed91b2b7919ef8fce6fdd378fc3b591009e16b93f24d27afb4e74bd"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/PrefabRules.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 5699,
+      "sha256": "62ad61549f76a517bb6b76b7979d1529b549920acea79c70dc2c8c1849299183"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 8639,
+      "sha256": "a911486836e52fbafaa58e6c301a2fb4612ff69e22e019d2854af49af1fe5259"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/ReuseCatalog.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 3994,
+      "sha256": "f6bb275a36749cb5d545e3f418cf32a79ee8086c3a67fcc756766f5479ea9c24"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/UI/Validation.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UI/Validation.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2129,
+      "sha256": "1e39c3ba88029bd2cf16a1dad446a46aa5dd2ded82af9c8afc99ac57da126eb5"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Framework/UIEffects/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Framework/UIEffects/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1864,
+      "sha256": "5992b3863943679bf73d70f744c162b25b90f327202340e4a5ae4f1b4b19468f"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/GettingStarted.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/GettingStarted.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 6706,
+      "sha256": "017728519848ecb75668e50ff31a761f80a6e8a97fad0b8a215899a338bee661"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/README.md",
+      "category": "framework-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 3581,
+      "sha256": "35716eaa9a6f042093f64c16bb433f8a6b1ef5248b64653a8606fd1a615a08f0"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Samples/README.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Samples/README.md",
+      "category": "optional-samples",
+      "policy": "merge-preserving-target-customizations",
+      "size": 735,
+      "sha256": "a8dd8acdb715df482ddbfb1da2827258e15b1aa50264fcfe229d17d5cf3e51b3"
+    },
+    {
+      "path": "ProjectFiles/Assets/AAA_DevAssets/Docs/Samples/SamplePackages.md",
+      "targetPath": "Assets/AAA_DevAssets/Docs/Samples/SamplePackages.md",
+      "category": "optional-samples",
+      "policy": "merge-preserving-target-customizations",
+      "size": 8732,
+      "sha256": "f9f314daba70fe9d00a914ed127b8a741e6a42414fd039962c0bae24f579fe41"
+    },
+    {
+      "path": "ProjectFiles/Assets/GameMain/Activities/Collector/README.md",
+      "targetPath": "Assets/GameMain/Activities/Collector/README.md",
+      "category": "optional-module-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 3720,
+      "sha256": "fd8df18b9d8d77d84b4d1f7c4b55c2234a46f91477cd1569a02ec20781c089c4"
+    },
+    {
+      "path": "ProjectFiles/Assets/GameMain/Activities/GalaxyChallenge/README.md",
+      "targetPath": "Assets/GameMain/Activities/GalaxyChallenge/README.md",
+      "category": "optional-module-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 3887,
+      "sha256": "c126f4fb263622f4c2079cd40fd428b14f54f4493b13b960cf93025edd550833"
+    },
+    {
+      "path": "ProjectFiles/Assets/GameMain/Activities/Mining/README.md",
+      "targetPath": "Assets/GameMain/Activities/Mining/README.md",
+      "category": "optional-module-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 6247,
+      "sha256": "0fcbbcaa6419452d520351127b32ab8f1ec0703fe9c1c9e4b97ce3de9cf2c20f"
+    },
+    {
+      "path": "ProjectFiles/Assets/GameMain/Activities/Race/README.md",
+      "targetPath": "Assets/GameMain/Activities/Race/README.md",
+      "category": "optional-module-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 1655,
+      "sha256": "4dc6330d28d27e8ebdccce0aec129b51d59faceb8769f62e20e0fbbdb41bf643"
+    },
+    {
+      "path": "ProjectFiles/Assets/GameMain/Activities/SeasonPass/Docs/README.md",
+      "targetPath": "Assets/GameMain/Activities/SeasonPass/Docs/README.md",
+      "category": "optional-module-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2069,
+      "sha256": "76907114f85f3ed92608c01242f9c58c1ba2111d4385a1620932461a433f3379"
+    },
+    {
+      "path": "ProjectFiles/Assets/GameMain/Activities/SeasonPass/Docs/UIPrefabContract.md",
+      "targetPath": "Assets/GameMain/Activities/SeasonPass/Docs/UIPrefabContract.md",
+      "category": "optional-module-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 8434,
+      "sha256": "fb574044957bd4559aadead21656b6c6d9aecf5b55f38331a10aced661cfbf3e"
+    },
+    {
+      "path": "ProjectFiles/Assets/GameMain/CustomComponents/Shop/Scripts/UI/ShopItemViewEventsUsage.md",
+      "targetPath": "Assets/GameMain/CustomComponents/Shop/Scripts/UI/ShopItemViewEventsUsage.md",
+      "category": "optional-module-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 2521,
+      "sha256": "1d6788bd8fa63ebccbc2982da533b83a3a511c9e19e212025c16b53c62c97dbf"
+    },
+    {
+      "path": "ProjectFiles/Assets/GameMain/SubGame/HexaAway/README.md",
+      "targetPath": "Assets/GameMain/SubGame/HexaAway/README.md",
+      "category": "optional-module-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 6345,
+      "sha256": "768296791c5272b407faddd9c95007f17e7b7641c9a8dca1969bfae59301d244"
+    },
+    {
+      "path": "ProjectFiles/GF_FRAMEWORK_TEMPLATE_GUIDELINES.md",
+      "targetPath": "GF_FRAMEWORK_TEMPLATE_GUIDELINES.md",
+      "category": "merge-root-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 47433,
+      "sha256": "a569d4c349fcc3f6ae910e4f313e16136fbbed83baab0641ece94954c75e7e39"
+    },
+    {
+      "path": "ProjectFiles/README.md",
+      "targetPath": "README.md",
+      "category": "merge-root-documents",
+      "policy": "merge-preserving-target-customizations",
+      "size": 6532,
+      "sha256": "626fcfd339ee95d302332813fbcb9706d026c2214fa6e6fcfdda09d37159a8b8"
+    },
+    {
+      "path": "README_UPDATE.md",
+      "category": "package-instructions-and-validation",
+      "policy": "read-only-reference",
+      "size": 3943,
+      "sha256": "b9bf15353d87eb0d75f21338ea1fa5136766539350627de2d67c308fc8728858"
+    },
+    {
+      "path": "VALIDATION.json",
+      "category": "package-instructions-and-validation",
+      "policy": "read-only-reference",
+      "size": 617,
+      "sha256": "c86a0166292fd5c7dc58edd4adc692fc58dd1bef2c50ec08e31b45ac62460190"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb58cc3217a90f4f999d0e7fc7df7c6, type: 3}
+  m_Name: MiningRewardConfig
+  m_EditorClassIdentifier: 
+  m_Rewards:
+  - {fileID: 11400000, guid: 3bbf1eb34b4ce484584a06b82b85ea41, type: 2}
+  - {fileID: 11400000, guid: d41ccd751eab0c24cb642b81551ebcbd, type: 2}
+  - {fileID: 11400000, guid: d2c77d0a1a1f1e841b8eb54ff3ffe035, type: 2}
+  - {fileID: 11400000, guid: d04ac8bd6b8992942bf1585994528bb7, type: 2}
+  - {fileID: 11400000, guid: 633a823e68b5682439ddcd49d3283197, type: 2}

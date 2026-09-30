@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "projectFiles": 68,
+  "metaReferenceFiles": 89,
+  "internalLinks": 296,
+  "externalProjectReferences": 119,
+  "missingDocuments": [],
+  "invalidAnchors": [],
+  "missingSourceReferences": [],
+  "migrationFiles": 20,
+  "migrationAnchors": 65,
+  "skills": [
+    {
+      "name": "gf-workflow",
+      "success": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "name": "ui-agent",
+      "success": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "name": "localization-sdf-charset",
+      "success": true,
+      "output": "Skill is valid!"
+    }
+  ]
+}

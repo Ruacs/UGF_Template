@@ -1,0 +1,51 @@
+{
+    "packagePath": "D:\\AAA_AgentProject\\GF_Template\\Exports\\GF-FontCharset-Tools-20260929-172851-895\\GF-FontCharset-Tools.unitypackage",
+    "sha256": "0d3e209b13c6c1217bc3a8d551c8ceb2ce375efdb320e4606ed29e214cdda9b2",
+    "unityVersion": "2022.3.62f3c1",
+    "tmpVersion": "3.0.9",
+    "requiredTargetTypes": [
+        "TMPLanguageFontConfig.languageProfiles",
+        "LanguageEntry.languageKey/fontAssetName",
+        "GameFramework.Localization.Language",
+        "Lokas.AssetUtility.GetTMPFontAsset(string, bool)"
+    ],
+    "assets": [
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetCollector.cs",
+            "guid": "82f08722ba9fd724a8113d2ca6d3deb9",
+            "sha256": "af653d6ae570f9c9d600ac6997aa58d04e3448fbb05422183f769caebb60ff15",
+            "metaSha256": "65295b34cf425b322e5774dfcb3404a7488080dbd761b4ea1499cd0dc49f1e9f"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetConfig.cs",
+            "guid": "02852872b4df6f54dae8c0a0c710b986",
+            "sha256": "2ebc9f7a828374cbc80b105f0b1470cc7197ff2767863b7e35127fb6bb3be540",
+            "metaSha256": "50e69bf736ab505ed0bdd6fa5011825b101182364d9a5aacad25e0af645e3910"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetService.cs",
+            "guid": "b148e185d0b416344a6cbdf49b9e94a2",
+            "sha256": "392f8cd7989998b6a9d7ecf147fa771fd3aef699715ccb4354423f8c1a8df7d8",
+            "metaSha256": "b990cc4d66d963fbdfc15a68d6400d4010d155e59b598a721780aa8eed9a9bf4"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetWindow.cs",
+            "guid": "69d1a028e8aa16d4f981beae0019ffcf",
+            "sha256": "9bbfbb8ad7e7bb8faebdfb8ae42636fde3e0a83b6726e978e72379ae699f1098",
+            "metaSha256": "129f7b68121ece157faace57d55d28068118d386db619e3a5ce9a84d4c53e3f4"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/README_IMPORT.md",
+            "guid": "7378914de49ecc944a61ab708a1f4634",
+            "sha256": "6e908c1320c7e1b174f82a3039711a30fdd9719894bf7c4cf5af9e9f89b954db",
+            "metaSha256": "7667f58f42720945e339efef0b8b88de0941e3a7e5b6260124b1b76356794ba3"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/Tests/FontCharsetValidation.cs",
+            "guid": "7321bd609e88860409a4f93f22f3bca2",
+            "sha256": "7c0d84d205b4f5478ebf5063930cda73653869c0dd3ea5efa3bdc9bc220ad214",
+            "metaSha256": "c5843f6913d348c94aac8af5db4ee974973460571f74944fe8532a6660fbf096"
+        }
+    ],
+    "includesDependencies": false
+}

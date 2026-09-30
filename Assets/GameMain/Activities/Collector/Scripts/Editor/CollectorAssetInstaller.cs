@@ -22,7 +22,7 @@ namespace Lokas.Activities.Collector.Editor
         private const string CatalogPath = "Assets/GameMain/ScriptableObjects/ActivitySystem/ActivityModuleCatalog.asset";
         private const string UiPath = RootPath + "/UI";
         private const string UiFormTextPath = "Assets/GameMain/DataTables/UIForm.txt";
-        private const int MainUiFormId = 222;
+        private const int MainUiFormId = UIFormIdRanges.CollectorMain;
 
         private const string SharedMoneyDefinitionPath = "Assets/GameMain/Activities/SeasonPass/ScriptableObjects/Rewards/Definitions/currency_money.asset";
         private const string SharedExtraMoveDefinitionPath = "Assets/GameMain/Activities/SeasonPass/ScriptableObjects/Rewards/Definitions/game_extra_move.asset";

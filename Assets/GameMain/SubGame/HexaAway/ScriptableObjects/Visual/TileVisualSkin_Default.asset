@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f60f8d6f8b4b70a2a2e16d35ab0a71, type: 3}
+  m_Name: TileVisualSkin_Default
+  m_EditorClassIdentifier: 
+  skinId: Default
+  tilePlatformPrefab: {fileID: 2534968987041405730, guid: 6b9241e5164561642a89cbfd685e9ba4, type: 3}
+  collapsePlatformPrefab: {fileID: 5119680021483428883, guid: 6cbf8bc329d86b9448a5a73652fc3495, type: 3}
+  stopperPlatformPrefab: {fileID: 4033643344892207497, guid: 40b4bbb91a6a7f844a70f30362877bf2, type: 3}
+  changeDirectionPlatformPrefab: {fileID: 531479558533990910, guid: e8352fe1111303d42b39384f7004dd19, type: 3}
+  wormHolePlatformPrefab: {fileID: 867061633358761193, guid: ddfb00e95cf12064b814f86960d63d21, type: 3}
+  tileGamePrefab: {fileID: 2136048553357462860, guid: 59b6094d2ea3ec94880c85bb44ab7356, type: 3}
+  directionVisuals:
+  - mat_tile: {fileID: 2100000, guid: fc4cf0af07018944183a163437a63726, type: 2}
+    mat_Arrow: {fileID: 2100000, guid: a558c59d5e0129f4484262b424c773a9, type: 2}
+    feedbackColor: {r: 1, g: 0.1764706, b: 0.3137255, a: 1}
+    direction: 0
+  - mat_tile: {fileID: 2100000, guid: ef163bdd39da8964882e77853923dbbe, type: 2}
+    mat_Arrow: {fileID: 2100000, guid: a558c59d5e0129f4484262b424c773a9, type: 2}
+    feedbackColor: {r: 0.28627452, g: 0.3529412, b: 0.7568628, a: 1}
+    direction: 1
+  - mat_tile: {fileID: 2100000, guid: 418e11abab0aabc4ca12f387d98b1ae6, type: 2}
+    mat_Arrow: {fileID: 2100000, guid: a558c59d5e0129f4484262b424c773a9, type: 2}
+    feedbackColor: {r: 0, g: 0.7294118, b: 0.08235294, a: 1}
+    direction: 2
+  - mat_tile: {fileID: 2100000, guid: d4b0703acd80dc84fa346e92baaa9ebb, type: 2}
+    mat_Arrow: {fileID: 2100000, guid: a558c59d5e0129f4484262b424c773a9, type: 2}
+    feedbackColor: {r: 1, g: 0.9333334, b: 0.25882354, a: 1}
+    direction: 3
+  - mat_tile: {fileID: 2100000, guid: 4b09911402e97be45bbd0bdd506630d2, type: 2}
+    mat_Arrow: {fileID: 2100000, guid: a558c59d5e0129f4484262b424c773a9, type: 2}
+    feedbackColor: {r: 0.5568628, g: 0.2901961, b: 0.70980394, a: 1}
+    direction: 4
+  - mat_tile: {fileID: 2100000, guid: 766bf3c85b293e745b9e7821fab98ead, type: 2}
+    mat_Arrow: {fileID: 2100000, guid: a558c59d5e0129f4484262b424c773a9, type: 2}
+    feedbackColor: {r: 1, g: 0.5294118, b: 0.21568629, a: 1}
+    direction: 5
+  visualGroups: []

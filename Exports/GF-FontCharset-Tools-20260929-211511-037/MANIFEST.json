@@ -1,0 +1,71 @@
+{
+    "packagePath": "D:\\AAA_AgentProject\\GF_Template\\Exports\\GF-FontCharset-Tools-20260929-211511-037\\GF-FontCharset-Tools.unitypackage",
+    "sha256": "91e012a1e3058e4061ca11a9efbed88845330732216f14ab2b750520fdedf2a8",
+    "unityVersion": "2022.3.62f3c1",
+    "tmpVersion": "3.0.9",
+    "requiredTargetTypes": [
+        "TMPLanguageFontConfig.languageProfiles/GetProfile",
+        "LanguageEntry.languageKey/fontAssetName",
+        "GameFramework.Localization.Language",
+        "Lokas.AssetUtility.GetTMPFontAsset(string, bool)",
+        "FontStylePreset.ApplyTo(Material)",
+        "TMPFontProfile.styles"
+    ],
+    "assets": [
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetCollector.cs",
+            "guid": "82f08722ba9fd724a8113d2ca6d3deb9",
+            "sha256": "af653d6ae570f9c9d600ac6997aa58d04e3448fbb05422183f769caebb60ff15",
+            "metaSha256": "65295b34cf425b322e5774dfcb3404a7488080dbd761b4ea1499cd0dc49f1e9f"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetConfig.cs",
+            "guid": "02852872b4df6f54dae8c0a0c710b986",
+            "sha256": "2ebc9f7a828374cbc80b105f0b1470cc7197ff2767863b7e35127fb6bb3be540",
+            "metaSha256": "50e69bf736ab505ed0bdd6fa5011825b101182364d9a5aacad25e0af645e3910"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetService.cs",
+            "guid": "b148e185d0b416344a6cbdf49b9e94a2",
+            "sha256": "392f8cd7989998b6a9d7ecf147fa771fd3aef699715ccb4354423f8c1a8df7d8",
+            "metaSha256": "b990cc4d66d963fbdfc15a68d6400d4010d155e59b598a721780aa8eed9a9bf4"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontCharsetWindow.cs",
+            "guid": "69d1a028e8aa16d4f981beae0019ffcf",
+            "sha256": "55b4f664bdd70282fd01d783ff4610133ee241340a8162a08d835118692de476",
+            "metaSha256": "129f7b68121ece157faace57d55d28068118d386db619e3a5ce9a84d4c53e3f4"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontStylePresetEditor.cs",
+            "guid": "0131e95d1681570429ed234d0e0b1893",
+            "sha256": "5126b6af2c5793ef85cd6da0530c18dc4cd80a992342e416033eacc9172b6c70",
+            "metaSha256": "2787a58a33daab5eb11225b7d4486c1134cc0db989b51637c4faba05cf8a746d"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/FontStylePreview.cs",
+            "guid": "97d7a8761f555124d8c6a489bb29ee7e",
+            "sha256": "08adb485b4288eeeddfc7b0ce0f5db42b01eed025d9751a97f3710f6e3bb00a6",
+            "metaSha256": "d265c7f01515003f8057c5d78dbc5c8b682680b5710305b3619e09745e68bd8c"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/README_IMPORT.md",
+            "guid": "7378914de49ecc944a61ab708a1f4634",
+            "sha256": "7dc4f45b56a534c9bd314ec14abd3f677e7d9151e91793eab325de0116cbaaf6",
+            "metaSha256": "7667f58f42720945e339efef0b8b88de0941e3a7e5b6260124b1b76356794ba3"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/Tests/FontCharsetValidation.cs",
+            "guid": "7321bd609e88860409a4f93f22f3bca2",
+            "sha256": "7c0d84d205b4f5478ebf5063930cda73653869c0dd3ea5efa3bdc9bc220ad214",
+            "metaSha256": "c5843f6913d348c94aac8af5db4ee974973460571f74944fe8532a6660fbf096"
+        },
+        {
+            "path": "Assets/AAA_DevAssets/Editor/FontCharset/Tests/FontStylePreviewValidation.cs",
+            "guid": "4102fd598893eed46a7f05edfa3551d9",
+            "sha256": "16ad4a674abdbe673ee052e83275ab3bc4e7c185dc5b5e9da648e45e3f30a030",
+            "metaSha256": "d35471a0646aef42bacd34cdb9278f3f33e52bf4cbeb6dc08227976e60efbcd1"
+        }
+    ],
+    "includesDependencies": false
+}
